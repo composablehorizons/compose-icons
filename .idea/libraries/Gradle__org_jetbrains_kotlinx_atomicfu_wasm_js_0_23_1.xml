@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlinx:atomicfu-wasm-js:0.23.1" type="kotlin.wasm.js" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlinx" artifactId="atomicfu-wasm-js" version="0.23.1" baseVersion="0.23.1" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-wasm-js/0.23.1/f7046e9f5ce6014c3471098284bd654831bb1f41/atomicfu-wasm-js-0.23.1.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-wasm-js/0.23.1/9a487607e6d95315cb9cb67c524babcc43c7c5e3/atomicfu-wasm-js-0.23.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.collection:collection-iosx64:1.4.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="androidx.collection" artifactId="collection-iosx64" version="1.4.0" baseVersion="1.4.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-iosx64/1.4.0/630c34706b06a31f8d7a3be403c969de32cd9137/collection.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-iosx64/1.4.0/302d6bdc80fe280f69b5b53e9316603d1876b475/collection-iosx64-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

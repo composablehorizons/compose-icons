@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.ui:ui-geometry:commonMain:1.6.11" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.ui" artifactId="ui-geometry" version="1.6.11" baseVersion="1.6.11" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-geometry-1.6.11-commonMain-zDj2GQ.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-geometry/1.6.11/2b167ccf642bf99c919cfa98bee1676e8335d1dc/ui-geometry-1.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

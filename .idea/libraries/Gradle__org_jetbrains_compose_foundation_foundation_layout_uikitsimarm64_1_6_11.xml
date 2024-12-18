@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.foundation:foundation-layout-uikitsimarm64:1.6.11" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.foundation" artifactId="foundation-layout-uikitsimarm64" version="1.6.11" baseVersion="1.6.11" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout-uikitsimarm64/1.6.11/a94377141f1f56714dc5a38e03709bc6797d7685/foundation-layout.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout-uikitsimarm64/1.6.11/b9d8ccce921b3a447406251f073a4386a083d1b8/foundation-layout-uikitsimarm64-1.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

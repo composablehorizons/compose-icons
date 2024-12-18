@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: Kotlin/Native: CoreMIDI | ios_simulator_arm64" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.kotlin.native" artifactId="CoreMIDI" version="2.0.0" baseVersion="2.0.0" />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.konan/kotlin-native-prebuilt-macos-aarch64-2.0.0/klib/platform/ios_simulator_arm64/org.jetbrains.kotlin.native.platform.CoreMIDI" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

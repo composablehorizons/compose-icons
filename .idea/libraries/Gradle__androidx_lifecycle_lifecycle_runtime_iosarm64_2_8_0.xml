@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-runtime-iosarm64:2.8.0" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="androidx.lifecycle" artifactId="lifecycle-runtime-iosarm64" version="2.8.0" baseVersion="2.8.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-iosarm64/2.8.0/7c38d08569de3cfd2f3621869181679e5fe8ee34/lifecycle-runtime.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-iosarm64/2.8.0/c1c61acba5af845505ae80177c9aeea2464cea/lifecycle-runtime-iosarm64-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -15,7 +15,7 @@ plugins {
 
 val publishGroupId = "com.composables"
 val publishArtifactId = "icons-lucide"
-val publishVersion = "1.0.0"
+val publishVersion = "1.1.0"
 val githubUrl = "github.com/composablehorizons/composeicons"
 
 java {

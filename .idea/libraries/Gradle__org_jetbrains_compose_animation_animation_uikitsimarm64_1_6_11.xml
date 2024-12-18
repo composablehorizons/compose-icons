@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.compose.animation:animation-uikitsimarm64:1.6.11" type="kotlin.native" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.compose.animation" artifactId="animation-uikitsimarm64" version="1.6.11" baseVersion="1.6.11" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-uikitsimarm64/1.6.11/1f7be979430ee8d41873e7733bd667b0d937dd5a/animation.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-uikitsimarm64/1.6.11/6bbfa7fcdc5ba262b49b8ab3c4b458f3b5ef8e73/animation-uikitsimarm64-1.6.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

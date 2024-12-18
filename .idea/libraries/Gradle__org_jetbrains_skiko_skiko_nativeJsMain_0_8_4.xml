@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.skiko:skiko:nativeJsMain:0.8.4" type="kotlin.common" external-system-id="GRADLE">
+    <properties groupId="org.jetbrains.skiko" artifactId="skiko" version="0.8.4" baseVersion="0.8.4" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-nativeJsMain-DbI_Jg.klib!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko/0.8.4/83e21cfb6a451fbb82ed8fe31a9809aefcd8592d/skiko-0.8.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
