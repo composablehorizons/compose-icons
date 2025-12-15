@@ -1,6 +1,6 @@
-# Lucide icons for Compose Multiplatform
+# Lucide icons for Jetpack Compose
 
-A Compose Multiplatform icon library with all available Lucide icons.
+A Jetpack Compose icon library with all available Lucide icons.
 
 ## Installation
 
