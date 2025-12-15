@@ -16,12 +16,12 @@
 
 ### For Designers
 
-Head over to [composeicons.com](https://composeicons.com), find an icon you need an click on
+Head over to [Composables](https://composables.com/icons), find an icon you need an click on
 the `Copy SVG` button. Then go to any design tool of your choice such as Figma and paste the icon (`⌘ + V`) in your project.
 
 ### For Developers
 
-Head over to [composeicons.com](https://composeicons.com), find the icon you need and click the `Copy Compose` button. 
+Head over to [Composables](https://composables.com/icons), find the icon you need and click the `Copy Compose` button. 
 It will add the Jetpack Compose Image Vector to your clipboard. Then paste the vector into your project and use it.
 
 Use it in your project using the `Image()` composable:
@@ -32,7 +32,7 @@ import Check // your new icon
 Image(Check, contentDescription = null)
 ```
 
-Alternatively, use the `Icon()` composable from [Composables Core](https://composablescore.com) that supports tinting:
+Alternatively, use the `Icon()` composable from [Compose Unstyled](https://composeunstyled.com) that supports tinting:
 
 ```kotlin
 import Check // your new icon

@@ -1,4 +1,5 @@
 [versions]
+icons = "1.2.0"
 composeHotReload = "1.0.0"
 android-compileSdk = "36"
 android-minSdk = "24"
@@ -6,8 +7,13 @@ android-targetSdk = "36"
 activityCompose = "1.11.0"
 composeunstyled = "1.49.3"
 kotlin = "2.2.21"
-agp = "8.9.1"
 compose = "1.9.3"
+vanniktech = "0.35.0"
+
+# Android
+android-compileSDK = "35"
+android-minSDK = "21"
+agp = "8.10.1"
 
 [libraries]
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
@@ -26,3 +32,4 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
