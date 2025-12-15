@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="composeicons.gallery" target="21" />
+      <module name="composeicons.gallery.jvmDev" target="21" />
+      <module name="composeicons.gallery.jvmMain" target="21" />
+      <module name="composeicons.gallery.jvmTest" target="21" />
+      <module name="composeicons.nonAndroidMain" target="21" />
+      <module name="composeicons.nonAndroidMain.jvmDev" target="21" />
+      <module name="composeicons.nonAndroidMain.jvmMain" target="21" />
+      <module name="composeicons.nonAndroidMain.jvmTest" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

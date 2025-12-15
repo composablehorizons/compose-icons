@@ -36,5 +36,7 @@ dependencyResolutionManagement {
     }
 }
 
-include(":icons-lucide")
-include(":demo")
+include(":icons-lucide-cmp")
+include(":icons-lucide-android")
+include(":gallery-cmp")
+include(":gallery-android")

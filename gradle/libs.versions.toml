@@ -1,15 +1,28 @@
 [versions]
-kotlin = "2.0.0"
-compose = "1.6.11"
-agp = "8.2.0"
-composetheme = "1.2.0-alpha"
+composeHotReload = "1.0.0"
+android-compileSdk = "36"
+android-minSdk = "24"
+android-targetSdk = "36"
+activityCompose = "1.11.0"
+composeunstyled = "1.49.3"
+kotlin = "2.2.21"
+agp = "8.9.1"
+compose = "1.9.3"
 
 [libraries]
-composetheme = { module = "com.composables:composetheme", version.ref = "composetheme" }
-
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+composables-composeunstyled = { module = "com.composables:composeunstyled", version.ref = "composeunstyled" }
 
 [plugins]
+jetbrains-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+jetbrains-compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrains-compose-hotreload = { id = "org.jetbrains.compose.hot-reload", version.ref = "composeHotReload" }
 compose = { id = "org.jetbrains.compose", version.ref = "compose" }
 multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

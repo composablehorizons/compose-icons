@@ -1,0 +1,3350 @@
+package com.composables.icons.lucide
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.painter.Painter
+import com.composables.icons_lucide_cmp.generated.resources.Res
+import com.composables.icons_lucide_cmp.generated.resources.`file`
+import com.composables.icons_lucide_cmp.generated.resources.`import`
+import com.composables.icons_lucide_cmp.generated.resources.`package`
+import com.composables.icons_lucide_cmp.generated.resources.a_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.a_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.a_large_small
+import com.composables.icons_lucide_cmp.generated.resources.accessibility
+import com.composables.icons_lucide_cmp.generated.resources.activity
+import com.composables.icons_lucide_cmp.generated.resources.air_vent
+import com.composables.icons_lucide_cmp.generated.resources.airplay
+import com.composables.icons_lucide_cmp.generated.resources.alarm_clock
+import com.composables.icons_lucide_cmp.generated.resources.alarm_clock_check
+import com.composables.icons_lucide_cmp.generated.resources.alarm_clock_minus
+import com.composables.icons_lucide_cmp.generated.resources.alarm_clock_off
+import com.composables.icons_lucide_cmp.generated.resources.alarm_clock_plus
+import com.composables.icons_lucide_cmp.generated.resources.alarm_smoke
+import com.composables.icons_lucide_cmp.generated.resources.album
+import com.composables.icons_lucide_cmp.generated.resources.align_center_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.align_center_vertical
+import com.composables.icons_lucide_cmp.generated.resources.align_end_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.align_end_vertical
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_distribute_center
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_distribute_end
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_distribute_start
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_justify_center
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_justify_end
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_justify_start
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_space_around
+import com.composables.icons_lucide_cmp.generated.resources.align_horizontal_space_between
+import com.composables.icons_lucide_cmp.generated.resources.align_start_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.align_start_vertical
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_distribute_center
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_distribute_end
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_distribute_start
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_justify_center
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_justify_end
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_justify_start
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_space_around
+import com.composables.icons_lucide_cmp.generated.resources.align_vertical_space_between
+import com.composables.icons_lucide_cmp.generated.resources.ambulance
+import com.composables.icons_lucide_cmp.generated.resources.ampersand
+import com.composables.icons_lucide_cmp.generated.resources.ampersands
+import com.composables.icons_lucide_cmp.generated.resources.amphora
+import com.composables.icons_lucide_cmp.generated.resources.anchor
+import com.composables.icons_lucide_cmp.generated.resources.angry
+import com.composables.icons_lucide_cmp.generated.resources.annoyed
+import com.composables.icons_lucide_cmp.generated.resources.antenna
+import com.composables.icons_lucide_cmp.generated.resources.anvil
+import com.composables.icons_lucide_cmp.generated.resources.aperture
+import com.composables.icons_lucide_cmp.generated.resources.app_window
+import com.composables.icons_lucide_cmp.generated.resources.app_window_mac
+import com.composables.icons_lucide_cmp.generated.resources.apple
+import com.composables.icons_lucide_cmp.generated.resources.archive
+import com.composables.icons_lucide_cmp.generated.resources.archive_restore
+import com.composables.icons_lucide_cmp.generated.resources.archive_x
+import com.composables.icons_lucide_cmp.generated.resources.armchair
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_down
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_down_dash
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_left
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_left_dash
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_right
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_right_dash
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_up
+import com.composables.icons_lucide_cmp.generated.resources.arrow_big_up_dash
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_0_1
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_1_0
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_a_z
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_from_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_left
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_narrow_wide
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_right
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_to_dot
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_to_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_up
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_wide_narrow
+import com.composables.icons_lucide_cmp.generated.resources.arrow_down_z_a
+import com.composables.icons_lucide_cmp.generated.resources.arrow_left
+import com.composables.icons_lucide_cmp.generated.resources.arrow_left_from_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_left_right
+import com.composables.icons_lucide_cmp.generated.resources.arrow_left_to_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_right
+import com.composables.icons_lucide_cmp.generated.resources.arrow_right_from_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_right_left
+import com.composables.icons_lucide_cmp.generated.resources.arrow_right_to_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_0_1
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_1_0
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_a_z
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_down
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_from_dot
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_from_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_left
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_narrow_wide
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_right
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_to_line
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_wide_narrow
+import com.composables.icons_lucide_cmp.generated.resources.arrow_up_z_a
+import com.composables.icons_lucide_cmp.generated.resources.arrows_up_from_line
+import com.composables.icons_lucide_cmp.generated.resources.asterisk
+import com.composables.icons_lucide_cmp.generated.resources.at_sign
+import com.composables.icons_lucide_cmp.generated.resources.atom
+import com.composables.icons_lucide_cmp.generated.resources.audio_lines
+import com.composables.icons_lucide_cmp.generated.resources.audio_waveform
+import com.composables.icons_lucide_cmp.generated.resources.award
+import com.composables.icons_lucide_cmp.generated.resources.axe
+import com.composables.icons_lucide_cmp.generated.resources.axis_3d
+import com.composables.icons_lucide_cmp.generated.resources.baby
+import com.composables.icons_lucide_cmp.generated.resources.backpack
+import com.composables.icons_lucide_cmp.generated.resources.badge
+import com.composables.icons_lucide_cmp.generated.resources.badge_alert
+import com.composables.icons_lucide_cmp.generated.resources.badge_cent
+import com.composables.icons_lucide_cmp.generated.resources.badge_check
+import com.composables.icons_lucide_cmp.generated.resources.badge_dollar_sign
+import com.composables.icons_lucide_cmp.generated.resources.badge_euro
+import com.composables.icons_lucide_cmp.generated.resources.badge_indian_rupee
+import com.composables.icons_lucide_cmp.generated.resources.badge_info
+import com.composables.icons_lucide_cmp.generated.resources.badge_japanese_yen
+import com.composables.icons_lucide_cmp.generated.resources.badge_minus
+import com.composables.icons_lucide_cmp.generated.resources.badge_percent
+import com.composables.icons_lucide_cmp.generated.resources.badge_plus
+import com.composables.icons_lucide_cmp.generated.resources.badge_pound_sterling
+import com.composables.icons_lucide_cmp.generated.resources.badge_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.badge_russian_ruble
+import com.composables.icons_lucide_cmp.generated.resources.badge_swiss_franc
+import com.composables.icons_lucide_cmp.generated.resources.badge_turkish_lira
+import com.composables.icons_lucide_cmp.generated.resources.badge_x
+import com.composables.icons_lucide_cmp.generated.resources.baggage_claim
+import com.composables.icons_lucide_cmp.generated.resources.balloon
+import com.composables.icons_lucide_cmp.generated.resources.ban
+import com.composables.icons_lucide_cmp.generated.resources.banana
+import com.composables.icons_lucide_cmp.generated.resources.bandage
+import com.composables.icons_lucide_cmp.generated.resources.banknote
+import com.composables.icons_lucide_cmp.generated.resources.banknote_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.banknote_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.banknote_x
+import com.composables.icons_lucide_cmp.generated.resources.barcode
+import com.composables.icons_lucide_cmp.generated.resources.barrel
+import com.composables.icons_lucide_cmp.generated.resources.baseline
+import com.composables.icons_lucide_cmp.generated.resources.bath
+import com.composables.icons_lucide_cmp.generated.resources.battery
+import com.composables.icons_lucide_cmp.generated.resources.battery_charging
+import com.composables.icons_lucide_cmp.generated.resources.battery_full
+import com.composables.icons_lucide_cmp.generated.resources.battery_low
+import com.composables.icons_lucide_cmp.generated.resources.battery_medium
+import com.composables.icons_lucide_cmp.generated.resources.battery_plus
+import com.composables.icons_lucide_cmp.generated.resources.battery_warning
+import com.composables.icons_lucide_cmp.generated.resources.beaker
+import com.composables.icons_lucide_cmp.generated.resources.bean
+import com.composables.icons_lucide_cmp.generated.resources.bean_off
+import com.composables.icons_lucide_cmp.generated.resources.bed
+import com.composables.icons_lucide_cmp.generated.resources.bed_double
+import com.composables.icons_lucide_cmp.generated.resources.bed_single
+import com.composables.icons_lucide_cmp.generated.resources.beef
+import com.composables.icons_lucide_cmp.generated.resources.beer
+import com.composables.icons_lucide_cmp.generated.resources.beer_off
+import com.composables.icons_lucide_cmp.generated.resources.bell
+import com.composables.icons_lucide_cmp.generated.resources.bell_dot
+import com.composables.icons_lucide_cmp.generated.resources.bell_electric
+import com.composables.icons_lucide_cmp.generated.resources.bell_minus
+import com.composables.icons_lucide_cmp.generated.resources.bell_off
+import com.composables.icons_lucide_cmp.generated.resources.bell_plus
+import com.composables.icons_lucide_cmp.generated.resources.bell_ring
+import com.composables.icons_lucide_cmp.generated.resources.between_horizontal_end
+import com.composables.icons_lucide_cmp.generated.resources.between_horizontal_start
+import com.composables.icons_lucide_cmp.generated.resources.between_vertical_end
+import com.composables.icons_lucide_cmp.generated.resources.between_vertical_start
+import com.composables.icons_lucide_cmp.generated.resources.biceps_flexed
+import com.composables.icons_lucide_cmp.generated.resources.bike
+import com.composables.icons_lucide_cmp.generated.resources.binary
+import com.composables.icons_lucide_cmp.generated.resources.binoculars
+import com.composables.icons_lucide_cmp.generated.resources.biohazard
+import com.composables.icons_lucide_cmp.generated.resources.bird
+import com.composables.icons_lucide_cmp.generated.resources.birdhouse
+import com.composables.icons_lucide_cmp.generated.resources.bitcoin
+import com.composables.icons_lucide_cmp.generated.resources.blend
+import com.composables.icons_lucide_cmp.generated.resources.blinds
+import com.composables.icons_lucide_cmp.generated.resources.blocks
+import com.composables.icons_lucide_cmp.generated.resources.bluetooth
+import com.composables.icons_lucide_cmp.generated.resources.bluetooth_connected
+import com.composables.icons_lucide_cmp.generated.resources.bluetooth_off
+import com.composables.icons_lucide_cmp.generated.resources.bluetooth_searching
+import com.composables.icons_lucide_cmp.generated.resources.bold
+import com.composables.icons_lucide_cmp.generated.resources.bolt
+import com.composables.icons_lucide_cmp.generated.resources.bomb
+import com.composables.icons_lucide_cmp.generated.resources.bone
+import com.composables.icons_lucide_cmp.generated.resources.book
+import com.composables.icons_lucide_cmp.generated.resources.book_a
+import com.composables.icons_lucide_cmp.generated.resources.book_alert
+import com.composables.icons_lucide_cmp.generated.resources.book_audio
+import com.composables.icons_lucide_cmp.generated.resources.book_check
+import com.composables.icons_lucide_cmp.generated.resources.book_copy
+import com.composables.icons_lucide_cmp.generated.resources.book_dashed
+import com.composables.icons_lucide_cmp.generated.resources.book_down
+import com.composables.icons_lucide_cmp.generated.resources.book_headphones
+import com.composables.icons_lucide_cmp.generated.resources.book_heart
+import com.composables.icons_lucide_cmp.generated.resources.book_image
+import com.composables.icons_lucide_cmp.generated.resources.book_key
+import com.composables.icons_lucide_cmp.generated.resources.book_lock
+import com.composables.icons_lucide_cmp.generated.resources.book_marked
+import com.composables.icons_lucide_cmp.generated.resources.book_minus
+import com.composables.icons_lucide_cmp.generated.resources.book_open
+import com.composables.icons_lucide_cmp.generated.resources.book_open_check
+import com.composables.icons_lucide_cmp.generated.resources.book_open_text
+import com.composables.icons_lucide_cmp.generated.resources.book_plus
+import com.composables.icons_lucide_cmp.generated.resources.book_search
+import com.composables.icons_lucide_cmp.generated.resources.book_text
+import com.composables.icons_lucide_cmp.generated.resources.book_type
+import com.composables.icons_lucide_cmp.generated.resources.book_up
+import com.composables.icons_lucide_cmp.generated.resources.book_up_2
+import com.composables.icons_lucide_cmp.generated.resources.book_user
+import com.composables.icons_lucide_cmp.generated.resources.book_x
+import com.composables.icons_lucide_cmp.generated.resources.bookmark
+import com.composables.icons_lucide_cmp.generated.resources.bookmark_check
+import com.composables.icons_lucide_cmp.generated.resources.bookmark_minus
+import com.composables.icons_lucide_cmp.generated.resources.bookmark_plus
+import com.composables.icons_lucide_cmp.generated.resources.bookmark_x
+import com.composables.icons_lucide_cmp.generated.resources.boom_box
+import com.composables.icons_lucide_cmp.generated.resources.bot
+import com.composables.icons_lucide_cmp.generated.resources.bot_message_square
+import com.composables.icons_lucide_cmp.generated.resources.bot_off
+import com.composables.icons_lucide_cmp.generated.resources.bottle_wine
+import com.composables.icons_lucide_cmp.generated.resources.bow_arrow
+import com.composables.icons_lucide_cmp.generated.resources.box
+import com.composables.icons_lucide_cmp.generated.resources.boxes
+import com.composables.icons_lucide_cmp.generated.resources.braces
+import com.composables.icons_lucide_cmp.generated.resources.brackets
+import com.composables.icons_lucide_cmp.generated.resources.brain
+import com.composables.icons_lucide_cmp.generated.resources.brain_circuit
+import com.composables.icons_lucide_cmp.generated.resources.brain_cog
+import com.composables.icons_lucide_cmp.generated.resources.brick_wall
+import com.composables.icons_lucide_cmp.generated.resources.brick_wall_fire
+import com.composables.icons_lucide_cmp.generated.resources.brick_wall_shield
+import com.composables.icons_lucide_cmp.generated.resources.briefcase
+import com.composables.icons_lucide_cmp.generated.resources.briefcase_business
+import com.composables.icons_lucide_cmp.generated.resources.briefcase_conveyor_belt
+import com.composables.icons_lucide_cmp.generated.resources.briefcase_medical
+import com.composables.icons_lucide_cmp.generated.resources.bring_to_front
+import com.composables.icons_lucide_cmp.generated.resources.brush
+import com.composables.icons_lucide_cmp.generated.resources.brush_cleaning
+import com.composables.icons_lucide_cmp.generated.resources.bubbles
+import com.composables.icons_lucide_cmp.generated.resources.bug
+import com.composables.icons_lucide_cmp.generated.resources.bug_off
+import com.composables.icons_lucide_cmp.generated.resources.bug_play
+import com.composables.icons_lucide_cmp.generated.resources.building
+import com.composables.icons_lucide_cmp.generated.resources.building_2
+import com.composables.icons_lucide_cmp.generated.resources.bus
+import com.composables.icons_lucide_cmp.generated.resources.bus_front
+import com.composables.icons_lucide_cmp.generated.resources.cable
+import com.composables.icons_lucide_cmp.generated.resources.cable_car
+import com.composables.icons_lucide_cmp.generated.resources.cake
+import com.composables.icons_lucide_cmp.generated.resources.cake_slice
+import com.composables.icons_lucide_cmp.generated.resources.calculator
+import com.composables.icons_lucide_cmp.generated.resources.calendar
+import com.composables.icons_lucide_cmp.generated.resources.calendar_1
+import com.composables.icons_lucide_cmp.generated.resources.calendar_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.calendar_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.calendar_check
+import com.composables.icons_lucide_cmp.generated.resources.calendar_check_2
+import com.composables.icons_lucide_cmp.generated.resources.calendar_clock
+import com.composables.icons_lucide_cmp.generated.resources.calendar_cog
+import com.composables.icons_lucide_cmp.generated.resources.calendar_days
+import com.composables.icons_lucide_cmp.generated.resources.calendar_fold
+import com.composables.icons_lucide_cmp.generated.resources.calendar_heart
+import com.composables.icons_lucide_cmp.generated.resources.calendar_minus
+import com.composables.icons_lucide_cmp.generated.resources.calendar_minus_2
+import com.composables.icons_lucide_cmp.generated.resources.calendar_off
+import com.composables.icons_lucide_cmp.generated.resources.calendar_plus
+import com.composables.icons_lucide_cmp.generated.resources.calendar_plus_2
+import com.composables.icons_lucide_cmp.generated.resources.calendar_range
+import com.composables.icons_lucide_cmp.generated.resources.calendar_search
+import com.composables.icons_lucide_cmp.generated.resources.calendar_sync
+import com.composables.icons_lucide_cmp.generated.resources.calendar_x
+import com.composables.icons_lucide_cmp.generated.resources.calendar_x_2
+import com.composables.icons_lucide_cmp.generated.resources.calendars
+import com.composables.icons_lucide_cmp.generated.resources.camera
+import com.composables.icons_lucide_cmp.generated.resources.camera_off
+import com.composables.icons_lucide_cmp.generated.resources.candy
+import com.composables.icons_lucide_cmp.generated.resources.candy_cane
+import com.composables.icons_lucide_cmp.generated.resources.candy_off
+import com.composables.icons_lucide_cmp.generated.resources.cannabis
+import com.composables.icons_lucide_cmp.generated.resources.cannabis_off
+import com.composables.icons_lucide_cmp.generated.resources.captions
+import com.composables.icons_lucide_cmp.generated.resources.captions_off
+import com.composables.icons_lucide_cmp.generated.resources.car
+import com.composables.icons_lucide_cmp.generated.resources.car_front
+import com.composables.icons_lucide_cmp.generated.resources.car_taxi_front
+import com.composables.icons_lucide_cmp.generated.resources.caravan
+import com.composables.icons_lucide_cmp.generated.resources.card_sim
+import com.composables.icons_lucide_cmp.generated.resources.carrot
+import com.composables.icons_lucide_cmp.generated.resources.case_lower
+import com.composables.icons_lucide_cmp.generated.resources.case_sensitive
+import com.composables.icons_lucide_cmp.generated.resources.case_upper
+import com.composables.icons_lucide_cmp.generated.resources.cassette_tape
+import com.composables.icons_lucide_cmp.generated.resources.cast
+import com.composables.icons_lucide_cmp.generated.resources.castle
+import com.composables.icons_lucide_cmp.generated.resources.cat
+import com.composables.icons_lucide_cmp.generated.resources.cctv
+import com.composables.icons_lucide_cmp.generated.resources.chart_area
+import com.composables.icons_lucide_cmp.generated.resources.chart_bar
+import com.composables.icons_lucide_cmp.generated.resources.chart_bar_big
+import com.composables.icons_lucide_cmp.generated.resources.chart_bar_decreasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_bar_increasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_bar_stacked
+import com.composables.icons_lucide_cmp.generated.resources.chart_candlestick
+import com.composables.icons_lucide_cmp.generated.resources.chart_column
+import com.composables.icons_lucide_cmp.generated.resources.chart_column_big
+import com.composables.icons_lucide_cmp.generated.resources.chart_column_decreasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_column_increasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_column_stacked
+import com.composables.icons_lucide_cmp.generated.resources.chart_gantt
+import com.composables.icons_lucide_cmp.generated.resources.chart_line
+import com.composables.icons_lucide_cmp.generated.resources.chart_network
+import com.composables.icons_lucide_cmp.generated.resources.chart_no_axes_column
+import com.composables.icons_lucide_cmp.generated.resources.chart_no_axes_column_decreasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_no_axes_column_increasing
+import com.composables.icons_lucide_cmp.generated.resources.chart_no_axes_combined
+import com.composables.icons_lucide_cmp.generated.resources.chart_no_axes_gantt
+import com.composables.icons_lucide_cmp.generated.resources.chart_pie
+import com.composables.icons_lucide_cmp.generated.resources.chart_scatter
+import com.composables.icons_lucide_cmp.generated.resources.chart_spline
+import com.composables.icons_lucide_cmp.generated.resources.check
+import com.composables.icons_lucide_cmp.generated.resources.check_check
+import com.composables.icons_lucide_cmp.generated.resources.check_line
+import com.composables.icons_lucide_cmp.generated.resources.chef_hat
+import com.composables.icons_lucide_cmp.generated.resources.cherry
+import com.composables.icons_lucide_cmp.generated.resources.chess_bishop
+import com.composables.icons_lucide_cmp.generated.resources.chess_king
+import com.composables.icons_lucide_cmp.generated.resources.chess_knight
+import com.composables.icons_lucide_cmp.generated.resources.chess_pawn
+import com.composables.icons_lucide_cmp.generated.resources.chess_queen
+import com.composables.icons_lucide_cmp.generated.resources.chess_rook
+import com.composables.icons_lucide_cmp.generated.resources.chevron_down
+import com.composables.icons_lucide_cmp.generated.resources.chevron_first
+import com.composables.icons_lucide_cmp.generated.resources.chevron_last
+import com.composables.icons_lucide_cmp.generated.resources.chevron_left
+import com.composables.icons_lucide_cmp.generated.resources.chevron_right
+import com.composables.icons_lucide_cmp.generated.resources.chevron_up
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_down
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_down_up
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_left
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_left_right
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_left_right_ellipsis
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_right
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_right_left
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_up
+import com.composables.icons_lucide_cmp.generated.resources.chevrons_up_down
+import com.composables.icons_lucide_cmp.generated.resources.chromium
+import com.composables.icons_lucide_cmp.generated.resources.church
+import com.composables.icons_lucide_cmp.generated.resources.cigarette
+import com.composables.icons_lucide_cmp.generated.resources.cigarette_off
+import com.composables.icons_lucide_cmp.generated.resources.circle
+import com.composables.icons_lucide_cmp.generated.resources.circle_alert
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_left
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_out_down_left
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_out_down_right
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_out_up_left
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_out_up_right
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_right
+import com.composables.icons_lucide_cmp.generated.resources.circle_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.circle_check
+import com.composables.icons_lucide_cmp.generated.resources.circle_check_big
+import com.composables.icons_lucide_cmp.generated.resources.circle_chevron_down
+import com.composables.icons_lucide_cmp.generated.resources.circle_chevron_left
+import com.composables.icons_lucide_cmp.generated.resources.circle_chevron_right
+import com.composables.icons_lucide_cmp.generated.resources.circle_chevron_up
+import com.composables.icons_lucide_cmp.generated.resources.circle_dashed
+import com.composables.icons_lucide_cmp.generated.resources.circle_divide
+import com.composables.icons_lucide_cmp.generated.resources.circle_dollar_sign
+import com.composables.icons_lucide_cmp.generated.resources.circle_dot
+import com.composables.icons_lucide_cmp.generated.resources.circle_dot_dashed
+import com.composables.icons_lucide_cmp.generated.resources.circle_ellipsis
+import com.composables.icons_lucide_cmp.generated.resources.circle_equal
+import com.composables.icons_lucide_cmp.generated.resources.circle_fading_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.circle_fading_plus
+import com.composables.icons_lucide_cmp.generated.resources.circle_gauge
+import com.composables.icons_lucide_cmp.generated.resources.circle_minus
+import com.composables.icons_lucide_cmp.generated.resources.circle_off
+import com.composables.icons_lucide_cmp.generated.resources.circle_parking
+import com.composables.icons_lucide_cmp.generated.resources.circle_parking_off
+import com.composables.icons_lucide_cmp.generated.resources.circle_pause
+import com.composables.icons_lucide_cmp.generated.resources.circle_percent
+import com.composables.icons_lucide_cmp.generated.resources.circle_pile
+import com.composables.icons_lucide_cmp.generated.resources.circle_play
+import com.composables.icons_lucide_cmp.generated.resources.circle_plus
+import com.composables.icons_lucide_cmp.generated.resources.circle_pound_sterling
+import com.composables.icons_lucide_cmp.generated.resources.circle_power
+import com.composables.icons_lucide_cmp.generated.resources.circle_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.circle_slash
+import com.composables.icons_lucide_cmp.generated.resources.circle_slash_2
+import com.composables.icons_lucide_cmp.generated.resources.circle_small
+import com.composables.icons_lucide_cmp.generated.resources.circle_star
+import com.composables.icons_lucide_cmp.generated.resources.circle_stop
+import com.composables.icons_lucide_cmp.generated.resources.circle_user
+import com.composables.icons_lucide_cmp.generated.resources.circle_user_round
+import com.composables.icons_lucide_cmp.generated.resources.circle_x
+import com.composables.icons_lucide_cmp.generated.resources.circuit_board
+import com.composables.icons_lucide_cmp.generated.resources.citrus
+import com.composables.icons_lucide_cmp.generated.resources.clapperboard
+import com.composables.icons_lucide_cmp.generated.resources.clipboard
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_check
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_clock
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_copy
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_list
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_minus
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_paste
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_pen
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_pen_line
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_plus
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_type
+import com.composables.icons_lucide_cmp.generated.resources.clipboard_x
+import com.composables.icons_lucide_cmp.generated.resources.clock
+import com.composables.icons_lucide_cmp.generated.resources.clock_1
+import com.composables.icons_lucide_cmp.generated.resources.clock_10
+import com.composables.icons_lucide_cmp.generated.resources.clock_11
+import com.composables.icons_lucide_cmp.generated.resources.clock_12
+import com.composables.icons_lucide_cmp.generated.resources.clock_2
+import com.composables.icons_lucide_cmp.generated.resources.clock_3
+import com.composables.icons_lucide_cmp.generated.resources.clock_4
+import com.composables.icons_lucide_cmp.generated.resources.clock_5
+import com.composables.icons_lucide_cmp.generated.resources.clock_6
+import com.composables.icons_lucide_cmp.generated.resources.clock_7
+import com.composables.icons_lucide_cmp.generated.resources.clock_8
+import com.composables.icons_lucide_cmp.generated.resources.clock_9
+import com.composables.icons_lucide_cmp.generated.resources.clock_alert
+import com.composables.icons_lucide_cmp.generated.resources.clock_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.clock_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.clock_check
+import com.composables.icons_lucide_cmp.generated.resources.clock_fading
+import com.composables.icons_lucide_cmp.generated.resources.clock_plus
+import com.composables.icons_lucide_cmp.generated.resources.closed_caption
+import com.composables.icons_lucide_cmp.generated.resources.cloud
+import com.composables.icons_lucide_cmp.generated.resources.cloud_alert
+import com.composables.icons_lucide_cmp.generated.resources.cloud_backup
+import com.composables.icons_lucide_cmp.generated.resources.cloud_check
+import com.composables.icons_lucide_cmp.generated.resources.cloud_cog
+import com.composables.icons_lucide_cmp.generated.resources.cloud_download
+import com.composables.icons_lucide_cmp.generated.resources.cloud_drizzle
+import com.composables.icons_lucide_cmp.generated.resources.cloud_fog
+import com.composables.icons_lucide_cmp.generated.resources.cloud_hail
+import com.composables.icons_lucide_cmp.generated.resources.cloud_lightning
+import com.composables.icons_lucide_cmp.generated.resources.cloud_moon
+import com.composables.icons_lucide_cmp.generated.resources.cloud_moon_rain
+import com.composables.icons_lucide_cmp.generated.resources.cloud_off
+import com.composables.icons_lucide_cmp.generated.resources.cloud_rain
+import com.composables.icons_lucide_cmp.generated.resources.cloud_rain_wind
+import com.composables.icons_lucide_cmp.generated.resources.cloud_snow
+import com.composables.icons_lucide_cmp.generated.resources.cloud_sun
+import com.composables.icons_lucide_cmp.generated.resources.cloud_sun_rain
+import com.composables.icons_lucide_cmp.generated.resources.cloud_sync
+import com.composables.icons_lucide_cmp.generated.resources.cloud_upload
+import com.composables.icons_lucide_cmp.generated.resources.cloudy
+import com.composables.icons_lucide_cmp.generated.resources.clover
+import com.composables.icons_lucide_cmp.generated.resources.club
+import com.composables.icons_lucide_cmp.generated.resources.code
+import com.composables.icons_lucide_cmp.generated.resources.code_xml
+import com.composables.icons_lucide_cmp.generated.resources.codepen
+import com.composables.icons_lucide_cmp.generated.resources.codesandbox
+import com.composables.icons_lucide_cmp.generated.resources.coffee
+import com.composables.icons_lucide_cmp.generated.resources.cog
+import com.composables.icons_lucide_cmp.generated.resources.coins
+import com.composables.icons_lucide_cmp.generated.resources.columns_2
+import com.composables.icons_lucide_cmp.generated.resources.columns_3
+import com.composables.icons_lucide_cmp.generated.resources.columns_3_cog
+import com.composables.icons_lucide_cmp.generated.resources.columns_4
+import com.composables.icons_lucide_cmp.generated.resources.combine
+import com.composables.icons_lucide_cmp.generated.resources.command
+import com.composables.icons_lucide_cmp.generated.resources.compass
+import com.composables.icons_lucide_cmp.generated.resources.component
+import com.composables.icons_lucide_cmp.generated.resources.computer
+import com.composables.icons_lucide_cmp.generated.resources.concierge_bell
+import com.composables.icons_lucide_cmp.generated.resources.cone
+import com.composables.icons_lucide_cmp.generated.resources.construction
+import com.composables.icons_lucide_cmp.generated.resources.contact
+import com.composables.icons_lucide_cmp.generated.resources.contact_round
+import com.composables.icons_lucide_cmp.generated.resources.container
+import com.composables.icons_lucide_cmp.generated.resources.contrast
+import com.composables.icons_lucide_cmp.generated.resources.cookie
+import com.composables.icons_lucide_cmp.generated.resources.cooking_pot
+import com.composables.icons_lucide_cmp.generated.resources.copy
+import com.composables.icons_lucide_cmp.generated.resources.copy_check
+import com.composables.icons_lucide_cmp.generated.resources.copy_minus
+import com.composables.icons_lucide_cmp.generated.resources.copy_plus
+import com.composables.icons_lucide_cmp.generated.resources.copy_slash
+import com.composables.icons_lucide_cmp.generated.resources.copy_x
+import com.composables.icons_lucide_cmp.generated.resources.copyleft
+import com.composables.icons_lucide_cmp.generated.resources.copyright
+import com.composables.icons_lucide_cmp.generated.resources.corner_down_left
+import com.composables.icons_lucide_cmp.generated.resources.corner_down_right
+import com.composables.icons_lucide_cmp.generated.resources.corner_left_down
+import com.composables.icons_lucide_cmp.generated.resources.corner_left_up
+import com.composables.icons_lucide_cmp.generated.resources.corner_right_down
+import com.composables.icons_lucide_cmp.generated.resources.corner_right_up
+import com.composables.icons_lucide_cmp.generated.resources.corner_up_left
+import com.composables.icons_lucide_cmp.generated.resources.corner_up_right
+import com.composables.icons_lucide_cmp.generated.resources.cpu
+import com.composables.icons_lucide_cmp.generated.resources.creative_commons
+import com.composables.icons_lucide_cmp.generated.resources.credit_card
+import com.composables.icons_lucide_cmp.generated.resources.croissant
+import com.composables.icons_lucide_cmp.generated.resources.crop
+import com.composables.icons_lucide_cmp.generated.resources.cross
+import com.composables.icons_lucide_cmp.generated.resources.crosshair
+import com.composables.icons_lucide_cmp.generated.resources.crown
+import com.composables.icons_lucide_cmp.generated.resources.cuboid
+import com.composables.icons_lucide_cmp.generated.resources.cup_soda
+import com.composables.icons_lucide_cmp.generated.resources.currency
+import com.composables.icons_lucide_cmp.generated.resources.cylinder
+import com.composables.icons_lucide_cmp.generated.resources.dam
+import com.composables.icons_lucide_cmp.generated.resources.database
+import com.composables.icons_lucide_cmp.generated.resources.database_backup
+import com.composables.icons_lucide_cmp.generated.resources.database_zap
+import com.composables.icons_lucide_cmp.generated.resources.decimals_arrow_left
+import com.composables.icons_lucide_cmp.generated.resources.decimals_arrow_right
+import com.composables.icons_lucide_cmp.generated.resources.delete
+import com.composables.icons_lucide_cmp.generated.resources.dessert
+import com.composables.icons_lucide_cmp.generated.resources.diameter
+import com.composables.icons_lucide_cmp.generated.resources.diamond
+import com.composables.icons_lucide_cmp.generated.resources.diamond_minus
+import com.composables.icons_lucide_cmp.generated.resources.diamond_percent
+import com.composables.icons_lucide_cmp.generated.resources.diamond_plus
+import com.composables.icons_lucide_cmp.generated.resources.dice_1
+import com.composables.icons_lucide_cmp.generated.resources.dice_2
+import com.composables.icons_lucide_cmp.generated.resources.dice_3
+import com.composables.icons_lucide_cmp.generated.resources.dice_4
+import com.composables.icons_lucide_cmp.generated.resources.dice_5
+import com.composables.icons_lucide_cmp.generated.resources.dice_6
+import com.composables.icons_lucide_cmp.generated.resources.dices
+import com.composables.icons_lucide_cmp.generated.resources.diff
+import com.composables.icons_lucide_cmp.generated.resources.disc
+import com.composables.icons_lucide_cmp.generated.resources.disc_2
+import com.composables.icons_lucide_cmp.generated.resources.disc_3
+import com.composables.icons_lucide_cmp.generated.resources.disc_album
+import com.composables.icons_lucide_cmp.generated.resources.divide
+import com.composables.icons_lucide_cmp.generated.resources.dna
+import com.composables.icons_lucide_cmp.generated.resources.dna_off
+import com.composables.icons_lucide_cmp.generated.resources.dock
+import com.composables.icons_lucide_cmp.generated.resources.dog
+import com.composables.icons_lucide_cmp.generated.resources.dollar_sign
+import com.composables.icons_lucide_cmp.generated.resources.donut
+import com.composables.icons_lucide_cmp.generated.resources.door_closed
+import com.composables.icons_lucide_cmp.generated.resources.door_closed_locked
+import com.composables.icons_lucide_cmp.generated.resources.door_open
+import com.composables.icons_lucide_cmp.generated.resources.dot
+import com.composables.icons_lucide_cmp.generated.resources.download
+import com.composables.icons_lucide_cmp.generated.resources.drafting_compass
+import com.composables.icons_lucide_cmp.generated.resources.drama
+import com.composables.icons_lucide_cmp.generated.resources.dribbble
+import com.composables.icons_lucide_cmp.generated.resources.drill
+import com.composables.icons_lucide_cmp.generated.resources.drone
+import com.composables.icons_lucide_cmp.generated.resources.droplet
+import com.composables.icons_lucide_cmp.generated.resources.droplet_off
+import com.composables.icons_lucide_cmp.generated.resources.droplets
+import com.composables.icons_lucide_cmp.generated.resources.drum
+import com.composables.icons_lucide_cmp.generated.resources.drumstick
+import com.composables.icons_lucide_cmp.generated.resources.dumbbell
+import com.composables.icons_lucide_cmp.generated.resources.ear
+import com.composables.icons_lucide_cmp.generated.resources.ear_off
+import com.composables.icons_lucide_cmp.generated.resources.earth
+import com.composables.icons_lucide_cmp.generated.resources.earth_lock
+import com.composables.icons_lucide_cmp.generated.resources.eclipse
+import com.composables.icons_lucide_cmp.generated.resources.egg
+import com.composables.icons_lucide_cmp.generated.resources.egg_fried
+import com.composables.icons_lucide_cmp.generated.resources.egg_off
+import com.composables.icons_lucide_cmp.generated.resources.ellipsis
+import com.composables.icons_lucide_cmp.generated.resources.ellipsis_vertical
+import com.composables.icons_lucide_cmp.generated.resources.equal
+import com.composables.icons_lucide_cmp.generated.resources.equal_approximately
+import com.composables.icons_lucide_cmp.generated.resources.equal_not
+import com.composables.icons_lucide_cmp.generated.resources.eraser
+import com.composables.icons_lucide_cmp.generated.resources.ethernet_port
+import com.composables.icons_lucide_cmp.generated.resources.euro
+import com.composables.icons_lucide_cmp.generated.resources.ev_charger
+import com.composables.icons_lucide_cmp.generated.resources.expand
+import com.composables.icons_lucide_cmp.generated.resources.external_link
+import com.composables.icons_lucide_cmp.generated.resources.eye
+import com.composables.icons_lucide_cmp.generated.resources.eye_closed
+import com.composables.icons_lucide_cmp.generated.resources.eye_off
+import com.composables.icons_lucide_cmp.generated.resources.facebook
+import com.composables.icons_lucide_cmp.generated.resources.factory
+import com.composables.icons_lucide_cmp.generated.resources.fan
+import com.composables.icons_lucide_cmp.generated.resources.fast_forward
+import com.composables.icons_lucide_cmp.generated.resources.feather
+import com.composables.icons_lucide_cmp.generated.resources.fence
+import com.composables.icons_lucide_cmp.generated.resources.ferris_wheel
+import com.composables.icons_lucide_cmp.generated.resources.figma
+import com.composables.icons_lucide_cmp.generated.resources.file_archive
+import com.composables.icons_lucide_cmp.generated.resources.file_axis_3d
+import com.composables.icons_lucide_cmp.generated.resources.file_badge
+import com.composables.icons_lucide_cmp.generated.resources.file_box
+import com.composables.icons_lucide_cmp.generated.resources.file_braces
+import com.composables.icons_lucide_cmp.generated.resources.file_braces_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_chart_column
+import com.composables.icons_lucide_cmp.generated.resources.file_chart_column_increasing
+import com.composables.icons_lucide_cmp.generated.resources.file_chart_line
+import com.composables.icons_lucide_cmp.generated.resources.file_chart_pie
+import com.composables.icons_lucide_cmp.generated.resources.file_check
+import com.composables.icons_lucide_cmp.generated.resources.file_check_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_clock
+import com.composables.icons_lucide_cmp.generated.resources.file_code
+import com.composables.icons_lucide_cmp.generated.resources.file_code_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_cog
+import com.composables.icons_lucide_cmp.generated.resources.file_diff
+import com.composables.icons_lucide_cmp.generated.resources.file_digit
+import com.composables.icons_lucide_cmp.generated.resources.file_down
+import com.composables.icons_lucide_cmp.generated.resources.file_exclamation_point
+import com.composables.icons_lucide_cmp.generated.resources.file_headphone
+import com.composables.icons_lucide_cmp.generated.resources.file_heart
+import com.composables.icons_lucide_cmp.generated.resources.file_image
+import com.composables.icons_lucide_cmp.generated.resources.file_input
+import com.composables.icons_lucide_cmp.generated.resources.file_key
+import com.composables.icons_lucide_cmp.generated.resources.file_lock
+import com.composables.icons_lucide_cmp.generated.resources.file_minus
+import com.composables.icons_lucide_cmp.generated.resources.file_minus_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_music
+import com.composables.icons_lucide_cmp.generated.resources.file_output
+import com.composables.icons_lucide_cmp.generated.resources.file_pen
+import com.composables.icons_lucide_cmp.generated.resources.file_pen_line
+import com.composables.icons_lucide_cmp.generated.resources.file_play
+import com.composables.icons_lucide_cmp.generated.resources.file_plus
+import com.composables.icons_lucide_cmp.generated.resources.file_plus_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.file_scan
+import com.composables.icons_lucide_cmp.generated.resources.file_search
+import com.composables.icons_lucide_cmp.generated.resources.file_search_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_signal
+import com.composables.icons_lucide_cmp.generated.resources.file_sliders
+import com.composables.icons_lucide_cmp.generated.resources.file_spreadsheet
+import com.composables.icons_lucide_cmp.generated.resources.file_stack
+import com.composables.icons_lucide_cmp.generated.resources.file_symlink
+import com.composables.icons_lucide_cmp.generated.resources.file_terminal
+import com.composables.icons_lucide_cmp.generated.resources.file_text
+import com.composables.icons_lucide_cmp.generated.resources.file_type
+import com.composables.icons_lucide_cmp.generated.resources.file_type_corner
+import com.composables.icons_lucide_cmp.generated.resources.file_up
+import com.composables.icons_lucide_cmp.generated.resources.file_user
+import com.composables.icons_lucide_cmp.generated.resources.file_video_camera
+import com.composables.icons_lucide_cmp.generated.resources.file_volume
+import com.composables.icons_lucide_cmp.generated.resources.file_x
+import com.composables.icons_lucide_cmp.generated.resources.file_x_corner
+import com.composables.icons_lucide_cmp.generated.resources.files
+import com.composables.icons_lucide_cmp.generated.resources.film
+import com.composables.icons_lucide_cmp.generated.resources.fingerprint_pattern
+import com.composables.icons_lucide_cmp.generated.resources.fire_extinguisher
+import com.composables.icons_lucide_cmp.generated.resources.fish
+import com.composables.icons_lucide_cmp.generated.resources.fish_off
+import com.composables.icons_lucide_cmp.generated.resources.fish_symbol
+import com.composables.icons_lucide_cmp.generated.resources.fishing_hook
+import com.composables.icons_lucide_cmp.generated.resources.flag
+import com.composables.icons_lucide_cmp.generated.resources.flag_off
+import com.composables.icons_lucide_cmp.generated.resources.flag_triangle_left
+import com.composables.icons_lucide_cmp.generated.resources.flag_triangle_right
+import com.composables.icons_lucide_cmp.generated.resources.flame
+import com.composables.icons_lucide_cmp.generated.resources.flame_kindling
+import com.composables.icons_lucide_cmp.generated.resources.flashlight
+import com.composables.icons_lucide_cmp.generated.resources.flashlight_off
+import com.composables.icons_lucide_cmp.generated.resources.flask_conical
+import com.composables.icons_lucide_cmp.generated.resources.flask_conical_off
+import com.composables.icons_lucide_cmp.generated.resources.flask_round
+import com.composables.icons_lucide_cmp.generated.resources.flip_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.flip_horizontal_2
+import com.composables.icons_lucide_cmp.generated.resources.flip_vertical
+import com.composables.icons_lucide_cmp.generated.resources.flip_vertical_2
+import com.composables.icons_lucide_cmp.generated.resources.flower
+import com.composables.icons_lucide_cmp.generated.resources.flower_2
+import com.composables.icons_lucide_cmp.generated.resources.focus
+import com.composables.icons_lucide_cmp.generated.resources.fold_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.fold_vertical
+import com.composables.icons_lucide_cmp.generated.resources.folder
+import com.composables.icons_lucide_cmp.generated.resources.folder_archive
+import com.composables.icons_lucide_cmp.generated.resources.folder_check
+import com.composables.icons_lucide_cmp.generated.resources.folder_clock
+import com.composables.icons_lucide_cmp.generated.resources.folder_closed
+import com.composables.icons_lucide_cmp.generated.resources.folder_code
+import com.composables.icons_lucide_cmp.generated.resources.folder_cog
+import com.composables.icons_lucide_cmp.generated.resources.folder_dot
+import com.composables.icons_lucide_cmp.generated.resources.folder_down
+import com.composables.icons_lucide_cmp.generated.resources.folder_git
+import com.composables.icons_lucide_cmp.generated.resources.folder_git_2
+import com.composables.icons_lucide_cmp.generated.resources.folder_heart
+import com.composables.icons_lucide_cmp.generated.resources.folder_input
+import com.composables.icons_lucide_cmp.generated.resources.folder_kanban
+import com.composables.icons_lucide_cmp.generated.resources.folder_key
+import com.composables.icons_lucide_cmp.generated.resources.folder_lock
+import com.composables.icons_lucide_cmp.generated.resources.folder_minus
+import com.composables.icons_lucide_cmp.generated.resources.folder_open
+import com.composables.icons_lucide_cmp.generated.resources.folder_open_dot
+import com.composables.icons_lucide_cmp.generated.resources.folder_output
+import com.composables.icons_lucide_cmp.generated.resources.folder_pen
+import com.composables.icons_lucide_cmp.generated.resources.folder_plus
+import com.composables.icons_lucide_cmp.generated.resources.folder_root
+import com.composables.icons_lucide_cmp.generated.resources.folder_search
+import com.composables.icons_lucide_cmp.generated.resources.folder_search_2
+import com.composables.icons_lucide_cmp.generated.resources.folder_symlink
+import com.composables.icons_lucide_cmp.generated.resources.folder_sync
+import com.composables.icons_lucide_cmp.generated.resources.folder_tree
+import com.composables.icons_lucide_cmp.generated.resources.folder_up
+import com.composables.icons_lucide_cmp.generated.resources.folder_x
+import com.composables.icons_lucide_cmp.generated.resources.folders
+import com.composables.icons_lucide_cmp.generated.resources.footprints
+import com.composables.icons_lucide_cmp.generated.resources.forklift
+import com.composables.icons_lucide_cmp.generated.resources.form
+import com.composables.icons_lucide_cmp.generated.resources.forward
+import com.composables.icons_lucide_cmp.generated.resources.frame
+import com.composables.icons_lucide_cmp.generated.resources.framer
+import com.composables.icons_lucide_cmp.generated.resources.frown
+import com.composables.icons_lucide_cmp.generated.resources.fuel
+import com.composables.icons_lucide_cmp.generated.resources.fullscreen
+import com.composables.icons_lucide_cmp.generated.resources.funnel
+import com.composables.icons_lucide_cmp.generated.resources.funnel_plus
+import com.composables.icons_lucide_cmp.generated.resources.funnel_x
+import com.composables.icons_lucide_cmp.generated.resources.gallery_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.gallery_horizontal_end
+import com.composables.icons_lucide_cmp.generated.resources.gallery_thumbnails
+import com.composables.icons_lucide_cmp.generated.resources.gallery_vertical
+import com.composables.icons_lucide_cmp.generated.resources.gallery_vertical_end
+import com.composables.icons_lucide_cmp.generated.resources.gamepad
+import com.composables.icons_lucide_cmp.generated.resources.gamepad_2
+import com.composables.icons_lucide_cmp.generated.resources.gamepad_directional
+import com.composables.icons_lucide_cmp.generated.resources.gauge
+import com.composables.icons_lucide_cmp.generated.resources.gavel
+import com.composables.icons_lucide_cmp.generated.resources.gem
+import com.composables.icons_lucide_cmp.generated.resources.georgian_lari
+import com.composables.icons_lucide_cmp.generated.resources.ghost
+import com.composables.icons_lucide_cmp.generated.resources.gift
+import com.composables.icons_lucide_cmp.generated.resources.git_branch
+import com.composables.icons_lucide_cmp.generated.resources.git_branch_minus
+import com.composables.icons_lucide_cmp.generated.resources.git_branch_plus
+import com.composables.icons_lucide_cmp.generated.resources.git_commit_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.git_commit_vertical
+import com.composables.icons_lucide_cmp.generated.resources.git_compare
+import com.composables.icons_lucide_cmp.generated.resources.git_compare_arrows
+import com.composables.icons_lucide_cmp.generated.resources.git_fork
+import com.composables.icons_lucide_cmp.generated.resources.git_graph
+import com.composables.icons_lucide_cmp.generated.resources.git_merge
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request_arrow
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request_closed
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request_create
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request_create_arrow
+import com.composables.icons_lucide_cmp.generated.resources.git_pull_request_draft
+import com.composables.icons_lucide_cmp.generated.resources.github
+import com.composables.icons_lucide_cmp.generated.resources.gitlab
+import com.composables.icons_lucide_cmp.generated.resources.glass_water
+import com.composables.icons_lucide_cmp.generated.resources.glasses
+import com.composables.icons_lucide_cmp.generated.resources.globe
+import com.composables.icons_lucide_cmp.generated.resources.globe_lock
+import com.composables.icons_lucide_cmp.generated.resources.goal
+import com.composables.icons_lucide_cmp.generated.resources.gpu
+import com.composables.icons_lucide_cmp.generated.resources.graduation_cap
+import com.composables.icons_lucide_cmp.generated.resources.grape
+import com.composables.icons_lucide_cmp.generated.resources.grid_2x2
+import com.composables.icons_lucide_cmp.generated.resources.grid_2x2_check
+import com.composables.icons_lucide_cmp.generated.resources.grid_2x2_plus
+import com.composables.icons_lucide_cmp.generated.resources.grid_2x2_x
+import com.composables.icons_lucide_cmp.generated.resources.grid_3x2
+import com.composables.icons_lucide_cmp.generated.resources.grid_3x3
+import com.composables.icons_lucide_cmp.generated.resources.grip
+import com.composables.icons_lucide_cmp.generated.resources.grip_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.grip_vertical
+import com.composables.icons_lucide_cmp.generated.resources.group
+import com.composables.icons_lucide_cmp.generated.resources.guitar
+import com.composables.icons_lucide_cmp.generated.resources.ham
+import com.composables.icons_lucide_cmp.generated.resources.hamburger
+import com.composables.icons_lucide_cmp.generated.resources.hammer
+import com.composables.icons_lucide_cmp.generated.resources.hand
+import com.composables.icons_lucide_cmp.generated.resources.hand_coins
+import com.composables.icons_lucide_cmp.generated.resources.hand_fist
+import com.composables.icons_lucide_cmp.generated.resources.hand_grab
+import com.composables.icons_lucide_cmp.generated.resources.hand_heart
+import com.composables.icons_lucide_cmp.generated.resources.hand_helping
+import com.composables.icons_lucide_cmp.generated.resources.hand_metal
+import com.composables.icons_lucide_cmp.generated.resources.hand_platter
+import com.composables.icons_lucide_cmp.generated.resources.handbag
+import com.composables.icons_lucide_cmp.generated.resources.handshake
+import com.composables.icons_lucide_cmp.generated.resources.hard_drive
+import com.composables.icons_lucide_cmp.generated.resources.hard_drive_download
+import com.composables.icons_lucide_cmp.generated.resources.hard_drive_upload
+import com.composables.icons_lucide_cmp.generated.resources.hard_hat
+import com.composables.icons_lucide_cmp.generated.resources.hash
+import com.composables.icons_lucide_cmp.generated.resources.hat_glasses
+import com.composables.icons_lucide_cmp.generated.resources.haze
+import com.composables.icons_lucide_cmp.generated.resources.hd
+import com.composables.icons_lucide_cmp.generated.resources.hdmi_port
+import com.composables.icons_lucide_cmp.generated.resources.heading
+import com.composables.icons_lucide_cmp.generated.resources.heading_1
+import com.composables.icons_lucide_cmp.generated.resources.heading_2
+import com.composables.icons_lucide_cmp.generated.resources.heading_3
+import com.composables.icons_lucide_cmp.generated.resources.heading_4
+import com.composables.icons_lucide_cmp.generated.resources.heading_5
+import com.composables.icons_lucide_cmp.generated.resources.heading_6
+import com.composables.icons_lucide_cmp.generated.resources.headphone_off
+import com.composables.icons_lucide_cmp.generated.resources.headphones
+import com.composables.icons_lucide_cmp.generated.resources.headset
+import com.composables.icons_lucide_cmp.generated.resources.heart
+import com.composables.icons_lucide_cmp.generated.resources.heart_crack
+import com.composables.icons_lucide_cmp.generated.resources.heart_handshake
+import com.composables.icons_lucide_cmp.generated.resources.heart_minus
+import com.composables.icons_lucide_cmp.generated.resources.heart_off
+import com.composables.icons_lucide_cmp.generated.resources.heart_plus
+import com.composables.icons_lucide_cmp.generated.resources.heart_pulse
+import com.composables.icons_lucide_cmp.generated.resources.heater
+import com.composables.icons_lucide_cmp.generated.resources.helicopter
+import com.composables.icons_lucide_cmp.generated.resources.hexagon
+import com.composables.icons_lucide_cmp.generated.resources.highlighter
+import com.composables.icons_lucide_cmp.generated.resources.history
+import com.composables.icons_lucide_cmp.generated.resources.hop
+import com.composables.icons_lucide_cmp.generated.resources.hop_off
+import com.composables.icons_lucide_cmp.generated.resources.hospital
+import com.composables.icons_lucide_cmp.generated.resources.hotel
+import com.composables.icons_lucide_cmp.generated.resources.hourglass
+import com.composables.icons_lucide_cmp.generated.resources.house
+import com.composables.icons_lucide_cmp.generated.resources.house_heart
+import com.composables.icons_lucide_cmp.generated.resources.house_plug
+import com.composables.icons_lucide_cmp.generated.resources.house_plus
+import com.composables.icons_lucide_cmp.generated.resources.house_wifi
+import com.composables.icons_lucide_cmp.generated.resources.ice_cream_bowl
+import com.composables.icons_lucide_cmp.generated.resources.ice_cream_cone
+import com.composables.icons_lucide_cmp.generated.resources.id_card
+import com.composables.icons_lucide_cmp.generated.resources.id_card_lanyard
+import com.composables.icons_lucide_cmp.generated.resources.image
+import com.composables.icons_lucide_cmp.generated.resources.image_down
+import com.composables.icons_lucide_cmp.generated.resources.image_minus
+import com.composables.icons_lucide_cmp.generated.resources.image_off
+import com.composables.icons_lucide_cmp.generated.resources.image_play
+import com.composables.icons_lucide_cmp.generated.resources.image_plus
+import com.composables.icons_lucide_cmp.generated.resources.image_up
+import com.composables.icons_lucide_cmp.generated.resources.image_upscale
+import com.composables.icons_lucide_cmp.generated.resources.images
+import com.composables.icons_lucide_cmp.generated.resources.inbox
+import com.composables.icons_lucide_cmp.generated.resources.indian_rupee
+import com.composables.icons_lucide_cmp.generated.resources.infinity
+import com.composables.icons_lucide_cmp.generated.resources.info
+import com.composables.icons_lucide_cmp.generated.resources.inspection_panel
+import com.composables.icons_lucide_cmp.generated.resources.instagram
+import com.composables.icons_lucide_cmp.generated.resources.italic
+import com.composables.icons_lucide_cmp.generated.resources.iteration_ccw
+import com.composables.icons_lucide_cmp.generated.resources.iteration_cw
+import com.composables.icons_lucide_cmp.generated.resources.japanese_yen
+import com.composables.icons_lucide_cmp.generated.resources.joystick
+import com.composables.icons_lucide_cmp.generated.resources.kanban
+import com.composables.icons_lucide_cmp.generated.resources.kayak
+import com.composables.icons_lucide_cmp.generated.resources.key
+import com.composables.icons_lucide_cmp.generated.resources.key_round
+import com.composables.icons_lucide_cmp.generated.resources.key_square
+import com.composables.icons_lucide_cmp.generated.resources.keyboard
+import com.composables.icons_lucide_cmp.generated.resources.keyboard_music
+import com.composables.icons_lucide_cmp.generated.resources.keyboard_off
+import com.composables.icons_lucide_cmp.generated.resources.lamp
+import com.composables.icons_lucide_cmp.generated.resources.lamp_ceiling
+import com.composables.icons_lucide_cmp.generated.resources.lamp_desk
+import com.composables.icons_lucide_cmp.generated.resources.lamp_floor
+import com.composables.icons_lucide_cmp.generated.resources.lamp_wall_down
+import com.composables.icons_lucide_cmp.generated.resources.lamp_wall_up
+import com.composables.icons_lucide_cmp.generated.resources.land_plot
+import com.composables.icons_lucide_cmp.generated.resources.landmark
+import com.composables.icons_lucide_cmp.generated.resources.languages
+import com.composables.icons_lucide_cmp.generated.resources.laptop
+import com.composables.icons_lucide_cmp.generated.resources.laptop_minimal
+import com.composables.icons_lucide_cmp.generated.resources.laptop_minimal_check
+import com.composables.icons_lucide_cmp.generated.resources.lasso
+import com.composables.icons_lucide_cmp.generated.resources.lasso_select
+import com.composables.icons_lucide_cmp.generated.resources.laugh
+import com.composables.icons_lucide_cmp.generated.resources.layers
+import com.composables.icons_lucide_cmp.generated.resources.layers_2
+import com.composables.icons_lucide_cmp.generated.resources.layers_plus
+import com.composables.icons_lucide_cmp.generated.resources.layout_dashboard
+import com.composables.icons_lucide_cmp.generated.resources.layout_grid
+import com.composables.icons_lucide_cmp.generated.resources.layout_list
+import com.composables.icons_lucide_cmp.generated.resources.layout_panel_left
+import com.composables.icons_lucide_cmp.generated.resources.layout_panel_top
+import com.composables.icons_lucide_cmp.generated.resources.layout_template
+import com.composables.icons_lucide_cmp.generated.resources.leaf
+import com.composables.icons_lucide_cmp.generated.resources.leafy_green
+import com.composables.icons_lucide_cmp.generated.resources.lectern
+import com.composables.icons_lucide_cmp.generated.resources.library
+import com.composables.icons_lucide_cmp.generated.resources.library_big
+import com.composables.icons_lucide_cmp.generated.resources.life_buoy
+import com.composables.icons_lucide_cmp.generated.resources.ligature
+import com.composables.icons_lucide_cmp.generated.resources.lightbulb
+import com.composables.icons_lucide_cmp.generated.resources.lightbulb_off
+import com.composables.icons_lucide_cmp.generated.resources.line_squiggle
+import com.composables.icons_lucide_cmp.generated.resources.link
+import com.composables.icons_lucide_cmp.generated.resources.link_2
+import com.composables.icons_lucide_cmp.generated.resources.link_2_off
+import com.composables.icons_lucide_cmp.generated.resources.linkedin
+import com.composables.icons_lucide_cmp.generated.resources.list
+import com.composables.icons_lucide_cmp.generated.resources.list_check
+import com.composables.icons_lucide_cmp.generated.resources.list_checks
+import com.composables.icons_lucide_cmp.generated.resources.list_chevrons_down_up
+import com.composables.icons_lucide_cmp.generated.resources.list_chevrons_up_down
+import com.composables.icons_lucide_cmp.generated.resources.list_collapse
+import com.composables.icons_lucide_cmp.generated.resources.list_end
+import com.composables.icons_lucide_cmp.generated.resources.list_filter
+import com.composables.icons_lucide_cmp.generated.resources.list_filter_plus
+import com.composables.icons_lucide_cmp.generated.resources.list_indent_decrease
+import com.composables.icons_lucide_cmp.generated.resources.list_indent_increase
+import com.composables.icons_lucide_cmp.generated.resources.list_minus
+import com.composables.icons_lucide_cmp.generated.resources.list_music
+import com.composables.icons_lucide_cmp.generated.resources.list_ordered
+import com.composables.icons_lucide_cmp.generated.resources.list_plus
+import com.composables.icons_lucide_cmp.generated.resources.list_restart
+import com.composables.icons_lucide_cmp.generated.resources.list_start
+import com.composables.icons_lucide_cmp.generated.resources.list_todo
+import com.composables.icons_lucide_cmp.generated.resources.list_tree
+import com.composables.icons_lucide_cmp.generated.resources.list_video
+import com.composables.icons_lucide_cmp.generated.resources.list_x
+import com.composables.icons_lucide_cmp.generated.resources.loader
+import com.composables.icons_lucide_cmp.generated.resources.loader_circle
+import com.composables.icons_lucide_cmp.generated.resources.loader_pinwheel
+import com.composables.icons_lucide_cmp.generated.resources.locate
+import com.composables.icons_lucide_cmp.generated.resources.locate_fixed
+import com.composables.icons_lucide_cmp.generated.resources.locate_off
+import com.composables.icons_lucide_cmp.generated.resources.lock
+import com.composables.icons_lucide_cmp.generated.resources.lock_keyhole
+import com.composables.icons_lucide_cmp.generated.resources.lock_keyhole_open
+import com.composables.icons_lucide_cmp.generated.resources.lock_open
+import com.composables.icons_lucide_cmp.generated.resources.log_in
+import com.composables.icons_lucide_cmp.generated.resources.log_out
+import com.composables.icons_lucide_cmp.generated.resources.logs
+import com.composables.icons_lucide_cmp.generated.resources.lollipop
+import com.composables.icons_lucide_cmp.generated.resources.luggage
+import com.composables.icons_lucide_cmp.generated.resources.magnet
+import com.composables.icons_lucide_cmp.generated.resources.mail
+import com.composables.icons_lucide_cmp.generated.resources.mail_check
+import com.composables.icons_lucide_cmp.generated.resources.mail_minus
+import com.composables.icons_lucide_cmp.generated.resources.mail_open
+import com.composables.icons_lucide_cmp.generated.resources.mail_plus
+import com.composables.icons_lucide_cmp.generated.resources.mail_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.mail_search
+import com.composables.icons_lucide_cmp.generated.resources.mail_warning
+import com.composables.icons_lucide_cmp.generated.resources.mail_x
+import com.composables.icons_lucide_cmp.generated.resources.mailbox
+import com.composables.icons_lucide_cmp.generated.resources.mails
+import com.composables.icons_lucide_cmp.generated.resources.map
+import com.composables.icons_lucide_cmp.generated.resources.map_minus
+import com.composables.icons_lucide_cmp.generated.resources.map_pin
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_check
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_check_inside
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_house
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_minus
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_minus_inside
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_off
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_pen
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_plus
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_plus_inside
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_x
+import com.composables.icons_lucide_cmp.generated.resources.map_pin_x_inside
+import com.composables.icons_lucide_cmp.generated.resources.map_pinned
+import com.composables.icons_lucide_cmp.generated.resources.map_plus
+import com.composables.icons_lucide_cmp.generated.resources.mars
+import com.composables.icons_lucide_cmp.generated.resources.mars_stroke
+import com.composables.icons_lucide_cmp.generated.resources.martini
+import com.composables.icons_lucide_cmp.generated.resources.maximize
+import com.composables.icons_lucide_cmp.generated.resources.maximize_2
+import com.composables.icons_lucide_cmp.generated.resources.medal
+import com.composables.icons_lucide_cmp.generated.resources.megaphone
+import com.composables.icons_lucide_cmp.generated.resources.megaphone_off
+import com.composables.icons_lucide_cmp.generated.resources.meh
+import com.composables.icons_lucide_cmp.generated.resources.memory_stick
+import com.composables.icons_lucide_cmp.generated.resources.menu
+import com.composables.icons_lucide_cmp.generated.resources.merge
+import com.composables.icons_lucide_cmp.generated.resources.message_circle
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_code
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_dashed
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_heart
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_more
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_off
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_plus
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_reply
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_warning
+import com.composables.icons_lucide_cmp.generated.resources.message_circle_x
+import com.composables.icons_lucide_cmp.generated.resources.message_square
+import com.composables.icons_lucide_cmp.generated.resources.message_square_code
+import com.composables.icons_lucide_cmp.generated.resources.message_square_dashed
+import com.composables.icons_lucide_cmp.generated.resources.message_square_diff
+import com.composables.icons_lucide_cmp.generated.resources.message_square_dot
+import com.composables.icons_lucide_cmp.generated.resources.message_square_heart
+import com.composables.icons_lucide_cmp.generated.resources.message_square_lock
+import com.composables.icons_lucide_cmp.generated.resources.message_square_more
+import com.composables.icons_lucide_cmp.generated.resources.message_square_off
+import com.composables.icons_lucide_cmp.generated.resources.message_square_plus
+import com.composables.icons_lucide_cmp.generated.resources.message_square_quote
+import com.composables.icons_lucide_cmp.generated.resources.message_square_reply
+import com.composables.icons_lucide_cmp.generated.resources.message_square_share
+import com.composables.icons_lucide_cmp.generated.resources.message_square_text
+import com.composables.icons_lucide_cmp.generated.resources.message_square_warning
+import com.composables.icons_lucide_cmp.generated.resources.message_square_x
+import com.composables.icons_lucide_cmp.generated.resources.messages_square
+import com.composables.icons_lucide_cmp.generated.resources.mic
+import com.composables.icons_lucide_cmp.generated.resources.mic_off
+import com.composables.icons_lucide_cmp.generated.resources.mic_vocal
+import com.composables.icons_lucide_cmp.generated.resources.microchip
+import com.composables.icons_lucide_cmp.generated.resources.microscope
+import com.composables.icons_lucide_cmp.generated.resources.microwave
+import com.composables.icons_lucide_cmp.generated.resources.milestone
+import com.composables.icons_lucide_cmp.generated.resources.milk
+import com.composables.icons_lucide_cmp.generated.resources.milk_off
+import com.composables.icons_lucide_cmp.generated.resources.minimize
+import com.composables.icons_lucide_cmp.generated.resources.minimize_2
+import com.composables.icons_lucide_cmp.generated.resources.minus
+import com.composables.icons_lucide_cmp.generated.resources.monitor
+import com.composables.icons_lucide_cmp.generated.resources.monitor_check
+import com.composables.icons_lucide_cmp.generated.resources.monitor_cloud
+import com.composables.icons_lucide_cmp.generated.resources.monitor_cog
+import com.composables.icons_lucide_cmp.generated.resources.monitor_dot
+import com.composables.icons_lucide_cmp.generated.resources.monitor_down
+import com.composables.icons_lucide_cmp.generated.resources.monitor_off
+import com.composables.icons_lucide_cmp.generated.resources.monitor_pause
+import com.composables.icons_lucide_cmp.generated.resources.monitor_play
+import com.composables.icons_lucide_cmp.generated.resources.monitor_smartphone
+import com.composables.icons_lucide_cmp.generated.resources.monitor_speaker
+import com.composables.icons_lucide_cmp.generated.resources.monitor_stop
+import com.composables.icons_lucide_cmp.generated.resources.monitor_up
+import com.composables.icons_lucide_cmp.generated.resources.monitor_x
+import com.composables.icons_lucide_cmp.generated.resources.moon
+import com.composables.icons_lucide_cmp.generated.resources.moon_star
+import com.composables.icons_lucide_cmp.generated.resources.motorbike
+import com.composables.icons_lucide_cmp.generated.resources.mountain
+import com.composables.icons_lucide_cmp.generated.resources.mountain_snow
+import com.composables.icons_lucide_cmp.generated.resources.mouse
+import com.composables.icons_lucide_cmp.generated.resources.mouse_off
+import com.composables.icons_lucide_cmp.generated.resources.mouse_pointer
+import com.composables.icons_lucide_cmp.generated.resources.mouse_pointer_2
+import com.composables.icons_lucide_cmp.generated.resources.mouse_pointer_2_off
+import com.composables.icons_lucide_cmp.generated.resources.mouse_pointer_ban
+import com.composables.icons_lucide_cmp.generated.resources.mouse_pointer_click
+import com.composables.icons_lucide_cmp.generated.resources.move
+import com.composables.icons_lucide_cmp.generated.resources.move_3d
+import com.composables.icons_lucide_cmp.generated.resources.move_diagonal
+import com.composables.icons_lucide_cmp.generated.resources.move_diagonal_2
+import com.composables.icons_lucide_cmp.generated.resources.move_down
+import com.composables.icons_lucide_cmp.generated.resources.move_down_left
+import com.composables.icons_lucide_cmp.generated.resources.move_down_right
+import com.composables.icons_lucide_cmp.generated.resources.move_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.move_left
+import com.composables.icons_lucide_cmp.generated.resources.move_right
+import com.composables.icons_lucide_cmp.generated.resources.move_up
+import com.composables.icons_lucide_cmp.generated.resources.move_up_left
+import com.composables.icons_lucide_cmp.generated.resources.move_up_right
+import com.composables.icons_lucide_cmp.generated.resources.move_vertical
+import com.composables.icons_lucide_cmp.generated.resources.music
+import com.composables.icons_lucide_cmp.generated.resources.music_2
+import com.composables.icons_lucide_cmp.generated.resources.music_3
+import com.composables.icons_lucide_cmp.generated.resources.music_4
+import com.composables.icons_lucide_cmp.generated.resources.navigation
+import com.composables.icons_lucide_cmp.generated.resources.navigation_2
+import com.composables.icons_lucide_cmp.generated.resources.navigation_2_off
+import com.composables.icons_lucide_cmp.generated.resources.navigation_off
+import com.composables.icons_lucide_cmp.generated.resources.network
+import com.composables.icons_lucide_cmp.generated.resources.newspaper
+import com.composables.icons_lucide_cmp.generated.resources.nfc
+import com.composables.icons_lucide_cmp.generated.resources.non_binary
+import com.composables.icons_lucide_cmp.generated.resources.notebook
+import com.composables.icons_lucide_cmp.generated.resources.notebook_pen
+import com.composables.icons_lucide_cmp.generated.resources.notebook_tabs
+import com.composables.icons_lucide_cmp.generated.resources.notebook_text
+import com.composables.icons_lucide_cmp.generated.resources.notepad_text
+import com.composables.icons_lucide_cmp.generated.resources.notepad_text_dashed
+import com.composables.icons_lucide_cmp.generated.resources.nut
+import com.composables.icons_lucide_cmp.generated.resources.nut_off
+import com.composables.icons_lucide_cmp.generated.resources.octagon
+import com.composables.icons_lucide_cmp.generated.resources.octagon_alert
+import com.composables.icons_lucide_cmp.generated.resources.octagon_minus
+import com.composables.icons_lucide_cmp.generated.resources.octagon_pause
+import com.composables.icons_lucide_cmp.generated.resources.octagon_x
+import com.composables.icons_lucide_cmp.generated.resources.omega
+import com.composables.icons_lucide_cmp.generated.resources.option
+import com.composables.icons_lucide_cmp.generated.resources.orbit
+import com.composables.icons_lucide_cmp.generated.resources.origami
+import com.composables.icons_lucide_cmp.generated.resources.package_2
+import com.composables.icons_lucide_cmp.generated.resources.package_check
+import com.composables.icons_lucide_cmp.generated.resources.package_minus
+import com.composables.icons_lucide_cmp.generated.resources.package_open
+import com.composables.icons_lucide_cmp.generated.resources.package_plus
+import com.composables.icons_lucide_cmp.generated.resources.package_search
+import com.composables.icons_lucide_cmp.generated.resources.package_x
+import com.composables.icons_lucide_cmp.generated.resources.paint_bucket
+import com.composables.icons_lucide_cmp.generated.resources.paint_roller
+import com.composables.icons_lucide_cmp.generated.resources.paintbrush
+import com.composables.icons_lucide_cmp.generated.resources.paintbrush_vertical
+import com.composables.icons_lucide_cmp.generated.resources.palette
+import com.composables.icons_lucide_cmp.generated.resources.panda
+import com.composables.icons_lucide_cmp.generated.resources.panel_bottom
+import com.composables.icons_lucide_cmp.generated.resources.panel_bottom_close
+import com.composables.icons_lucide_cmp.generated.resources.panel_bottom_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_bottom_open
+import com.composables.icons_lucide_cmp.generated.resources.panel_left
+import com.composables.icons_lucide_cmp.generated.resources.panel_left_close
+import com.composables.icons_lucide_cmp.generated.resources.panel_left_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_left_open
+import com.composables.icons_lucide_cmp.generated.resources.panel_left_right_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_right
+import com.composables.icons_lucide_cmp.generated.resources.panel_right_close
+import com.composables.icons_lucide_cmp.generated.resources.panel_right_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_right_open
+import com.composables.icons_lucide_cmp.generated.resources.panel_top
+import com.composables.icons_lucide_cmp.generated.resources.panel_top_bottom_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_top_close
+import com.composables.icons_lucide_cmp.generated.resources.panel_top_dashed
+import com.composables.icons_lucide_cmp.generated.resources.panel_top_open
+import com.composables.icons_lucide_cmp.generated.resources.panels_left_bottom
+import com.composables.icons_lucide_cmp.generated.resources.panels_right_bottom
+import com.composables.icons_lucide_cmp.generated.resources.panels_top_left
+import com.composables.icons_lucide_cmp.generated.resources.paperclip
+import com.composables.icons_lucide_cmp.generated.resources.parentheses
+import com.composables.icons_lucide_cmp.generated.resources.parking_meter
+import com.composables.icons_lucide_cmp.generated.resources.party_popper
+import com.composables.icons_lucide_cmp.generated.resources.pause
+import com.composables.icons_lucide_cmp.generated.resources.paw_print
+import com.composables.icons_lucide_cmp.generated.resources.pc_case
+import com.composables.icons_lucide_cmp.generated.resources.pen
+import com.composables.icons_lucide_cmp.generated.resources.pen_line
+import com.composables.icons_lucide_cmp.generated.resources.pen_off
+import com.composables.icons_lucide_cmp.generated.resources.pen_tool
+import com.composables.icons_lucide_cmp.generated.resources.pencil
+import com.composables.icons_lucide_cmp.generated.resources.pencil_line
+import com.composables.icons_lucide_cmp.generated.resources.pencil_off
+import com.composables.icons_lucide_cmp.generated.resources.pencil_ruler
+import com.composables.icons_lucide_cmp.generated.resources.pentagon
+import com.composables.icons_lucide_cmp.generated.resources.percent
+import com.composables.icons_lucide_cmp.generated.resources.person_standing
+import com.composables.icons_lucide_cmp.generated.resources.philippine_peso
+import com.composables.icons_lucide_cmp.generated.resources.phone
+import com.composables.icons_lucide_cmp.generated.resources.phone_call
+import com.composables.icons_lucide_cmp.generated.resources.phone_forwarded
+import com.composables.icons_lucide_cmp.generated.resources.phone_incoming
+import com.composables.icons_lucide_cmp.generated.resources.phone_missed
+import com.composables.icons_lucide_cmp.generated.resources.phone_off
+import com.composables.icons_lucide_cmp.generated.resources.phone_outgoing
+import com.composables.icons_lucide_cmp.generated.resources.pi
+import com.composables.icons_lucide_cmp.generated.resources.piano
+import com.composables.icons_lucide_cmp.generated.resources.pickaxe
+import com.composables.icons_lucide_cmp.generated.resources.picture_in_picture
+import com.composables.icons_lucide_cmp.generated.resources.picture_in_picture_2
+import com.composables.icons_lucide_cmp.generated.resources.piggy_bank
+import com.composables.icons_lucide_cmp.generated.resources.pilcrow
+import com.composables.icons_lucide_cmp.generated.resources.pilcrow_left
+import com.composables.icons_lucide_cmp.generated.resources.pilcrow_right
+import com.composables.icons_lucide_cmp.generated.resources.pill
+import com.composables.icons_lucide_cmp.generated.resources.pill_bottle
+import com.composables.icons_lucide_cmp.generated.resources.pin
+import com.composables.icons_lucide_cmp.generated.resources.pin_off
+import com.composables.icons_lucide_cmp.generated.resources.pipette
+import com.composables.icons_lucide_cmp.generated.resources.pizza
+import com.composables.icons_lucide_cmp.generated.resources.plane
+import com.composables.icons_lucide_cmp.generated.resources.plane_landing
+import com.composables.icons_lucide_cmp.generated.resources.plane_takeoff
+import com.composables.icons_lucide_cmp.generated.resources.play
+import com.composables.icons_lucide_cmp.generated.resources.plug
+import com.composables.icons_lucide_cmp.generated.resources.plug_2
+import com.composables.icons_lucide_cmp.generated.resources.plug_zap
+import com.composables.icons_lucide_cmp.generated.resources.plus
+import com.composables.icons_lucide_cmp.generated.resources.pocket
+import com.composables.icons_lucide_cmp.generated.resources.pocket_knife
+import com.composables.icons_lucide_cmp.generated.resources.podcast
+import com.composables.icons_lucide_cmp.generated.resources.pointer
+import com.composables.icons_lucide_cmp.generated.resources.pointer_off
+import com.composables.icons_lucide_cmp.generated.resources.popcorn
+import com.composables.icons_lucide_cmp.generated.resources.popsicle
+import com.composables.icons_lucide_cmp.generated.resources.pound_sterling
+import com.composables.icons_lucide_cmp.generated.resources.power
+import com.composables.icons_lucide_cmp.generated.resources.power_off
+import com.composables.icons_lucide_cmp.generated.resources.presentation
+import com.composables.icons_lucide_cmp.generated.resources.printer
+import com.composables.icons_lucide_cmp.generated.resources.printer_check
+import com.composables.icons_lucide_cmp.generated.resources.projector
+import com.composables.icons_lucide_cmp.generated.resources.proportions
+import com.composables.icons_lucide_cmp.generated.resources.puzzle
+import com.composables.icons_lucide_cmp.generated.resources.pyramid
+import com.composables.icons_lucide_cmp.generated.resources.qr_code
+import com.composables.icons_lucide_cmp.generated.resources.quote
+import com.composables.icons_lucide_cmp.generated.resources.rabbit
+import com.composables.icons_lucide_cmp.generated.resources.radar
+import com.composables.icons_lucide_cmp.generated.resources.radiation
+import com.composables.icons_lucide_cmp.generated.resources.radical
+import com.composables.icons_lucide_cmp.generated.resources.radio
+import com.composables.icons_lucide_cmp.generated.resources.radio_receiver
+import com.composables.icons_lucide_cmp.generated.resources.radio_tower
+import com.composables.icons_lucide_cmp.generated.resources.radius
+import com.composables.icons_lucide_cmp.generated.resources.rail_symbol
+import com.composables.icons_lucide_cmp.generated.resources.rainbow
+import com.composables.icons_lucide_cmp.generated.resources.rat
+import com.composables.icons_lucide_cmp.generated.resources.ratio
+import com.composables.icons_lucide_cmp.generated.resources.receipt
+import com.composables.icons_lucide_cmp.generated.resources.receipt_cent
+import com.composables.icons_lucide_cmp.generated.resources.receipt_euro
+import com.composables.icons_lucide_cmp.generated.resources.receipt_indian_rupee
+import com.composables.icons_lucide_cmp.generated.resources.receipt_japanese_yen
+import com.composables.icons_lucide_cmp.generated.resources.receipt_pound_sterling
+import com.composables.icons_lucide_cmp.generated.resources.receipt_russian_ruble
+import com.composables.icons_lucide_cmp.generated.resources.receipt_swiss_franc
+import com.composables.icons_lucide_cmp.generated.resources.receipt_text
+import com.composables.icons_lucide_cmp.generated.resources.receipt_turkish_lira
+import com.composables.icons_lucide_cmp.generated.resources.rectangle_circle
+import com.composables.icons_lucide_cmp.generated.resources.rectangle_ellipsis
+import com.composables.icons_lucide_cmp.generated.resources.rectangle_goggles
+import com.composables.icons_lucide_cmp.generated.resources.rectangle_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.rectangle_vertical
+import com.composables.icons_lucide_cmp.generated.resources.recycle
+import com.composables.icons_lucide_cmp.generated.resources.redo
+import com.composables.icons_lucide_cmp.generated.resources.redo_2
+import com.composables.icons_lucide_cmp.generated.resources.redo_dot
+import com.composables.icons_lucide_cmp.generated.resources.refresh_ccw
+import com.composables.icons_lucide_cmp.generated.resources.refresh_ccw_dot
+import com.composables.icons_lucide_cmp.generated.resources.refresh_cw
+import com.composables.icons_lucide_cmp.generated.resources.refresh_cw_off
+import com.composables.icons_lucide_cmp.generated.resources.refrigerator
+import com.composables.icons_lucide_cmp.generated.resources.regex
+import com.composables.icons_lucide_cmp.generated.resources.remove_formatting
+import com.composables.icons_lucide_cmp.generated.resources.repeat
+import com.composables.icons_lucide_cmp.generated.resources.repeat_1
+import com.composables.icons_lucide_cmp.generated.resources.repeat_2
+import com.composables.icons_lucide_cmp.generated.resources.replace
+import com.composables.icons_lucide_cmp.generated.resources.replace_all
+import com.composables.icons_lucide_cmp.generated.resources.reply
+import com.composables.icons_lucide_cmp.generated.resources.reply_all
+import com.composables.icons_lucide_cmp.generated.resources.rewind
+import com.composables.icons_lucide_cmp.generated.resources.ribbon
+import com.composables.icons_lucide_cmp.generated.resources.rocket
+import com.composables.icons_lucide_cmp.generated.resources.rocking_chair
+import com.composables.icons_lucide_cmp.generated.resources.roller_coaster
+import com.composables.icons_lucide_cmp.generated.resources.rose
+import com.composables.icons_lucide_cmp.generated.resources.rotate_3d
+import com.composables.icons_lucide_cmp.generated.resources.rotate_ccw
+import com.composables.icons_lucide_cmp.generated.resources.rotate_ccw_key
+import com.composables.icons_lucide_cmp.generated.resources.rotate_ccw_square
+import com.composables.icons_lucide_cmp.generated.resources.rotate_cw
+import com.composables.icons_lucide_cmp.generated.resources.rotate_cw_square
+import com.composables.icons_lucide_cmp.generated.resources.route
+import com.composables.icons_lucide_cmp.generated.resources.route_off
+import com.composables.icons_lucide_cmp.generated.resources.router
+import com.composables.icons_lucide_cmp.generated.resources.rows_2
+import com.composables.icons_lucide_cmp.generated.resources.rows_3
+import com.composables.icons_lucide_cmp.generated.resources.rows_4
+import com.composables.icons_lucide_cmp.generated.resources.rss
+import com.composables.icons_lucide_cmp.generated.resources.ruler
+import com.composables.icons_lucide_cmp.generated.resources.ruler_dimension_line
+import com.composables.icons_lucide_cmp.generated.resources.russian_ruble
+import com.composables.icons_lucide_cmp.generated.resources.sailboat
+import com.composables.icons_lucide_cmp.generated.resources.salad
+import com.composables.icons_lucide_cmp.generated.resources.sandwich
+import com.composables.icons_lucide_cmp.generated.resources.satellite
+import com.composables.icons_lucide_cmp.generated.resources.satellite_dish
+import com.composables.icons_lucide_cmp.generated.resources.saudi_riyal
+import com.composables.icons_lucide_cmp.generated.resources.save
+import com.composables.icons_lucide_cmp.generated.resources.save_all
+import com.composables.icons_lucide_cmp.generated.resources.save_off
+import com.composables.icons_lucide_cmp.generated.resources.scale
+import com.composables.icons_lucide_cmp.generated.resources.scale_3d
+import com.composables.icons_lucide_cmp.generated.resources.scaling
+import com.composables.icons_lucide_cmp.generated.resources.scan
+import com.composables.icons_lucide_cmp.generated.resources.scan_barcode
+import com.composables.icons_lucide_cmp.generated.resources.scan_eye
+import com.composables.icons_lucide_cmp.generated.resources.scan_face
+import com.composables.icons_lucide_cmp.generated.resources.scan_heart
+import com.composables.icons_lucide_cmp.generated.resources.scan_line
+import com.composables.icons_lucide_cmp.generated.resources.scan_qr_code
+import com.composables.icons_lucide_cmp.generated.resources.scan_search
+import com.composables.icons_lucide_cmp.generated.resources.scan_text
+import com.composables.icons_lucide_cmp.generated.resources.school
+import com.composables.icons_lucide_cmp.generated.resources.scissors
+import com.composables.icons_lucide_cmp.generated.resources.scissors_line_dashed
+import com.composables.icons_lucide_cmp.generated.resources.scooter
+import com.composables.icons_lucide_cmp.generated.resources.screen_share
+import com.composables.icons_lucide_cmp.generated.resources.screen_share_off
+import com.composables.icons_lucide_cmp.generated.resources.scroll
+import com.composables.icons_lucide_cmp.generated.resources.scroll_text
+import com.composables.icons_lucide_cmp.generated.resources.search
+import com.composables.icons_lucide_cmp.generated.resources.search_alert
+import com.composables.icons_lucide_cmp.generated.resources.search_check
+import com.composables.icons_lucide_cmp.generated.resources.search_code
+import com.composables.icons_lucide_cmp.generated.resources.search_slash
+import com.composables.icons_lucide_cmp.generated.resources.search_x
+import com.composables.icons_lucide_cmp.generated.resources.section
+import com.composables.icons_lucide_cmp.generated.resources.send
+import com.composables.icons_lucide_cmp.generated.resources.send_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.send_to_back
+import com.composables.icons_lucide_cmp.generated.resources.separator_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.separator_vertical
+import com.composables.icons_lucide_cmp.generated.resources.server
+import com.composables.icons_lucide_cmp.generated.resources.server_cog
+import com.composables.icons_lucide_cmp.generated.resources.server_crash
+import com.composables.icons_lucide_cmp.generated.resources.server_off
+import com.composables.icons_lucide_cmp.generated.resources.settings
+import com.composables.icons_lucide_cmp.generated.resources.settings_2
+import com.composables.icons_lucide_cmp.generated.resources.shapes
+import com.composables.icons_lucide_cmp.generated.resources.share
+import com.composables.icons_lucide_cmp.generated.resources.share_2
+import com.composables.icons_lucide_cmp.generated.resources.sheet
+import com.composables.icons_lucide_cmp.generated.resources.shell
+import com.composables.icons_lucide_cmp.generated.resources.shield
+import com.composables.icons_lucide_cmp.generated.resources.shield_alert
+import com.composables.icons_lucide_cmp.generated.resources.shield_ban
+import com.composables.icons_lucide_cmp.generated.resources.shield_check
+import com.composables.icons_lucide_cmp.generated.resources.shield_ellipsis
+import com.composables.icons_lucide_cmp.generated.resources.shield_half
+import com.composables.icons_lucide_cmp.generated.resources.shield_minus
+import com.composables.icons_lucide_cmp.generated.resources.shield_off
+import com.composables.icons_lucide_cmp.generated.resources.shield_plus
+import com.composables.icons_lucide_cmp.generated.resources.shield_question_mark
+import com.composables.icons_lucide_cmp.generated.resources.shield_user
+import com.composables.icons_lucide_cmp.generated.resources.shield_x
+import com.composables.icons_lucide_cmp.generated.resources.ship
+import com.composables.icons_lucide_cmp.generated.resources.ship_wheel
+import com.composables.icons_lucide_cmp.generated.resources.shirt
+import com.composables.icons_lucide_cmp.generated.resources.shopping_bag
+import com.composables.icons_lucide_cmp.generated.resources.shopping_basket
+import com.composables.icons_lucide_cmp.generated.resources.shopping_cart
+import com.composables.icons_lucide_cmp.generated.resources.shovel
+import com.composables.icons_lucide_cmp.generated.resources.shower_head
+import com.composables.icons_lucide_cmp.generated.resources.shredder
+import com.composables.icons_lucide_cmp.generated.resources.shrimp
+import com.composables.icons_lucide_cmp.generated.resources.shrink
+import com.composables.icons_lucide_cmp.generated.resources.shrub
+import com.composables.icons_lucide_cmp.generated.resources.shuffle
+import com.composables.icons_lucide_cmp.generated.resources.sigma
+import com.composables.icons_lucide_cmp.generated.resources.signal
+import com.composables.icons_lucide_cmp.generated.resources.signal_high
+import com.composables.icons_lucide_cmp.generated.resources.signal_low
+import com.composables.icons_lucide_cmp.generated.resources.signal_medium
+import com.composables.icons_lucide_cmp.generated.resources.signal_zero
+import com.composables.icons_lucide_cmp.generated.resources.signature
+import com.composables.icons_lucide_cmp.generated.resources.signpost
+import com.composables.icons_lucide_cmp.generated.resources.signpost_big
+import com.composables.icons_lucide_cmp.generated.resources.siren
+import com.composables.icons_lucide_cmp.generated.resources.skip_back
+import com.composables.icons_lucide_cmp.generated.resources.skip_forward
+import com.composables.icons_lucide_cmp.generated.resources.skull
+import com.composables.icons_lucide_cmp.generated.resources.slack
+import com.composables.icons_lucide_cmp.generated.resources.slash
+import com.composables.icons_lucide_cmp.generated.resources.slice
+import com.composables.icons_lucide_cmp.generated.resources.sliders_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.sliders_vertical
+import com.composables.icons_lucide_cmp.generated.resources.smartphone
+import com.composables.icons_lucide_cmp.generated.resources.smartphone_charging
+import com.composables.icons_lucide_cmp.generated.resources.smartphone_nfc
+import com.composables.icons_lucide_cmp.generated.resources.smile
+import com.composables.icons_lucide_cmp.generated.resources.smile_plus
+import com.composables.icons_lucide_cmp.generated.resources.snail
+import com.composables.icons_lucide_cmp.generated.resources.snowflake
+import com.composables.icons_lucide_cmp.generated.resources.soap_dispenser_droplet
+import com.composables.icons_lucide_cmp.generated.resources.sofa
+import com.composables.icons_lucide_cmp.generated.resources.solar_panel
+import com.composables.icons_lucide_cmp.generated.resources.soup
+import com.composables.icons_lucide_cmp.generated.resources.space
+import com.composables.icons_lucide_cmp.generated.resources.spade
+import com.composables.icons_lucide_cmp.generated.resources.sparkle
+import com.composables.icons_lucide_cmp.generated.resources.sparkles
+import com.composables.icons_lucide_cmp.generated.resources.speaker
+import com.composables.icons_lucide_cmp.generated.resources.speech
+import com.composables.icons_lucide_cmp.generated.resources.spell_check
+import com.composables.icons_lucide_cmp.generated.resources.spell_check_2
+import com.composables.icons_lucide_cmp.generated.resources.spline
+import com.composables.icons_lucide_cmp.generated.resources.spline_pointer
+import com.composables.icons_lucide_cmp.generated.resources.split
+import com.composables.icons_lucide_cmp.generated.resources.spool
+import com.composables.icons_lucide_cmp.generated.resources.spotlight
+import com.composables.icons_lucide_cmp.generated.resources.spray_can
+import com.composables.icons_lucide_cmp.generated.resources.sprout
+import com.composables.icons_lucide_cmp.generated.resources.square
+import com.composables.icons_lucide_cmp.generated.resources.square_activity
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_down_left
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_down_right
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_left
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_out_down_left
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_out_down_right
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_out_up_left
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_out_up_right
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_right
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_up_left
+import com.composables.icons_lucide_cmp.generated.resources.square_arrow_up_right
+import com.composables.icons_lucide_cmp.generated.resources.square_asterisk
+import com.composables.icons_lucide_cmp.generated.resources.square_bottom_dashed_scissors
+import com.composables.icons_lucide_cmp.generated.resources.square_chart_gantt
+import com.composables.icons_lucide_cmp.generated.resources.square_check
+import com.composables.icons_lucide_cmp.generated.resources.square_check_big
+import com.composables.icons_lucide_cmp.generated.resources.square_chevron_down
+import com.composables.icons_lucide_cmp.generated.resources.square_chevron_left
+import com.composables.icons_lucide_cmp.generated.resources.square_chevron_right
+import com.composables.icons_lucide_cmp.generated.resources.square_chevron_up
+import com.composables.icons_lucide_cmp.generated.resources.square_code
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed_bottom
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed_bottom_code
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed_kanban
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed_mouse_pointer
+import com.composables.icons_lucide_cmp.generated.resources.square_dashed_top_solid
+import com.composables.icons_lucide_cmp.generated.resources.square_divide
+import com.composables.icons_lucide_cmp.generated.resources.square_dot
+import com.composables.icons_lucide_cmp.generated.resources.square_equal
+import com.composables.icons_lucide_cmp.generated.resources.square_function
+import com.composables.icons_lucide_cmp.generated.resources.square_kanban
+import com.composables.icons_lucide_cmp.generated.resources.square_library
+import com.composables.icons_lucide_cmp.generated.resources.square_m
+import com.composables.icons_lucide_cmp.generated.resources.square_menu
+import com.composables.icons_lucide_cmp.generated.resources.square_minus
+import com.composables.icons_lucide_cmp.generated.resources.square_mouse_pointer
+import com.composables.icons_lucide_cmp.generated.resources.square_parking
+import com.composables.icons_lucide_cmp.generated.resources.square_parking_off
+import com.composables.icons_lucide_cmp.generated.resources.square_pause
+import com.composables.icons_lucide_cmp.generated.resources.square_pen
+import com.composables.icons_lucide_cmp.generated.resources.square_percent
+import com.composables.icons_lucide_cmp.generated.resources.square_pi
+import com.composables.icons_lucide_cmp.generated.resources.square_pilcrow
+import com.composables.icons_lucide_cmp.generated.resources.square_play
+import com.composables.icons_lucide_cmp.generated.resources.square_plus
+import com.composables.icons_lucide_cmp.generated.resources.square_power
+import com.composables.icons_lucide_cmp.generated.resources.square_radical
+import com.composables.icons_lucide_cmp.generated.resources.square_round_corner
+import com.composables.icons_lucide_cmp.generated.resources.square_scissors
+import com.composables.icons_lucide_cmp.generated.resources.square_sigma
+import com.composables.icons_lucide_cmp.generated.resources.square_slash
+import com.composables.icons_lucide_cmp.generated.resources.square_split_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.square_split_vertical
+import com.composables.icons_lucide_cmp.generated.resources.square_square
+import com.composables.icons_lucide_cmp.generated.resources.square_stack
+import com.composables.icons_lucide_cmp.generated.resources.square_star
+import com.composables.icons_lucide_cmp.generated.resources.square_stop
+import com.composables.icons_lucide_cmp.generated.resources.square_terminal
+import com.composables.icons_lucide_cmp.generated.resources.square_user
+import com.composables.icons_lucide_cmp.generated.resources.square_user_round
+import com.composables.icons_lucide_cmp.generated.resources.square_x
+import com.composables.icons_lucide_cmp.generated.resources.squares_exclude
+import com.composables.icons_lucide_cmp.generated.resources.squares_intersect
+import com.composables.icons_lucide_cmp.generated.resources.squares_subtract
+import com.composables.icons_lucide_cmp.generated.resources.squares_unite
+import com.composables.icons_lucide_cmp.generated.resources.squircle
+import com.composables.icons_lucide_cmp.generated.resources.squircle_dashed
+import com.composables.icons_lucide_cmp.generated.resources.squirrel
+import com.composables.icons_lucide_cmp.generated.resources.stamp
+import com.composables.icons_lucide_cmp.generated.resources.star
+import com.composables.icons_lucide_cmp.generated.resources.star_half
+import com.composables.icons_lucide_cmp.generated.resources.star_off
+import com.composables.icons_lucide_cmp.generated.resources.step_back
+import com.composables.icons_lucide_cmp.generated.resources.step_forward
+import com.composables.icons_lucide_cmp.generated.resources.stethoscope
+import com.composables.icons_lucide_cmp.generated.resources.sticker
+import com.composables.icons_lucide_cmp.generated.resources.sticky_note
+import com.composables.icons_lucide_cmp.generated.resources.stone
+import com.composables.icons_lucide_cmp.generated.resources.store
+import com.composables.icons_lucide_cmp.generated.resources.stretch_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.stretch_vertical
+import com.composables.icons_lucide_cmp.generated.resources.strikethrough
+import com.composables.icons_lucide_cmp.generated.resources.subscript
+import com.composables.icons_lucide_cmp.generated.resources.sun
+import com.composables.icons_lucide_cmp.generated.resources.sun_dim
+import com.composables.icons_lucide_cmp.generated.resources.sun_medium
+import com.composables.icons_lucide_cmp.generated.resources.sun_moon
+import com.composables.icons_lucide_cmp.generated.resources.sun_snow
+import com.composables.icons_lucide_cmp.generated.resources.sunrise
+import com.composables.icons_lucide_cmp.generated.resources.sunset
+import com.composables.icons_lucide_cmp.generated.resources.superscript
+import com.composables.icons_lucide_cmp.generated.resources.swatch_book
+import com.composables.icons_lucide_cmp.generated.resources.swiss_franc
+import com.composables.icons_lucide_cmp.generated.resources.switch_camera
+import com.composables.icons_lucide_cmp.generated.resources.sword
+import com.composables.icons_lucide_cmp.generated.resources.swords
+import com.composables.icons_lucide_cmp.generated.resources.syringe
+import com.composables.icons_lucide_cmp.generated.resources.table
+import com.composables.icons_lucide_cmp.generated.resources.table_2
+import com.composables.icons_lucide_cmp.generated.resources.table_cells_merge
+import com.composables.icons_lucide_cmp.generated.resources.table_cells_split
+import com.composables.icons_lucide_cmp.generated.resources.table_columns_split
+import com.composables.icons_lucide_cmp.generated.resources.table_of_contents
+import com.composables.icons_lucide_cmp.generated.resources.table_properties
+import com.composables.icons_lucide_cmp.generated.resources.table_rows_split
+import com.composables.icons_lucide_cmp.generated.resources.tablet
+import com.composables.icons_lucide_cmp.generated.resources.tablet_smartphone
+import com.composables.icons_lucide_cmp.generated.resources.tablets
+import com.composables.icons_lucide_cmp.generated.resources.tag
+import com.composables.icons_lucide_cmp.generated.resources.tags
+import com.composables.icons_lucide_cmp.generated.resources.tally_1
+import com.composables.icons_lucide_cmp.generated.resources.tally_2
+import com.composables.icons_lucide_cmp.generated.resources.tally_3
+import com.composables.icons_lucide_cmp.generated.resources.tally_4
+import com.composables.icons_lucide_cmp.generated.resources.tally_5
+import com.composables.icons_lucide_cmp.generated.resources.tangent
+import com.composables.icons_lucide_cmp.generated.resources.target
+import com.composables.icons_lucide_cmp.generated.resources.telescope
+import com.composables.icons_lucide_cmp.generated.resources.tent
+import com.composables.icons_lucide_cmp.generated.resources.tent_tree
+import com.composables.icons_lucide_cmp.generated.resources.terminal
+import com.composables.icons_lucide_cmp.generated.resources.test_tube
+import com.composables.icons_lucide_cmp.generated.resources.test_tube_diagonal
+import com.composables.icons_lucide_cmp.generated.resources.test_tubes
+import com.composables.icons_lucide_cmp.generated.resources.text_align_center
+import com.composables.icons_lucide_cmp.generated.resources.text_align_end
+import com.composables.icons_lucide_cmp.generated.resources.text_align_justify
+import com.composables.icons_lucide_cmp.generated.resources.text_align_start
+import com.composables.icons_lucide_cmp.generated.resources.text_cursor
+import com.composables.icons_lucide_cmp.generated.resources.text_cursor_input
+import com.composables.icons_lucide_cmp.generated.resources.text_initial
+import com.composables.icons_lucide_cmp.generated.resources.text_quote
+import com.composables.icons_lucide_cmp.generated.resources.text_search
+import com.composables.icons_lucide_cmp.generated.resources.text_select
+import com.composables.icons_lucide_cmp.generated.resources.text_wrap
+import com.composables.icons_lucide_cmp.generated.resources.theater
+import com.composables.icons_lucide_cmp.generated.resources.thermometer
+import com.composables.icons_lucide_cmp.generated.resources.thermometer_snowflake
+import com.composables.icons_lucide_cmp.generated.resources.thermometer_sun
+import com.composables.icons_lucide_cmp.generated.resources.thumbs_down
+import com.composables.icons_lucide_cmp.generated.resources.thumbs_up
+import com.composables.icons_lucide_cmp.generated.resources.ticket
+import com.composables.icons_lucide_cmp.generated.resources.ticket_check
+import com.composables.icons_lucide_cmp.generated.resources.ticket_minus
+import com.composables.icons_lucide_cmp.generated.resources.ticket_percent
+import com.composables.icons_lucide_cmp.generated.resources.ticket_plus
+import com.composables.icons_lucide_cmp.generated.resources.ticket_slash
+import com.composables.icons_lucide_cmp.generated.resources.ticket_x
+import com.composables.icons_lucide_cmp.generated.resources.tickets
+import com.composables.icons_lucide_cmp.generated.resources.tickets_plane
+import com.composables.icons_lucide_cmp.generated.resources.timer
+import com.composables.icons_lucide_cmp.generated.resources.timer_off
+import com.composables.icons_lucide_cmp.generated.resources.timer_reset
+import com.composables.icons_lucide_cmp.generated.resources.toggle_left
+import com.composables.icons_lucide_cmp.generated.resources.toggle_right
+import com.composables.icons_lucide_cmp.generated.resources.toilet
+import com.composables.icons_lucide_cmp.generated.resources.tool_case
+import com.composables.icons_lucide_cmp.generated.resources.tornado
+import com.composables.icons_lucide_cmp.generated.resources.torus
+import com.composables.icons_lucide_cmp.generated.resources.touchpad
+import com.composables.icons_lucide_cmp.generated.resources.touchpad_off
+import com.composables.icons_lucide_cmp.generated.resources.tower_control
+import com.composables.icons_lucide_cmp.generated.resources.toy_brick
+import com.composables.icons_lucide_cmp.generated.resources.tractor
+import com.composables.icons_lucide_cmp.generated.resources.traffic_cone
+import com.composables.icons_lucide_cmp.generated.resources.train_front
+import com.composables.icons_lucide_cmp.generated.resources.train_front_tunnel
+import com.composables.icons_lucide_cmp.generated.resources.train_track
+import com.composables.icons_lucide_cmp.generated.resources.tram_front
+import com.composables.icons_lucide_cmp.generated.resources.transgender
+import com.composables.icons_lucide_cmp.generated.resources.trash
+import com.composables.icons_lucide_cmp.generated.resources.trash_2
+import com.composables.icons_lucide_cmp.generated.resources.tree_deciduous
+import com.composables.icons_lucide_cmp.generated.resources.tree_palm
+import com.composables.icons_lucide_cmp.generated.resources.tree_pine
+import com.composables.icons_lucide_cmp.generated.resources.trees
+import com.composables.icons_lucide_cmp.generated.resources.trello
+import com.composables.icons_lucide_cmp.generated.resources.trending_down
+import com.composables.icons_lucide_cmp.generated.resources.trending_up
+import com.composables.icons_lucide_cmp.generated.resources.trending_up_down
+import com.composables.icons_lucide_cmp.generated.resources.triangle
+import com.composables.icons_lucide_cmp.generated.resources.triangle_alert
+import com.composables.icons_lucide_cmp.generated.resources.triangle_dashed
+import com.composables.icons_lucide_cmp.generated.resources.triangle_right
+import com.composables.icons_lucide_cmp.generated.resources.trophy
+import com.composables.icons_lucide_cmp.generated.resources.truck
+import com.composables.icons_lucide_cmp.generated.resources.truck_electric
+import com.composables.icons_lucide_cmp.generated.resources.turkish_lira
+import com.composables.icons_lucide_cmp.generated.resources.turntable
+import com.composables.icons_lucide_cmp.generated.resources.turtle
+import com.composables.icons_lucide_cmp.generated.resources.tv
+import com.composables.icons_lucide_cmp.generated.resources.tv_minimal
+import com.composables.icons_lucide_cmp.generated.resources.tv_minimal_play
+import com.composables.icons_lucide_cmp.generated.resources.twitch
+import com.composables.icons_lucide_cmp.generated.resources.twitter
+import com.composables.icons_lucide_cmp.generated.resources.type
+import com.composables.icons_lucide_cmp.generated.resources.type_outline
+import com.composables.icons_lucide_cmp.generated.resources.umbrella
+import com.composables.icons_lucide_cmp.generated.resources.umbrella_off
+import com.composables.icons_lucide_cmp.generated.resources.underline
+import com.composables.icons_lucide_cmp.generated.resources.undo
+import com.composables.icons_lucide_cmp.generated.resources.undo_2
+import com.composables.icons_lucide_cmp.generated.resources.undo_dot
+import com.composables.icons_lucide_cmp.generated.resources.unfold_horizontal
+import com.composables.icons_lucide_cmp.generated.resources.unfold_vertical
+import com.composables.icons_lucide_cmp.generated.resources.ungroup
+import com.composables.icons_lucide_cmp.generated.resources.university
+import com.composables.icons_lucide_cmp.generated.resources.unlink
+import com.composables.icons_lucide_cmp.generated.resources.unlink_2
+import com.composables.icons_lucide_cmp.generated.resources.unplug
+import com.composables.icons_lucide_cmp.generated.resources.upload
+import com.composables.icons_lucide_cmp.generated.resources.usb
+import com.composables.icons_lucide_cmp.generated.resources.user
+import com.composables.icons_lucide_cmp.generated.resources.user_check
+import com.composables.icons_lucide_cmp.generated.resources.user_cog
+import com.composables.icons_lucide_cmp.generated.resources.user_lock
+import com.composables.icons_lucide_cmp.generated.resources.user_minus
+import com.composables.icons_lucide_cmp.generated.resources.user_pen
+import com.composables.icons_lucide_cmp.generated.resources.user_plus
+import com.composables.icons_lucide_cmp.generated.resources.user_round
+import com.composables.icons_lucide_cmp.generated.resources.user_round_check
+import com.composables.icons_lucide_cmp.generated.resources.user_round_cog
+import com.composables.icons_lucide_cmp.generated.resources.user_round_minus
+import com.composables.icons_lucide_cmp.generated.resources.user_round_pen
+import com.composables.icons_lucide_cmp.generated.resources.user_round_plus
+import com.composables.icons_lucide_cmp.generated.resources.user_round_search
+import com.composables.icons_lucide_cmp.generated.resources.user_round_x
+import com.composables.icons_lucide_cmp.generated.resources.user_search
+import com.composables.icons_lucide_cmp.generated.resources.user_star
+import com.composables.icons_lucide_cmp.generated.resources.user_x
+import com.composables.icons_lucide_cmp.generated.resources.users
+import com.composables.icons_lucide_cmp.generated.resources.users_round
+import com.composables.icons_lucide_cmp.generated.resources.utensils
+import com.composables.icons_lucide_cmp.generated.resources.utensils_crossed
+import com.composables.icons_lucide_cmp.generated.resources.utility_pole
+import com.composables.icons_lucide_cmp.generated.resources.van
+import com.composables.icons_lucide_cmp.generated.resources.variable
+import com.composables.icons_lucide_cmp.generated.resources.vault
+import com.composables.icons_lucide_cmp.generated.resources.vector_square
+import com.composables.icons_lucide_cmp.generated.resources.vegan
+import com.composables.icons_lucide_cmp.generated.resources.venetian_mask
+import com.composables.icons_lucide_cmp.generated.resources.venus
+import com.composables.icons_lucide_cmp.generated.resources.venus_and_mars
+import com.composables.icons_lucide_cmp.generated.resources.vibrate
+import com.composables.icons_lucide_cmp.generated.resources.vibrate_off
+import com.composables.icons_lucide_cmp.generated.resources.video
+import com.composables.icons_lucide_cmp.generated.resources.video_off
+import com.composables.icons_lucide_cmp.generated.resources.videotape
+import com.composables.icons_lucide_cmp.generated.resources.view
+import com.composables.icons_lucide_cmp.generated.resources.voicemail
+import com.composables.icons_lucide_cmp.generated.resources.volleyball
+import com.composables.icons_lucide_cmp.generated.resources.volume
+import com.composables.icons_lucide_cmp.generated.resources.volume_1
+import com.composables.icons_lucide_cmp.generated.resources.volume_2
+import com.composables.icons_lucide_cmp.generated.resources.volume_off
+import com.composables.icons_lucide_cmp.generated.resources.volume_x
+import com.composables.icons_lucide_cmp.generated.resources.vote
+import com.composables.icons_lucide_cmp.generated.resources.wallet
+import com.composables.icons_lucide_cmp.generated.resources.wallet_cards
+import com.composables.icons_lucide_cmp.generated.resources.wallet_minimal
+import com.composables.icons_lucide_cmp.generated.resources.wallpaper
+import com.composables.icons_lucide_cmp.generated.resources.wand
+import com.composables.icons_lucide_cmp.generated.resources.wand_sparkles
+import com.composables.icons_lucide_cmp.generated.resources.warehouse
+import com.composables.icons_lucide_cmp.generated.resources.washing_machine
+import com.composables.icons_lucide_cmp.generated.resources.watch
+import com.composables.icons_lucide_cmp.generated.resources.waves
+import com.composables.icons_lucide_cmp.generated.resources.waves_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.waves_arrow_up
+import com.composables.icons_lucide_cmp.generated.resources.waves_ladder
+import com.composables.icons_lucide_cmp.generated.resources.waypoints
+import com.composables.icons_lucide_cmp.generated.resources.webcam
+import com.composables.icons_lucide_cmp.generated.resources.webhook
+import com.composables.icons_lucide_cmp.generated.resources.webhook_off
+import com.composables.icons_lucide_cmp.generated.resources.weight
+import com.composables.icons_lucide_cmp.generated.resources.weight_tilde
+import com.composables.icons_lucide_cmp.generated.resources.wheat
+import com.composables.icons_lucide_cmp.generated.resources.wheat_off
+import com.composables.icons_lucide_cmp.generated.resources.whole_word
+import com.composables.icons_lucide_cmp.generated.resources.wifi
+import com.composables.icons_lucide_cmp.generated.resources.wifi_cog
+import com.composables.icons_lucide_cmp.generated.resources.wifi_high
+import com.composables.icons_lucide_cmp.generated.resources.wifi_low
+import com.composables.icons_lucide_cmp.generated.resources.wifi_off
+import com.composables.icons_lucide_cmp.generated.resources.wifi_pen
+import com.composables.icons_lucide_cmp.generated.resources.wifi_sync
+import com.composables.icons_lucide_cmp.generated.resources.wifi_zero
+import com.composables.icons_lucide_cmp.generated.resources.wind
+import com.composables.icons_lucide_cmp.generated.resources.wind_arrow_down
+import com.composables.icons_lucide_cmp.generated.resources.wine
+import com.composables.icons_lucide_cmp.generated.resources.wine_off
+import com.composables.icons_lucide_cmp.generated.resources.workflow
+import com.composables.icons_lucide_cmp.generated.resources.worm
+import com.composables.icons_lucide_cmp.generated.resources.wrench
+import com.composables.icons_lucide_cmp.generated.resources.x
+import com.composables.icons_lucide_cmp.generated.resources.youtube
+import com.composables.icons_lucide_cmp.generated.resources.zap
+import com.composables.icons_lucide_cmp.generated.resources.zap_off
+import com.composables.icons_lucide_cmp.generated.resources.zoom_in
+import com.composables.icons_lucide_cmp.generated.resources.zoom_out
+import org.jetbrains.compose.resources.painterResource
+
+object Lucide
+
+val Lucide.iconIds: List<String> get() = lucideIcons.keys.toList()
+
+@Composable
+operator fun Lucide.get(id: String): Painter {
+    val icon = lucideIcons[id] ?: error("Lucide Icon not found")
+    return painterResource(icon)
+}
+
+private val lucideIcons = mapOf(
+    "a_arrow_down" to Res.drawable.a_arrow_down,
+    "a_arrow_up" to Res.drawable.a_arrow_up,
+    "a_large_small" to Res.drawable.a_large_small,
+    "accessibility" to Res.drawable.accessibility,
+    "activity" to Res.drawable.activity,
+    "air_vent" to Res.drawable.air_vent,
+    "airplay" to Res.drawable.airplay,
+    "alarm_clock" to Res.drawable.alarm_clock,
+    "alarm_clock_check" to Res.drawable.alarm_clock_check,
+    "alarm_clock_minus" to Res.drawable.alarm_clock_minus,
+    "alarm_clock_off" to Res.drawable.alarm_clock_off,
+    "alarm_clock_plus" to Res.drawable.alarm_clock_plus,
+    "alarm_smoke" to Res.drawable.alarm_smoke,
+    "album" to Res.drawable.album,
+    "align_center_horizontal" to Res.drawable.align_center_horizontal,
+    "align_center_vertical" to Res.drawable.align_center_vertical,
+    "align_end_horizontal" to Res.drawable.align_end_horizontal,
+    "align_end_vertical" to Res.drawable.align_end_vertical,
+    "align_horizontal_distribute_center" to Res.drawable.align_horizontal_distribute_center,
+    "align_horizontal_distribute_end" to Res.drawable.align_horizontal_distribute_end,
+    "align_horizontal_distribute_start" to Res.drawable.align_horizontal_distribute_start,
+    "align_horizontal_justify_center" to Res.drawable.align_horizontal_justify_center,
+    "align_horizontal_justify_end" to Res.drawable.align_horizontal_justify_end,
+    "align_horizontal_justify_start" to Res.drawable.align_horizontal_justify_start,
+    "align_horizontal_space_around" to Res.drawable.align_horizontal_space_around,
+    "align_horizontal_space_between" to Res.drawable.align_horizontal_space_between,
+    "align_start_horizontal" to Res.drawable.align_start_horizontal,
+    "align_start_vertical" to Res.drawable.align_start_vertical,
+    "align_vertical_distribute_center" to Res.drawable.align_vertical_distribute_center,
+    "align_vertical_distribute_end" to Res.drawable.align_vertical_distribute_end,
+    "align_vertical_distribute_start" to Res.drawable.align_vertical_distribute_start,
+    "align_vertical_justify_center" to Res.drawable.align_vertical_justify_center,
+    "align_vertical_justify_end" to Res.drawable.align_vertical_justify_end,
+    "align_vertical_justify_start" to Res.drawable.align_vertical_justify_start,
+    "align_vertical_space_around" to Res.drawable.align_vertical_space_around,
+    "align_vertical_space_between" to Res.drawable.align_vertical_space_between,
+    "ambulance" to Res.drawable.ambulance,
+    "ampersand" to Res.drawable.ampersand,
+    "ampersands" to Res.drawable.ampersands,
+    "amphora" to Res.drawable.amphora,
+    "anchor" to Res.drawable.anchor,
+    "angry" to Res.drawable.angry,
+    "annoyed" to Res.drawable.annoyed,
+    "antenna" to Res.drawable.antenna,
+    "anvil" to Res.drawable.anvil,
+    "aperture" to Res.drawable.aperture,
+    "app_window" to Res.drawable.app_window,
+    "app_window_mac" to Res.drawable.app_window_mac,
+    "apple" to Res.drawable.apple,
+    "archive" to Res.drawable.archive,
+    "archive_restore" to Res.drawable.archive_restore,
+    "archive_x" to Res.drawable.archive_x,
+    "armchair" to Res.drawable.armchair,
+    "arrow_big_down" to Res.drawable.arrow_big_down,
+    "arrow_big_down_dash" to Res.drawable.arrow_big_down_dash,
+    "arrow_big_left" to Res.drawable.arrow_big_left,
+    "arrow_big_left_dash" to Res.drawable.arrow_big_left_dash,
+    "arrow_big_right" to Res.drawable.arrow_big_right,
+    "arrow_big_right_dash" to Res.drawable.arrow_big_right_dash,
+    "arrow_big_up" to Res.drawable.arrow_big_up,
+    "arrow_big_up_dash" to Res.drawable.arrow_big_up_dash,
+    "arrow_down" to Res.drawable.arrow_down,
+    "arrow_down_0_1" to Res.drawable.arrow_down_0_1,
+    "arrow_down_1_0" to Res.drawable.arrow_down_1_0,
+    "arrow_down_a_z" to Res.drawable.arrow_down_a_z,
+    "arrow_down_from_line" to Res.drawable.arrow_down_from_line,
+    "arrow_down_left" to Res.drawable.arrow_down_left,
+    "arrow_down_narrow_wide" to Res.drawable.arrow_down_narrow_wide,
+    "arrow_down_right" to Res.drawable.arrow_down_right,
+    "arrow_down_to_dot" to Res.drawable.arrow_down_to_dot,
+    "arrow_down_to_line" to Res.drawable.arrow_down_to_line,
+    "arrow_down_up" to Res.drawable.arrow_down_up,
+    "arrow_down_wide_narrow" to Res.drawable.arrow_down_wide_narrow,
+    "arrow_down_z_a" to Res.drawable.arrow_down_z_a,
+    "arrow_left" to Res.drawable.arrow_left,
+    "arrow_left_from_line" to Res.drawable.arrow_left_from_line,
+    "arrow_left_right" to Res.drawable.arrow_left_right,
+    "arrow_left_to_line" to Res.drawable.arrow_left_to_line,
+    "arrow_right" to Res.drawable.arrow_right,
+    "arrow_right_from_line" to Res.drawable.arrow_right_from_line,
+    "arrow_right_left" to Res.drawable.arrow_right_left,
+    "arrow_right_to_line" to Res.drawable.arrow_right_to_line,
+    "arrow_up" to Res.drawable.arrow_up,
+    "arrow_up_0_1" to Res.drawable.arrow_up_0_1,
+    "arrow_up_1_0" to Res.drawable.arrow_up_1_0,
+    "arrow_up_a_z" to Res.drawable.arrow_up_a_z,
+    "arrow_up_down" to Res.drawable.arrow_up_down,
+    "arrow_up_from_dot" to Res.drawable.arrow_up_from_dot,
+    "arrow_up_from_line" to Res.drawable.arrow_up_from_line,
+    "arrow_up_left" to Res.drawable.arrow_up_left,
+    "arrow_up_narrow_wide" to Res.drawable.arrow_up_narrow_wide,
+    "arrow_up_right" to Res.drawable.arrow_up_right,
+    "arrow_up_to_line" to Res.drawable.arrow_up_to_line,
+    "arrow_up_wide_narrow" to Res.drawable.arrow_up_wide_narrow,
+    "arrow_up_z_a" to Res.drawable.arrow_up_z_a,
+    "arrows_up_from_line" to Res.drawable.arrows_up_from_line,
+    "asterisk" to Res.drawable.asterisk,
+    "at_sign" to Res.drawable.at_sign,
+    "atom" to Res.drawable.atom,
+    "audio_lines" to Res.drawable.audio_lines,
+    "audio_waveform" to Res.drawable.audio_waveform,
+    "award" to Res.drawable.award,
+    "axe" to Res.drawable.axe,
+    "axis_3d" to Res.drawable.axis_3d,
+    "baby" to Res.drawable.baby,
+    "backpack" to Res.drawable.backpack,
+    "badge" to Res.drawable.badge,
+    "badge_alert" to Res.drawable.badge_alert,
+    "badge_cent" to Res.drawable.badge_cent,
+    "badge_check" to Res.drawable.badge_check,
+    "badge_dollar_sign" to Res.drawable.badge_dollar_sign,
+    "badge_euro" to Res.drawable.badge_euro,
+    "badge_indian_rupee" to Res.drawable.badge_indian_rupee,
+    "badge_info" to Res.drawable.badge_info,
+    "badge_japanese_yen" to Res.drawable.badge_japanese_yen,
+    "badge_minus" to Res.drawable.badge_minus,
+    "badge_percent" to Res.drawable.badge_percent,
+    "badge_plus" to Res.drawable.badge_plus,
+    "badge_pound_sterling" to Res.drawable.badge_pound_sterling,
+    "badge_question_mark" to Res.drawable.badge_question_mark,
+    "badge_russian_ruble" to Res.drawable.badge_russian_ruble,
+    "badge_swiss_franc" to Res.drawable.badge_swiss_franc,
+    "badge_turkish_lira" to Res.drawable.badge_turkish_lira,
+    "badge_x" to Res.drawable.badge_x,
+    "baggage_claim" to Res.drawable.baggage_claim,
+    "balloon" to Res.drawable.balloon,
+    "ban" to Res.drawable.ban,
+    "banana" to Res.drawable.banana,
+    "bandage" to Res.drawable.bandage,
+    "banknote" to Res.drawable.banknote,
+    "banknote_arrow_down" to Res.drawable.banknote_arrow_down,
+    "banknote_arrow_up" to Res.drawable.banknote_arrow_up,
+    "banknote_x" to Res.drawable.banknote_x,
+    "barcode" to Res.drawable.barcode,
+    "barrel" to Res.drawable.barrel,
+    "baseline" to Res.drawable.baseline,
+    "bath" to Res.drawable.bath,
+    "battery" to Res.drawable.battery,
+    "battery_charging" to Res.drawable.battery_charging,
+    "battery_full" to Res.drawable.battery_full,
+    "battery_low" to Res.drawable.battery_low,
+    "battery_medium" to Res.drawable.battery_medium,
+    "battery_plus" to Res.drawable.battery_plus,
+    "battery_warning" to Res.drawable.battery_warning,
+    "beaker" to Res.drawable.beaker,
+    "bean" to Res.drawable.bean,
+    "bean_off" to Res.drawable.bean_off,
+    "bed" to Res.drawable.bed,
+    "bed_double" to Res.drawable.bed_double,
+    "bed_single" to Res.drawable.bed_single,
+    "beef" to Res.drawable.beef,
+    "beer" to Res.drawable.beer,
+    "beer_off" to Res.drawable.beer_off,
+    "bell" to Res.drawable.bell,
+    "bell_dot" to Res.drawable.bell_dot,
+    "bell_electric" to Res.drawable.bell_electric,
+    "bell_minus" to Res.drawable.bell_minus,
+    "bell_off" to Res.drawable.bell_off,
+    "bell_plus" to Res.drawable.bell_plus,
+    "bell_ring" to Res.drawable.bell_ring,
+    "between_horizontal_end" to Res.drawable.between_horizontal_end,
+    "between_horizontal_start" to Res.drawable.between_horizontal_start,
+    "between_vertical_end" to Res.drawable.between_vertical_end,
+    "between_vertical_start" to Res.drawable.between_vertical_start,
+    "biceps_flexed" to Res.drawable.biceps_flexed,
+    "bike" to Res.drawable.bike,
+    "binary" to Res.drawable.binary,
+    "binoculars" to Res.drawable.binoculars,
+    "biohazard" to Res.drawable.biohazard,
+    "bird" to Res.drawable.bird,
+    "birdhouse" to Res.drawable.birdhouse,
+    "bitcoin" to Res.drawable.bitcoin,
+    "blend" to Res.drawable.blend,
+    "blinds" to Res.drawable.blinds,
+    "blocks" to Res.drawable.blocks,
+    "bluetooth" to Res.drawable.bluetooth,
+    "bluetooth_connected" to Res.drawable.bluetooth_connected,
+    "bluetooth_off" to Res.drawable.bluetooth_off,
+    "bluetooth_searching" to Res.drawable.bluetooth_searching,
+    "bold" to Res.drawable.bold,
+    "bolt" to Res.drawable.bolt,
+    "bomb" to Res.drawable.bomb,
+    "bone" to Res.drawable.bone,
+    "book" to Res.drawable.book,
+    "book_a" to Res.drawable.book_a,
+    "book_alert" to Res.drawable.book_alert,
+    "book_audio" to Res.drawable.book_audio,
+    "book_check" to Res.drawable.book_check,
+    "book_copy" to Res.drawable.book_copy,
+    "book_dashed" to Res.drawable.book_dashed,
+    "book_down" to Res.drawable.book_down,
+    "book_headphones" to Res.drawable.book_headphones,
+    "book_heart" to Res.drawable.book_heart,
+    "book_image" to Res.drawable.book_image,
+    "book_key" to Res.drawable.book_key,
+    "book_lock" to Res.drawable.book_lock,
+    "book_marked" to Res.drawable.book_marked,
+    "book_minus" to Res.drawable.book_minus,
+    "book_open" to Res.drawable.book_open,
+    "book_open_check" to Res.drawable.book_open_check,
+    "book_open_text" to Res.drawable.book_open_text,
+    "book_plus" to Res.drawable.book_plus,
+    "book_search" to Res.drawable.book_search,
+    "book_text" to Res.drawable.book_text,
+    "book_type" to Res.drawable.book_type,
+    "book_up" to Res.drawable.book_up,
+    "book_up_2" to Res.drawable.book_up_2,
+    "book_user" to Res.drawable.book_user,
+    "book_x" to Res.drawable.book_x,
+    "bookmark" to Res.drawable.bookmark,
+    "bookmark_check" to Res.drawable.bookmark_check,
+    "bookmark_minus" to Res.drawable.bookmark_minus,
+    "bookmark_plus" to Res.drawable.bookmark_plus,
+    "bookmark_x" to Res.drawable.bookmark_x,
+    "boom_box" to Res.drawable.boom_box,
+    "bot" to Res.drawable.bot,
+    "bot_message_square" to Res.drawable.bot_message_square,
+    "bot_off" to Res.drawable.bot_off,
+    "bottle_wine" to Res.drawable.bottle_wine,
+    "bow_arrow" to Res.drawable.bow_arrow,
+    "box" to Res.drawable.box,
+    "boxes" to Res.drawable.boxes,
+    "braces" to Res.drawable.braces,
+    "brackets" to Res.drawable.brackets,
+    "brain" to Res.drawable.brain,
+    "brain_circuit" to Res.drawable.brain_circuit,
+    "brain_cog" to Res.drawable.brain_cog,
+    "brick_wall" to Res.drawable.brick_wall,
+    "brick_wall_fire" to Res.drawable.brick_wall_fire,
+    "brick_wall_shield" to Res.drawable.brick_wall_shield,
+    "briefcase" to Res.drawable.briefcase,
+    "briefcase_business" to Res.drawable.briefcase_business,
+    "briefcase_conveyor_belt" to Res.drawable.briefcase_conveyor_belt,
+    "briefcase_medical" to Res.drawable.briefcase_medical,
+    "bring_to_front" to Res.drawable.bring_to_front,
+    "brush" to Res.drawable.brush,
+    "brush_cleaning" to Res.drawable.brush_cleaning,
+    "bubbles" to Res.drawable.bubbles,
+    "bug" to Res.drawable.bug,
+    "bug_off" to Res.drawable.bug_off,
+    "bug_play" to Res.drawable.bug_play,
+    "building" to Res.drawable.building,
+    "building_2" to Res.drawable.building_2,
+    "bus" to Res.drawable.bus,
+    "bus_front" to Res.drawable.bus_front,
+    "cable" to Res.drawable.cable,
+    "cable_car" to Res.drawable.cable_car,
+    "cake" to Res.drawable.cake,
+    "cake_slice" to Res.drawable.cake_slice,
+    "calculator" to Res.drawable.calculator,
+    "calendar" to Res.drawable.calendar,
+    "calendar_1" to Res.drawable.calendar_1,
+    "calendar_arrow_down" to Res.drawable.calendar_arrow_down,
+    "calendar_arrow_up" to Res.drawable.calendar_arrow_up,
+    "calendar_check" to Res.drawable.calendar_check,
+    "calendar_check_2" to Res.drawable.calendar_check_2,
+    "calendar_clock" to Res.drawable.calendar_clock,
+    "calendar_cog" to Res.drawable.calendar_cog,
+    "calendar_days" to Res.drawable.calendar_days,
+    "calendar_fold" to Res.drawable.calendar_fold,
+    "calendar_heart" to Res.drawable.calendar_heart,
+    "calendar_minus" to Res.drawable.calendar_minus,
+    "calendar_minus_2" to Res.drawable.calendar_minus_2,
+    "calendar_off" to Res.drawable.calendar_off,
+    "calendar_plus" to Res.drawable.calendar_plus,
+    "calendar_plus_2" to Res.drawable.calendar_plus_2,
+    "calendar_range" to Res.drawable.calendar_range,
+    "calendar_search" to Res.drawable.calendar_search,
+    "calendar_sync" to Res.drawable.calendar_sync,
+    "calendar_x" to Res.drawable.calendar_x,
+    "calendar_x_2" to Res.drawable.calendar_x_2,
+    "calendars" to Res.drawable.calendars,
+    "camera" to Res.drawable.camera,
+    "camera_off" to Res.drawable.camera_off,
+    "candy" to Res.drawable.candy,
+    "candy_cane" to Res.drawable.candy_cane,
+    "candy_off" to Res.drawable.candy_off,
+    "cannabis" to Res.drawable.cannabis,
+    "cannabis_off" to Res.drawable.cannabis_off,
+    "captions" to Res.drawable.captions,
+    "captions_off" to Res.drawable.captions_off,
+    "car" to Res.drawable.car,
+    "car_front" to Res.drawable.car_front,
+    "car_taxi_front" to Res.drawable.car_taxi_front,
+    "caravan" to Res.drawable.caravan,
+    "card_sim" to Res.drawable.card_sim,
+    "carrot" to Res.drawable.carrot,
+    "case_lower" to Res.drawable.case_lower,
+    "case_sensitive" to Res.drawable.case_sensitive,
+    "case_upper" to Res.drawable.case_upper,
+    "cassette_tape" to Res.drawable.cassette_tape,
+    "cast" to Res.drawable.cast,
+    "castle" to Res.drawable.castle,
+    "cat" to Res.drawable.cat,
+    "cctv" to Res.drawable.cctv,
+    "chart_area" to Res.drawable.chart_area,
+    "chart_bar" to Res.drawable.chart_bar,
+    "chart_bar_big" to Res.drawable.chart_bar_big,
+    "chart_bar_decreasing" to Res.drawable.chart_bar_decreasing,
+    "chart_bar_increasing" to Res.drawable.chart_bar_increasing,
+    "chart_bar_stacked" to Res.drawable.chart_bar_stacked,
+    "chart_candlestick" to Res.drawable.chart_candlestick,
+    "chart_column" to Res.drawable.chart_column,
+    "chart_column_big" to Res.drawable.chart_column_big,
+    "chart_column_decreasing" to Res.drawable.chart_column_decreasing,
+    "chart_column_increasing" to Res.drawable.chart_column_increasing,
+    "chart_column_stacked" to Res.drawable.chart_column_stacked,
+    "chart_gantt" to Res.drawable.chart_gantt,
+    "chart_line" to Res.drawable.chart_line,
+    "chart_network" to Res.drawable.chart_network,
+    "chart_no_axes_column" to Res.drawable.chart_no_axes_column,
+    "chart_no_axes_column_decreasing" to Res.drawable.chart_no_axes_column_decreasing,
+    "chart_no_axes_column_increasing" to Res.drawable.chart_no_axes_column_increasing,
+    "chart_no_axes_combined" to Res.drawable.chart_no_axes_combined,
+    "chart_no_axes_gantt" to Res.drawable.chart_no_axes_gantt,
+    "chart_pie" to Res.drawable.chart_pie,
+    "chart_scatter" to Res.drawable.chart_scatter,
+    "chart_spline" to Res.drawable.chart_spline,
+    "check" to Res.drawable.check,
+    "check_check" to Res.drawable.check_check,
+    "check_line" to Res.drawable.check_line,
+    "chef_hat" to Res.drawable.chef_hat,
+    "cherry" to Res.drawable.cherry,
+    "chess_bishop" to Res.drawable.chess_bishop,
+    "chess_king" to Res.drawable.chess_king,
+    "chess_knight" to Res.drawable.chess_knight,
+    "chess_pawn" to Res.drawable.chess_pawn,
+    "chess_queen" to Res.drawable.chess_queen,
+    "chess_rook" to Res.drawable.chess_rook,
+    "chevron_down" to Res.drawable.chevron_down,
+    "chevron_first" to Res.drawable.chevron_first,
+    "chevron_last" to Res.drawable.chevron_last,
+    "chevron_left" to Res.drawable.chevron_left,
+    "chevron_right" to Res.drawable.chevron_right,
+    "chevron_up" to Res.drawable.chevron_up,
+    "chevrons_down" to Res.drawable.chevrons_down,
+    "chevrons_down_up" to Res.drawable.chevrons_down_up,
+    "chevrons_left" to Res.drawable.chevrons_left,
+    "chevrons_left_right" to Res.drawable.chevrons_left_right,
+    "chevrons_left_right_ellipsis" to Res.drawable.chevrons_left_right_ellipsis,
+    "chevrons_right" to Res.drawable.chevrons_right,
+    "chevrons_right_left" to Res.drawable.chevrons_right_left,
+    "chevrons_up" to Res.drawable.chevrons_up,
+    "chevrons_up_down" to Res.drawable.chevrons_up_down,
+    "chromium" to Res.drawable.chromium,
+    "church" to Res.drawable.church,
+    "cigarette" to Res.drawable.cigarette,
+    "cigarette_off" to Res.drawable.cigarette_off,
+    "circle" to Res.drawable.circle,
+    "circle_alert" to Res.drawable.circle_alert,
+    "circle_arrow_down" to Res.drawable.circle_arrow_down,
+    "circle_arrow_left" to Res.drawable.circle_arrow_left,
+    "circle_arrow_out_down_left" to Res.drawable.circle_arrow_out_down_left,
+    "circle_arrow_out_down_right" to Res.drawable.circle_arrow_out_down_right,
+    "circle_arrow_out_up_left" to Res.drawable.circle_arrow_out_up_left,
+    "circle_arrow_out_up_right" to Res.drawable.circle_arrow_out_up_right,
+    "circle_arrow_right" to Res.drawable.circle_arrow_right,
+    "circle_arrow_up" to Res.drawable.circle_arrow_up,
+    "circle_check" to Res.drawable.circle_check,
+    "circle_check_big" to Res.drawable.circle_check_big,
+    "circle_chevron_down" to Res.drawable.circle_chevron_down,
+    "circle_chevron_left" to Res.drawable.circle_chevron_left,
+    "circle_chevron_right" to Res.drawable.circle_chevron_right,
+    "circle_chevron_up" to Res.drawable.circle_chevron_up,
+    "circle_dashed" to Res.drawable.circle_dashed,
+    "circle_divide" to Res.drawable.circle_divide,
+    "circle_dollar_sign" to Res.drawable.circle_dollar_sign,
+    "circle_dot" to Res.drawable.circle_dot,
+    "circle_dot_dashed" to Res.drawable.circle_dot_dashed,
+    "circle_ellipsis" to Res.drawable.circle_ellipsis,
+    "circle_equal" to Res.drawable.circle_equal,
+    "circle_fading_arrow_up" to Res.drawable.circle_fading_arrow_up,
+    "circle_fading_plus" to Res.drawable.circle_fading_plus,
+    "circle_gauge" to Res.drawable.circle_gauge,
+    "circle_minus" to Res.drawable.circle_minus,
+    "circle_off" to Res.drawable.circle_off,
+    "circle_parking" to Res.drawable.circle_parking,
+    "circle_parking_off" to Res.drawable.circle_parking_off,
+    "circle_pause" to Res.drawable.circle_pause,
+    "circle_percent" to Res.drawable.circle_percent,
+    "circle_pile" to Res.drawable.circle_pile,
+    "circle_play" to Res.drawable.circle_play,
+    "circle_plus" to Res.drawable.circle_plus,
+    "circle_pound_sterling" to Res.drawable.circle_pound_sterling,
+    "circle_power" to Res.drawable.circle_power,
+    "circle_question_mark" to Res.drawable.circle_question_mark,
+    "circle_slash" to Res.drawable.circle_slash,
+    "circle_slash_2" to Res.drawable.circle_slash_2,
+    "circle_small" to Res.drawable.circle_small,
+    "circle_star" to Res.drawable.circle_star,
+    "circle_stop" to Res.drawable.circle_stop,
+    "circle_user" to Res.drawable.circle_user,
+    "circle_user_round" to Res.drawable.circle_user_round,
+    "circle_x" to Res.drawable.circle_x,
+    "circuit_board" to Res.drawable.circuit_board,
+    "citrus" to Res.drawable.citrus,
+    "clapperboard" to Res.drawable.clapperboard,
+    "clipboard" to Res.drawable.clipboard,
+    "clipboard_check" to Res.drawable.clipboard_check,
+    "clipboard_clock" to Res.drawable.clipboard_clock,
+    "clipboard_copy" to Res.drawable.clipboard_copy,
+    "clipboard_list" to Res.drawable.clipboard_list,
+    "clipboard_minus" to Res.drawable.clipboard_minus,
+    "clipboard_paste" to Res.drawable.clipboard_paste,
+    "clipboard_pen" to Res.drawable.clipboard_pen,
+    "clipboard_pen_line" to Res.drawable.clipboard_pen_line,
+    "clipboard_plus" to Res.drawable.clipboard_plus,
+    "clipboard_type" to Res.drawable.clipboard_type,
+    "clipboard_x" to Res.drawable.clipboard_x,
+    "clock" to Res.drawable.clock,
+    "clock_1" to Res.drawable.clock_1,
+    "clock_10" to Res.drawable.clock_10,
+    "clock_11" to Res.drawable.clock_11,
+    "clock_12" to Res.drawable.clock_12,
+    "clock_2" to Res.drawable.clock_2,
+    "clock_3" to Res.drawable.clock_3,
+    "clock_4" to Res.drawable.clock_4,
+    "clock_5" to Res.drawable.clock_5,
+    "clock_6" to Res.drawable.clock_6,
+    "clock_7" to Res.drawable.clock_7,
+    "clock_8" to Res.drawable.clock_8,
+    "clock_9" to Res.drawable.clock_9,
+    "clock_alert" to Res.drawable.clock_alert,
+    "clock_arrow_down" to Res.drawable.clock_arrow_down,
+    "clock_arrow_up" to Res.drawable.clock_arrow_up,
+    "clock_check" to Res.drawable.clock_check,
+    "clock_fading" to Res.drawable.clock_fading,
+    "clock_plus" to Res.drawable.clock_plus,
+    "closed_caption" to Res.drawable.closed_caption,
+    "cloud" to Res.drawable.cloud,
+    "cloud_alert" to Res.drawable.cloud_alert,
+    "cloud_backup" to Res.drawable.cloud_backup,
+    "cloud_check" to Res.drawable.cloud_check,
+    "cloud_cog" to Res.drawable.cloud_cog,
+    "cloud_download" to Res.drawable.cloud_download,
+    "cloud_drizzle" to Res.drawable.cloud_drizzle,
+    "cloud_fog" to Res.drawable.cloud_fog,
+    "cloud_hail" to Res.drawable.cloud_hail,
+    "cloud_lightning" to Res.drawable.cloud_lightning,
+    "cloud_moon" to Res.drawable.cloud_moon,
+    "cloud_moon_rain" to Res.drawable.cloud_moon_rain,
+    "cloud_off" to Res.drawable.cloud_off,
+    "cloud_rain" to Res.drawable.cloud_rain,
+    "cloud_rain_wind" to Res.drawable.cloud_rain_wind,
+    "cloud_snow" to Res.drawable.cloud_snow,
+    "cloud_sun" to Res.drawable.cloud_sun,
+    "cloud_sun_rain" to Res.drawable.cloud_sun_rain,
+    "cloud_sync" to Res.drawable.cloud_sync,
+    "cloud_upload" to Res.drawable.cloud_upload,
+    "cloudy" to Res.drawable.cloudy,
+    "clover" to Res.drawable.clover,
+    "club" to Res.drawable.club,
+    "code" to Res.drawable.code,
+    "code_xml" to Res.drawable.code_xml,
+    "codepen" to Res.drawable.codepen,
+    "codesandbox" to Res.drawable.codesandbox,
+    "coffee" to Res.drawable.coffee,
+    "cog" to Res.drawable.cog,
+    "coins" to Res.drawable.coins,
+    "columns_2" to Res.drawable.columns_2,
+    "columns_3" to Res.drawable.columns_3,
+    "columns_3_cog" to Res.drawable.columns_3_cog,
+    "columns_4" to Res.drawable.columns_4,
+    "combine" to Res.drawable.combine,
+    "command" to Res.drawable.command,
+    "compass" to Res.drawable.compass,
+    "component" to Res.drawable.component,
+    "computer" to Res.drawable.computer,
+    "concierge_bell" to Res.drawable.concierge_bell,
+    "cone" to Res.drawable.cone,
+    "construction" to Res.drawable.construction,
+    "contact" to Res.drawable.contact,
+    "contact_round" to Res.drawable.contact_round,
+    "container" to Res.drawable.container,
+    "contrast" to Res.drawable.contrast,
+    "cookie" to Res.drawable.cookie,
+    "cooking_pot" to Res.drawable.cooking_pot,
+    "copy" to Res.drawable.copy,
+    "copy_check" to Res.drawable.copy_check,
+    "copy_minus" to Res.drawable.copy_minus,
+    "copy_plus" to Res.drawable.copy_plus,
+    "copy_slash" to Res.drawable.copy_slash,
+    "copy_x" to Res.drawable.copy_x,
+    "copyleft" to Res.drawable.copyleft,
+    "copyright" to Res.drawable.copyright,
+    "corner_down_left" to Res.drawable.corner_down_left,
+    "corner_down_right" to Res.drawable.corner_down_right,
+    "corner_left_down" to Res.drawable.corner_left_down,
+    "corner_left_up" to Res.drawable.corner_left_up,
+    "corner_right_down" to Res.drawable.corner_right_down,
+    "corner_right_up" to Res.drawable.corner_right_up,
+    "corner_up_left" to Res.drawable.corner_up_left,
+    "corner_up_right" to Res.drawable.corner_up_right,
+    "cpu" to Res.drawable.cpu,
+    "creative_commons" to Res.drawable.creative_commons,
+    "credit_card" to Res.drawable.credit_card,
+    "croissant" to Res.drawable.croissant,
+    "crop" to Res.drawable.crop,
+    "cross" to Res.drawable.cross,
+    "crosshair" to Res.drawable.crosshair,
+    "crown" to Res.drawable.crown,
+    "cuboid" to Res.drawable.cuboid,
+    "cup_soda" to Res.drawable.cup_soda,
+    "currency" to Res.drawable.currency,
+    "cylinder" to Res.drawable.cylinder,
+    "dam" to Res.drawable.dam,
+    "database" to Res.drawable.database,
+    "database_backup" to Res.drawable.database_backup,
+    "database_zap" to Res.drawable.database_zap,
+    "decimals_arrow_left" to Res.drawable.decimals_arrow_left,
+    "decimals_arrow_right" to Res.drawable.decimals_arrow_right,
+    "delete" to Res.drawable.delete,
+    "dessert" to Res.drawable.dessert,
+    "diameter" to Res.drawable.diameter,
+    "diamond" to Res.drawable.diamond,
+    "diamond_minus" to Res.drawable.diamond_minus,
+    "diamond_percent" to Res.drawable.diamond_percent,
+    "diamond_plus" to Res.drawable.diamond_plus,
+    "dice_1" to Res.drawable.dice_1,
+    "dice_2" to Res.drawable.dice_2,
+    "dice_3" to Res.drawable.dice_3,
+    "dice_4" to Res.drawable.dice_4,
+    "dice_5" to Res.drawable.dice_5,
+    "dice_6" to Res.drawable.dice_6,
+    "dices" to Res.drawable.dices,
+    "diff" to Res.drawable.diff,
+    "disc" to Res.drawable.disc,
+    "disc_2" to Res.drawable.disc_2,
+    "disc_3" to Res.drawable.disc_3,
+    "disc_album" to Res.drawable.disc_album,
+    "divide" to Res.drawable.divide,
+    "dna" to Res.drawable.dna,
+    "dna_off" to Res.drawable.dna_off,
+    "dock" to Res.drawable.dock,
+    "dog" to Res.drawable.dog,
+    "dollar_sign" to Res.drawable.dollar_sign,
+    "donut" to Res.drawable.donut,
+    "door_closed" to Res.drawable.door_closed,
+    "door_closed_locked" to Res.drawable.door_closed_locked,
+    "door_open" to Res.drawable.door_open,
+    "dot" to Res.drawable.dot,
+    "download" to Res.drawable.download,
+    "drafting_compass" to Res.drawable.drafting_compass,
+    "drama" to Res.drawable.drama,
+    "dribbble" to Res.drawable.dribbble,
+    "drill" to Res.drawable.drill,
+    "drone" to Res.drawable.drone,
+    "droplet" to Res.drawable.droplet,
+    "droplet_off" to Res.drawable.droplet_off,
+    "droplets" to Res.drawable.droplets,
+    "drum" to Res.drawable.drum,
+    "drumstick" to Res.drawable.drumstick,
+    "dumbbell" to Res.drawable.dumbbell,
+    "ear" to Res.drawable.ear,
+    "ear_off" to Res.drawable.ear_off,
+    "earth" to Res.drawable.earth,
+    "earth_lock" to Res.drawable.earth_lock,
+    "eclipse" to Res.drawable.eclipse,
+    "egg" to Res.drawable.egg,
+    "egg_fried" to Res.drawable.egg_fried,
+    "egg_off" to Res.drawable.egg_off,
+    "ellipsis" to Res.drawable.ellipsis,
+    "ellipsis_vertical" to Res.drawable.ellipsis_vertical,
+    "equal" to Res.drawable.equal,
+    "equal_approximately" to Res.drawable.equal_approximately,
+    "equal_not" to Res.drawable.equal_not,
+    "eraser" to Res.drawable.eraser,
+    "ethernet_port" to Res.drawable.ethernet_port,
+    "euro" to Res.drawable.euro,
+    "ev_charger" to Res.drawable.ev_charger,
+    "expand" to Res.drawable.expand,
+    "external_link" to Res.drawable.external_link,
+    "eye" to Res.drawable.eye,
+    "eye_closed" to Res.drawable.eye_closed,
+    "eye_off" to Res.drawable.eye_off,
+    "facebook" to Res.drawable.facebook,
+    "factory" to Res.drawable.factory,
+    "fan" to Res.drawable.fan,
+    "fast_forward" to Res.drawable.fast_forward,
+    "feather" to Res.drawable.feather,
+    "fence" to Res.drawable.fence,
+    "ferris_wheel" to Res.drawable.ferris_wheel,
+    "figma" to Res.drawable.figma,
+    "file" to Res.drawable.`file`,
+    "file_archive" to Res.drawable.file_archive,
+    "file_axis_3d" to Res.drawable.file_axis_3d,
+    "file_badge" to Res.drawable.file_badge,
+    "file_box" to Res.drawable.file_box,
+    "file_braces" to Res.drawable.file_braces,
+    "file_braces_corner" to Res.drawable.file_braces_corner,
+    "file_chart_column" to Res.drawable.file_chart_column,
+    "file_chart_column_increasing" to Res.drawable.file_chart_column_increasing,
+    "file_chart_line" to Res.drawable.file_chart_line,
+    "file_chart_pie" to Res.drawable.file_chart_pie,
+    "file_check" to Res.drawable.file_check,
+    "file_check_corner" to Res.drawable.file_check_corner,
+    "file_clock" to Res.drawable.file_clock,
+    "file_code" to Res.drawable.file_code,
+    "file_code_corner" to Res.drawable.file_code_corner,
+    "file_cog" to Res.drawable.file_cog,
+    "file_diff" to Res.drawable.file_diff,
+    "file_digit" to Res.drawable.file_digit,
+    "file_down" to Res.drawable.file_down,
+    "file_exclamation_point" to Res.drawable.file_exclamation_point,
+    "file_headphone" to Res.drawable.file_headphone,
+    "file_heart" to Res.drawable.file_heart,
+    "file_image" to Res.drawable.file_image,
+    "file_input" to Res.drawable.file_input,
+    "file_key" to Res.drawable.file_key,
+    "file_lock" to Res.drawable.file_lock,
+    "file_minus" to Res.drawable.file_minus,
+    "file_minus_corner" to Res.drawable.file_minus_corner,
+    "file_music" to Res.drawable.file_music,
+    "file_output" to Res.drawable.file_output,
+    "file_pen" to Res.drawable.file_pen,
+    "file_pen_line" to Res.drawable.file_pen_line,
+    "file_play" to Res.drawable.file_play,
+    "file_plus" to Res.drawable.file_plus,
+    "file_plus_corner" to Res.drawable.file_plus_corner,
+    "file_question_mark" to Res.drawable.file_question_mark,
+    "file_scan" to Res.drawable.file_scan,
+    "file_search" to Res.drawable.file_search,
+    "file_search_corner" to Res.drawable.file_search_corner,
+    "file_signal" to Res.drawable.file_signal,
+    "file_sliders" to Res.drawable.file_sliders,
+    "file_spreadsheet" to Res.drawable.file_spreadsheet,
+    "file_stack" to Res.drawable.file_stack,
+    "file_symlink" to Res.drawable.file_symlink,
+    "file_terminal" to Res.drawable.file_terminal,
+    "file_text" to Res.drawable.file_text,
+    "file_type" to Res.drawable.file_type,
+    "file_type_corner" to Res.drawable.file_type_corner,
+    "file_up" to Res.drawable.file_up,
+    "file_user" to Res.drawable.file_user,
+    "file_video_camera" to Res.drawable.file_video_camera,
+    "file_volume" to Res.drawable.file_volume,
+    "file_x" to Res.drawable.file_x,
+    "file_x_corner" to Res.drawable.file_x_corner,
+    "files" to Res.drawable.files,
+    "film" to Res.drawable.film,
+    "fingerprint_pattern" to Res.drawable.fingerprint_pattern,
+    "fire_extinguisher" to Res.drawable.fire_extinguisher,
+    "fish" to Res.drawable.fish,
+    "fish_off" to Res.drawable.fish_off,
+    "fish_symbol" to Res.drawable.fish_symbol,
+    "fishing_hook" to Res.drawable.fishing_hook,
+    "flag" to Res.drawable.flag,
+    "flag_off" to Res.drawable.flag_off,
+    "flag_triangle_left" to Res.drawable.flag_triangle_left,
+    "flag_triangle_right" to Res.drawable.flag_triangle_right,
+    "flame" to Res.drawable.flame,
+    "flame_kindling" to Res.drawable.flame_kindling,
+    "flashlight" to Res.drawable.flashlight,
+    "flashlight_off" to Res.drawable.flashlight_off,
+    "flask_conical" to Res.drawable.flask_conical,
+    "flask_conical_off" to Res.drawable.flask_conical_off,
+    "flask_round" to Res.drawable.flask_round,
+    "flip_horizontal" to Res.drawable.flip_horizontal,
+    "flip_horizontal_2" to Res.drawable.flip_horizontal_2,
+    "flip_vertical" to Res.drawable.flip_vertical,
+    "flip_vertical_2" to Res.drawable.flip_vertical_2,
+    "flower" to Res.drawable.flower,
+    "flower_2" to Res.drawable.flower_2,
+    "focus" to Res.drawable.focus,
+    "fold_horizontal" to Res.drawable.fold_horizontal,
+    "fold_vertical" to Res.drawable.fold_vertical,
+    "folder" to Res.drawable.folder,
+    "folder_archive" to Res.drawable.folder_archive,
+    "folder_check" to Res.drawable.folder_check,
+    "folder_clock" to Res.drawable.folder_clock,
+    "folder_closed" to Res.drawable.folder_closed,
+    "folder_code" to Res.drawable.folder_code,
+    "folder_cog" to Res.drawable.folder_cog,
+    "folder_dot" to Res.drawable.folder_dot,
+    "folder_down" to Res.drawable.folder_down,
+    "folder_git" to Res.drawable.folder_git,
+    "folder_git_2" to Res.drawable.folder_git_2,
+    "folder_heart" to Res.drawable.folder_heart,
+    "folder_input" to Res.drawable.folder_input,
+    "folder_kanban" to Res.drawable.folder_kanban,
+    "folder_key" to Res.drawable.folder_key,
+    "folder_lock" to Res.drawable.folder_lock,
+    "folder_minus" to Res.drawable.folder_minus,
+    "folder_open" to Res.drawable.folder_open,
+    "folder_open_dot" to Res.drawable.folder_open_dot,
+    "folder_output" to Res.drawable.folder_output,
+    "folder_pen" to Res.drawable.folder_pen,
+    "folder_plus" to Res.drawable.folder_plus,
+    "folder_root" to Res.drawable.folder_root,
+    "folder_search" to Res.drawable.folder_search,
+    "folder_search_2" to Res.drawable.folder_search_2,
+    "folder_symlink" to Res.drawable.folder_symlink,
+    "folder_sync" to Res.drawable.folder_sync,
+    "folder_tree" to Res.drawable.folder_tree,
+    "folder_up" to Res.drawable.folder_up,
+    "folder_x" to Res.drawable.folder_x,
+    "folders" to Res.drawable.folders,
+    "footprints" to Res.drawable.footprints,
+    "forklift" to Res.drawable.forklift,
+    "form" to Res.drawable.form,
+    "forward" to Res.drawable.forward,
+    "frame" to Res.drawable.frame,
+    "framer" to Res.drawable.framer,
+    "frown" to Res.drawable.frown,
+    "fuel" to Res.drawable.fuel,
+    "fullscreen" to Res.drawable.fullscreen,
+    "funnel" to Res.drawable.funnel,
+    "funnel_plus" to Res.drawable.funnel_plus,
+    "funnel_x" to Res.drawable.funnel_x,
+    "gallery_horizontal" to Res.drawable.gallery_horizontal,
+    "gallery_horizontal_end" to Res.drawable.gallery_horizontal_end,
+    "gallery_thumbnails" to Res.drawable.gallery_thumbnails,
+    "gallery_vertical" to Res.drawable.gallery_vertical,
+    "gallery_vertical_end" to Res.drawable.gallery_vertical_end,
+    "gamepad" to Res.drawable.gamepad,
+    "gamepad_2" to Res.drawable.gamepad_2,
+    "gamepad_directional" to Res.drawable.gamepad_directional,
+    "gauge" to Res.drawable.gauge,
+    "gavel" to Res.drawable.gavel,
+    "gem" to Res.drawable.gem,
+    "georgian_lari" to Res.drawable.georgian_lari,
+    "ghost" to Res.drawable.ghost,
+    "gift" to Res.drawable.gift,
+    "git_branch" to Res.drawable.git_branch,
+    "git_branch_minus" to Res.drawable.git_branch_minus,
+    "git_branch_plus" to Res.drawable.git_branch_plus,
+    "git_commit_horizontal" to Res.drawable.git_commit_horizontal,
+    "git_commit_vertical" to Res.drawable.git_commit_vertical,
+    "git_compare" to Res.drawable.git_compare,
+    "git_compare_arrows" to Res.drawable.git_compare_arrows,
+    "git_fork" to Res.drawable.git_fork,
+    "git_graph" to Res.drawable.git_graph,
+    "git_merge" to Res.drawable.git_merge,
+    "git_pull_request" to Res.drawable.git_pull_request,
+    "git_pull_request_arrow" to Res.drawable.git_pull_request_arrow,
+    "git_pull_request_closed" to Res.drawable.git_pull_request_closed,
+    "git_pull_request_create" to Res.drawable.git_pull_request_create,
+    "git_pull_request_create_arrow" to Res.drawable.git_pull_request_create_arrow,
+    "git_pull_request_draft" to Res.drawable.git_pull_request_draft,
+    "github" to Res.drawable.github,
+    "gitlab" to Res.drawable.gitlab,
+    "glass_water" to Res.drawable.glass_water,
+    "glasses" to Res.drawable.glasses,
+    "globe" to Res.drawable.globe,
+    "globe_lock" to Res.drawable.globe_lock,
+    "goal" to Res.drawable.goal,
+    "gpu" to Res.drawable.gpu,
+    "graduation_cap" to Res.drawable.graduation_cap,
+    "grape" to Res.drawable.grape,
+    "grid_2x2" to Res.drawable.grid_2x2,
+    "grid_2x2_check" to Res.drawable.grid_2x2_check,
+    "grid_2x2_plus" to Res.drawable.grid_2x2_plus,
+    "grid_2x2_x" to Res.drawable.grid_2x2_x,
+    "grid_3x2" to Res.drawable.grid_3x2,
+    "grid_3x3" to Res.drawable.grid_3x3,
+    "grip" to Res.drawable.grip,
+    "grip_horizontal" to Res.drawable.grip_horizontal,
+    "grip_vertical" to Res.drawable.grip_vertical,
+    "group" to Res.drawable.group,
+    "guitar" to Res.drawable.guitar,
+    "ham" to Res.drawable.ham,
+    "hamburger" to Res.drawable.hamburger,
+    "hammer" to Res.drawable.hammer,
+    "hand" to Res.drawable.hand,
+    "hand_coins" to Res.drawable.hand_coins,
+    "hand_fist" to Res.drawable.hand_fist,
+    "hand_grab" to Res.drawable.hand_grab,
+    "hand_heart" to Res.drawable.hand_heart,
+    "hand_helping" to Res.drawable.hand_helping,
+    "hand_metal" to Res.drawable.hand_metal,
+    "hand_platter" to Res.drawable.hand_platter,
+    "handbag" to Res.drawable.handbag,
+    "handshake" to Res.drawable.handshake,
+    "hard_drive" to Res.drawable.hard_drive,
+    "hard_drive_download" to Res.drawable.hard_drive_download,
+    "hard_drive_upload" to Res.drawable.hard_drive_upload,
+    "hard_hat" to Res.drawable.hard_hat,
+    "hash" to Res.drawable.hash,
+    "hat_glasses" to Res.drawable.hat_glasses,
+    "haze" to Res.drawable.haze,
+    "hd" to Res.drawable.hd,
+    "hdmi_port" to Res.drawable.hdmi_port,
+    "heading" to Res.drawable.heading,
+    "heading_1" to Res.drawable.heading_1,
+    "heading_2" to Res.drawable.heading_2,
+    "heading_3" to Res.drawable.heading_3,
+    "heading_4" to Res.drawable.heading_4,
+    "heading_5" to Res.drawable.heading_5,
+    "heading_6" to Res.drawable.heading_6,
+    "headphone_off" to Res.drawable.headphone_off,
+    "headphones" to Res.drawable.headphones,
+    "headset" to Res.drawable.headset,
+    "heart" to Res.drawable.heart,
+    "heart_crack" to Res.drawable.heart_crack,
+    "heart_handshake" to Res.drawable.heart_handshake,
+    "heart_minus" to Res.drawable.heart_minus,
+    "heart_off" to Res.drawable.heart_off,
+    "heart_plus" to Res.drawable.heart_plus,
+    "heart_pulse" to Res.drawable.heart_pulse,
+    "heater" to Res.drawable.heater,
+    "helicopter" to Res.drawable.helicopter,
+    "hexagon" to Res.drawable.hexagon,
+    "highlighter" to Res.drawable.highlighter,
+    "history" to Res.drawable.history,
+    "hop" to Res.drawable.hop,
+    "hop_off" to Res.drawable.hop_off,
+    "hospital" to Res.drawable.hospital,
+    "hotel" to Res.drawable.hotel,
+    "hourglass" to Res.drawable.hourglass,
+    "house" to Res.drawable.house,
+    "house_heart" to Res.drawable.house_heart,
+    "house_plug" to Res.drawable.house_plug,
+    "house_plus" to Res.drawable.house_plus,
+    "house_wifi" to Res.drawable.house_wifi,
+    "ice_cream_bowl" to Res.drawable.ice_cream_bowl,
+    "ice_cream_cone" to Res.drawable.ice_cream_cone,
+    "id_card" to Res.drawable.id_card,
+    "id_card_lanyard" to Res.drawable.id_card_lanyard,
+    "image" to Res.drawable.image,
+    "image_down" to Res.drawable.image_down,
+    "image_minus" to Res.drawable.image_minus,
+    "image_off" to Res.drawable.image_off,
+    "image_play" to Res.drawable.image_play,
+    "image_plus" to Res.drawable.image_plus,
+    "image_up" to Res.drawable.image_up,
+    "image_upscale" to Res.drawable.image_upscale,
+    "images" to Res.drawable.images,
+    "import" to Res.drawable.`import`,
+    "inbox" to Res.drawable.inbox,
+    "indian_rupee" to Res.drawable.indian_rupee,
+    "infinity" to Res.drawable.infinity,
+    "info" to Res.drawable.info,
+    "inspection_panel" to Res.drawable.inspection_panel,
+    "instagram" to Res.drawable.instagram,
+    "italic" to Res.drawable.italic,
+    "iteration_ccw" to Res.drawable.iteration_ccw,
+    "iteration_cw" to Res.drawable.iteration_cw,
+    "japanese_yen" to Res.drawable.japanese_yen,
+    "joystick" to Res.drawable.joystick,
+    "kanban" to Res.drawable.kanban,
+    "kayak" to Res.drawable.kayak,
+    "key" to Res.drawable.key,
+    "key_round" to Res.drawable.key_round,
+    "key_square" to Res.drawable.key_square,
+    "keyboard" to Res.drawable.keyboard,
+    "keyboard_music" to Res.drawable.keyboard_music,
+    "keyboard_off" to Res.drawable.keyboard_off,
+    "lamp" to Res.drawable.lamp,
+    "lamp_ceiling" to Res.drawable.lamp_ceiling,
+    "lamp_desk" to Res.drawable.lamp_desk,
+    "lamp_floor" to Res.drawable.lamp_floor,
+    "lamp_wall_down" to Res.drawable.lamp_wall_down,
+    "lamp_wall_up" to Res.drawable.lamp_wall_up,
+    "land_plot" to Res.drawable.land_plot,
+    "landmark" to Res.drawable.landmark,
+    "languages" to Res.drawable.languages,
+    "laptop" to Res.drawable.laptop,
+    "laptop_minimal" to Res.drawable.laptop_minimal,
+    "laptop_minimal_check" to Res.drawable.laptop_minimal_check,
+    "lasso" to Res.drawable.lasso,
+    "lasso_select" to Res.drawable.lasso_select,
+    "laugh" to Res.drawable.laugh,
+    "layers" to Res.drawable.layers,
+    "layers_2" to Res.drawable.layers_2,
+    "layers_plus" to Res.drawable.layers_plus,
+    "layout_dashboard" to Res.drawable.layout_dashboard,
+    "layout_grid" to Res.drawable.layout_grid,
+    "layout_list" to Res.drawable.layout_list,
+    "layout_panel_left" to Res.drawable.layout_panel_left,
+    "layout_panel_top" to Res.drawable.layout_panel_top,
+    "layout_template" to Res.drawable.layout_template,
+    "leaf" to Res.drawable.leaf,
+    "leafy_green" to Res.drawable.leafy_green,
+    "lectern" to Res.drawable.lectern,
+    "library" to Res.drawable.library,
+    "library_big" to Res.drawable.library_big,
+    "life_buoy" to Res.drawable.life_buoy,
+    "ligature" to Res.drawable.ligature,
+    "lightbulb" to Res.drawable.lightbulb,
+    "lightbulb_off" to Res.drawable.lightbulb_off,
+    "line_squiggle" to Res.drawable.line_squiggle,
+    "link" to Res.drawable.link,
+    "link_2" to Res.drawable.link_2,
+    "link_2_off" to Res.drawable.link_2_off,
+    "linkedin" to Res.drawable.linkedin,
+    "list" to Res.drawable.list,
+    "list_check" to Res.drawable.list_check,
+    "list_checks" to Res.drawable.list_checks,
+    "list_chevrons_down_up" to Res.drawable.list_chevrons_down_up,
+    "list_chevrons_up_down" to Res.drawable.list_chevrons_up_down,
+    "list_collapse" to Res.drawable.list_collapse,
+    "list_end" to Res.drawable.list_end,
+    "list_filter" to Res.drawable.list_filter,
+    "list_filter_plus" to Res.drawable.list_filter_plus,
+    "list_indent_decrease" to Res.drawable.list_indent_decrease,
+    "list_indent_increase" to Res.drawable.list_indent_increase,
+    "list_minus" to Res.drawable.list_minus,
+    "list_music" to Res.drawable.list_music,
+    "list_ordered" to Res.drawable.list_ordered,
+    "list_plus" to Res.drawable.list_plus,
+    "list_restart" to Res.drawable.list_restart,
+    "list_start" to Res.drawable.list_start,
+    "list_todo" to Res.drawable.list_todo,
+    "list_tree" to Res.drawable.list_tree,
+    "list_video" to Res.drawable.list_video,
+    "list_x" to Res.drawable.list_x,
+    "loader" to Res.drawable.loader,
+    "loader_circle" to Res.drawable.loader_circle,
+    "loader_pinwheel" to Res.drawable.loader_pinwheel,
+    "locate" to Res.drawable.locate,
+    "locate_fixed" to Res.drawable.locate_fixed,
+    "locate_off" to Res.drawable.locate_off,
+    "lock" to Res.drawable.lock,
+    "lock_keyhole" to Res.drawable.lock_keyhole,
+    "lock_keyhole_open" to Res.drawable.lock_keyhole_open,
+    "lock_open" to Res.drawable.lock_open,
+    "log_in" to Res.drawable.log_in,
+    "log_out" to Res.drawable.log_out,
+    "logs" to Res.drawable.logs,
+    "lollipop" to Res.drawable.lollipop,
+    "luggage" to Res.drawable.luggage,
+    "magnet" to Res.drawable.magnet,
+    "mail" to Res.drawable.mail,
+    "mail_check" to Res.drawable.mail_check,
+    "mail_minus" to Res.drawable.mail_minus,
+    "mail_open" to Res.drawable.mail_open,
+    "mail_plus" to Res.drawable.mail_plus,
+    "mail_question_mark" to Res.drawable.mail_question_mark,
+    "mail_search" to Res.drawable.mail_search,
+    "mail_warning" to Res.drawable.mail_warning,
+    "mail_x" to Res.drawable.mail_x,
+    "mailbox" to Res.drawable.mailbox,
+    "mails" to Res.drawable.mails,
+    "map" to Res.drawable.map,
+    "map_minus" to Res.drawable.map_minus,
+    "map_pin" to Res.drawable.map_pin,
+    "map_pin_check" to Res.drawable.map_pin_check,
+    "map_pin_check_inside" to Res.drawable.map_pin_check_inside,
+    "map_pin_house" to Res.drawable.map_pin_house,
+    "map_pin_minus" to Res.drawable.map_pin_minus,
+    "map_pin_minus_inside" to Res.drawable.map_pin_minus_inside,
+    "map_pin_off" to Res.drawable.map_pin_off,
+    "map_pin_pen" to Res.drawable.map_pin_pen,
+    "map_pin_plus" to Res.drawable.map_pin_plus,
+    "map_pin_plus_inside" to Res.drawable.map_pin_plus_inside,
+    "map_pin_x" to Res.drawable.map_pin_x,
+    "map_pin_x_inside" to Res.drawable.map_pin_x_inside,
+    "map_pinned" to Res.drawable.map_pinned,
+    "map_plus" to Res.drawable.map_plus,
+    "mars" to Res.drawable.mars,
+    "mars_stroke" to Res.drawable.mars_stroke,
+    "martini" to Res.drawable.martini,
+    "maximize" to Res.drawable.maximize,
+    "maximize_2" to Res.drawable.maximize_2,
+    "medal" to Res.drawable.medal,
+    "megaphone" to Res.drawable.megaphone,
+    "megaphone_off" to Res.drawable.megaphone_off,
+    "meh" to Res.drawable.meh,
+    "memory_stick" to Res.drawable.memory_stick,
+    "menu" to Res.drawable.menu,
+    "merge" to Res.drawable.merge,
+    "message_circle" to Res.drawable.message_circle,
+    "message_circle_code" to Res.drawable.message_circle_code,
+    "message_circle_dashed" to Res.drawable.message_circle_dashed,
+    "message_circle_heart" to Res.drawable.message_circle_heart,
+    "message_circle_more" to Res.drawable.message_circle_more,
+    "message_circle_off" to Res.drawable.message_circle_off,
+    "message_circle_plus" to Res.drawable.message_circle_plus,
+    "message_circle_question_mark" to Res.drawable.message_circle_question_mark,
+    "message_circle_reply" to Res.drawable.message_circle_reply,
+    "message_circle_warning" to Res.drawable.message_circle_warning,
+    "message_circle_x" to Res.drawable.message_circle_x,
+    "message_square" to Res.drawable.message_square,
+    "message_square_code" to Res.drawable.message_square_code,
+    "message_square_dashed" to Res.drawable.message_square_dashed,
+    "message_square_diff" to Res.drawable.message_square_diff,
+    "message_square_dot" to Res.drawable.message_square_dot,
+    "message_square_heart" to Res.drawable.message_square_heart,
+    "message_square_lock" to Res.drawable.message_square_lock,
+    "message_square_more" to Res.drawable.message_square_more,
+    "message_square_off" to Res.drawable.message_square_off,
+    "message_square_plus" to Res.drawable.message_square_plus,
+    "message_square_quote" to Res.drawable.message_square_quote,
+    "message_square_reply" to Res.drawable.message_square_reply,
+    "message_square_share" to Res.drawable.message_square_share,
+    "message_square_text" to Res.drawable.message_square_text,
+    "message_square_warning" to Res.drawable.message_square_warning,
+    "message_square_x" to Res.drawable.message_square_x,
+    "messages_square" to Res.drawable.messages_square,
+    "mic" to Res.drawable.mic,
+    "mic_off" to Res.drawable.mic_off,
+    "mic_vocal" to Res.drawable.mic_vocal,
+    "microchip" to Res.drawable.microchip,
+    "microscope" to Res.drawable.microscope,
+    "microwave" to Res.drawable.microwave,
+    "milestone" to Res.drawable.milestone,
+    "milk" to Res.drawable.milk,
+    "milk_off" to Res.drawable.milk_off,
+    "minimize" to Res.drawable.minimize,
+    "minimize_2" to Res.drawable.minimize_2,
+    "minus" to Res.drawable.minus,
+    "monitor" to Res.drawable.monitor,
+    "monitor_check" to Res.drawable.monitor_check,
+    "monitor_cloud" to Res.drawable.monitor_cloud,
+    "monitor_cog" to Res.drawable.monitor_cog,
+    "monitor_dot" to Res.drawable.monitor_dot,
+    "monitor_down" to Res.drawable.monitor_down,
+    "monitor_off" to Res.drawable.monitor_off,
+    "monitor_pause" to Res.drawable.monitor_pause,
+    "monitor_play" to Res.drawable.monitor_play,
+    "monitor_smartphone" to Res.drawable.monitor_smartphone,
+    "monitor_speaker" to Res.drawable.monitor_speaker,
+    "monitor_stop" to Res.drawable.monitor_stop,
+    "monitor_up" to Res.drawable.monitor_up,
+    "monitor_x" to Res.drawable.monitor_x,
+    "moon" to Res.drawable.moon,
+    "moon_star" to Res.drawable.moon_star,
+    "motorbike" to Res.drawable.motorbike,
+    "mountain" to Res.drawable.mountain,
+    "mountain_snow" to Res.drawable.mountain_snow,
+    "mouse" to Res.drawable.mouse,
+    "mouse_off" to Res.drawable.mouse_off,
+    "mouse_pointer" to Res.drawable.mouse_pointer,
+    "mouse_pointer_2" to Res.drawable.mouse_pointer_2,
+    "mouse_pointer_2_off" to Res.drawable.mouse_pointer_2_off,
+    "mouse_pointer_ban" to Res.drawable.mouse_pointer_ban,
+    "mouse_pointer_click" to Res.drawable.mouse_pointer_click,
+    "move" to Res.drawable.move,
+    "move_3d" to Res.drawable.move_3d,
+    "move_diagonal" to Res.drawable.move_diagonal,
+    "move_diagonal_2" to Res.drawable.move_diagonal_2,
+    "move_down" to Res.drawable.move_down,
+    "move_down_left" to Res.drawable.move_down_left,
+    "move_down_right" to Res.drawable.move_down_right,
+    "move_horizontal" to Res.drawable.move_horizontal,
+    "move_left" to Res.drawable.move_left,
+    "move_right" to Res.drawable.move_right,
+    "move_up" to Res.drawable.move_up,
+    "move_up_left" to Res.drawable.move_up_left,
+    "move_up_right" to Res.drawable.move_up_right,
+    "move_vertical" to Res.drawable.move_vertical,
+    "music" to Res.drawable.music,
+    "music_2" to Res.drawable.music_2,
+    "music_3" to Res.drawable.music_3,
+    "music_4" to Res.drawable.music_4,
+    "navigation" to Res.drawable.navigation,
+    "navigation_2" to Res.drawable.navigation_2,
+    "navigation_2_off" to Res.drawable.navigation_2_off,
+    "navigation_off" to Res.drawable.navigation_off,
+    "network" to Res.drawable.network,
+    "newspaper" to Res.drawable.newspaper,
+    "nfc" to Res.drawable.nfc,
+    "non_binary" to Res.drawable.non_binary,
+    "notebook" to Res.drawable.notebook,
+    "notebook_pen" to Res.drawable.notebook_pen,
+    "notebook_tabs" to Res.drawable.notebook_tabs,
+    "notebook_text" to Res.drawable.notebook_text,
+    "notepad_text" to Res.drawable.notepad_text,
+    "notepad_text_dashed" to Res.drawable.notepad_text_dashed,
+    "nut" to Res.drawable.nut,
+    "nut_off" to Res.drawable.nut_off,
+    "octagon" to Res.drawable.octagon,
+    "octagon_alert" to Res.drawable.octagon_alert,
+    "octagon_minus" to Res.drawable.octagon_minus,
+    "octagon_pause" to Res.drawable.octagon_pause,
+    "octagon_x" to Res.drawable.octagon_x,
+    "omega" to Res.drawable.omega,
+    "option" to Res.drawable.option,
+    "orbit" to Res.drawable.orbit,
+    "origami" to Res.drawable.origami,
+    "package" to Res.drawable.`package`,
+    "package_2" to Res.drawable.package_2,
+    "package_check" to Res.drawable.package_check,
+    "package_minus" to Res.drawable.package_minus,
+    "package_open" to Res.drawable.package_open,
+    "package_plus" to Res.drawable.package_plus,
+    "package_search" to Res.drawable.package_search,
+    "package_x" to Res.drawable.package_x,
+    "paint_bucket" to Res.drawable.paint_bucket,
+    "paint_roller" to Res.drawable.paint_roller,
+    "paintbrush" to Res.drawable.paintbrush,
+    "paintbrush_vertical" to Res.drawable.paintbrush_vertical,
+    "palette" to Res.drawable.palette,
+    "panda" to Res.drawable.panda,
+    "panel_bottom" to Res.drawable.panel_bottom,
+    "panel_bottom_close" to Res.drawable.panel_bottom_close,
+    "panel_bottom_dashed" to Res.drawable.panel_bottom_dashed,
+    "panel_bottom_open" to Res.drawable.panel_bottom_open,
+    "panel_left" to Res.drawable.panel_left,
+    "panel_left_close" to Res.drawable.panel_left_close,
+    "panel_left_dashed" to Res.drawable.panel_left_dashed,
+    "panel_left_open" to Res.drawable.panel_left_open,
+    "panel_left_right_dashed" to Res.drawable.panel_left_right_dashed,
+    "panel_right" to Res.drawable.panel_right,
+    "panel_right_close" to Res.drawable.panel_right_close,
+    "panel_right_dashed" to Res.drawable.panel_right_dashed,
+    "panel_right_open" to Res.drawable.panel_right_open,
+    "panel_top" to Res.drawable.panel_top,
+    "panel_top_bottom_dashed" to Res.drawable.panel_top_bottom_dashed,
+    "panel_top_close" to Res.drawable.panel_top_close,
+    "panel_top_dashed" to Res.drawable.panel_top_dashed,
+    "panel_top_open" to Res.drawable.panel_top_open,
+    "panels_left_bottom" to Res.drawable.panels_left_bottom,
+    "panels_right_bottom" to Res.drawable.panels_right_bottom,
+    "panels_top_left" to Res.drawable.panels_top_left,
+    "paperclip" to Res.drawable.paperclip,
+    "parentheses" to Res.drawable.parentheses,
+    "parking_meter" to Res.drawable.parking_meter,
+    "party_popper" to Res.drawable.party_popper,
+    "pause" to Res.drawable.pause,
+    "paw_print" to Res.drawable.paw_print,
+    "pc_case" to Res.drawable.pc_case,
+    "pen" to Res.drawable.pen,
+    "pen_line" to Res.drawable.pen_line,
+    "pen_off" to Res.drawable.pen_off,
+    "pen_tool" to Res.drawable.pen_tool,
+    "pencil" to Res.drawable.pencil,
+    "pencil_line" to Res.drawable.pencil_line,
+    "pencil_off" to Res.drawable.pencil_off,
+    "pencil_ruler" to Res.drawable.pencil_ruler,
+    "pentagon" to Res.drawable.pentagon,
+    "percent" to Res.drawable.percent,
+    "person_standing" to Res.drawable.person_standing,
+    "philippine_peso" to Res.drawable.philippine_peso,
+    "phone" to Res.drawable.phone,
+    "phone_call" to Res.drawable.phone_call,
+    "phone_forwarded" to Res.drawable.phone_forwarded,
+    "phone_incoming" to Res.drawable.phone_incoming,
+    "phone_missed" to Res.drawable.phone_missed,
+    "phone_off" to Res.drawable.phone_off,
+    "phone_outgoing" to Res.drawable.phone_outgoing,
+    "pi" to Res.drawable.pi,
+    "piano" to Res.drawable.piano,
+    "pickaxe" to Res.drawable.pickaxe,
+    "picture_in_picture" to Res.drawable.picture_in_picture,
+    "picture_in_picture_2" to Res.drawable.picture_in_picture_2,
+    "piggy_bank" to Res.drawable.piggy_bank,
+    "pilcrow" to Res.drawable.pilcrow,
+    "pilcrow_left" to Res.drawable.pilcrow_left,
+    "pilcrow_right" to Res.drawable.pilcrow_right,
+    "pill" to Res.drawable.pill,
+    "pill_bottle" to Res.drawable.pill_bottle,
+    "pin" to Res.drawable.pin,
+    "pin_off" to Res.drawable.pin_off,
+    "pipette" to Res.drawable.pipette,
+    "pizza" to Res.drawable.pizza,
+    "plane" to Res.drawable.plane,
+    "plane_landing" to Res.drawable.plane_landing,
+    "plane_takeoff" to Res.drawable.plane_takeoff,
+    "play" to Res.drawable.play,
+    "plug" to Res.drawable.plug,
+    "plug_2" to Res.drawable.plug_2,
+    "plug_zap" to Res.drawable.plug_zap,
+    "plus" to Res.drawable.plus,
+    "pocket" to Res.drawable.pocket,
+    "pocket_knife" to Res.drawable.pocket_knife,
+    "podcast" to Res.drawable.podcast,
+    "pointer" to Res.drawable.pointer,
+    "pointer_off" to Res.drawable.pointer_off,
+    "popcorn" to Res.drawable.popcorn,
+    "popsicle" to Res.drawable.popsicle,
+    "pound_sterling" to Res.drawable.pound_sterling,
+    "power" to Res.drawable.power,
+    "power_off" to Res.drawable.power_off,
+    "presentation" to Res.drawable.presentation,
+    "printer" to Res.drawable.printer,
+    "printer_check" to Res.drawable.printer_check,
+    "projector" to Res.drawable.projector,
+    "proportions" to Res.drawable.proportions,
+    "puzzle" to Res.drawable.puzzle,
+    "pyramid" to Res.drawable.pyramid,
+    "qr_code" to Res.drawable.qr_code,
+    "quote" to Res.drawable.quote,
+    "rabbit" to Res.drawable.rabbit,
+    "radar" to Res.drawable.radar,
+    "radiation" to Res.drawable.radiation,
+    "radical" to Res.drawable.radical,
+    "radio" to Res.drawable.radio,
+    "radio_receiver" to Res.drawable.radio_receiver,
+    "radio_tower" to Res.drawable.radio_tower,
+    "radius" to Res.drawable.radius,
+    "rail_symbol" to Res.drawable.rail_symbol,
+    "rainbow" to Res.drawable.rainbow,
+    "rat" to Res.drawable.rat,
+    "ratio" to Res.drawable.ratio,
+    "receipt" to Res.drawable.receipt,
+    "receipt_cent" to Res.drawable.receipt_cent,
+    "receipt_euro" to Res.drawable.receipt_euro,
+    "receipt_indian_rupee" to Res.drawable.receipt_indian_rupee,
+    "receipt_japanese_yen" to Res.drawable.receipt_japanese_yen,
+    "receipt_pound_sterling" to Res.drawable.receipt_pound_sterling,
+    "receipt_russian_ruble" to Res.drawable.receipt_russian_ruble,
+    "receipt_swiss_franc" to Res.drawable.receipt_swiss_franc,
+    "receipt_text" to Res.drawable.receipt_text,
+    "receipt_turkish_lira" to Res.drawable.receipt_turkish_lira,
+    "rectangle_circle" to Res.drawable.rectangle_circle,
+    "rectangle_ellipsis" to Res.drawable.rectangle_ellipsis,
+    "rectangle_goggles" to Res.drawable.rectangle_goggles,
+    "rectangle_horizontal" to Res.drawable.rectangle_horizontal,
+    "rectangle_vertical" to Res.drawable.rectangle_vertical,
+    "recycle" to Res.drawable.recycle,
+    "redo" to Res.drawable.redo,
+    "redo_2" to Res.drawable.redo_2,
+    "redo_dot" to Res.drawable.redo_dot,
+    "refresh_ccw" to Res.drawable.refresh_ccw,
+    "refresh_ccw_dot" to Res.drawable.refresh_ccw_dot,
+    "refresh_cw" to Res.drawable.refresh_cw,
+    "refresh_cw_off" to Res.drawable.refresh_cw_off,
+    "refrigerator" to Res.drawable.refrigerator,
+    "regex" to Res.drawable.regex,
+    "remove_formatting" to Res.drawable.remove_formatting,
+    "repeat" to Res.drawable.repeat,
+    "repeat_1" to Res.drawable.repeat_1,
+    "repeat_2" to Res.drawable.repeat_2,
+    "replace" to Res.drawable.replace,
+    "replace_all" to Res.drawable.replace_all,
+    "reply" to Res.drawable.reply,
+    "reply_all" to Res.drawable.reply_all,
+    "rewind" to Res.drawable.rewind,
+    "ribbon" to Res.drawable.ribbon,
+    "rocket" to Res.drawable.rocket,
+    "rocking_chair" to Res.drawable.rocking_chair,
+    "roller_coaster" to Res.drawable.roller_coaster,
+    "rose" to Res.drawable.rose,
+    "rotate_3d" to Res.drawable.rotate_3d,
+    "rotate_ccw" to Res.drawable.rotate_ccw,
+    "rotate_ccw_key" to Res.drawable.rotate_ccw_key,
+    "rotate_ccw_square" to Res.drawable.rotate_ccw_square,
+    "rotate_cw" to Res.drawable.rotate_cw,
+    "rotate_cw_square" to Res.drawable.rotate_cw_square,
+    "route" to Res.drawable.route,
+    "route_off" to Res.drawable.route_off,
+    "router" to Res.drawable.router,
+    "rows_2" to Res.drawable.rows_2,
+    "rows_3" to Res.drawable.rows_3,
+    "rows_4" to Res.drawable.rows_4,
+    "rss" to Res.drawable.rss,
+    "ruler" to Res.drawable.ruler,
+    "ruler_dimension_line" to Res.drawable.ruler_dimension_line,
+    "russian_ruble" to Res.drawable.russian_ruble,
+    "sailboat" to Res.drawable.sailboat,
+    "salad" to Res.drawable.salad,
+    "sandwich" to Res.drawable.sandwich,
+    "satellite" to Res.drawable.satellite,
+    "satellite_dish" to Res.drawable.satellite_dish,
+    "saudi_riyal" to Res.drawable.saudi_riyal,
+    "save" to Res.drawable.save,
+    "save_all" to Res.drawable.save_all,
+    "save_off" to Res.drawable.save_off,
+    "scale" to Res.drawable.scale,
+    "scale_3d" to Res.drawable.scale_3d,
+    "scaling" to Res.drawable.scaling,
+    "scan" to Res.drawable.scan,
+    "scan_barcode" to Res.drawable.scan_barcode,
+    "scan_eye" to Res.drawable.scan_eye,
+    "scan_face" to Res.drawable.scan_face,
+    "scan_heart" to Res.drawable.scan_heart,
+    "scan_line" to Res.drawable.scan_line,
+    "scan_qr_code" to Res.drawable.scan_qr_code,
+    "scan_search" to Res.drawable.scan_search,
+    "scan_text" to Res.drawable.scan_text,
+    "school" to Res.drawable.school,
+    "scissors" to Res.drawable.scissors,
+    "scissors_line_dashed" to Res.drawable.scissors_line_dashed,
+    "scooter" to Res.drawable.scooter,
+    "screen_share" to Res.drawable.screen_share,
+    "screen_share_off" to Res.drawable.screen_share_off,
+    "scroll" to Res.drawable.scroll,
+    "scroll_text" to Res.drawable.scroll_text,
+    "search" to Res.drawable.search,
+    "search_alert" to Res.drawable.search_alert,
+    "search_check" to Res.drawable.search_check,
+    "search_code" to Res.drawable.search_code,
+    "search_slash" to Res.drawable.search_slash,
+    "search_x" to Res.drawable.search_x,
+    "section" to Res.drawable.section,
+    "send" to Res.drawable.send,
+    "send_horizontal" to Res.drawable.send_horizontal,
+    "send_to_back" to Res.drawable.send_to_back,
+    "separator_horizontal" to Res.drawable.separator_horizontal,
+    "separator_vertical" to Res.drawable.separator_vertical,
+    "server" to Res.drawable.server,
+    "server_cog" to Res.drawable.server_cog,
+    "server_crash" to Res.drawable.server_crash,
+    "server_off" to Res.drawable.server_off,
+    "settings" to Res.drawable.settings,
+    "settings_2" to Res.drawable.settings_2,
+    "shapes" to Res.drawable.shapes,
+    "share" to Res.drawable.share,
+    "share_2" to Res.drawable.share_2,
+    "sheet" to Res.drawable.sheet,
+    "shell" to Res.drawable.shell,
+    "shield" to Res.drawable.shield,
+    "shield_alert" to Res.drawable.shield_alert,
+    "shield_ban" to Res.drawable.shield_ban,
+    "shield_check" to Res.drawable.shield_check,
+    "shield_ellipsis" to Res.drawable.shield_ellipsis,
+    "shield_half" to Res.drawable.shield_half,
+    "shield_minus" to Res.drawable.shield_minus,
+    "shield_off" to Res.drawable.shield_off,
+    "shield_plus" to Res.drawable.shield_plus,
+    "shield_question_mark" to Res.drawable.shield_question_mark,
+    "shield_user" to Res.drawable.shield_user,
+    "shield_x" to Res.drawable.shield_x,
+    "ship" to Res.drawable.ship,
+    "ship_wheel" to Res.drawable.ship_wheel,
+    "shirt" to Res.drawable.shirt,
+    "shopping_bag" to Res.drawable.shopping_bag,
+    "shopping_basket" to Res.drawable.shopping_basket,
+    "shopping_cart" to Res.drawable.shopping_cart,
+    "shovel" to Res.drawable.shovel,
+    "shower_head" to Res.drawable.shower_head,
+    "shredder" to Res.drawable.shredder,
+    "shrimp" to Res.drawable.shrimp,
+    "shrink" to Res.drawable.shrink,
+    "shrub" to Res.drawable.shrub,
+    "shuffle" to Res.drawable.shuffle,
+    "sigma" to Res.drawable.sigma,
+    "signal" to Res.drawable.signal,
+    "signal_high" to Res.drawable.signal_high,
+    "signal_low" to Res.drawable.signal_low,
+    "signal_medium" to Res.drawable.signal_medium,
+    "signal_zero" to Res.drawable.signal_zero,
+    "signature" to Res.drawable.signature,
+    "signpost" to Res.drawable.signpost,
+    "signpost_big" to Res.drawable.signpost_big,
+    "siren" to Res.drawable.siren,
+    "skip_back" to Res.drawable.skip_back,
+    "skip_forward" to Res.drawable.skip_forward,
+    "skull" to Res.drawable.skull,
+    "slack" to Res.drawable.slack,
+    "slash" to Res.drawable.slash,
+    "slice" to Res.drawable.slice,
+    "sliders_horizontal" to Res.drawable.sliders_horizontal,
+    "sliders_vertical" to Res.drawable.sliders_vertical,
+    "smartphone" to Res.drawable.smartphone,
+    "smartphone_charging" to Res.drawable.smartphone_charging,
+    "smartphone_nfc" to Res.drawable.smartphone_nfc,
+    "smile" to Res.drawable.smile,
+    "smile_plus" to Res.drawable.smile_plus,
+    "snail" to Res.drawable.snail,
+    "snowflake" to Res.drawable.snowflake,
+    "soap_dispenser_droplet" to Res.drawable.soap_dispenser_droplet,
+    "sofa" to Res.drawable.sofa,
+    "solar_panel" to Res.drawable.solar_panel,
+    "soup" to Res.drawable.soup,
+    "space" to Res.drawable.space,
+    "spade" to Res.drawable.spade,
+    "sparkle" to Res.drawable.sparkle,
+    "sparkles" to Res.drawable.sparkles,
+    "speaker" to Res.drawable.speaker,
+    "speech" to Res.drawable.speech,
+    "spell_check" to Res.drawable.spell_check,
+    "spell_check_2" to Res.drawable.spell_check_2,
+    "spline" to Res.drawable.spline,
+    "spline_pointer" to Res.drawable.spline_pointer,
+    "split" to Res.drawable.split,
+    "spool" to Res.drawable.spool,
+    "spotlight" to Res.drawable.spotlight,
+    "spray_can" to Res.drawable.spray_can,
+    "sprout" to Res.drawable.sprout,
+    "square" to Res.drawable.square,
+    "square_activity" to Res.drawable.square_activity,
+    "square_arrow_down" to Res.drawable.square_arrow_down,
+    "square_arrow_down_left" to Res.drawable.square_arrow_down_left,
+    "square_arrow_down_right" to Res.drawable.square_arrow_down_right,
+    "square_arrow_left" to Res.drawable.square_arrow_left,
+    "square_arrow_out_down_left" to Res.drawable.square_arrow_out_down_left,
+    "square_arrow_out_down_right" to Res.drawable.square_arrow_out_down_right,
+    "square_arrow_out_up_left" to Res.drawable.square_arrow_out_up_left,
+    "square_arrow_out_up_right" to Res.drawable.square_arrow_out_up_right,
+    "square_arrow_right" to Res.drawable.square_arrow_right,
+    "square_arrow_up" to Res.drawable.square_arrow_up,
+    "square_arrow_up_left" to Res.drawable.square_arrow_up_left,
+    "square_arrow_up_right" to Res.drawable.square_arrow_up_right,
+    "square_asterisk" to Res.drawable.square_asterisk,
+    "square_bottom_dashed_scissors" to Res.drawable.square_bottom_dashed_scissors,
+    "square_chart_gantt" to Res.drawable.square_chart_gantt,
+    "square_check" to Res.drawable.square_check,
+    "square_check_big" to Res.drawable.square_check_big,
+    "square_chevron_down" to Res.drawable.square_chevron_down,
+    "square_chevron_left" to Res.drawable.square_chevron_left,
+    "square_chevron_right" to Res.drawable.square_chevron_right,
+    "square_chevron_up" to Res.drawable.square_chevron_up,
+    "square_code" to Res.drawable.square_code,
+    "square_dashed" to Res.drawable.square_dashed,
+    "square_dashed_bottom" to Res.drawable.square_dashed_bottom,
+    "square_dashed_bottom_code" to Res.drawable.square_dashed_bottom_code,
+    "square_dashed_kanban" to Res.drawable.square_dashed_kanban,
+    "square_dashed_mouse_pointer" to Res.drawable.square_dashed_mouse_pointer,
+    "square_dashed_top_solid" to Res.drawable.square_dashed_top_solid,
+    "square_divide" to Res.drawable.square_divide,
+    "square_dot" to Res.drawable.square_dot,
+    "square_equal" to Res.drawable.square_equal,
+    "square_function" to Res.drawable.square_function,
+    "square_kanban" to Res.drawable.square_kanban,
+    "square_library" to Res.drawable.square_library,
+    "square_m" to Res.drawable.square_m,
+    "square_menu" to Res.drawable.square_menu,
+    "square_minus" to Res.drawable.square_minus,
+    "square_mouse_pointer" to Res.drawable.square_mouse_pointer,
+    "square_parking" to Res.drawable.square_parking,
+    "square_parking_off" to Res.drawable.square_parking_off,
+    "square_pause" to Res.drawable.square_pause,
+    "square_pen" to Res.drawable.square_pen,
+    "square_percent" to Res.drawable.square_percent,
+    "square_pi" to Res.drawable.square_pi,
+    "square_pilcrow" to Res.drawable.square_pilcrow,
+    "square_play" to Res.drawable.square_play,
+    "square_plus" to Res.drawable.square_plus,
+    "square_power" to Res.drawable.square_power,
+    "square_radical" to Res.drawable.square_radical,
+    "square_round_corner" to Res.drawable.square_round_corner,
+    "square_scissors" to Res.drawable.square_scissors,
+    "square_sigma" to Res.drawable.square_sigma,
+    "square_slash" to Res.drawable.square_slash,
+    "square_split_horizontal" to Res.drawable.square_split_horizontal,
+    "square_split_vertical" to Res.drawable.square_split_vertical,
+    "square_square" to Res.drawable.square_square,
+    "square_stack" to Res.drawable.square_stack,
+    "square_star" to Res.drawable.square_star,
+    "square_stop" to Res.drawable.square_stop,
+    "square_terminal" to Res.drawable.square_terminal,
+    "square_user" to Res.drawable.square_user,
+    "square_user_round" to Res.drawable.square_user_round,
+    "square_x" to Res.drawable.square_x,
+    "squares_exclude" to Res.drawable.squares_exclude,
+    "squares_intersect" to Res.drawable.squares_intersect,
+    "squares_subtract" to Res.drawable.squares_subtract,
+    "squares_unite" to Res.drawable.squares_unite,
+    "squircle" to Res.drawable.squircle,
+    "squircle_dashed" to Res.drawable.squircle_dashed,
+    "squirrel" to Res.drawable.squirrel,
+    "stamp" to Res.drawable.stamp,
+    "star" to Res.drawable.star,
+    "star_half" to Res.drawable.star_half,
+    "star_off" to Res.drawable.star_off,
+    "step_back" to Res.drawable.step_back,
+    "step_forward" to Res.drawable.step_forward,
+    "stethoscope" to Res.drawable.stethoscope,
+    "sticker" to Res.drawable.sticker,
+    "sticky_note" to Res.drawable.sticky_note,
+    "stone" to Res.drawable.stone,
+    "store" to Res.drawable.store,
+    "stretch_horizontal" to Res.drawable.stretch_horizontal,
+    "stretch_vertical" to Res.drawable.stretch_vertical,
+    "strikethrough" to Res.drawable.strikethrough,
+    "subscript" to Res.drawable.subscript,
+    "sun" to Res.drawable.sun,
+    "sun_dim" to Res.drawable.sun_dim,
+    "sun_medium" to Res.drawable.sun_medium,
+    "sun_moon" to Res.drawable.sun_moon,
+    "sun_snow" to Res.drawable.sun_snow,
+    "sunrise" to Res.drawable.sunrise,
+    "sunset" to Res.drawable.sunset,
+    "superscript" to Res.drawable.superscript,
+    "swatch_book" to Res.drawable.swatch_book,
+    "swiss_franc" to Res.drawable.swiss_franc,
+    "switch_camera" to Res.drawable.switch_camera,
+    "sword" to Res.drawable.sword,
+    "swords" to Res.drawable.swords,
+    "syringe" to Res.drawable.syringe,
+    "table" to Res.drawable.table,
+    "table_2" to Res.drawable.table_2,
+    "table_cells_merge" to Res.drawable.table_cells_merge,
+    "table_cells_split" to Res.drawable.table_cells_split,
+    "table_columns_split" to Res.drawable.table_columns_split,
+    "table_of_contents" to Res.drawable.table_of_contents,
+    "table_properties" to Res.drawable.table_properties,
+    "table_rows_split" to Res.drawable.table_rows_split,
+    "tablet" to Res.drawable.tablet,
+    "tablet_smartphone" to Res.drawable.tablet_smartphone,
+    "tablets" to Res.drawable.tablets,
+    "tag" to Res.drawable.tag,
+    "tags" to Res.drawable.tags,
+    "tally_1" to Res.drawable.tally_1,
+    "tally_2" to Res.drawable.tally_2,
+    "tally_3" to Res.drawable.tally_3,
+    "tally_4" to Res.drawable.tally_4,
+    "tally_5" to Res.drawable.tally_5,
+    "tangent" to Res.drawable.tangent,
+    "target" to Res.drawable.target,
+    "telescope" to Res.drawable.telescope,
+    "tent" to Res.drawable.tent,
+    "tent_tree" to Res.drawable.tent_tree,
+    "terminal" to Res.drawable.terminal,
+    "test_tube" to Res.drawable.test_tube,
+    "test_tube_diagonal" to Res.drawable.test_tube_diagonal,
+    "test_tubes" to Res.drawable.test_tubes,
+    "text_align_center" to Res.drawable.text_align_center,
+    "text_align_end" to Res.drawable.text_align_end,
+    "text_align_justify" to Res.drawable.text_align_justify,
+    "text_align_start" to Res.drawable.text_align_start,
+    "text_cursor" to Res.drawable.text_cursor,
+    "text_cursor_input" to Res.drawable.text_cursor_input,
+    "text_initial" to Res.drawable.text_initial,
+    "text_quote" to Res.drawable.text_quote,
+    "text_search" to Res.drawable.text_search,
+    "text_select" to Res.drawable.text_select,
+    "text_wrap" to Res.drawable.text_wrap,
+    "theater" to Res.drawable.theater,
+    "thermometer" to Res.drawable.thermometer,
+    "thermometer_snowflake" to Res.drawable.thermometer_snowflake,
+    "thermometer_sun" to Res.drawable.thermometer_sun,
+    "thumbs_down" to Res.drawable.thumbs_down,
+    "thumbs_up" to Res.drawable.thumbs_up,
+    "ticket" to Res.drawable.ticket,
+    "ticket_check" to Res.drawable.ticket_check,
+    "ticket_minus" to Res.drawable.ticket_minus,
+    "ticket_percent" to Res.drawable.ticket_percent,
+    "ticket_plus" to Res.drawable.ticket_plus,
+    "ticket_slash" to Res.drawable.ticket_slash,
+    "ticket_x" to Res.drawable.ticket_x,
+    "tickets" to Res.drawable.tickets,
+    "tickets_plane" to Res.drawable.tickets_plane,
+    "timer" to Res.drawable.timer,
+    "timer_off" to Res.drawable.timer_off,
+    "timer_reset" to Res.drawable.timer_reset,
+    "toggle_left" to Res.drawable.toggle_left,
+    "toggle_right" to Res.drawable.toggle_right,
+    "toilet" to Res.drawable.toilet,
+    "tool_case" to Res.drawable.tool_case,
+    "tornado" to Res.drawable.tornado,
+    "torus" to Res.drawable.torus,
+    "touchpad" to Res.drawable.touchpad,
+    "touchpad_off" to Res.drawable.touchpad_off,
+    "tower_control" to Res.drawable.tower_control,
+    "toy_brick" to Res.drawable.toy_brick,
+    "tractor" to Res.drawable.tractor,
+    "traffic_cone" to Res.drawable.traffic_cone,
+    "train_front" to Res.drawable.train_front,
+    "train_front_tunnel" to Res.drawable.train_front_tunnel,
+    "train_track" to Res.drawable.train_track,
+    "tram_front" to Res.drawable.tram_front,
+    "transgender" to Res.drawable.transgender,
+    "trash" to Res.drawable.trash,
+    "trash_2" to Res.drawable.trash_2,
+    "tree_deciduous" to Res.drawable.tree_deciduous,
+    "tree_palm" to Res.drawable.tree_palm,
+    "tree_pine" to Res.drawable.tree_pine,
+    "trees" to Res.drawable.trees,
+    "trello" to Res.drawable.trello,
+    "trending_down" to Res.drawable.trending_down,
+    "trending_up" to Res.drawable.trending_up,
+    "trending_up_down" to Res.drawable.trending_up_down,
+    "triangle" to Res.drawable.triangle,
+    "triangle_alert" to Res.drawable.triangle_alert,
+    "triangle_dashed" to Res.drawable.triangle_dashed,
+    "triangle_right" to Res.drawable.triangle_right,
+    "trophy" to Res.drawable.trophy,
+    "truck" to Res.drawable.truck,
+    "truck_electric" to Res.drawable.truck_electric,
+    "turkish_lira" to Res.drawable.turkish_lira,
+    "turntable" to Res.drawable.turntable,
+    "turtle" to Res.drawable.turtle,
+    "tv" to Res.drawable.tv,
+    "tv_minimal" to Res.drawable.tv_minimal,
+    "tv_minimal_play" to Res.drawable.tv_minimal_play,
+    "twitch" to Res.drawable.twitch,
+    "twitter" to Res.drawable.twitter,
+    "type" to Res.drawable.type,
+    "type_outline" to Res.drawable.type_outline,
+    "umbrella" to Res.drawable.umbrella,
+    "umbrella_off" to Res.drawable.umbrella_off,
+    "underline" to Res.drawable.underline,
+    "undo" to Res.drawable.undo,
+    "undo_2" to Res.drawable.undo_2,
+    "undo_dot" to Res.drawable.undo_dot,
+    "unfold_horizontal" to Res.drawable.unfold_horizontal,
+    "unfold_vertical" to Res.drawable.unfold_vertical,
+    "ungroup" to Res.drawable.ungroup,
+    "university" to Res.drawable.university,
+    "unlink" to Res.drawable.unlink,
+    "unlink_2" to Res.drawable.unlink_2,
+    "unplug" to Res.drawable.unplug,
+    "upload" to Res.drawable.upload,
+    "usb" to Res.drawable.usb,
+    "user" to Res.drawable.user,
+    "user_check" to Res.drawable.user_check,
+    "user_cog" to Res.drawable.user_cog,
+    "user_lock" to Res.drawable.user_lock,
+    "user_minus" to Res.drawable.user_minus,
+    "user_pen" to Res.drawable.user_pen,
+    "user_plus" to Res.drawable.user_plus,
+    "user_round" to Res.drawable.user_round,
+    "user_round_check" to Res.drawable.user_round_check,
+    "user_round_cog" to Res.drawable.user_round_cog,
+    "user_round_minus" to Res.drawable.user_round_minus,
+    "user_round_pen" to Res.drawable.user_round_pen,
+    "user_round_plus" to Res.drawable.user_round_plus,
+    "user_round_search" to Res.drawable.user_round_search,
+    "user_round_x" to Res.drawable.user_round_x,
+    "user_search" to Res.drawable.user_search,
+    "user_star" to Res.drawable.user_star,
+    "user_x" to Res.drawable.user_x,
+    "users" to Res.drawable.users,
+    "users_round" to Res.drawable.users_round,
+    "utensils" to Res.drawable.utensils,
+    "utensils_crossed" to Res.drawable.utensils_crossed,
+    "utility_pole" to Res.drawable.utility_pole,
+    "van" to Res.drawable.van,
+    "variable" to Res.drawable.variable,
+    "vault" to Res.drawable.vault,
+    "vector_square" to Res.drawable.vector_square,
+    "vegan" to Res.drawable.vegan,
+    "venetian_mask" to Res.drawable.venetian_mask,
+    "venus" to Res.drawable.venus,
+    "venus_and_mars" to Res.drawable.venus_and_mars,
+    "vibrate" to Res.drawable.vibrate,
+    "vibrate_off" to Res.drawable.vibrate_off,
+    "video" to Res.drawable.video,
+    "video_off" to Res.drawable.video_off,
+    "videotape" to Res.drawable.videotape,
+    "view" to Res.drawable.view,
+    "voicemail" to Res.drawable.voicemail,
+    "volleyball" to Res.drawable.volleyball,
+    "volume" to Res.drawable.volume,
+    "volume_1" to Res.drawable.volume_1,
+    "volume_2" to Res.drawable.volume_2,
+    "volume_off" to Res.drawable.volume_off,
+    "volume_x" to Res.drawable.volume_x,
+    "vote" to Res.drawable.vote,
+    "wallet" to Res.drawable.wallet,
+    "wallet_cards" to Res.drawable.wallet_cards,
+    "wallet_minimal" to Res.drawable.wallet_minimal,
+    "wallpaper" to Res.drawable.wallpaper,
+    "wand" to Res.drawable.wand,
+    "wand_sparkles" to Res.drawable.wand_sparkles,
+    "warehouse" to Res.drawable.warehouse,
+    "washing_machine" to Res.drawable.washing_machine,
+    "watch" to Res.drawable.watch,
+    "waves" to Res.drawable.waves,
+    "waves_arrow_down" to Res.drawable.waves_arrow_down,
+    "waves_arrow_up" to Res.drawable.waves_arrow_up,
+    "waves_ladder" to Res.drawable.waves_ladder,
+    "waypoints" to Res.drawable.waypoints,
+    "webcam" to Res.drawable.webcam,
+    "webhook" to Res.drawable.webhook,
+    "webhook_off" to Res.drawable.webhook_off,
+    "weight" to Res.drawable.weight,
+    "weight_tilde" to Res.drawable.weight_tilde,
+    "wheat" to Res.drawable.wheat,
+    "wheat_off" to Res.drawable.wheat_off,
+    "whole_word" to Res.drawable.whole_word,
+    "wifi" to Res.drawable.wifi,
+    "wifi_cog" to Res.drawable.wifi_cog,
+    "wifi_high" to Res.drawable.wifi_high,
+    "wifi_low" to Res.drawable.wifi_low,
+    "wifi_off" to Res.drawable.wifi_off,
+    "wifi_pen" to Res.drawable.wifi_pen,
+    "wifi_sync" to Res.drawable.wifi_sync,
+    "wifi_zero" to Res.drawable.wifi_zero,
+    "wind" to Res.drawable.wind,
+    "wind_arrow_down" to Res.drawable.wind_arrow_down,
+    "wine" to Res.drawable.wine,
+    "wine_off" to Res.drawable.wine_off,
+    "workflow" to Res.drawable.workflow,
+    "worm" to Res.drawable.worm,
+    "wrench" to Res.drawable.wrench,
+    "x" to Res.drawable.x,
+    "youtube" to Res.drawable.youtube,
+    "zap" to Res.drawable.zap,
+    "zap_off" to Res.drawable.zap_off,
+    "zoom_in" to Res.drawable.zoom_in,
+    "zoom_out" to Res.drawable.zoom_out
+)
+
