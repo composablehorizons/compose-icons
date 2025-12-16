@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Removed Android's `Lucide` object in favor of adding all icons to `R`. This is done in order to allow R8 to remove unused resources from the final APK.
+- Add Android resources are now prefixed with `lucide_ic_`
+
 ## [2.0.0] - 2025-12-15
 
 ### Added
