@@ -82,7 +82,7 @@ mavenPublishing {
 
     pom {
         name.set("Compose Icons Lucide")
-        description.set("Compose Icons is a collection of icon libraries for Compose Multiplatform.")
+        description.set("Compose Icons Lucide for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

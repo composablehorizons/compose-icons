@@ -44,5 +44,8 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.foundation)
     implementation(libs.composables.composeunstyled)
+
     implementation(projects.iconsLucideAndroid)
+    implementation(projects.iconsFeatherAndroid)
+    implementation(projects.iconsCodiconsAndroid)
 }

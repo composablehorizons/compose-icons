@@ -12,8 +12,14 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/gallery-android" />
             <option value="$PROJECT_DIR$/gallery-cmp" />
+            <option value="$PROJECT_DIR$/icons-codicons-android" />
+            <option value="$PROJECT_DIR$/icons-codicons-cmp" />
+            <option value="$PROJECT_DIR$/icons-feather-android" />
+            <option value="$PROJECT_DIR$/icons-feather-cmp" />
             <option value="$PROJECT_DIR$/icons-lucide-android" />
             <option value="$PROJECT_DIR$/icons-lucide-cmp" />
+            <option value="$PROJECT_DIR$/icons-radix-android" />
+            <option value="$PROJECT_DIR$/icons-radix-cmp" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -6,6 +6,7 @@
       <module name="composeicons.gallery.jvmDev" target="21" />
       <module name="composeicons.gallery.jvmMain" target="21" />
       <module name="composeicons.gallery.jvmTest" target="21" />
+      <module name="composeicons.icons-heroicons-android" target="21" />
       <module name="composeicons.nonAndroidMain" target="21" />
       <module name="composeicons.nonAndroidMain.jvmDev" target="21" />
       <module name="composeicons.nonAndroidMain.jvmMain" target="21" />

@@ -1,0 +1,49 @@
+package com.composables.icons.radix
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Radix.MagnifyingGlass: ImageVector
+    get() {
+        if (_MagnifyingGlass != null) return _MagnifyingGlass!!
+        
+        _MagnifyingGlass = ImageVector.Builder(
+            name = "magnifying-glass",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 15f,
+            viewportHeight = 15f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(6.5f, 2f)
+                curveTo(8.98528f, 2f, 11f, 4.01472f, 11f, 6.5f)
+                curveTo(11f, 7.56246f, 10.6304f, 8.5378f, 10.0146f, 9.30762f)
+                lineTo(12.8535f, 12.1465f)
+                lineTo(12.918f, 12.2246f)
+                curveTo(13.0461f, 12.4187f, 13.0244f, 12.6827f, 12.8535f, 12.8535f)
+                curveTo(12.6827f, 13.0244f, 12.4187f, 13.0461f, 12.2246f, 12.918f)
+                lineTo(12.1465f, 12.8535f)
+                lineTo(9.30762f, 10.0146f)
+                curveTo(8.5378f, 10.6304f, 7.56246f, 11f, 6.5f, 11f)
+                curveTo(4.01472f, 11f, 2f, 8.98528f, 2f, 6.5f)
+                curveTo(2f, 4.01472f, 4.01472f, 2f, 6.5f, 2f)
+                close()
+                moveTo(6.5f, 3f)
+                curveTo(4.567f, 3f, 3f, 4.567f, 3f, 6.5f)
+                curveTo(3f, 8.433f, 4.567f, 10f, 6.5f, 10f)
+                curveTo(8.433f, 10f, 10f, 8.433f, 10f, 6.5f)
+                curveTo(10f, 4.567f, 8.433f, 3f, 6.5f, 3f)
+                close()
+            }
+        }.build()
+        
+        return _MagnifyingGlass!!
+    }
+
+private var _MagnifyingGlass: ImageVector? = null
+

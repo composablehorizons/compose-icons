@@ -1,0 +1,148 @@
+package com.composables.icons.codicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Codicons.ChatSparkleError: ImageVector
+    get() {
+        if (_ChatSparkleError != null) return _ChatSparkleError!!
+        
+        _ChatSparkleError = ImageVector.Builder(
+            name = "chat-sparkle-error",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 16f,
+            viewportHeight = 16f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(6.035f, 12.1155f)
+                curveTo(6.078f, 12.5015f, 6.161f, 12.8755f, 6.28f, 13.2325f)
+                lineTo(4.63f, 14.6785f)
+                curveTo(3.99f, 15.2285f, 3f, 14.7785f, 3f, 13.9395f)
+                verticalLineTo(11.9995f)
+                horizontalLineTo(1.5f)
+                curveTo(0.67f, 11.9995f, 0f, 11.3295f, 0f, 10.4995f)
+                verticalLineTo(3.49954f)
+                curveTo(0f, 2.66954f, 0.67f, 1.99954f, 1.5f, 1.99954f)
+                horizontalLineTo(8.099f)
+                curveTo(8.034f, 2.15554f, 8f, 2.32354f, 8f, 2.49654f)
+                curveTo(8f, 2.67254f, 8.035f, 2.84454f, 8.1f, 2.99954f)
+                horizontalLineTo(1.5f)
+                curveTo(1.22f, 2.99954f, 1f, 3.21954f, 1f, 3.49954f)
+                verticalLineTo(10.4995f)
+                curveTo(1f, 10.7795f, 1.22f, 10.9995f, 1.5f, 10.9995f)
+                horizontalLineTo(4f)
+                verticalLineTo(13.8995f)
+                lineTo(6.035f, 12.1155f)
+                close()
+                moveTo(13.851f, 4.04554f)
+                curveTo(13.811f, 4.07454f, 13.78f, 4.11554f, 13.763f, 4.16254f)
+                lineTo(13.565f, 4.77454f)
+                curveTo(13.504f, 4.95854f, 13.401f, 5.12553f, 13.264f, 5.26453f)
+                curveTo(13.128f, 5.40253f, 12.962f, 5.50954f, 12.778f, 5.57254f)
+                lineTo(12.166f, 5.77153f)
+                curveTo(12.119f, 5.78753f, 12.077f, 5.81854f, 12.049f, 5.85954f)
+                curveTo(12.021f, 5.90054f, 12.005f, 5.94954f, 12.005f, 5.99954f)
+                curveTo(12.005f, 6.00754f, 12.007f, 6.01553f, 12.008f, 6.02253f)
+                curveTo(12.952f, 6.10853f, 13.827f, 6.43253f, 14.573f, 6.93553f)
+                curveTo(14.62f, 6.86253f, 14.675f, 6.79554f, 14.737f, 6.73354f)
+                curveTo(14.876f, 6.59454f, 15.045f, 6.48954f, 15.231f, 6.42754f)
+                lineTo(15.842f, 6.22954f)
+                curveTo(15.889f, 6.21354f, 15.931f, 6.18153f, 15.959f, 6.14053f)
+                curveTo(15.987f, 6.09953f, 16.003f, 6.05054f, 16.003f, 6.00054f)
+                curveTo(16.003f, 5.95054f, 15.988f, 5.90154f, 15.959f, 5.86054f)
+                curveTo(15.93f, 5.82054f, 15.889f, 5.78953f, 15.842f, 5.77253f)
+                lineTo(15.83f, 5.76954f)
+                lineTo(15.218f, 5.57054f)
+                verticalLineTo(5.57254f)
+                curveTo(15.032f, 5.51054f, 14.863f, 5.40554f, 14.724f, 5.26654f)
+                curveTo(14.585f, 5.12754f, 14.481f, 4.95954f, 14.419f, 4.77354f)
+                lineTo(14.22f, 4.16154f)
+                curveTo(14.204f, 4.11454f, 14.173f, 4.07354f, 14.132f, 4.04454f)
+                curveTo(14.091f, 4.01654f, 14.042f, 4.00054f, 13.992f, 4.00054f)
+                curveTo(13.942f, 4.00054f, 13.892f, 4.01654f, 13.851f, 4.04554f)
+                close()
+                moveTo(9.201f, 2.78154f)
+                lineTo(9.968f, 3.03053f)
+                lineTo(10.051f, 3.05954f)
+                curveTo(10.051f, 3.05954f, 10.056f, 3.06253f, 10.058f, 3.06353f)
+                curveTo(10.121f, 3.08853f, 10.184f, 3.11854f, 10.243f, 3.15154f)
+                curveTo(10.369f, 3.22254f, 10.484f, 3.31054f, 10.587f, 3.41254f)
+                curveTo(10.741f, 3.56554f, 10.862f, 3.74953f, 10.94f, 3.95153f)
+                curveTo(10.95f, 3.97853f, 10.959f, 4.00554f, 10.968f, 4.03254f)
+                lineTo(11.217f, 4.79753f)
+                curveTo(11.238f, 4.85653f, 11.276f, 4.90753f, 11.328f, 4.94353f)
+                curveTo(11.379f, 4.97953f, 11.44f, 4.99954f, 11.503f, 4.99954f)
+                horizontalLineTo(11.507f)
+                curveTo(11.568f, 4.99954f, 11.628f, 4.97953f, 11.678f, 4.94353f)
+                curveTo(11.712f, 4.91953f, 11.74f, 4.88754f, 11.762f, 4.85254f)
+                curveTo(11.773f, 4.83454f, 11.782f, 4.81554f, 11.789f, 4.79654f)
+                lineTo(12.038f, 4.03154f)
+                curveTo(12.115f, 3.79854f, 12.246f, 3.58754f, 12.419f, 3.41454f)
+                curveTo(12.592f, 3.24154f, 12.804f, 3.11054f, 13.037f, 3.03354f)
+                lineTo(13.802f, 2.78454f)
+                curveTo(13.861f, 2.76354f, 13.913f, 2.72554f, 13.949f, 2.67454f)
+                curveTo(13.985f, 2.62354f, 14.005f, 2.56254f, 14.005f, 2.49954f)
+                curveTo(14.005f, 2.43654f, 13.986f, 2.37654f, 13.949f, 2.32454f)
+                curveTo(13.913f, 2.27354f, 13.861f, 2.23554f, 13.802f, 2.21554f)
+                lineTo(13.787f, 2.21153f)
+                lineTo(13.022f, 1.96254f)
+                curveTo(12.863f, 1.90954f, 12.714f, 1.83254f, 12.58f, 1.73354f)
+                curveTo(12.518f, 1.68754f, 12.459f, 1.63654f, 12.404f, 1.58154f)
+                curveTo(12.231f, 1.40854f, 12.1f, 1.19654f, 12.023f, 0.964535f)
+                lineTo(11.774f, 0.199535f)
+                curveTo(11.753f, 0.140535f, 11.715f, 0.0895352f, 11.663f, 0.0535352f)
+                curveTo(11.616f, 0.0205352f, 11.561f, 0.00153516f, 11.504f, -0.00146484f)
+                horizontalLineTo(11.489f)
+                curveTo(11.426f, -0.00146484f, 11.365f, 0.0175352f, 11.314f, 0.0535352f)
+                curveTo(11.263f, 0.0895352f, 11.224f, 0.140535f, 11.204f, 0.199535f)
+                lineTo(10.955f, 0.964535f)
+                curveTo(10.879f, 1.19554f, 10.751f, 1.40554f, 10.58f, 1.57854f)
+                curveTo(10.555f, 1.60354f, 10.53f, 1.62754f, 10.504f, 1.65054f)
+                curveTo(10.349f, 1.78854f, 10.168f, 1.89454f, 9.971f, 1.96254f)
+                lineTo(9.376f, 2.15553f)
+                horizontalLineTo(9.374f)
+                lineTo(9.202f, 2.21054f)
+                curveTo(9.143f, 2.23154f, 9.092f, 2.27054f, 9.056f, 2.32154f)
+                curveTo(9.02f, 2.37254f, 9f, 2.43354f, 9f, 2.49654f)
+                curveTo(9f, 2.55954f, 9.02f, 2.62054f, 9.056f, 2.67054f)
+                curveTo(9.092f, 2.72154f, 9.143f, 2.75953f, 9.202f, 2.78053f)
+                lineTo(9.201f, 2.78154f)
+                close()
+                moveTo(16f, 11.4995f)
+                curveTo(16f, 13.9845f, 13.985f, 15.9995f, 11.5f, 15.9995f)
+                curveTo(9.015f, 15.9995f, 7f, 13.9845f, 7f, 11.4995f)
+                curveTo(7f, 9.01454f, 9.015f, 6.99954f, 11.5f, 6.99954f)
+                curveTo(13.985f, 6.99954f, 16f, 9.01454f, 16f, 11.4995f)
+                close()
+                moveTo(12.207f, 11.4995f)
+                lineTo(13.4376f, 10.207f)
+                curveTo(13.6326f, 10.012f, 13.6326f, 9.695f, 13.4376f, 9.5f)
+                curveTo(13.2426f, 9.305f, 12.9256f, 9.305f, 12.7306f, 9.5f)
+                lineTo(11.5f, 10.7925f)
+                lineTo(10.2075f, 9.5f)
+                curveTo(10.0125f, 9.305f, 9.69546f, 9.305f, 9.50046f, 9.5f)
+                curveTo(9.30546f, 9.695f, 9.30546f, 10.012f, 9.50046f, 10.207f)
+                lineTo(10.793f, 11.4995f)
+                lineTo(9.49954f, 12.793f)
+                curveTo(9.30454f, 12.988f, 9.30454f, 13.305f, 9.49954f, 13.5f)
+                curveTo(9.69454f, 13.695f, 10.0115f, 13.695f, 10.2065f, 13.5f)
+                lineTo(11.5f, 12.2065f)
+                lineTo(12.7935f, 13.5f)
+                curveTo(12.9885f, 13.695f, 13.3055f, 13.695f, 13.5005f, 13.5f)
+                curveTo(13.6955f, 13.305f, 13.6955f, 12.988f, 13.5005f, 12.793f)
+                lineTo(12.207f, 11.4995f)
+                close()
+            }
+        }.build()
+        
+        return _ChatSparkleError!!
+    }
+
+private var _ChatSparkleError: ImageVector? = null
+

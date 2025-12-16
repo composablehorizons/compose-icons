@@ -15,7 +15,7 @@ dependencies {
 All icons are accessible via the `Lucide` object:
 
 ```kotlin
-Image(Lucide["heart-pulse"], contentDescription = null)
+Image(Lucide.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

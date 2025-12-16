@@ -36,7 +36,14 @@ dependencyResolutionManagement {
     }
 }
 
-include(":icons-lucide-cmp")
 include(":gallery-cmp")
-include(":icons-lucide-android")
 include(":gallery-android")
+
+include(":icons-lucide-cmp")
+include(":icons-lucide-android")
+include(":icons-feather-cmp")
+include(":icons-feather-android")
+include(":icons-radix-cmp")
+include(":icons-radix-android")
+include(":icons-codicons-cmp")
+include(":icons-codicons-android")

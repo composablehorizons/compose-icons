@@ -1,8 +1,10 @@
-# Lucide icons for Jetpack Compose
+# Lucide icons for Android
 
-Adds all Lucide icons in your `R` as Android Vector Drawables.
+An Android icon library with all available Lucide icons as XML drawables.
 
 ## Installation
+
+Add the library to your app's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
@@ -12,21 +14,13 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `R` object:
-
 ```kotlin
- Image(
-    painter = painterResource(id = R.drawable.lucide_lucide_ic_activity),
-    contentDescription = "Activity"
+Icon(
+    painterResource(R.drawable.lucide_ic_icon),
+    contentDescription = null,
 )
 ```
 
-## APK Size Considerations
- 
-> [!IMPORTANT]  
-> Enable `shrinkResources` in release builds in order to keep the final APK size to a minimum.
-
-
-## Browse over 17,000+ icons for Compose Multiplatform
+## Browse over 17,000+ icons for Android
 
 Visit [Composables.com](https://composables.com/icons) to choose from over 17,000 icons, along with their SVGs

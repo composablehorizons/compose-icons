@@ -1,0 +1,46 @@
+package com.composables.icons.codicons
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Codicons.ArrowSmallLeft: ImageVector
+    get() {
+        if (_ArrowSmallLeft != null) return _ArrowSmallLeft!!
+        
+        _ArrowSmallLeft = ImageVector.Builder(
+            name = "arrow-small-left",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 16f,
+            viewportHeight = 16f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(6.14601f, 9.85398f)
+                lineTo(4.14601f, 7.85398f)
+                curveTo(3.95101f, 7.65898f, 3.95101f, 7.34198f, 4.14601f, 7.14698f)
+                lineTo(6.14601f, 5.14698f)
+                curveTo(6.34101f, 4.95198f, 6.65801f, 4.95198f, 6.85301f, 5.14698f)
+                curveTo(7.04801f, 5.34198f, 7.04801f, 5.65898f, 6.85301f, 5.85398f)
+                lineTo(5.70701f, 6.99998f)
+                horizontalLineTo(10.5f)
+                curveTo(10.776f, 6.99998f, 11f, 7.22398f, 11f, 7.49998f)
+                curveTo(11f, 7.77598f, 10.776f, 7.99998f, 10.5f, 7.99998f)
+                horizontalLineTo(5.70701f)
+                lineTo(6.85301f, 9.14598f)
+                curveTo(6.95101f, 9.24398f, 6.99901f, 9.37198f, 6.99901f, 9.49998f)
+                curveTo(6.99901f, 9.62798f, 6.95001f, 9.75598f, 6.85301f, 9.85398f)
+                curveTo(6.65801f, 10.049f, 6.34101f, 10.049f, 6.14601f, 9.85398f)
+                close()
+            }
+        }.build()
+        
+        return _ArrowSmallLeft!!
+    }
+
+private var _ArrowSmallLeft: ImageVector? = null
+

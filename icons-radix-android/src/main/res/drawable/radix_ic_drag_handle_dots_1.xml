@@ -1,0 +1,78 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="15dp"
+    android:height="15dp"
+    android:viewportWidth="15"
+    android:viewportHeight="15">
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,2.5A0.6,0.6 0 0,1 4.5,3.1A0.6,0.6 0 0,1 3.9,2.5A0.6,0.6 0 0,1 5.1,2.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,4.5A0.6,0.6 0 0,1 4.5,5.1A0.6,0.6 0 0,1 3.9,4.5A0.6,0.6 0 0,1 5.1,4.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,6.499A0.6,0.6 0 0,1 4.5,7.099A0.6,0.6 0 0,1 3.9,6.499A0.6,0.6 0 0,1 5.1,6.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,8.499A0.6,0.6 0 0,1 4.5,9.099A0.6,0.6 0 0,1 3.9,8.499A0.6,0.6 0 0,1 5.1,8.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,10.498A0.6,0.6 0 0,1 4.5,11.098A0.6,0.6 0 0,1 3.9,10.498A0.6,0.6 0 0,1 5.1,10.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M5.1,12.498A0.6,0.6 0 0,1 4.5,13.098A0.6,0.6 0 0,1 3.9,12.498A0.6,0.6 0 0,1 5.1,12.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,2.5A0.6,0.6 0 0,1 6.5,3.1A0.6,0.6 0 0,1 5.9,2.5A0.6,0.6 0 0,1 7.1,2.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,4.5A0.6,0.6 0 0,1 6.5,5.1A0.6,0.6 0 0,1 5.9,4.5A0.6,0.6 0 0,1 7.1,4.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,6.499A0.6,0.6 0 0,1 6.5,7.099A0.6,0.6 0 0,1 5.9,6.499A0.6,0.6 0 0,1 7.1,6.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,8.499A0.6,0.6 0 0,1 6.5,9.099A0.6,0.6 0 0,1 5.9,8.499A0.6,0.6 0 0,1 7.1,8.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,10.498A0.6,0.6 0 0,1 6.5,11.098A0.6,0.6 0 0,1 5.9,10.498A0.6,0.6 0 0,1 7.1,10.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.1,12.498A0.6,0.6 0 0,1 6.5,13.098A0.6,0.6 0 0,1 5.9,12.498A0.6,0.6 0 0,1 7.1,12.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,2.5A0.6,0.6 0 0,1 8.499,3.1A0.6,0.6 0 0,1 7.899,2.5A0.6,0.6 0 0,1 9.099,2.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,4.5A0.6,0.6 0 0,1 8.499,5.1A0.6,0.6 0 0,1 7.899,4.5A0.6,0.6 0 0,1 9.099,4.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,6.499A0.6,0.6 0 0,1 8.499,7.099A0.6,0.6 0 0,1 7.899,6.499A0.6,0.6 0 0,1 9.099,6.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,8.499A0.6,0.6 0 0,1 8.499,9.099A0.6,0.6 0 0,1 7.899,8.499A0.6,0.6 0 0,1 9.099,8.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,10.498A0.6,0.6 0 0,1 8.499,11.098A0.6,0.6 0 0,1 7.899,10.498A0.6,0.6 0 0,1 9.099,10.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9.099,12.498A0.6,0.6 0 0,1 8.499,13.098A0.6,0.6 0 0,1 7.899,12.498A0.6,0.6 0 0,1 9.099,12.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,2.5A0.6,0.6 0 0,1 10.499,3.1A0.6,0.6 0 0,1 9.899,2.5A0.6,0.6 0 0,1 11.099,2.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,4.5A0.6,0.6 0 0,1 10.499,5.1A0.6,0.6 0 0,1 9.899,4.5A0.6,0.6 0 0,1 11.099,4.5Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,6.499A0.6,0.6 0 0,1 10.499,7.099A0.6,0.6 0 0,1 9.899,6.499A0.6,0.6 0 0,1 11.099,6.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,8.499A0.6,0.6 0 0,1 10.499,9.099A0.6,0.6 0 0,1 9.899,8.499A0.6,0.6 0 0,1 11.099,8.499Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,10.498A0.6,0.6 0 0,1 10.499,11.098A0.6,0.6 0 0,1 9.899,10.498A0.6,0.6 0 0,1 11.099,10.498Z" />
+    <path
+        android:fillColor="#000000"
+        android:pathData="M11.099,12.498A0.6,0.6 0 0,1 10.499,13.098A0.6,0.6 0 0,1 9.899,12.498A0.6,0.6 0 0,1 11.099,12.498Z" />
+</vector>

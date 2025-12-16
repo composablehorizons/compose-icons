@@ -73,6 +73,9 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.composables.composeunstyled)
             implementation(projects.iconsLucideCmp)
+            implementation(projects.iconsFeatherCmp)
+            implementation(projects.iconsRadixCmp)
+            implementation(projects.iconsCodiconsCmp)
         }
 
         androidMain.dependencies {
