@@ -1,58 +1,24 @@
-<p align="center">
-  <a href="https://composeicons.com" target="_blank">
-    <img src="./art/logo.svg">
-  </a>
-</p>
+# Compose Icons
 
-<p align="center">
-  We've converted the Internet's most popular icon libraries to Jetpack Compose Image Vectors, so you'll never run out of icons to use in your Compose apps.
-<p>
+This repository contains popular icon libraries converted to Android Vector Drawables and Compose Image Vectors.
 
-<p align="center">
-  <a href="https://composeicons.com"><strong>Browse at ComposeIcons.com &rarr;</strong></a>
-</p>
+Each library is distributed interdependently via Maven Central.
 
-## Basic Usage
+## Icon Library Index
 
-### For Designers
+| Icon Library                                                             | Android                                  | Compose Multiplatform                |
+|--------------------------------------------------------------------------|------------------------------------------|--------------------------------------|
+| [Codicons](https://composables.com/icons/icon-libraries/vscode-codicons) | [Link](icons-codicons-android/README.md) | [Link](icons-codicons-cmp/README.md) |
+| [Feather](https://composables.com/icons/icon-libraries/feather)          | [Link](icons-feather-android/README.md)  | [Link](icons-feather-cmp/README.md)  |
+| [Lucide](https://composables.com/icons/icon-libraries/lucide)            | [Link](icons-lucide-android/README.md)   | [Link](icons-lucide-cmp/README.md)   |
+| [Radix](https://composables.com/icons/icon-libraries/radix)              | [Link](icons-radix-android/README.md)    | [Link](icons-radix-cmp/README.md)    |
 
-Head over to [Composables](https://composables.com/icons), find an icon you need an click on
-the `Copy SVG` button. Then go to any design tool of your choice such as Figma and paste the icon (`⌘ + V`) in your project.
+## Browse over 17,000+ icons for Compose Multiplatform
 
-### For Developers
-
-Head over to [Composables](https://composables.com/icons), find the icon you need and click the `Copy Compose` button. 
-It will add the Jetpack Compose Image Vector to your clipboard. Then paste the vector into your project and use it.
-
-Use it in your project using the `Image()` composable:
-
-```kotlin
-import Check // your new icon
-
-Image(Check, contentDescription = null)
-```
-
-Alternatively, use the `Icon()` composable from [Compose Unstyled](https://composeunstyled.com) that supports tinting:
-
-```kotlin
-import Check // your new icon
-
-Icon(Check, contentDescription = null, tint = Color.Blue)
-```
-
-## Icon Libraries
-
-Instead of adding individual icons to your project, you can add an all icons in a library instead. 
-
-To add them to your project, visit the respective icon library section: 
-
-- [Lucide Compose](icons-lucide/)
-
-## License
-
-Each icon has a license of the respective icon library. To view each license, find the icon library
-at [ComposeIcons.com](https://composeicons.com)
+Visit [Composables.com](https://composables.com/icons) to pick from over 17,000 free icons in Vector Drawable, Image
+Vector or SVG format.
 
 ## Contributing
 
-We are currently accepting contributions in the form of bug reports and feature & icons requests, in the form of Github issues.
+We are currently accepting contributions in the form of bug reports and feature & icons requests, in the form of Github
+issues.
