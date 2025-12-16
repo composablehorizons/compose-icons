@@ -1,0 +1,42 @@
+package com.composables.icons.lucide
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Lucide.Triangle: ImageVector
+    get() {
+        if (_Triangle != null) return _Triangle!!
+        
+        _Triangle = ImageVector.Builder(
+            name = "triangle",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(13.73f, 4f)
+                arcToRelative(2f, 2f, 0f, false, false, -3.46f, 0f)
+                lineToRelative(-8f, 14f)
+                arcTo(2f, 2f, 0f, false, false, 4f, 21f)
+                horizontalLineToRelative(16f)
+                arcToRelative(2f, 2f, 0f, false, false, 1.73f, -3f)
+                close()
+            }
+        }.build()
+        
+        return _Triangle!!
+    }
+
+private var _Triangle: ImageVector? = null
+

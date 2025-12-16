@@ -1,0 +1,62 @@
+package com.composables.icons.lucide
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Lucide.SpellCheck2: ImageVector
+    get() {
+        if (_SpellCheck2 != null) return _SpellCheck2!!
+        
+        _SpellCheck2 = ImageVector.Builder(
+            name = "spell-check-2",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(6f, 16f)
+                lineToRelative(6f, -12f)
+                lineToRelative(6f, 12f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(8f, 12f)
+                horizontalLineToRelative(8f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(4f, 21f)
+                curveToRelative(1.1f, 0f, 1.1f, -1f, 2.3f, -1f)
+                reflectiveCurveToRelative(1.1f, 1f, 2.3f, 1f)
+                curveToRelative(1.1f, 0f, 1.1f, -1f, 2.3f, -1f)
+                curveToRelative(1.1f, 0f, 1.1f, 1f, 2.3f, 1f)
+                curveToRelative(1.1f, 0f, 1.1f, -1f, 2.3f, -1f)
+                curveToRelative(1.1f, 0f, 1.1f, 1f, 2.3f, 1f)
+                curveToRelative(1.1f, 0f, 1.1f, -1f, 2.3f, -1f)
+            }
+        }.build()
+        
+        return _SpellCheck2!!
+    }
+
+private var _SpellCheck2: ImageVector? = null
+

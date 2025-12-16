@@ -1,0 +1,49 @@
+package com.composables.icons.lucide
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Lucide.CornerUpLeft: ImageVector
+    get() {
+        if (_CornerUpLeft != null) return _CornerUpLeft!!
+        
+        _CornerUpLeft = ImageVector.Builder(
+            name = "corner-up-left",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(20f, 20f)
+                verticalLineToRelative(-7f)
+                arcToRelative(4f, 4f, 0f, false, false, -4f, -4f)
+                horizontalLineTo(4f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(9f, 14f)
+                lineTo(4f, 9f)
+                lineToRelative(5f, -5f)
+            }
+        }.build()
+        
+        return _CornerUpLeft!!
+    }
+
+private var _CornerUpLeft: ImageVector? = null
+

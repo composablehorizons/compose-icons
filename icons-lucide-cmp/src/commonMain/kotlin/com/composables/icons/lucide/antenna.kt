@@ -1,0 +1,82 @@
+package com.composables.icons.lucide
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Lucide.Antenna: ImageVector
+    get() {
+        if (_Antenna != null) return _Antenna!!
+        
+        _Antenna = ImageVector.Builder(
+            name = "antenna",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(2f, 12f)
+                lineTo(7f, 2f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(7f, 12f)
+                lineToRelative(5f, -10f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 12f)
+                lineToRelative(5f, -10f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(17f, 12f)
+                lineToRelative(5f, -10f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(4.5f, 7f)
+                horizontalLineToRelative(15f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 16f)
+                verticalLineToRelative(6f)
+            }
+        }.build()
+        
+        return _Antenna!!
+    }
+
+private var _Antenna: ImageVector? = null
+
