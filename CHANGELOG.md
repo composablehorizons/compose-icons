@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.1] - 2025-12-16
+
+### Added
+
+- Added [Radix](https://composables.com/icons/icon-libraries/radix) and [Codicons](https://composables.com/icons/icon-libraries/vscode-codicons) icon libraries.
+
 ## [2.0.1] - 2025-12-16
 
 ### Changed
