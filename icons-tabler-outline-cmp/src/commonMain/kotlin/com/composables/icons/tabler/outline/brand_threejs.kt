@@ -21,6 +21,7 @@ val Tabler.Outline.BrandThreejs: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.BrandThreejs: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.BrandThreejs: ImageVector
                 lineToRelative(1.914f, 6.64f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -53,6 +56,7 @@ val Tabler.Outline.BrandThreejs: ImageVector
                 lineToRelative(6.13f, 2.179f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

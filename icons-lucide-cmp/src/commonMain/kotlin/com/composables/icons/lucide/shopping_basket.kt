@@ -20,6 +20,7 @@ val Lucide.ShoppingBasket: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.ShoppingBasket: ImageVector
                 lineToRelative(-1f, 9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +40,7 @@ val Lucide.ShoppingBasket: ImageVector
                 lineToRelative(-4f, -7f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +50,7 @@ val Lucide.ShoppingBasket: ImageVector
                 horizontalLineToRelative(20f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -60,6 +64,7 @@ val Lucide.ShoppingBasket: ImageVector
                 lineToRelative(1.7f, -7.4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +74,7 @@ val Lucide.ShoppingBasket: ImageVector
                 horizontalLineToRelative(15f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -78,6 +84,7 @@ val Lucide.ShoppingBasket: ImageVector
                 lineToRelative(4f, -7f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -36,6 +37,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
                 verticalLineToRelative(9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -45,6 +47,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
                 horizontalLineToRelative(18f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -54,6 +57,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
                 horizontalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -63,6 +67,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
                 lineToRelative(-0.5f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -72,6 +77,7 @@ val Tabler.Outline.DeviceImacPause: ImageVector
                 verticalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

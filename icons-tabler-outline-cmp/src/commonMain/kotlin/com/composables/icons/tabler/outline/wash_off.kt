@@ -21,6 +21,7 @@ val Tabler.Outline.WashOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -35,6 +36,7 @@ val Tabler.Outline.WashOff: ImageVector
                 lineToRelative(1.573f, -9.436f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +54,7 @@ val Tabler.Outline.WashOff: ImageVector
                 curveToRelative(0.17f, 0f, 0.339f, -0.015f, 0.503f, -0.035f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

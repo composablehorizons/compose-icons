@@ -21,6 +21,7 @@ val Tabler.Outline.PhotoScan: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -41,6 +43,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 lineToRelative(3.644f, 3.644f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +55,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 lineToRelative(1.644f, 1.644f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -63,6 +67,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 horizontalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -74,6 +79,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 horizontalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -85,6 +91,7 @@ val Tabler.Outline.PhotoScan: ImageVector
                 verticalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

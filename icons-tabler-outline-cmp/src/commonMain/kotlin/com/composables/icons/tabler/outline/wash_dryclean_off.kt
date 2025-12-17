@@ -21,6 +21,7 @@ val Tabler.Outline.WashDrycleanOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.WashDrycleanOff: ImageVector
                 arcToRelative(9f, 9f, 0f, false, false, 12.733f, 12.723f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

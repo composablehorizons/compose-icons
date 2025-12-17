@@ -20,6 +20,7 @@ val Lucide.WifiOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.WifiOff: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +40,7 @@ val Lucide.WifiOff: ImageVector
                 arcToRelative(5f, 5f, 0f, false, true, 7f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +50,7 @@ val Lucide.WifiOff: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 5.17f, -2.69f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +60,7 @@ val Lucide.WifiOff: ImageVector
                 arcToRelative(10f, 10f, 0f, false, false, -2.007f, -1.523f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +70,7 @@ val Lucide.WifiOff: ImageVector
                 arcToRelative(15f, 15f, 0f, false, true, 4.177f, -2.643f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -74,6 +80,7 @@ val Lucide.WifiOff: ImageVector
                 arcToRelative(15f, 15f, 0f, false, false, -11.288f, -3.764f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

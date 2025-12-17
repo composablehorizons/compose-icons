@@ -21,6 +21,7 @@ val Tabler.Outline.RobotFace: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +39,7 @@ val Tabler.Outline.RobotFace: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -48,6 +50,7 @@ val Tabler.Outline.RobotFace: ImageVector
                 reflectiveCurveToRelative(2f, -0.333f, 3f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -57,6 +60,7 @@ val Tabler.Outline.RobotFace: ImageVector
                 lineToRelative(-1f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -66,6 +70,7 @@ val Tabler.Outline.RobotFace: ImageVector
                 lineToRelative(1f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -75,6 +80,7 @@ val Tabler.Outline.RobotFace: ImageVector
                 verticalLineToRelative(-1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

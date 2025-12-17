@@ -21,6 +21,7 @@ val Tabler.Outline.SquareOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +39,7 @@ val Tabler.Outline.SquareOff: ImageVector
                 curveToRelative(0f, -0.552f, 0.224f, -1.052f, 0.586f, -1.414f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 verticalLineToRelative(-2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -41,6 +43,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(2f, -1.1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -51,6 +54,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(2f, 1.1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -61,6 +65,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 verticalLineToRelative(2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -71,6 +76,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(-2f, 1.12f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -81,6 +87,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(-2f, -1.1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -90,6 +97,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(2f, -1.1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -99,6 +107,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(2f, -1.1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -108,6 +117,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(0f, 2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -117,6 +127,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(0f, 2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -126,6 +137,7 @@ val Tabler.Outline.Cube3dSphere: ImageVector
                 lineToRelative(-2f, -1.12f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

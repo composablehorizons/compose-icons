@@ -21,6 +21,7 @@ val Tabler.Outline.Scissors: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.Scissors: ImageVector
                 arcToRelative(3f, 3f, 0f, true, false, -6f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.Scissors: ImageVector
                 arcToRelative(3f, 3f, 0f, true, false, -6f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +55,7 @@ val Tabler.Outline.Scissors: ImageVector
                 lineToRelative(10.4f, 10.4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

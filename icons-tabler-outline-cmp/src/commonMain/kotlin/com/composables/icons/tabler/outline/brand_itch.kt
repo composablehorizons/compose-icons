@@ -21,6 +21,7 @@ val Tabler.Outline.BrandItch: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +48,7 @@ val Tabler.Outline.BrandItch: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -59,6 +61,7 @@ val Tabler.Outline.BrandItch: ImageVector
                 curveToRelative(0.99f, -1.037f, 0.898f, -9.559f, 0.814f, -10.456f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +72,7 @@ val Tabler.Outline.BrandItch: ImageVector
                 lineToRelative(2f, 2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

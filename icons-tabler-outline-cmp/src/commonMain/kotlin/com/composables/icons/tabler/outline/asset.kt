@@ -21,6 +21,7 @@ val Tabler.Outline.Asset: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.Asset: ImageVector
                 arcToRelative(6f, 6f, 0f, true, false, -12f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.Asset: ImageVector
                 arcToRelative(2f, 2f, 0f, true, false, -4f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -54,6 +57,7 @@ val Tabler.Outline.Asset: ImageVector
                 arcToRelative(2f, 2f, 0f, true, false, -4f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -63,6 +67,7 @@ val Tabler.Outline.Asset: ImageVector
                 lineToRelative(6.619f, -12.174f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -72,6 +77,7 @@ val Tabler.Outline.Asset: ImageVector
                 lineToRelative(12.217f, -6.631f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

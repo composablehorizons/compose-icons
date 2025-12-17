@@ -21,6 +21,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -40,6 +41,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
                 lineToRelative(2.062f, -1.032f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -49,6 +51,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
                 verticalLineToRelative(-7.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -58,6 +61,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
                 lineToRelative(11.5f, -5.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -67,6 +71,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
                 lineToRelative(5.5f, 2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -76,6 +81,7 @@ val Tabler.Outline.RectangularPrismPlus: ImageVector
                 horizontalLineToRelative(6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

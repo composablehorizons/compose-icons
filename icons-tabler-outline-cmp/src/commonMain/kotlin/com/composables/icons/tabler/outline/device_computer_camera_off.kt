@@ -21,6 +21,7 @@ val Tabler.Outline.DeviceComputerCameraOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.DeviceComputerCameraOff: ImageVector
                 arcToRelative(7f, 7f, 0f, false, false, -9.699f, -9.695f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.DeviceComputerCameraOff: ImageVector
                 arcToRelative(3f, 3f, 0f, false, false, -3.737f, -3.736f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +59,7 @@ val Tabler.Outline.DeviceComputerCameraOff: ImageVector
                 lineToRelative(-2.091f, -3.486f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

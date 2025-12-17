@@ -21,6 +21,7 @@ val Tabler.Outline.SmartHome: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +40,7 @@ val Tabler.Outline.SmartHome: ImageVector
                 curveToRelative(0f, -0.823f, -0.38f, -1.6f, -1.03f, -2.105f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

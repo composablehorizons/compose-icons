@@ -20,6 +20,7 @@ val Lucide.RefreshCcwDot: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Lucide.RefreshCcwDot: ImageVector
                 lineTo(3f, 8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -41,6 +43,7 @@ val Lucide.RefreshCcwDot: ImageVector
                 horizontalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +55,7 @@ val Lucide.RefreshCcwDot: ImageVector
                 lineTo(21f, 16f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -62,6 +66,7 @@ val Lucide.RefreshCcwDot: ImageVector
                 verticalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

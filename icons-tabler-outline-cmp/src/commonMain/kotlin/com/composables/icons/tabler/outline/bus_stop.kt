@@ -21,6 +21,7 @@ val Tabler.Outline.BusStop: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +39,7 @@ val Tabler.Outline.BusStop: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -49,6 +51,7 @@ val Tabler.Outline.BusStop: ImageVector
                 arcToRelative(2f, 2f, 0f, true, false, -4f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -61,6 +64,7 @@ val Tabler.Outline.BusStop: ImageVector
                 horizontalLineToRelative(-2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -70,6 +74,7 @@ val Tabler.Outline.BusStop: ImageVector
                 horizontalLineToRelative(-8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -80,6 +85,7 @@ val Tabler.Outline.BusStop: ImageVector
                 horizontalLineToRelative(4.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -89,6 +95,7 @@ val Tabler.Outline.BusStop: ImageVector
                 horizontalLineToRelative(7.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -98,6 +105,7 @@ val Tabler.Outline.BusStop: ImageVector
                 verticalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

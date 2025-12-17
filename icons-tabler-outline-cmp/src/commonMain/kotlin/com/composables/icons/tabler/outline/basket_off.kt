@@ -21,6 +21,7 @@ val Tabler.Outline.BasketOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Tabler.Outline.BasketOff: ImageVector
                 lineToRelative(-2f, -6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -41,6 +43,7 @@ val Tabler.Outline.BasketOff: ImageVector
                 lineToRelative(0.249f, -0.746f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -59,6 +62,7 @@ val Tabler.Outline.BasketOff: ImageVector
                 horizontalLineToRelative(2.999f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -68,6 +72,7 @@ val Tabler.Outline.BasketOff: ImageVector
                 arcToRelative(2f, 2f, 0f, true, false, 2f, 2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

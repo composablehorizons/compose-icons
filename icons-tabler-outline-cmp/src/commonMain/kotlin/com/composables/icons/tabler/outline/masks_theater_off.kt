@@ -21,6 +21,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +39,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 lineToRelative(-0.567f, -6.182f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +49,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +59,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 curveToRelative(0.657f, 0.438f, 1.313f, 0.588f, 1.97f, 0.451f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -73,6 +77,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -82,6 +87,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -91,6 +97,7 @@ val Tabler.Outline.MasksTheaterOff: ImageVector
                 curveToRelative(0.764f, -0.51f, 1.528f, -0.63f, 2.291f, -0.36f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

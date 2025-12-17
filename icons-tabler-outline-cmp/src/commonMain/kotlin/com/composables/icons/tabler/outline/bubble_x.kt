@@ -21,6 +21,7 @@ val Tabler.Outline.BubbleX: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -37,6 +38,7 @@ val Tabler.Outline.BubbleX: ImageVector
                 arcToRelative(5.333f, 5.333f, 0f, false, true, 4.484f, 6.778f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -46,6 +48,7 @@ val Tabler.Outline.BubbleX: ImageVector
                 lineToRelative(-5f, -5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

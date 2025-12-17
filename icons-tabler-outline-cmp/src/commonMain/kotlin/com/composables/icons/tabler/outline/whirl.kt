@@ -21,6 +21,7 @@ val Tabler.Outline.Whirl: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.Whirl: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +44,7 @@ val Tabler.Outline.Whirl: ImageVector
                 reflectiveCurveToRelative(2.686f, -5.5f, 6f, -5.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +55,7 @@ val Tabler.Outline.Whirl: ImageVector
                 reflectiveCurveToRelative(-5.5f, -2.686f, -5.5f, -6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -62,6 +66,7 @@ val Tabler.Outline.Whirl: ImageVector
                 reflectiveCurveToRelative(-2.686f, -5.5f, -6f, -5.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

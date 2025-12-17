@@ -21,6 +21,7 @@ val Tabler.Outline.DatabaseX: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -33,6 +34,7 @@ val Tabler.Outline.DatabaseX: ImageVector
                 reflectiveCurveToRelative(-8f, 1.343f, -8f, 3f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -44,6 +46,7 @@ val Tabler.Outline.DatabaseX: ImageVector
                 curveToRelative(0.537f, 0f, 1.062f, -0.02f, 1.57f, -0.058f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -53,6 +56,7 @@ val Tabler.Outline.DatabaseX: ImageVector
                 verticalLineToRelative(-7.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -64,6 +68,7 @@ val Tabler.Outline.DatabaseX: ImageVector
                 curveToRelative(0.384f, 0f, 0.762f, -0.01f, 1.132f, -0.03f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -73,6 +78,7 @@ val Tabler.Outline.DatabaseX: ImageVector
                 lineToRelative(-5f, -5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.CompassOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -34,6 +35,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 lineToRelative(2f, -6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -45,6 +47,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 arcToRelative(9f, 9f, 0f, true, false, 12.725f, 12.73f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -54,6 +57,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 verticalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -63,6 +67,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 verticalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -72,6 +77,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 horizontalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -81,6 +87,7 @@ val Tabler.Outline.CompassOff: ImageVector
                 horizontalLineToRelative(2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

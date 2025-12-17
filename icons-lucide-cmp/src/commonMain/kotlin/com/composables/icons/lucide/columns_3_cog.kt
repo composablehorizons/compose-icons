@@ -20,6 +20,7 @@ val Lucide.Columns3Cog: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -35,6 +36,7 @@ val Lucide.Columns3Cog: ImageVector
                 verticalLineToRelative(5.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -44,6 +46,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(1f, -0.4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -53,6 +56,7 @@ val Lucide.Columns3Cog: ImageVector
                 verticalLineToRelative(7.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -62,6 +66,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(-0.9f, -0.3f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -71,6 +76,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(0.3f, -0.9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -80,6 +86,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(-0.4f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -89,6 +96,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(0.3f, -0.9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -98,6 +106,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(-0.4f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -107,6 +116,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(1f, -0.4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -116,6 +126,7 @@ val Lucide.Columns3Cog: ImageVector
                 lineToRelative(-0.9f, -0.3f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -125,6 +136,7 @@ val Lucide.Columns3Cog: ImageVector
                 verticalLineToRelative(18f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

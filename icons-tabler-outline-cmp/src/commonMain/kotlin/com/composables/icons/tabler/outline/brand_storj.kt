@@ -21,6 +21,7 @@ val Tabler.Outline.BrandStorj: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -54,6 +57,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +69,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -76,6 +81,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -87,6 +93,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 arcToRelative(1f, 1f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -101,6 +108,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -117,6 +125,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -126,6 +135,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 lineToRelative(4.323f, 2.702f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -135,6 +145,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 lineToRelative(3.587f, 2.242f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -144,6 +155,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 lineToRelative(3.529f, -2.206f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -153,6 +165,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 lineToRelative(5.391f, -3.37f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -162,6 +175,7 @@ val Tabler.Outline.BrandStorj: ImageVector
                 verticalLineToRelative(5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

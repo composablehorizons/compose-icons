@@ -1,0 +1,68 @@
+package com.composables.icons.materialicons.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Sharp.Sync_alt: ImageVector
+    get() {
+        if (_Sync_alt != null) return _Sync_alt!!
+        
+        _Sync_alt = ImageVector.Builder(
+            name = "sync_alt",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(18f, 12f)
+                        lineTo(22f, 8f)
+                        lineTo(18f, 4f)
+                        lineTo(18f, 7f)
+                        lineTo(3f, 7f)
+                        lineTo(3f, 9f)
+                        lineTo(18f, 9f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(6f, 12f)
+                        lineTo(2f, 16f)
+                        lineTo(6f, 20f)
+                        lineTo(6f, 17f)
+                        lineTo(21f, 17f)
+                        lineTo(21f, 15f)
+                        lineTo(6f, 15f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Sync_alt!!
+    }
+
+private var _Sync_alt: ImageVector? = null
+

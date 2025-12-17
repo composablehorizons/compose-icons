@@ -21,6 +21,7 @@ val Tabler.Outline.EyeEdit: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Tabler.Outline.EyeEdit: ImageVector
                 arcToRelative(2f, 2f, 0f, false, false, -4f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +44,7 @@ val Tabler.Outline.EyeEdit: ImageVector
                 curveToRelative(3.326f, 0f, 6.14f, 1.707f, 8.442f, 5.122f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

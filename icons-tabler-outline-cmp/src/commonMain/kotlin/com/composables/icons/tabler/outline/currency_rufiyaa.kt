@@ -21,6 +21,7 @@ val Tabler.Outline.CurrencyRufiyaa: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Tabler.Outline.CurrencyRufiyaa: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +41,7 @@ val Tabler.Outline.CurrencyRufiyaa: ImageVector
                 curveToRelative(9.5f, -4f, 11.5f, -8f, 14f, -9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.ArrowsJoin2: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -33,6 +34,7 @@ val Tabler.Outline.ArrowsJoin2: ImageVector
                 horizontalLineToRelative(6.448f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -45,6 +47,7 @@ val Tabler.Outline.ArrowsJoin2: ImageVector
                 horizontalLineToRelative(5.454f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

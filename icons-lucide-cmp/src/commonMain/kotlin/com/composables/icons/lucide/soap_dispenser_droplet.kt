@@ -20,6 +20,7 @@ val Lucide.SoapDispenserDroplet: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.SoapDispenserDroplet: ImageVector
                 verticalLineToRelative(4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +41,7 @@ val Lucide.SoapDispenserDroplet: ImageVector
                 arcToRelative(2f, 2f, 0f, false, false, -2f, 2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -53,6 +56,7 @@ val Lucide.SoapDispenserDroplet: ImageVector
                 curveToRelative(0f, -1.16f, -0.57f, -2.26f, -1.71f, -3.19f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

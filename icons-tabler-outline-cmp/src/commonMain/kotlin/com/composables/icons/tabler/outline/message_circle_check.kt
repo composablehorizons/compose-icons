@@ -21,6 +21,7 @@ val Tabler.Outline.MessageCircleCheck: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -35,6 +36,7 @@ val Tabler.Outline.MessageCircleCheck: ImageVector
                 curveToRelative(2.127f, 1.814f, 3.052f, 4.36f, 2.694f, 6.808f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

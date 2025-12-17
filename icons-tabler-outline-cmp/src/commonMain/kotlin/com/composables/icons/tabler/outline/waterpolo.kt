@@ -21,6 +21,7 @@ val Tabler.Outline.Waterpolo: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Tabler.Outline.Waterpolo: ImageVector
                 arcToRelative(1f, 1f, 0f, false, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +44,7 @@ val Tabler.Outline.Waterpolo: ImageVector
                 lineToRelative(7.5f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -60,6 +63,7 @@ val Tabler.Outline.Waterpolo: ImageVector
                 arcToRelative(2.4f, 2.4f, 0f, false, false, 1f, -0.25f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

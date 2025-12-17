@@ -21,6 +21,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +43,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -51,6 +53,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
                 verticalLineToRelative(-10f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -60,6 +63,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
                 lineToRelative(8.73f, -5.04f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +73,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
                 lineToRelative(8.73f, 5.04f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -82,6 +87,7 @@ val Tabler.Outline.BrandMinecraft: ImageVector
                 lineToRelative(-9f, -5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

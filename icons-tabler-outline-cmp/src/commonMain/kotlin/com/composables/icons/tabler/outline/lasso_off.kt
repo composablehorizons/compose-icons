@@ -21,6 +21,7 @@ val Tabler.Outline.LassoOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +39,7 @@ val Tabler.Outline.LassoOff: ImageVector
                 curveToRelative(-1.913f, 0f, -3.686f, -0.464f, -5.144f, -1.255f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -49,6 +51,7 @@ val Tabler.Outline.LassoOff: ImageVector
                 arcToRelative(2f, 2f, 0f, true, false, -4f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -58,6 +61,7 @@ val Tabler.Outline.LassoOff: ImageVector
                 curveToRelative(0f, 1.42f, 0.316f, 2.805f, 1f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

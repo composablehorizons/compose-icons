@@ -21,6 +21,7 @@ val Tabler.Outline.Drone: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -33,6 +34,7 @@ val Tabler.Outline.Drone: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +44,7 @@ val Tabler.Outline.Drone: ImageVector
                 lineToRelative(-3.5f, -3.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -51,6 +54,7 @@ val Tabler.Outline.Drone: ImageVector
                 arcToRelative(3.5f, 3.5f, 0f, true, false, -3.96f, 3.96f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -60,6 +64,7 @@ val Tabler.Outline.Drone: ImageVector
                 lineToRelative(3.5f, -3.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +74,7 @@ val Tabler.Outline.Drone: ImageVector
                 arcToRelative(3.5f, 3.5f, 0f, true, false, -3.96f, -3.96f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -78,6 +84,7 @@ val Tabler.Outline.Drone: ImageVector
                 lineToRelative(3.5f, 3.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -87,6 +94,7 @@ val Tabler.Outline.Drone: ImageVector
                 arcToRelative(3.5f, 3.5f, 0f, true, false, 3.96f, -3.96f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -96,6 +104,7 @@ val Tabler.Outline.Drone: ImageVector
                 lineToRelative(-3.5f, 3.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

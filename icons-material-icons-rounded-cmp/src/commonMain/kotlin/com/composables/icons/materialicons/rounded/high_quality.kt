@@ -1,0 +1,80 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.High_quality: ImageVector
+    get() {
+        if (_High_quality != null) return _High_quality!!
+        
+        _High_quality = ImageVector.Builder(
+            name = "high_quality",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(19f, 4f)
+                horizontalLineTo(5f)
+                curveToRelative(-1.11f, 0f, -2f, 0.9f, -2f, 2f)
+                verticalLineToRelative(12f)
+                curveToRelative(0f, 1.1f, 0.89f, 2f, 2f, 2f)
+                horizontalLineToRelative(14f)
+                curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                verticalLineTo(6f)
+                curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                close()
+                moveToRelative(-8.75f, 11f)
+                curveToRelative(-0.41f, 0f, -0.75f, -0.34f, -0.75f, -0.75f)
+                verticalLineTo(13f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(1.25f)
+                curveToRelative(0f, 0.41f, -0.34f, 0.75f, -0.75f, 0.75f)
+                reflectiveCurveTo(6f, 14.66f, 6f, 14.25f)
+                verticalLineToRelative(-4.5f)
+                curveToRelative(0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f)
+                reflectiveCurveToRelative(0.75f, 0.34f, 0.75f, 0.75f)
+                verticalLineToRelative(1.75f)
+                horizontalLineToRelative(2f)
+                verticalLineTo(9.75f)
+                curveToRelative(0f, -0.41f, 0.34f, -0.75f, 0.75f, -0.75f)
+                reflectiveCurveToRelative(0.75f, 0.34f, 0.75f, 0.75f)
+                verticalLineToRelative(4.5f)
+                curveToRelative(0f, 0.41f, -0.34f, 0.75f, -0.75f, 0.75f)
+                close()
+                moveTo(18f, 14f)
+                curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                horizontalLineToRelative(-0.75f)
+                verticalLineToRelative(0.75f)
+                curveToRelative(0f, 0.41f, -0.34f, 0.75f, -0.75f, 0.75f)
+                reflectiveCurveToRelative(-0.75f, -0.34f, -0.75f, -0.75f)
+                verticalLineTo(15f)
+                horizontalLineTo(14f)
+                curveToRelative(-0.55f, 0f, -1f, -0.45f, -1f, -1f)
+                verticalLineToRelative(-4f)
+                curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                horizontalLineToRelative(3f)
+                curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                verticalLineToRelative(4f)
+                close()
+                moveToRelative(-3.5f, -0.5f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(-3f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(3f)
+                close()
+            }
+        }.build()
+        
+        return _High_quality!!
+    }
+
+private var _High_quality: ImageVector? = null
+

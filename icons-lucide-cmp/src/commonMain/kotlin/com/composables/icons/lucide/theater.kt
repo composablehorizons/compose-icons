@@ -20,6 +20,7 @@ val Lucide.Theater: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.Theater: ImageVector
                 reflectiveCurveToRelative(3f, -3f, 3f, -8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +40,7 @@ val Lucide.Theater: ImageVector
                 reflectiveCurveToRelative(-3f, -3f, -3f, -8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +50,7 @@ val Lucide.Theater: ImageVector
                 curveToRelative(0f, 4.4f, -3.6f, 8f, -8f, 8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +60,7 @@ val Lucide.Theater: ImageVector
                 curveToRelative(0f, 4.4f, 3.6f, 8f, 8f, 8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +70,7 @@ val Lucide.Theater: ImageVector
                 reflectiveCurveToRelative(2f, 2f, 2f, 5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -74,6 +80,7 @@ val Lucide.Theater: ImageVector
                 reflectiveCurveToRelative(-2f, 2f, -2f, 5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -83,6 +90,7 @@ val Lucide.Theater: ImageVector
                 horizontalLineToRelative(8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -96,6 +104,7 @@ val Lucide.Theater: ImageVector
                 verticalLineToRelative(1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

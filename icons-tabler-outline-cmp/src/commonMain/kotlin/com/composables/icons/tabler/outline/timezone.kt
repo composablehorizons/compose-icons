@@ -21,6 +21,7 @@ val Tabler.Outline.Timezone: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Tabler.Outline.Timezone: ImageVector
                 arcToRelative(9f, 9f, 0f, true, false, -10.337f, 10.328f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +41,7 @@ val Tabler.Outline.Timezone: ImageVector
                 horizontalLineToRelative(16.8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -48,6 +51,7 @@ val Tabler.Outline.Timezone: ImageVector
                 horizontalLineToRelative(6.9f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -57,6 +61,7 @@ val Tabler.Outline.Timezone: ImageVector
                 arcToRelative(17f, 17f, 0f, false, false, -1.502f, 14.954f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -66,6 +71,7 @@ val Tabler.Outline.Timezone: ImageVector
                 arcToRelative(17f, 17f, 0f, false, true, 2.52f, 7.603f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -77,6 +83,7 @@ val Tabler.Outline.Timezone: ImageVector
                 arcToRelative(4f, 4f, 0f, true, false, -8f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

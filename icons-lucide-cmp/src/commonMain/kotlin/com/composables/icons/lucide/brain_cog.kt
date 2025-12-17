@@ -20,6 +20,7 @@ val Lucide.BrainCog: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(-0.383f, 0.923f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +40,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(-0.383f, -0.923f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +50,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(0.382f, 0.924f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +60,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(-0.383f, 0.923f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +70,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(0.923f, -0.383f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -74,6 +80,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(0.923f, 0.383f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -86,6 +93,7 @@ val Lucide.BrainCog: ImageVector
                 arcToRelative(4f, 4f, 0f, false, false, -2.525f, 5.771f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -95,6 +103,7 @@ val Lucide.BrainCog: ImageVector
                 arcToRelative(4f, 4f, 0f, false, true, 2.525f, 5.771f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -104,6 +113,7 @@ val Lucide.BrainCog: ImageVector
                 arcToRelative(4f, 4f, 0f, false, true, -1.5f, 7.706f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -115,6 +125,7 @@ val Lucide.BrainCog: ImageVector
                 arcToRelative(4f, 4f, 0f, false, false, 7.432f, -2.516f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -124,6 +135,7 @@ val Lucide.BrainCog: ImageVector
                 arcTo(4f, 4f, 0f, false, false, 6f, 18f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -133,6 +145,7 @@ val Lucide.BrainCog: ImageVector
                 arcToRelative(3f, 3f, 0f, false, false, 0.4f, 1.375f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -142,6 +155,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(-0.923f, -0.383f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -151,6 +165,7 @@ val Lucide.BrainCog: ImageVector
                 lineToRelative(-0.923f, 0.383f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

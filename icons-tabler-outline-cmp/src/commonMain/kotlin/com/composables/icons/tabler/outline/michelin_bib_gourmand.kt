@@ -21,6 +21,7 @@ val Tabler.Outline.MichelinBibGourmand: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -35,6 +36,7 @@ val Tabler.Outline.MichelinBibGourmand: ImageVector
                 curveToRelative(3.758f, 2.755f, 1.39f, 6.053f, -1.005f, 8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -46,6 +48,7 @@ val Tabler.Outline.MichelinBibGourmand: ImageVector
                 arcToRelative(1f, 2f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -57,6 +60,7 @@ val Tabler.Outline.MichelinBibGourmand: ImageVector
                 arcToRelative(1f, 2f, 0f, true, false, -2f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -66,6 +70,7 @@ val Tabler.Outline.MichelinBibGourmand: ImageVector
                 curveToRelative(3.5f, 2.712f, 6.5f, 2.712f, 9f, -1.085f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.WashPress: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +40,7 @@ val Tabler.Outline.WashPress: ImageVector
                 curveToRelative(0.17f, 0f, 0.339f, -0.014f, 0.503f, -0.034f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +54,7 @@ val Tabler.Outline.WashPress: ImageVector
                 lineToRelative(1.721f, -10.329f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

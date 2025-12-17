@@ -21,6 +21,7 @@ val Tabler.Outline.RectangularPrismOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -44,6 +45,7 @@ val Tabler.Outline.RectangularPrismOff: ImageVector
                 lineToRelative(-3.146f, 1.575f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -53,6 +55,7 @@ val Tabler.Outline.RectangularPrismOff: ImageVector
                 verticalLineToRelative(-7.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -64,6 +67,7 @@ val Tabler.Outline.RectangularPrismOff: ImageVector
                 lineToRelative(5.742f, -2.746f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -73,6 +77,7 @@ val Tabler.Outline.RectangularPrismOff: ImageVector
                 lineToRelative(5.5f, 2.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -1,0 +1,165 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.View_in_ar: ImageVector
+    get() {
+        if (_View_in_ar != null) return _View_in_ar!!
+        
+        _View_in_ar = ImageVector.Builder(
+            name = "view_in_ar",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(13f, 17.17f)
+                        lineTo(17f, 14.87f)
+                        lineTo(17f, 10.24f)
+                        lineTo(13f, 12.57f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(12f, 6.25f)
+                        lineTo(8.04f, 8.53f)
+                        lineTo(12f, 10.84f)
+                        lineTo(15.96f, 8.53f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(7f, 14.87f)
+                        lineTo(11f, 17.17f)
+                        lineTo(11f, 12.57f)
+                        lineTo(7f, 10.24f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(3f, 4f)
+                        curveToRelative(0f, -0.55f, 0.45f, -1f, 1f, -1f)
+                        horizontalLineToRelative(2f)
+                        verticalLineTo(1f)
+                        horizontalLineTo(4f)
+                        curveTo(2.34f, 1f, 1f, 2.34f, 1f, 4f)
+                        verticalLineToRelative(2f)
+                        horizontalLineToRelative(2f)
+                        verticalLineTo(4f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(3f, 20f)
+                        verticalLineToRelative(-2f)
+                        horizontalLineTo(1f)
+                        verticalLineToRelative(2f)
+                        curveToRelative(0f, 1.66f, 1.34f, 3f, 3f, 3f)
+                        horizontalLineToRelative(2f)
+                        verticalLineToRelative(-2f)
+                        horizontalLineTo(4f)
+                        curveTo(3.45f, 21f, 3f, 20.55f, 3f, 20f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(20f, 1f)
+                        horizontalLineToRelative(-2f)
+                        verticalLineToRelative(2f)
+                        horizontalLineToRelative(2f)
+                        curveToRelative(0.55f, 0f, 1f, 0.45f, 1f, 1f)
+                        verticalLineToRelative(2f)
+                        horizontalLineToRelative(2f)
+                        verticalLineTo(4f)
+                        curveTo(23f, 2.34f, 21.66f, 1f, 20f, 1f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(21f, 20f)
+                        curveToRelative(0f, 0.55f, -0.45f, 1f, -1f, 1f)
+                        horizontalLineToRelative(-2f)
+                        verticalLineToRelative(2f)
+                        horizontalLineToRelative(2f)
+                        curveToRelative(1.66f, 0f, 3f, -1.34f, 3f, -3f)
+                        verticalLineToRelative(-2f)
+                        horizontalLineToRelative(-2f)
+                        verticalLineTo(20f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(19f, 14.87f)
+                        verticalLineTo(9.13f)
+                        curveToRelative(0f, -0.72f, -0.38f, -1.38f, -1f, -1.73f)
+                        lineToRelative(-5f, -2.88f)
+                        curveToRelative(-0.31f, -0.18f, -0.65f, -0.27f, -1f, -0.27f)
+                        reflectiveCurveToRelative(-0.69f, 0.09f, -1f, 0.27f)
+                        lineTo(6f, 7.39f)
+                        curveTo(5.38f, 7.75f, 5f, 8.41f, 5f, 9.13f)
+                        verticalLineToRelative(5.74f)
+                        curveToRelative(0f, 0.72f, 0.38f, 1.38f, 1f, 1.73f)
+                        lineToRelative(5f, 2.88f)
+                        curveToRelative(0.31f, 0.18f, 0.65f, 0.27f, 1f, 0.27f)
+                        reflectiveCurveToRelative(0.69f, -0.09f, 1f, -0.27f)
+                        lineToRelative(5f, -2.88f)
+                        curveTo(18.62f, 16.25f, 19f, 15.59f, 19f, 14.87f)
+                        close()
+                        moveTo(11f, 17.17f)
+                        lineToRelative(-4f, -2.3f)
+                        verticalLineToRelative(-4.63f)
+                        lineToRelative(4f, 2.33f)
+                        verticalLineTo(17.17f)
+                        close()
+                        moveTo(12f, 10.84f)
+                        lineTo(8.04f, 8.53f)
+                        lineTo(12f, 6.25f)
+                        lineToRelative(3.96f, 2.28f)
+                        lineTo(12f, 10.84f)
+                        close()
+                        moveTo(17f, 14.87f)
+                        lineToRelative(-4f, 2.3f)
+                        verticalLineToRelative(-4.6f)
+                        lineToRelative(4f, -2.33f)
+                        verticalLineTo(14.87f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _View_in_ar!!
+    }
+
+private var _View_in_ar: ImageVector? = null
+

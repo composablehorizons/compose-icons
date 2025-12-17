@@ -21,6 +21,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 verticalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -40,6 +42,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 arcToRelative(1.98f, 1.98f, 0f, false, false, -2.414f, 0.483f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -49,6 +52,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 arcToRelative(8.942f, 8.942f, 0f, false, true, -2.48f, -0.969f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -58,6 +62,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 arcToRelative(9.003f, 9.003f, 0f, false, true, 0f, 17.554f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -67,6 +72,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 arcToRelative(8.961f, 8.961f, 0f, false, true, -1.227f, -2.592f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -77,6 +83,7 @@ val Tabler.Outline.ProgressHelp: ImageVector
                 lineToRelative(0.169f, -0.305f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

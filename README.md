@@ -1,6 +1,7 @@
 # Compose Icons
 
-This repository contains popular icon libraries converted to Android Vector Drawables and Compose Image Vectors.
+This repository contains popular icon libraries converted to Android Vector Drawables and Compose
+Image Vectors.
 
 Each library is distributed interdependently via Maven Central.
 
@@ -15,10 +16,12 @@ Each library is distributed interdependently via Maven Central.
 
 ## Browse over 17,000+ icons for Compose Multiplatform
 
-Visit [Composables.com](https://composables.com/icons) to pick from over 17,000 free icons in Vector Drawable, Image
+Visit [Composables.com](https://composables.com/icons) to pick from over 17,000 free icons in Vector
+Drawable, Image
 Vector or SVG format.
 
 ## Contributing
 
-We are currently accepting contributions in the form of bug reports and feature & icons requests, in the form of Github
+We are currently accepting contributions in the form of bug reports and feature & icons requests, in
+the form of Github
 issues.

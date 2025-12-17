@@ -20,6 +20,7 @@ val Lucide.CircleDashed: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -29,6 +30,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 3.8f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -38,6 +40,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, -3.8f, 0f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +50,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 2.69f, 2.7f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +60,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 0f, -3.8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +70,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, -2.7f, 2.69f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -74,6 +80,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 0f, 3.8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -83,6 +90,7 @@ val Lucide.CircleDashed: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 2.7f, -2.69f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -21,6 +21,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -33,6 +34,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 arcToRelative(8.6f, 8.6f, 0f, false, false, -0.436f, -2.727f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(-2.5f, 3f, -2.5f, 3f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -55,6 +58,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(1.603f, 0.563f, 1.895f, 2.23f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -67,6 +71,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(0.454f, 1.772f, -0.828f, 3.04f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -79,6 +84,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(-1.267f, 1.038f, -2.767f, 0.462f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -91,6 +97,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(1.267f, 1.038f, 2.767f, 0.462f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -103,6 +110,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(-0.454f, 1.772f, 0.828f, 3.04f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -115,6 +123,7 @@ val Tabler.Outline.LaurelWreath2: ImageVector
                 reflectiveCurveToRelative(-1.603f, 0.563f, -1.895f, 2.23f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

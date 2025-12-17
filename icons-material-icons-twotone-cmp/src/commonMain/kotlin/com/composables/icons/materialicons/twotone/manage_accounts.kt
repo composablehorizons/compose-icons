@@ -1,0 +1,136 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Manage_accounts: ImageVector
+    get() {
+        if (_Manage_accounts != null) return _Manage_accounts!!
+        
+        _Manage_accounts = ImageVector.Builder(
+            name = "manage_accounts",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineToRelative(24f)
+                    verticalLineToRelative(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    group {
+                        path(
+                            fill = SolidColor(Color(0xFF000000))
+                        ) {
+                            moveTo(12f, 8f)
+                            arcTo(2f, 2f, 0f, false, true, 10f, 10f)
+                            arcTo(2f, 2f, 0f, false, true, 8f, 8f)
+                            arcTo(2f, 2f, 0f, false, true, 12f, 8f)
+                            close()
+                        }
+                        path(
+                            fill = SolidColor(Color(0xFF000000))
+                        ) {
+                            moveTo(10f, 16f)
+                            curveToRelative(0f, -0.34f, 0.03f, -0.67f, 0.08f, -0.99f)
+                            curveTo(10.05f, 15f, 10.03f, 15f, 10f, 15f)
+                            curveToRelative(-1.97f, 0f, -3.9f, 0.53f, -5.59f, 1.54f)
+                            curveTo(4.16f, 16.68f, 4f, 17f, 4f, 17.35f)
+                            verticalLineTo(18f)
+                            horizontalLineToRelative(6.29f)
+                            curveTo(10.1f, 17.37f, 10f, 16.7f, 10f, 16f)
+                            close()
+                        }
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(4f, 18f)
+                        verticalLineToRelative(-0.65f)
+                        curveToRelative(0f, -0.34f, 0.16f, -0.66f, 0.41f, -0.81f)
+                        curveTo(6.1f, 15.53f, 8.03f, 15f, 10f, 15f)
+                        curveToRelative(0.03f, 0f, 0.05f, 0f, 0.08f, 0.01f)
+                        curveToRelative(0.1f, -0.7f, 0.3f, -1.37f, 0.59f, -1.98f)
+                        curveTo(10.45f, 13.01f, 10.23f, 13f, 10f, 13f)
+                        curveToRelative(-2.42f, 0f, -4.68f, 0.67f, -6.61f, 1.82f)
+                        curveTo(2.51f, 15.34f, 2f, 16.32f, 2f, 17.35f)
+                        verticalLineTo(20f)
+                        horizontalLineToRelative(9.26f)
+                        curveToRelative(-0.42f, -0.6f, -0.75f, -1.28f, -0.97f, -2f)
+                        horizontalLineTo(4f)
+                        close()
+                        moveTo(10f, 12f)
+                        curveToRelative(2.21f, 0f, 4f, -1.79f, 4f, -4f)
+                        reflectiveCurveToRelative(-1.79f, -4f, -4f, -4f)
+                        reflectiveCurveTo(6f, 5.79f, 6f, 8f)
+                        reflectiveCurveTo(7.79f, 12f, 10f, 12f)
+                        close()
+                        moveTo(10f, 6f)
+                        curveToRelative(1.1f, 0f, 2f, 0.9f, 2f, 2f)
+                        reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                        reflectiveCurveTo(8f, 9.1f, 8f, 8f)
+                        reflectiveCurveTo(8.9f, 6f, 10f, 6f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(20.83f, 12.63f)
+                        lineToRelative(-1.45f, 0.49f)
+                        curveToRelative(-0.32f, -0.27f, -0.68f, -0.48f, -1.08f, -0.63f)
+                        lineTo(18f, 11f)
+                        horizontalLineToRelative(-2f)
+                        lineToRelative(-0.3f, 1.49f)
+                        curveToRelative(-0.4f, 0.15f, -0.76f, 0.36f, -1.08f, 0.63f)
+                        lineToRelative(-1.45f, -0.49f)
+                        lineToRelative(-1f, 1.73f)
+                        lineToRelative(1.14f, 1f)
+                        curveToRelative(-0.03f, 0.21f, -0.06f, 0.41f, -0.06f, 0.63f)
+                        reflectiveCurveToRelative(0.03f, 0.42f, 0.06f, 0.63f)
+                        lineToRelative(-1.14f, 1f)
+                        lineToRelative(1f, 1.73f)
+                        lineToRelative(1.45f, -0.49f)
+                        curveToRelative(0.32f, 0.27f, 0.68f, 0.48f, 1.08f, 0.63f)
+                        lineTo(16f, 21f)
+                        horizontalLineToRelative(2f)
+                        lineToRelative(0.3f, -1.49f)
+                        curveToRelative(0.4f, -0.15f, 0.76f, -0.36f, 1.08f, -0.63f)
+                        lineToRelative(1.45f, 0.49f)
+                        lineToRelative(1f, -1.73f)
+                        lineToRelative(-1.14f, -1f)
+                        curveToRelative(0.03f, -0.21f, 0.06f, -0.41f, 0.06f, -0.63f)
+                        reflectiveCurveToRelative(-0.03f, -0.42f, -0.06f, -0.63f)
+                        lineToRelative(1.14f, -1f)
+                        lineTo(20.83f, 12.63f)
+                        close()
+                        moveTo(17f, 18f)
+                        curveToRelative(-1.1f, 0f, -2f, -0.9f, -2f, -2f)
+                        curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                        reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                        curveTo(19f, 17.1f, 18.1f, 18f, 17f, 18f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Manage_accounts!!
+    }
+
+private var _Manage_accounts: ImageVector? = null
+

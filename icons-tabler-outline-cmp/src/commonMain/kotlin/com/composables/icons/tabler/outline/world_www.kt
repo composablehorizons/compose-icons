@@ -21,6 +21,7 @@ val Tabler.Outline.WorldWww: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(8.991f, 8.991f, 0f, false, false, -7.484f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -40,6 +42,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(16.989f, 16.989f, 0f, false, false, -1.826f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -49,6 +52,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(16.989f, 16.989f, 0f, false, true, 1.828f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -59,6 +63,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(8.991f, 8.991f, 0f, false, true, -7.484f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -68,6 +73,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(16.989f, 16.989f, 0f, false, true, -1.826f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -77,6 +83,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 arcToRelative(16.989f, 16.989f, 0f, false, false, 1.828f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -89,6 +96,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 lineToRelative(1f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -101,6 +109,7 @@ val Tabler.Outline.WorldWww: ImageVector
                 lineToRelative(1f, -4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

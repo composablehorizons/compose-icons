@@ -20,6 +20,7 @@ val Lucide.FingerprintPattern: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -30,6 +31,7 @@ val Lucide.FingerprintPattern: ImageVector
                 curveToRelative(0f, 1.02f, -0.1f, 2.51f, -0.26f, 4f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -39,6 +41,7 @@ val Lucide.FingerprintPattern: ImageVector
                 curveToRelative(0f, 2.38f, 0f, 6.38f, -1f, 8.88f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -48,6 +51,7 @@ val Lucide.FingerprintPattern: ImageVector
                 curveToRelative(0.12f, -0.6f, 0.43f, -2.3f, 0.5f, -3.02f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -57,6 +61,7 @@ val Lucide.FingerprintPattern: ImageVector
                 arcToRelative(10f, 10f, 0f, false, true, 18f, -6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -66,6 +71,7 @@ val Lucide.FingerprintPattern: ImageVector
                 horizontalLineToRelative(0.01f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -75,6 +81,7 @@ val Lucide.FingerprintPattern: ImageVector
                 curveToRelative(0.2f, -2f, 0.131f, -5.354f, 0f, -6f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -85,6 +92,7 @@ val Lucide.FingerprintPattern: ImageVector
                 arcToRelative(6f, 6f, 0f, false, true, 0.34f, -2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -94,6 +102,7 @@ val Lucide.FingerprintPattern: ImageVector
                 curveToRelative(0.21f, -0.66f, 0.45f, -1.32f, 0.57f, -2f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

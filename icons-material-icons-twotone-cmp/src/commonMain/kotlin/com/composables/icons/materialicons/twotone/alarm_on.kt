@@ -1,0 +1,88 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Alarm_on: ImageVector
+    get() {
+        if (_Alarm_on != null) return _Alarm_on!!
+        
+        _Alarm_on = ImageVector.Builder(
+            name = "alarm_on",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                verticalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(12f, 6f)
+                curveToRelative(-3.86f, 0f, -7f, 3.14f, -7f, 7f)
+                reflectiveCurveToRelative(3.14f, 7f, 7f, 7f)
+                reflectiveCurveToRelative(7f, -3.14f, 7f, -7f)
+                reflectiveCurveToRelative(-3.14f, -7f, -7f, -7f)
+                close()
+                moveToRelative(-1.47f, 10.64f)
+                lineToRelative(-3.18f, -3.18f)
+                lineToRelative(1.06f, -1.06f)
+                lineToRelative(2.13f, 2.13f)
+                lineToRelative(4.93f, -4.95f)
+                lineToRelative(1.06f, 1.06f)
+                lineToRelative(-6f, 6f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(10.54f, 14.53f)
+                lineTo(8.41f, 12.4f)
+                lineToRelative(-1.06f, 1.06f)
+                lineToRelative(3.18f, 3.18f)
+                lineToRelative(6f, -6f)
+                lineToRelative(-1.06f, -1.06f)
+                close()
+                moveToRelative(6.797f, -12.72f)
+                lineToRelative(4.607f, 3.845f)
+                lineToRelative(-1.28f, 1.535f)
+                lineToRelative(-4.61f, -3.843f)
+                close()
+                moveToRelative(-10.674f, 0f)
+                lineToRelative(1.282f, 1.536f)
+                lineTo(3.337f, 7.19f)
+                lineToRelative(-1.28f, -1.536f)
+                close()
+                moveTo(12f, 4f)
+                curveToRelative(-4.97f, 0f, -9f, 4.03f, -9f, 9f)
+                reflectiveCurveToRelative(4.03f, 9f, 9f, 9f)
+                reflectiveCurveToRelative(9f, -4.03f, 9f, -9f)
+                reflectiveCurveToRelative(-4.03f, -9f, -9f, -9f)
+                close()
+                moveToRelative(0f, 16f)
+                curveToRelative(-3.86f, 0f, -7f, -3.14f, -7f, -7f)
+                reflectiveCurveToRelative(3.14f, -7f, 7f, -7f)
+                reflectiveCurveToRelative(7f, 3.14f, 7f, 7f)
+                reflectiveCurveToRelative(-3.14f, 7f, -7f, 7f)
+                close()
+            }
+        }.build()
+        
+        return _Alarm_on!!
+    }
+
+private var _Alarm_on: ImageVector? = null
+

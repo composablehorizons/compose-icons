@@ -21,6 +21,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(0.74f, 0f, 1.26f, -0.039f, 1.95f, -0.097f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -43,6 +45,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(1.15f, -0.697f, 3.047f, 0.253f, 4.974f, 2.254f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -54,6 +57,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(0.36f, -0.67f, 0.683f, -1.329f, 0.968f, -1.978f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +69,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(-0.384f, -0.677f, -0.777f, -1.204f, -1.18f, -1.8f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -76,6 +81,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(-0.747f, 0f, -1.266f, 0.029f, -1.955f, 0.087f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -87,6 +93,7 @@ val Tabler.Outline.BrandReactNative: ImageVector
                 curveToRelative(1.11f, 0.679f, 1.262f, 2.706f, 0.56f, 5.393f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

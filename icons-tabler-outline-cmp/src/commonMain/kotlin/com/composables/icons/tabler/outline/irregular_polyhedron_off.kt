@@ -21,6 +21,7 @@ val Tabler.Outline.IrregularPolyhedronOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -44,6 +45,7 @@ val Tabler.Outline.IrregularPolyhedronOff: ImageVector
                 lineToRelative(-3.544f, 1.412f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -56,6 +58,7 @@ val Tabler.Outline.IrregularPolyhedronOff: ImageVector
                 lineToRelative(6.622f, -2.33f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +72,7 @@ val Tabler.Outline.IrregularPolyhedronOff: ImageVector
                 curveToRelative(0.312f, -0.11f, 0.816f, -0.291f, 1.512f, -0.54f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -78,6 +82,7 @@ val Tabler.Outline.IrregularPolyhedronOff: ImageVector
                 verticalLineToRelative(-10f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

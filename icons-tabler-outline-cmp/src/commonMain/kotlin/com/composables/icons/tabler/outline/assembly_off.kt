@@ -21,6 +21,7 @@ val Tabler.Outline.AssemblyOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -44,6 +45,7 @@ val Tabler.Outline.AssemblyOff: ImageVector
                 curveToRelative(0f, 0.417f, -0.118f, 0.817f, -0.33f, 1.16f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -65,6 +67,7 @@ val Tabler.Outline.AssemblyOff: ImageVector
                 verticalLineToRelative(1.702f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

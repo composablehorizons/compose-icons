@@ -1,0 +1,96 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.King_bed: ImageVector
+    get() {
+        if (_King_bed != null) return _King_bed!!
+        
+        _King_bed = ImageVector.Builder(
+            name = "king_bed",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(4f, 12f)
+                        horizontalLineTo(20f)
+                        verticalLineTo(15f)
+                        horizontalLineTo(4f)
+                        verticalLineTo(12f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(20f, 10f)
+                        verticalLineTo(7f)
+                        curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                        horizontalLineTo(6f)
+                        curveTo(4.9f, 5f, 4f, 5.9f, 4f, 7f)
+                        verticalLineToRelative(3f)
+                        curveToRelative(-1.1f, 0f, -2f, 0.9f, -2f, 2f)
+                        verticalLineToRelative(5f)
+                        horizontalLineToRelative(1.33f)
+                        lineTo(4f, 19f)
+                        horizontalLineToRelative(1f)
+                        lineToRelative(0.67f, -2f)
+                        horizontalLineToRelative(12.67f)
+                        lineTo(19f, 19f)
+                        horizontalLineToRelative(1f)
+                        lineToRelative(0.67f, -2f)
+                        horizontalLineTo(22f)
+                        verticalLineToRelative(-5f)
+                        curveTo(22f, 10.9f, 21.1f, 10f, 20f, 10f)
+                        close()
+                        moveTo(13f, 7f)
+                        horizontalLineToRelative(5f)
+                        verticalLineToRelative(3f)
+                        horizontalLineToRelative(-5f)
+                        verticalLineTo(7f)
+                        close()
+                        moveTo(6f, 7f)
+                        horizontalLineToRelative(5f)
+                        verticalLineToRelative(3f)
+                        horizontalLineTo(6f)
+                        verticalLineTo(7f)
+                        close()
+                        moveTo(20f, 15f)
+                        horizontalLineTo(4f)
+                        verticalLineToRelative(-3f)
+                        horizontalLineToRelative(16f)
+                        verticalLineTo(15f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _King_bed!!
+    }
+
+private var _King_bed: ImageVector? = null
+

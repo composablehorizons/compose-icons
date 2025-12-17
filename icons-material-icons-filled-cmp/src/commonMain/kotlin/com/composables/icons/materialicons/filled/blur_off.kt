@@ -1,0 +1,166 @@
+package com.composables.icons.materialicons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Filled.Blur_off: ImageVector
+    get() {
+        if (_Blur_off != null) return _Blur_off!!
+        
+        _Blur_off = ImageVector.Builder(
+            name = "blur_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(14f, 7f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveToRelative(-0.2f, 4.48f)
+                lineToRelative(0.2f, 0.02f)
+                curveToRelative(0.83f, 0f, 1.5f, -0.67f, 1.5f, -1.5f)
+                reflectiveCurveToRelative(-0.67f, -1.5f, -1.5f, -1.5f)
+                reflectiveCurveToRelative(-1.5f, 0.67f, -1.5f, 1.5f)
+                lineToRelative(0.02f, 0.2f)
+                curveToRelative(0.09f, 0.67f, 0.61f, 1.19f, 1.28f, 1.28f)
+                close()
+                moveTo(14f, 3.5f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveToRelative(-4f, 0f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveToRelative(11f, 7f)
+                curveToRelative(0.28f, 0f, 0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                close()
+                moveTo(10f, 7f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveToRelative(8f, 8f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveToRelative(0f, -4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveToRelative(0f, -4f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                close()
+                moveToRelative(-4f, 13.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(2.5f, 5.27f)
+                lineToRelative(3.78f, 3.78f)
+                lineTo(6f, 9f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                curveToRelative(0f, -0.1f, -0.03f, -0.19f, -0.06f, -0.28f)
+                lineToRelative(2.81f, 2.81f)
+                curveToRelative(-0.71f, 0.11f, -1.25f, 0.73f, -1.25f, 1.47f)
+                curveToRelative(0f, 0.83f, 0.67f, 1.5f, 1.5f, 1.5f)
+                curveToRelative(0.74f, 0f, 1.36f, -0.54f, 1.47f, -1.25f)
+                lineToRelative(2.81f, 2.81f)
+                curveToRelative(-0.09f, -0.03f, -0.18f, -0.06f, -0.28f, -0.06f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                curveToRelative(0f, -0.1f, -0.03f, -0.19f, -0.06f, -0.28f)
+                lineToRelative(3.78f, 3.78f)
+                lineTo(20f, 20.23f)
+                lineTo(3.77f, 4f)
+                lineTo(2.5f, 5.27f)
+                close()
+                moveTo(10f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveToRelative(11f, -3.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(6f, 13f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(3f, 9.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveToRelative(7f, 11f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+                moveTo(6f, 17f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                reflectiveCurveToRelative(0.45f, 1f, 1f, 1f)
+                reflectiveCurveToRelative(1f, -0.45f, 1f, -1f)
+                reflectiveCurveToRelative(-0.45f, -1f, -1f, -1f)
+                close()
+                moveToRelative(-3f, -3.5f)
+                curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                reflectiveCurveToRelative(0.22f, 0.5f, 0.5f, 0.5f)
+                reflectiveCurveToRelative(0.5f, -0.22f, 0.5f, -0.5f)
+                reflectiveCurveToRelative(-0.22f, -0.5f, -0.5f, -0.5f)
+                close()
+            }
+        }.build()
+        
+        return _Blur_off!!
+    }
+
+private var _Blur_off: ImageVector? = null
+

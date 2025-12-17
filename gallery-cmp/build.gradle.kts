@@ -91,6 +91,12 @@ kotlin {
             implementation(projects.iconsHeroiconsSolidCmp)
             implementation(projects.iconsHeroiconsMiniCmp)
             implementation(projects.iconsHeroiconsMicroCmp)
+
+            implementation(projects.iconsMaterialIconsTwotoneCmp)
+            implementation(projects.iconsMaterialIconsFilledCmp)
+            implementation(projects.iconsMaterialIconsOutlinedCmp)
+            implementation(projects.iconsMaterialIconsRoundedCmp)
+            implementation(projects.iconsMaterialIconsSharpCmp)
         }
 
         androidMain.dependencies {

@@ -1,0 +1,126 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Border_vertical: ImageVector
+    get() {
+        if (_Border_vertical != null) return _Border_vertical!!
+        
+        _Border_vertical = ImageVector.Builder(
+            name = "border_vertical",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                verticalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(7f, 3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(7f)
+                close()
+                moveToRelative(0f, 8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(7f)
+                close()
+                moveToRelative(0f, 8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(7f)
+                close()
+                moveToRelative(-4f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(3f)
+                close()
+                moveTo(3f, 3f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(3f)
+                close()
+                moveToRelative(0f, 8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(3f)
+                close()
+                moveToRelative(16f, -8f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(3f, 7f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(3f)
+                close()
+                moveToRelative(8f, -4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(18f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveTo(3f, 15f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(3f)
+                close()
+                moveToRelative(12f, -4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(4f, 4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(0f, -4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(0f, -4f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(0f, 12f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(-4f, 0f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+                moveToRelative(0f, -16f)
+                horizontalLineToRelative(2f)
+                verticalLineToRelative(2f)
+                horizontalLineToRelative(-2f)
+                close()
+            }
+        }.build()
+        
+        return _Border_vertical!!
+    }
+
+private var _Border_vertical: ImageVector? = null
+

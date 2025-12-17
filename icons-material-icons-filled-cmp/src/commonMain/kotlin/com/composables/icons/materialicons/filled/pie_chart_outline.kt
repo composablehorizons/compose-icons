@@ -1,0 +1,71 @@
+package com.composables.icons.materialicons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Filled.Pie_chart_outline: ImageVector
+    get() {
+        if (_Pie_chart_outline != null) return _Pie_chart_outline!!
+        
+        _Pie_chart_outline = ImageVector.Builder(
+            name = "pie_chart_outline",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    group {
+                        path(
+                            fill = SolidColor(Color(0xFF000000))
+                        ) {
+                            moveTo(12f, 2f)
+                            curveTo(6.5f, 2f, 2f, 6.5f, 2f, 12f)
+                            reflectiveCurveToRelative(4.5f, 10f, 10f, 10f)
+                            reflectiveCurveToRelative(10f, -4.5f, 10f, -10f)
+                            reflectiveCurveTo(17.5f, 2f, 12f, 2f)
+                            close()
+                            moveTo(13f, 4.07f)
+                            curveToRelative(3.61f, 0.45f, 6.48f, 3.33f, 6.93f, 6.93f)
+                            horizontalLineTo(13f)
+                            verticalLineTo(4.07f)
+                            close()
+                            moveTo(4f, 12f)
+                            curveToRelative(0f, -4.06f, 3.07f, -7.44f, 7f, -7.93f)
+                            verticalLineToRelative(15.87f)
+                            curveTo(7.07f, 19.44f, 4f, 16.06f, 4f, 12f)
+                            close()
+                            moveTo(13f, 19.93f)
+                            verticalLineTo(13f)
+                            horizontalLineToRelative(6.93f)
+                            curveTo(19.48f, 16.61f, 16.61f, 19.48f, 13f, 19.93f)
+                            close()
+                        }
+                    }
+                }
+            }
+        }.build()
+        
+        return _Pie_chart_outline!!
+    }
+
+private var _Pie_chart_outline: ImageVector? = null
+

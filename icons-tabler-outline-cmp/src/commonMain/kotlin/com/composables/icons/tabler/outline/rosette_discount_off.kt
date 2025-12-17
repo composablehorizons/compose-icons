@@ -21,6 +21,7 @@ val Tabler.Outline.RosetteDiscountOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -32,6 +33,7 @@ val Tabler.Outline.RosetteDiscountOff: ImageVector
                 lineToRelative(1f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -42,6 +44,7 @@ val Tabler.Outline.RosetteDiscountOff: ImageVector
                 arcToRelative(0.5f, 0.5f, 0f, false, false, 0.35f, -0.142f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -52,6 +55,7 @@ val Tabler.Outline.RosetteDiscountOff: ImageVector
                 arcToRelative(0.5f, 0.5f, 0f, false, false, 0.35f, -0.142f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -91,6 +95,7 @@ val Tabler.Outline.RosetteDiscountOff: ImageVector
                 curveToRelative(0f, -0.604f, 0.244f, -1.152f, 0.638f, -1.55f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

@@ -20,6 +20,7 @@ val Heroicons.Outline.Eye: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 1.5f,
                 strokeLineJoin = StrokeJoin.Miter
@@ -34,6 +35,7 @@ val Heroicons.Outline.Eye: ImageVector
                 close()
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 1.5f,
                 strokeLineJoin = StrokeJoin.Miter

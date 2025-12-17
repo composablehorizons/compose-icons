@@ -1,0 +1,50 @@
+package com.composables.icons.materialicons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Filled.Eject: ImageVector
+    get() {
+        if (_Eject != null) return _Eject!!
+        
+        _Eject = ImageVector.Builder(
+            name = "eject",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 24f)
+                verticalLineTo(0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(5f, 17f)
+                horizontalLineToRelative(14f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(5f)
+                close()
+                moveToRelative(7f, -12f)
+                lineTo(5.33f, 15f)
+                horizontalLineToRelative(13.34f)
+                close()
+            }
+        }.build()
+        
+        return _Eject!!
+    }
+
+private var _Eject: ImageVector? = null
+

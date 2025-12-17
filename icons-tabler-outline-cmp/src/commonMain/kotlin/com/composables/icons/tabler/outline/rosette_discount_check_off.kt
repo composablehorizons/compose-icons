@@ -21,6 +21,7 @@ val Tabler.Outline.RosetteDiscountCheckOff: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -33,6 +34,7 @@ val Tabler.Outline.RosetteDiscountCheckOff: ImageVector
                 lineToRelative(0.5f, -0.5f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -72,6 +74,7 @@ val Tabler.Outline.RosetteDiscountCheckOff: ImageVector
                 curveToRelative(0f, -0.604f, 0.244f, -1.152f, 0.638f, -1.55f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

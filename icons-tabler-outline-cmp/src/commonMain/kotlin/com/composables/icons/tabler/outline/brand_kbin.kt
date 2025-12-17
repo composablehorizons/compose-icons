@@ -23,6 +23,7 @@ val Tabler.Outline.BrandKbin: ImageVector
         ).apply {
             group {
                 path(
+                    fill = SolidColor(Color.Transparent),
                     stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 1.838f,
                     strokeLineCap = StrokeCap.Round,
@@ -37,9 +38,8 @@ val Tabler.Outline.BrandKbin: ImageVector
                     curveToRelative(0.486f, 1.743f, 0.811f, 2.058f, 1.145f, 2.058f)
                     horizontalLineToRelative(0.64f)
                 }
-            }
-            group {
                 path(
+                    fill = SolidColor(Color.Transparent),
                     stroke = SolidColor(Color(0xFF000000)),
                     strokeLineWidth = 1.838f,
                     strokeLineCap = StrokeCap.Round,

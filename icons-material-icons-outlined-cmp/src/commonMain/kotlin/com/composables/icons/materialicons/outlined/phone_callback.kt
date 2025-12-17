@@ -1,0 +1,80 @@
+package com.composables.icons.materialicons.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Outlined.Phone_callback: ImageVector
+    get() {
+        if (_Phone_callback != null) return _Phone_callback!!
+        
+        _Phone_callback = ImageVector.Builder(
+            name = "phone_callback",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                verticalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(20f, 15.51f)
+                curveToRelative(-1.24f, 0f, -2.45f, -0.2f, -3.57f, -0.57f)
+                curveToRelative(-0.1f, -0.04f, -0.21f, -0.05f, -0.31f, -0.05f)
+                curveToRelative(-0.26f, 0f, -0.51f, 0.1f, -0.71f, 0.29f)
+                lineToRelative(-2.2f, 2.2f)
+                curveToRelative(-2.83f, -1.45f, -5.15f, -3.76f, -6.59f, -6.59f)
+                lineToRelative(2.2f, -2.2f)
+                curveToRelative(0.28f, -0.28f, 0.36f, -0.67f, 0.25f, -1.02f)
+                curveTo(8.7f, 6.45f, 8.5f, 5.25f, 8.5f, 4f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                horizontalLineTo(4f)
+                curveToRelative(-0.55f, 0f, -1f, 0.45f, -1f, 1f)
+                curveToRelative(0f, 9.39f, 7.61f, 17f, 17f, 17f)
+                curveToRelative(0.55f, 0f, 1f, -0.45f, 1f, -1f)
+                verticalLineToRelative(-3.49f)
+                curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                close()
+                moveTo(5.03f, 5f)
+                horizontalLineToRelative(1.5f)
+                curveToRelative(0.07f, 0.89f, 0.22f, 1.76f, 0.46f, 2.59f)
+                lineToRelative(-1.2f, 1.2f)
+                curveToRelative(-0.41f, -1.2f, -0.67f, -2.47f, -0.76f, -3.79f)
+                close()
+                moveTo(19f, 18.97f)
+                curveToRelative(-1.32f, -0.09f, -2.59f, -0.35f, -3.8f, -0.75f)
+                lineToRelative(1.19f, -1.19f)
+                curveToRelative(0.85f, 0.24f, 1.72f, 0.39f, 2.6f, 0.45f)
+                verticalLineToRelative(1.49f)
+                close()
+                moveTo(18f, 9f)
+                horizontalLineToRelative(-2.59f)
+                lineToRelative(5.02f, -5.02f)
+                lineToRelative(-1.41f, -1.41f)
+                lineTo(14f, 7.59f)
+                verticalLineTo(5f)
+                horizontalLineToRelative(-2f)
+                verticalLineToRelative(6f)
+                horizontalLineToRelative(6f)
+                close()
+            }
+        }.build()
+        
+        return _Phone_callback!!
+    }
+
+private var _Phone_callback: ImageVector? = null
+

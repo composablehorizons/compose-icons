@@ -20,6 +20,7 @@ val Lucide.Hop: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -31,6 +32,7 @@ val Lucide.Hop: ImageVector
                 curveToRelative(-0.06f, -1.27f, -0.26f, -3.5f, -0.85f, -5.18f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +49,7 @@ val Lucide.Hop: ImageVector
                 curveToRelative(0.3f, -2.14f, -0.15f, -3.5f, -0.61f, -4.88f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -58,6 +61,7 @@ val Lucide.Hop: ImageVector
                 arcToRelative(16.64f, 16.64f, 0f, false, true, -4.08f, -1.36f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -69,6 +73,7 @@ val Lucide.Hop: ImageVector
                 arcToRelative(17.68f, 17.68f, 0f, false, false, -0.9f, -4.87f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -80,6 +85,7 @@ val Lucide.Hop: ImageVector
                 arcToRelative(16.64f, 16.64f, 0f, false, false, -1.36f, -4.08f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -91,6 +97,7 @@ val Lucide.Hop: ImageVector
                 curveToRelative(-2.33f, 0.2f, -5.3f, -0.32f, -8.27f, -1.57f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -101,6 +108,7 @@ val Lucide.Hop: ImageVector
                 arcToRelative(0.7f, 0.7f, 0f, false, true, 0f, -1f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

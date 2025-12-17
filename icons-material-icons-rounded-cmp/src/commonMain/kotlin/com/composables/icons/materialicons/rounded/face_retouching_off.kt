@@ -1,0 +1,93 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.Face_retouching_off: ImageVector
+    get() {
+        if (_Face_retouching_off != null) return _Face_retouching_off!!
+        
+        _Face_retouching_off = ImageVector.Builder(
+            name = "face_retouching_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(10.25f, 13f)
+                        arcTo(1.25f, 1.25f, 0f, false, true, 9f, 14.25f)
+                        arcTo(1.25f, 1.25f, 0f, false, true, 7.75f, 13f)
+                        arcTo(1.25f, 1.25f, 0f, false, true, 10.25f, 13f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(17.5f, 10f)
+                        curveToRelative(0.75f, 0f, 1.47f, -0.09f, 2.17f, -0.24f)
+                        curveTo(19.88f, 10.47f, 20f, 11.22f, 20f, 12f)
+                        curveToRelative(0f, 1.22f, -0.28f, 2.37f, -0.77f, 3.4f)
+                        lineToRelative(1.49f, 1.49f)
+                        curveTo(21.53f, 15.44f, 22f, 13.78f, 22f, 12f)
+                        curveToRelative(0f, -5.52f, -4.48f, -10f, -10f, -10f)
+                        curveToRelative(-1.78f, 0f, -3.44f, 0.47f, -4.89f, 1.28f)
+                        lineToRelative(5.33f, 5.33f)
+                        curveTo(13.93f, 9.49f, 15.65f, 10f, 17.5f, 10f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(2.6f, 4.43f)
+                        lineToRelative(1.48f, 1.48f)
+                        curveTo(2.51f, 7.95f, 1.7f, 10.6f, 2.1f, 13.46f)
+                        curveToRelative(0.62f, 4.33f, 4.11f, 7.82f, 8.44f, 8.44f)
+                        curveToRelative(2.85f, 0.41f, 5.51f, -0.41f, 7.55f, -1.98f)
+                        lineToRelative(1.48f, 1.48f)
+                        curveToRelative(0.39f, 0.39f, 1.02f, 0.39f, 1.41f, 0f)
+                        lineToRelative(0f, 0f)
+                        curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                        lineTo(4.01f, 3.01f)
+                        curveToRelative(-0.39f, -0.39f, -1.02f, -0.39f, -1.41f, 0f)
+                        lineToRelative(0f, 0f)
+                        curveTo(2.21f, 3.41f, 2.21f, 4.04f, 2.6f, 4.43f)
+                        close()
+                        moveTo(16.66f, 18.49f)
+                        curveTo(15.35f, 19.44f, 13.74f, 20f, 12f, 20f)
+                        curveToRelative(-4.41f, 0f, -8f, -3.59f, -8f, -8f)
+                        curveToRelative(0f, -0.05f, 0.01f, -0.1f, 0f, -0.14f)
+                        curveToRelative(1.39f, -0.52f, 2.63f, -1.35f, 3.64f, -2.39f)
+                        lineTo(16.66f, 18.49f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Face_retouching_off!!
+    }
+
+private var _Face_retouching_off: ImageVector? = null
+

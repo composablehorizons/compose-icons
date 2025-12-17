@@ -1,0 +1,68 @@
+package com.composables.icons.materialicons.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Outlined.Watch_later: ImageVector
+    get() {
+        if (_Watch_later != null) return _Watch_later!!
+        
+        _Watch_later = ImageVector.Builder(
+            name = "watch_later",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(12f, 2f)
+                        curveTo(6.5f, 2f, 2f, 6.5f, 2f, 12f)
+                        reflectiveCurveToRelative(4.5f, 10f, 10f, 10f)
+                        reflectiveCurveToRelative(10f, -4.5f, 10f, -10f)
+                        reflectiveCurveTo(17.5f, 2f, 12f, 2f)
+                        close()
+                        moveTo(12f, 20f)
+                        curveToRelative(-4.41f, 0f, -8f, -3.59f, -8f, -8f)
+                        reflectiveCurveToRelative(3.59f, -8f, 8f, -8f)
+                        reflectiveCurveToRelative(8f, 3.59f, 8f, 8f)
+                        reflectiveCurveTo(16.41f, 20f, 12f, 20f)
+                        close()
+                        moveTo(12.5f, 7f)
+                        horizontalLineTo(11f)
+                        verticalLineToRelative(6f)
+                        lineToRelative(5.2f, 3.2f)
+                        lineToRelative(0.8f, -1.3f)
+                        lineToRelative(-4.5f, -2.7f)
+                        verticalLineTo(7f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Watch_later!!
+    }
+
+private var _Watch_later: ImageVector? = null
+

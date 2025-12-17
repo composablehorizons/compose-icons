@@ -1,0 +1,74 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.Token: ImageVector
+    get() {
+        if (_Token != null) return _Token!!
+        
+        _Token = ImageVector.Builder(
+            name = "token",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineTo(24f)
+                verticalLineTo(24f)
+                horizontalLineTo(0f)
+                verticalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(12.97f, 2.54f)
+                curveToRelative(-0.6f, -0.34f, -1.34f, -0.34f, -1.94f, 0f)
+                lineToRelative(-7f, 3.89f)
+                lineTo(9.1f, 9.24f)
+                curveTo(9.83f, 8.48f, 10.86f, 8f, 12f, 8f)
+                reflectiveCurveToRelative(2.17f, 0.48f, 2.9f, 1.24f)
+                lineToRelative(5.07f, -2.82f)
+                lineTo(12.97f, 2.54f)
+                close()
+                moveTo(10f, 12f)
+                curveToRelative(0f, -1.1f, 0.9f, -2f, 2f, -2f)
+                reflectiveCurveToRelative(2f, 0.9f, 2f, 2f)
+                reflectiveCurveToRelative(-0.9f, 2f, -2f, 2f)
+                reflectiveCurveTo(10f, 13.1f, 10f, 12f)
+                close()
+                moveTo(3f, 8.14f)
+                lineToRelative(5.13f, 2.85f)
+                curveTo(8.04f, 11.31f, 8f, 11.65f, 8f, 12f)
+                curveToRelative(0f, 1.86f, 1.27f, 3.43f, 3f, 3.87f)
+                verticalLineToRelative(5.57f)
+                lineToRelative(-6.97f, -3.87f)
+                curveTo(3.39f, 17.22f, 3f, 16.55f, 3f, 15.82f)
+                verticalLineTo(8.14f)
+                close()
+                moveTo(13f, 21.44f)
+                verticalLineToRelative(-5.57f)
+                curveToRelative(1.73f, -0.44f, 3f, -2.01f, 3f, -3.87f)
+                curveToRelative(0f, -0.35f, -0.04f, -0.69f, -0.13f, -1.01f)
+                lineTo(21f, 8.14f)
+                lineToRelative(0f, 7.68f)
+                curveToRelative(0f, 0.73f, -0.39f, 1.4f, -1.03f, 1.75f)
+                lineTo(13f, 21.44f)
+                close()
+            }
+        }.build()
+        
+        return _Token!!
+    }
+
+private var _Token: ImageVector? = null
+

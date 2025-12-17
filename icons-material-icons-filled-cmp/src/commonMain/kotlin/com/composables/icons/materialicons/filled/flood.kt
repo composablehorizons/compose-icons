@@ -1,0 +1,96 @@
+package com.composables.icons.materialicons.filled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Filled.Flood: ImageVector
+    get() {
+        if (_Flood != null) return _Flood!!
+        
+        _Flood = ImageVector.Builder(
+            name = "flood",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(18.67f, 19f)
+                        curveToRelative(-1.95f, 0f, -2.09f, 1f, -3.33f, 1f)
+                        curveToRelative(-1.19f, 0f, -1.42f, -1f, -3.33f, -1f)
+                        curveToRelative(-1.95f, 0f, -2.1f, 1f, -3.34f, 1f)
+                        curveToRelative(-1.24f, 0f, -1.38f, -1f, -3.33f, -1f)
+                        curveToRelative(-1.95f, 0f, -2.1f, 1f, -3.34f, 1f)
+                        verticalLineToRelative(2f)
+                        curveToRelative(1.95f, 0f, 2.11f, -1f, 3.34f, -1f)
+                        curveToRelative(1.24f, 0f, 1.38f, 1f, 3.33f, 1f)
+                        curveToRelative(1.95f, 0f, 2.1f, -1f, 3.34f, -1f)
+                        curveToRelative(1.22f, 0f, 1.4f, 1f, 3.33f, 1f)
+                        curveToRelative(1.93f, 0f, 2.1f, -1f, 3.33f, -1f)
+                        curveToRelative(1.22f, 0f, 1.4f, 1f, 3.33f, 1f)
+                        verticalLineToRelative(-2f)
+                        curveTo(20.76f, 20f, 20.62f, 19f, 18.67f, 19f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(8.68f, 17.5f)
+                        curveToRelative(1.95f, 0f, 2.09f, -1f, 3.33f, -1f)
+                        curveToRelative(1.19f, 0f, 1.42f, 1f, 3.33f, 1f)
+                        curveToRelative(1.95f, 0f, 2.09f, -1f, 3.33f, -1f)
+                        curveToRelative(1.19f, 0f, 1.4f, 0.98f, 3.31f, 1f)
+                        verticalLineToRelative(-2f)
+                        curveToRelative(-0.63f, 0f, -1f, -0.28f, -1.48f, -0.55f)
+                        lineToRelative(-2.02f, -7.53f)
+                        lineToRelative(2.09f, 0.85f)
+                        lineToRelative(0.74f, -1.86f)
+                        lineTo(9.78f, 2f)
+                        lineTo(2f, 11.61f)
+                        lineToRelative(1.57f, 1.23f)
+                        lineToRelative(1.39f, -1.78f)
+                        lineToRelative(0.93f, 3.48f)
+                        curveToRelative(-0.18f, -0.02f, -0.35f, -0.05f, -0.56f, -0.05f)
+                        curveToRelative(-1.95f, 0f, -2.09f, 1f, -3.33f, 1f)
+                        verticalLineToRelative(2f)
+                        curveToRelative(1.9f, 0f, 2.17f, -1f, 3.35f, -1f)
+                        curveTo(6.54f, 16.5f, 6.77f, 17.5f, 8.68f, 17.5f)
+                        close()
+                        moveTo(14.04f, 10.18f)
+                        lineToRelative(1.42f, 5.31f)
+                        curveToRelative(-1.34f, 0.09f, -1.47f, -0.99f, -3.47f, -0.99f)
+                        curveToRelative(-0.36f, 0f, -0.65f, 0.04f, -0.91f, 0.1f)
+                        lineToRelative(-0.91f, -3.39f)
+                        lineTo(14.04f, 10.18f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Flood!!
+    }
+
+private var _Flood: ImageVector? = null
+

@@ -1,0 +1,60 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Signal_cellular_alt_2_bar: ImageVector
+    get() {
+        if (_Signal_cellular_alt_2_bar != null) return _Signal_cellular_alt_2_bar!!
+        
+        _Signal_cellular_alt_2_bar = ImageVector.Builder(
+            name = "signal_cellular_alt_2_bar",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(5f, 14f)
+                        horizontalLineToRelative(3f)
+                        verticalLineToRelative(6f)
+                        horizontalLineTo(5f)
+                        verticalLineTo(14f)
+                        close()
+                        moveTo(11f, 9f)
+                        horizontalLineToRelative(3f)
+                        verticalLineToRelative(11f)
+                        horizontalLineToRelative(-3f)
+                        verticalLineTo(9f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Signal_cellular_alt_2_bar!!
+    }
+
+private var _Signal_cellular_alt_2_bar: ImageVector? = null
+

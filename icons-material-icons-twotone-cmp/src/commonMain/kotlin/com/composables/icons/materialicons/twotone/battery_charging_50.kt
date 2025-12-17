@@ -1,0 +1,75 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Battery_charging_50: ImageVector
+    get() {
+        if (_Battery_charging_50 != null) return _Battery_charging_50!!
+        
+        _Battery_charging_50 = ImageVector.Builder(
+            name = "battery_charging_50",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color.Transparent)
+            ) {
+                moveTo(0f, 0f)
+                horizontalLineToRelative(24f)
+                verticalLineToRelative(24f)
+                horizontalLineTo(0f)
+                verticalLineTo(0f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(14.47f, 13.5f)
+                lineTo(11f, 20f)
+                verticalLineToRelative(-5.5f)
+                horizontalLineTo(9f)
+                lineToRelative(0.53f, -1f)
+                horizontalLineTo(7f)
+                verticalLineToRelative(7.17f)
+                curveTo(7f, 21.4f, 7.6f, 22f, 8.33f, 22f)
+                horizontalLineToRelative(7.33f)
+                curveToRelative(0.74f, 0f, 1.34f, -0.6f, 1.34f, -1.33f)
+                verticalLineTo(13.5f)
+                horizontalLineToRelative(-2.53f)
+                close()
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(15.67f, 4f)
+                horizontalLineTo(14f)
+                verticalLineTo(2f)
+                horizontalLineToRelative(-4f)
+                verticalLineToRelative(2f)
+                horizontalLineTo(8.33f)
+                curveTo(7.6f, 4f, 7f, 4.6f, 7f, 5.33f)
+                verticalLineToRelative(8.17f)
+                horizontalLineToRelative(2.53f)
+                lineTo(13f, 7f)
+                verticalLineToRelative(5.5f)
+                horizontalLineToRelative(2f)
+                lineToRelative(-0.53f, 1f)
+                horizontalLineTo(17f)
+                verticalLineTo(5.33f)
+                curveTo(17f, 4.6f, 16.4f, 4f, 15.67f, 4f)
+                close()
+            }
+        }.build()
+        
+        return _Battery_charging_50!!
+    }
+
+private var _Battery_charging_50: ImageVector? = null
+

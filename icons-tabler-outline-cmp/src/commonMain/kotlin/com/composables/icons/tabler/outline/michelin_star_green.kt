@@ -21,6 +21,7 @@ val Tabler.Outline.MichelinStarGreen: ImageVector
             viewportHeight = 24f
         ).apply {
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,
@@ -47,6 +48,7 @@ val Tabler.Outline.MichelinStarGreen: ImageVector
                 curveToRelative(0f, 1.729f, 1.233f, 2.964f, 3.02f, 2.964f)
             }
             path(
+                fill = SolidColor(Color.Transparent),
                 stroke = SolidColor(Color(0xFF000000)),
                 strokeLineWidth = 2f,
                 strokeLineCap = StrokeCap.Round,

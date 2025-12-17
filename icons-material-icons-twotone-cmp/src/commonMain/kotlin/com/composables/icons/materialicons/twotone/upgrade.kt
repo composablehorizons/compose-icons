@@ -1,0 +1,59 @@
+package com.composables.icons.materialicons.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Twotone.Upgrade: ImageVector
+    get() {
+        if (_Upgrade != null) return _Upgrade!!
+        
+        _Upgrade = ImageVector.Builder(
+            name = "upgrade",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+                path(
+                    fill = SolidColor(Color(0xFF000000))
+                ) {
+                    moveTo(16f, 18f)
+                    verticalLineToRelative(2f)
+                    horizontalLineTo(8f)
+                    verticalLineToRelative(-2f)
+                    horizontalLineTo(16f)
+                    close()
+                    moveTo(11f, 7.99f)
+                    verticalLineTo(16f)
+                    horizontalLineToRelative(2f)
+                    verticalLineTo(7.99f)
+                    horizontalLineToRelative(3f)
+                    lineTo(12f, 4f)
+                    lineTo(8f, 7.99f)
+                    horizontalLineTo(11f)
+                    close()
+                }
+            }
+        }.build()
+        
+        return _Upgrade!!
+    }
+
+private var _Upgrade: ImageVector? = null
+

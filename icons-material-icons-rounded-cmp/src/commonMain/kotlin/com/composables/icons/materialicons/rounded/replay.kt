@@ -1,0 +1,48 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.Replay: ImageVector
+    get() {
+        if (_Replay != null) return _Replay!!
+        
+        _Replay = ImageVector.Builder(
+            name = "replay",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(12f, 5f)
+                verticalLineTo(2.21f)
+                curveToRelative(0f, -0.45f, -0.54f, -0.67f, -0.85f, -0.35f)
+                lineToRelative(-3.8f, 3.79f)
+                curveToRelative(-0.2f, 0.2f, -0.2f, 0.51f, 0f, 0.71f)
+                lineToRelative(3.79f, 3.79f)
+                curveToRelative(0.32f, 0.31f, 0.86f, 0.09f, 0.86f, -0.36f)
+                verticalLineTo(7f)
+                curveToRelative(3.73f, 0f, 6.68f, 3.42f, 5.86f, 7.29f)
+                curveToRelative(-0.47f, 2.27f, -2.31f, 4.1f, -4.57f, 4.57f)
+                curveToRelative(-3.57f, 0.75f, -6.75f, -1.7f, -7.23f, -5.01f)
+                curveToRelative(-0.07f, -0.48f, -0.49f, -0.85f, -0.98f, -0.85f)
+                curveToRelative(-0.6f, 0f, -1.08f, 0.53f, -1f, 1.13f)
+                curveToRelative(0.62f, 4.39f, 4.8f, 7.64f, 9.53f, 6.72f)
+                curveToRelative(3.12f, -0.61f, 5.63f, -3.12f, 6.24f, -6.24f)
+                curveTo(20.84f, 9.48f, 16.94f, 5f, 12f, 5f)
+                close()
+            }
+        }.build()
+        
+        return _Replay!!
+    }
+
+private var _Replay: ImageVector? = null
+

@@ -1,0 +1,95 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.Cleaning_services: ImageVector
+    get() {
+        if (_Cleaning_services != null) return _Cleaning_services!!
+        
+        _Cleaning_services = ImageVector.Builder(
+            name = "cleaning_services",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                path(
+                    fill = SolidColor(Color(0xFF000000))
+                ) {
+                    moveTo(16f, 11f)
+                    horizontalLineToRelative(-1f)
+                    verticalLineTo(4f)
+                    curveToRelative(0f, -1.66f, -1.34f, -3f, -3f, -3f)
+                    horizontalLineToRelative(0f)
+                    curveToRelative(-1.66f, 0f, -3f, 1.34f, -3f, 3f)
+                    verticalLineToRelative(7f)
+                    horizontalLineTo(8f)
+                    curveToRelative(-2.76f, 0f, -5f, 2.24f, -5f, 5f)
+                    verticalLineToRelative(5f)
+                    curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                    horizontalLineToRelative(14f)
+                    curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                    verticalLineToRelative(-5f)
+                    curveTo(21f, 13.24f, 18.76f, 11f, 16f, 11f)
+                    close()
+                    moveTo(19f, 21f)
+                    horizontalLineToRelative(-2f)
+                    verticalLineToRelative(-3f)
+                    curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                    reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                    verticalLineToRelative(3f)
+                    horizontalLineToRelative(-2f)
+                    verticalLineToRelative(-3f)
+                    curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                    reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                    verticalLineToRelative(3f)
+                    horizontalLineTo(9f)
+                    verticalLineToRelative(-3f)
+                    curveToRelative(0f, -0.55f, -0.45f, -1f, -1f, -1f)
+                    reflectiveCurveToRelative(-1f, 0.45f, -1f, 1f)
+                    verticalLineToRelative(3f)
+                    horizontalLineTo(5f)
+                    verticalLineToRelative(-5f)
+                    curveToRelative(0f, -1.65f, 1.35f, -3f, 3f, -3f)
+                    horizontalLineToRelative(8f)
+                    curveToRelative(1.65f, 0f, 3f, 1.35f, 3f, 3f)
+                    verticalLineTo(21f)
+                    close()
+                }
+            }
+        }.build()
+        
+        return _Cleaning_services!!
+    }
+
+private var _Cleaning_services: ImageVector? = null
+

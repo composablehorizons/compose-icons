@@ -1,0 +1,102 @@
+package com.composables.icons.materialicons.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Rounded.Punch_clock: ImageVector
+    get() {
+        if (_Punch_clock != null) return _Punch_clock!!
+        
+        _Punch_clock = ImageVector.Builder(
+            name = "punch_clock",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(19f, 6f)
+                        horizontalLineToRelative(-1f)
+                        verticalLineTo(3f)
+                        curveToRelative(0f, -1.1f, -0.9f, -2f, -2f, -2f)
+                        horizontalLineTo(8f)
+                        curveTo(6.9f, 1f, 6f, 1.9f, 6f, 3f)
+                        verticalLineToRelative(3f)
+                        horizontalLineTo(5f)
+                        curveTo(3.9f, 6f, 3f, 6.9f, 3f, 8f)
+                        verticalLineToRelative(12f)
+                        curveToRelative(0f, 1.1f, 0.9f, 2f, 2f, 2f)
+                        horizontalLineToRelative(14f)
+                        curveToRelative(1.1f, 0f, 2f, -0.9f, 2f, -2f)
+                        verticalLineTo(8f)
+                        curveTo(21f, 6.9f, 20.1f, 6f, 19f, 6f)
+                        close()
+                        moveTo(8f, 3f)
+                        horizontalLineToRelative(8f)
+                        verticalLineToRelative(3f)
+                        horizontalLineTo(8f)
+                        verticalLineTo(3f)
+                        close()
+                        moveTo(12f, 19f)
+                        curveToRelative(-2.76f, 0f, -5f, -2.24f, -5f, -5f)
+                        reflectiveCurveToRelative(2.24f, -5f, 5f, -5f)
+                        curveToRelative(2.76f, 0f, 5f, 2.24f, 5f, 5f)
+                        reflectiveCurveTo(14.76f, 19f, 12f, 19f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(12.5f, 13.79f)
+                        verticalLineTo(12f)
+                        curveToRelative(0f, -0.28f, -0.22f, -0.5f, -0.5f, -0.5f)
+                        horizontalLineToRelative(0f)
+                        curveToRelative(-0.28f, 0f, -0.5f, 0.22f, -0.5f, 0.5f)
+                        verticalLineToRelative(2f)
+                        curveToRelative(0f, 0.13f, 0.05f, 0.26f, 0.15f, 0.35f)
+                        lineToRelative(1.14f, 1.14f)
+                        curveToRelative(0.2f, 0.2f, 0.51f, 0.2f, 0.71f, 0f)
+                        curveToRelative(0.2f, -0.2f, 0.2f, -0.51f, 0f, -0.71f)
+                        lineTo(12.5f, 13.79f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Punch_clock!!
+    }
+
+private var _Punch_clock: ImageVector? = null
+

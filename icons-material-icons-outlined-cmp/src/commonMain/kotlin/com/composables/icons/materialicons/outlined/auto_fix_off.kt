@@ -1,0 +1,97 @@
+package com.composables.icons.materialicons.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Outlined.Auto_fix_off: ImageVector
+    get() {
+        if (_Auto_fix_off != null) return _Auto_fix_off!!
+        
+        _Auto_fix_off = ImageVector.Builder(
+            name = "auto_fix_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                group {
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(20f, 7f)
+                        lineTo(20.94f, 4.94f)
+                        lineTo(23f, 4f)
+                        lineTo(20.94f, 3.06f)
+                        lineTo(20f, 1f)
+                        lineTo(19.06f, 3.06f)
+                        lineTo(17f, 4f)
+                        lineTo(19.06f, 4.94f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(14.17f, 8.42f)
+                        lineToRelative(1.41f, 1.41f)
+                        lineToRelative(-1.46f, 1.46f)
+                        lineToRelative(1.41f, 1.41f)
+                        lineToRelative(2.17f, -2.17f)
+                        curveToRelative(0.39f, -0.39f, 0.39f, -1.02f, 0f, -1.41f)
+                        lineToRelative(-2.83f, -2.83f)
+                        curveTo(14.68f, 6.1f, 14.43f, 6f, 14.17f, 6f)
+                        curveToRelative(-0.26f, 0f, -0.51f, 0.1f, -0.71f, 0.29f)
+                        lineToRelative(-2.17f, 2.17f)
+                        lineToRelative(1.41f, 1.41f)
+                        lineTo(14.17f, 8.42f)
+                        close()
+                    }
+                    path(
+                        fill = SolidColor(Color(0xFF000000))
+                    ) {
+                        moveTo(1.39f, 4.22f)
+                        lineToRelative(7.07f, 7.07f)
+                        lineToRelative(-6.17f, 6.17f)
+                        curveToRelative(-0.39f, 0.39f, -0.39f, 1.02f, 0f, 1.41f)
+                        lineToRelative(2.83f, 2.83f)
+                        curveTo(5.32f, 21.9f, 5.57f, 22f, 5.83f, 22f)
+                        reflectiveCurveToRelative(0.51f, -0.1f, 0.71f, -0.29f)
+                        lineToRelative(6.17f, -6.17f)
+                        lineToRelative(7.07f, 7.07f)
+                        lineToRelative(1.41f, -1.41f)
+                        lineTo(2.81f, 2.81f)
+                        lineTo(1.39f, 4.22f)
+                        close()
+                        moveTo(11.29f, 14.12f)
+                        lineToRelative(-5.46f, 5.46f)
+                        lineToRelative(-1.41f, -1.41f)
+                        lineToRelative(5.46f, -5.46f)
+                        lineTo(11.29f, 14.12f)
+                        close()
+                    }
+                }
+            }
+        }.build()
+        
+        return _Auto_fix_off!!
+    }
+
+private var _Auto_fix_off: ImageVector? = null
+

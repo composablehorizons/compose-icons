@@ -1,0 +1,89 @@
+package com.composables.icons.materialicons.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialicons.MaterialIcons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.group
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialIcons.Outlined.Save_as: ImageVector
+    get() {
+        if (_Save_as != null) return _Save_as!!
+        
+        _Save_as = ImageVector.Builder(
+            name = "save_as",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            group {
+                path(
+                    fill = SolidColor(Color.Transparent)
+                ) {
+                    moveTo(0f, 0f)
+                    horizontalLineTo(24f)
+                    verticalLineTo(24f)
+                    horizontalLineTo(0f)
+                    verticalLineTo(0f)
+                    close()
+                }
+            }
+            group {
+                path(
+                    fill = SolidColor(Color(0xFF000000))
+                ) {
+                    moveTo(21f, 12.4f)
+                    verticalLineTo(7f)
+                    lineToRelative(-4f, -4f)
+                    horizontalLineTo(5f)
+                    curveTo(3.89f, 3f, 3f, 3.9f, 3f, 5f)
+                    verticalLineToRelative(14f)
+                    curveToRelative(0f, 1.1f, 0.89f, 2f, 2f, 2f)
+                    horizontalLineToRelative(7.4f)
+                    lineToRelative(2f, -2f)
+                    horizontalLineTo(5f)
+                    verticalLineTo(5f)
+                    horizontalLineToRelative(11.17f)
+                    lineTo(19f, 7.83f)
+                    verticalLineToRelative(6.57f)
+                    lineTo(21f, 12.4f)
+                    close()
+                    moveTo(15f, 15f)
+                    curveToRelative(0f, 1.66f, -1.34f, 3f, -3f, 3f)
+                    reflectiveCurveToRelative(-3f, -1.34f, -3f, -3f)
+                    reflectiveCurveToRelative(1.34f, -3f, 3f, -3f)
+                    reflectiveCurveTo(15f, 13.34f, 15f, 15f)
+                    close()
+                    moveTo(6f, 6f)
+                    horizontalLineToRelative(9f)
+                    verticalLineToRelative(4f)
+                    horizontalLineTo(6f)
+                    verticalLineTo(6f)
+                    close()
+                    moveTo(19.99f, 16.25f)
+                    lineToRelative(1.77f, 1.77f)
+                    lineTo(16.77f, 23f)
+                    horizontalLineTo(15f)
+                    verticalLineToRelative(-1.77f)
+                    lineTo(19.99f, 16.25f)
+                    close()
+                    moveTo(23.25f, 16.51f)
+                    lineToRelative(-0.85f, 0.85f)
+                    lineToRelative(-1.77f, -1.77f)
+                    lineToRelative(0.85f, -0.85f)
+                    curveToRelative(0.2f, -0.2f, 0.51f, -0.2f, 0.71f, 0f)
+                    lineToRelative(1.06f, 1.06f)
+                    curveTo(23.45f, 16f, 23.45f, 16.32f, 23.25f, 16.51f)
+                    close()
+                }
+            }
+        }.build()
+        
+        return _Save_as!!
+    }
+
+private var _Save_as: ImageVector? = null
+
