@@ -1,0 +1,69 @@
+package com.composables.icons.materialsymbols.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Outlined.Water_medium: ImageVector
+    get() {
+        if (_Water_medium != null) return _Water_medium!!
+        
+        _Water_medium = ImageVector.Builder(
+            name = "water_medium",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(255f, 572f)
+                lineToRelative(25f, 228f)
+                horizontalLineToRelative(400f)
+                lineToRelative(26f, -240f)
+                horizontalLineToRelative(-9f)
+                quadToRelative(-38f, 0f, -69.5f, -5.5f)
+                reflectiveQuadTo(542f, 533f)
+                quadToRelative(-23f, -7f, -48f, -10f)
+                reflectiveQuadToRelative(-50f, -3f)
+                quadToRelative(-51f, 0f, -98.5f, 13f)
+                reflectiveQuadTo(255f, 572f)
+                close()
+                moveToRelative(-10f, -86f)
+                quadToRelative(47f, -23f, 97.5f, -34.5f)
+                reflectiveQuadTo(445f, 440f)
+                quadToRelative(30f, 0f, 59.5f, 4f)
+                reflectiveQuadToRelative(58.5f, 12f)
+                quadToRelative(50f, 14f, 76.5f, 19f)
+                reflectiveQuadToRelative(56.5f, 5f)
+                horizontalLineToRelative(19f)
+                lineToRelative(35f, -320f)
+                horizontalLineTo(210f)
+                lineToRelative(35f, 326f)
+                close()
+                moveToRelative(34f, 394f)
+                quadToRelative(-31f, 0f, -53.5f, -20f)
+                reflectiveQuadTo(200f, 809f)
+                lineToRelative(-80f, -729f)
+                horizontalLineToRelative(720f)
+                lineToRelative(-80f, 729f)
+                quadToRelative(-3f, 31f, -25.5f, 51f)
+                reflectiveQuadTo(681f, 880f)
+                horizontalLineTo(279f)
+                close()
+                moveToRelative(1f, -80f)
+                horizontalLineToRelative(400f)
+                horizontalLineToRelative(-400f)
+                close()
+            }
+        }.build()
+        
+        return _Water_medium!!
+    }
+
+private var _Water_medium: ImageVector? = null
+

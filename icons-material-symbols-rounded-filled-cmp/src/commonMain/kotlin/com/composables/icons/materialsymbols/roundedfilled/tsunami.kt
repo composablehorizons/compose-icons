@@ -1,0 +1,128 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Tsunami: ImageVector
+    get() {
+        if (_Tsunami != null) return _Tsunami!!
+        
+        _Tsunami = ImageVector.Builder(
+            name = "tsunami",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(481f, 803f)
+                quadToRelative(-30f, 20f, -64.5f, 28.5f)
+                reflectiveQuadTo(347f, 840f)
+                quadToRelative(-35f, 0f, -69f, -9.5f)
+                reflectiveQuadTo(213f, 803f)
+                quadToRelative(-22f, 13f, -45.5f, 21.5f)
+                reflectiveQuadTo(119f, 837f)
+                quadToRelative(-16f, 2f, -27.5f, -9f)
+                reflectiveQuadTo(80f, 800f)
+                quadToRelative(0f, -17f, 11f, -29f)
+                reflectiveQuadToRelative(28f, -16f)
+                quadToRelative(19f, -5f, 35.5f, -13f)
+                reflectiveQuadToRelative(32.5f, -19f)
+                quadToRelative(11f, -8f, 25.5f, -8f)
+                reflectiveQuadToRelative(25.5f, 8f)
+                quadToRelative(24f, 17f, 52f, 26.5f)
+                reflectiveQuadToRelative(57f, 9.5f)
+                quadToRelative(29f, 0f, 57.5f, -9f)
+                reflectiveQuadToRelative(52.5f, -26f)
+                quadToRelative(11f, -8f, 25f, -7.5f)
+                reflectiveQuadToRelative(25f, 8.5f)
+                quadToRelative(24f, 17f, 51.5f, 25.5f)
+                reflectiveQuadTo(615f, 759f)
+                quadToRelative(30f, 0f, 58f, -10.5f)
+                reflectiveQuadToRelative(53f, -27.5f)
+                quadToRelative(11f, -7f, 23f, -7.5f)
+                reflectiveQuadToRelative(23f, 7.5f)
+                quadToRelative(16f, 11f, 32f, 20f)
+                reflectiveQuadToRelative(35f, 14f)
+                quadToRelative(17f, 5f, 29f, 16.5f)
+                reflectiveQuadToRelative(12f, 28.5f)
+                quadToRelative(0f, 17f, -12f, 28.5f)
+                reflectiveQuadToRelative(-29f, 8.5f)
+                quadToRelative(-24f, -4f, -46.5f, -13f)
+                reflectiveQuadTo(749f, 803f)
+                quadToRelative(-30f, 18f, -64.5f, 27.5f)
+                reflectiveQuadTo(615f, 840f)
+                quadToRelative(-35f, 0f, -69.5f, -9.5f)
+                reflectiveQuadTo(481f, 803f)
+                close()
+                moveTo(80f, 660f)
+                verticalLineToRelative(-80f)
+                quadToRelative(0f, -97f, 37.5f, -181f)
+                reflectiveQuadTo(220f, 253f)
+                quadToRelative(65f, -62f, 152.5f, -97.5f)
+                reflectiveQuadTo(560f, 120f)
+                quadToRelative(17f, 0f, 35.5f, 0.5f)
+                reflectiveQuadTo(631f, 124f)
+                quadToRelative(20f, 3f, 29.5f, 21f)
+                reflectiveQuadToRelative(0.5f, 36f)
+                quadToRelative(-10f, 21f, -15.5f, 42f)
+                reflectiveQuadToRelative(-5.5f, 44f)
+                quadToRelative(0f, 55f, 39f, 94f)
+                reflectiveQuadToRelative(94f, 39f)
+                horizontalLineToRelative(67f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(880f, 440f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(840f, 480f)
+                horizontalLineToRelative(-67f)
+                quadToRelative(-89f, 0f, -151f, -62f)
+                reflectiveQuadToRelative(-62f, -151f)
+                quadToRelative(0f, -14f, 2f, -29.5f)
+                reflectiveQuadToRelative(6f, -30.5f)
+                quadToRelative(-74f, 18f, -121f, 76.5f)
+                reflectiveQuadTo(400f, 420f)
+                quadToRelative(0f, 36f, 11.5f, 68.5f)
+                reflectiveQuadTo(444f, 550f)
+                lineToRelative(13f, -9f)
+                quadToRelative(11f, -8f, 23f, -8f)
+                reflectiveQuadToRelative(23f, 8f)
+                quadToRelative(23f, 16f, 53.5f, 27f)
+                reflectiveQuadToRelative(58.5f, 11f)
+                quadToRelative(28f, 0f, 58.5f, -11f)
+                reflectiveQuadToRelative(53.5f, -27f)
+                quadToRelative(11f, -7f, 22.5f, -7.5f)
+                reflectiveQuadTo(772f, 540f)
+                lineToRelative(22f, 15f)
+                quadToRelative(11f, 6f, 22.5f, 11.5f)
+                reflectiveQuadTo(840f, 575f)
+                quadToRelative(17f, 5f, 28.5f, 16.5f)
+                reflectiveQuadTo(880f, 620f)
+                quadToRelative(0f, 17f, -12f, 28.5f)
+                reflectiveQuadToRelative(-29f, 8.5f)
+                quadToRelative(-23f, -4f, -45.5f, -12.5f)
+                reflectiveQuadTo(749f, 623f)
+                quadToRelative(-32f, 20f, -65f, 28.5f)
+                reflectiveQuadToRelative(-69f, 8.5f)
+                quadToRelative(-36f, 0f, -72f, -10f)
+                reflectiveQuadToRelative(-62f, -27f)
+                quadToRelative(-31f, 19f, -65f, 27.5f)
+                reflectiveQuadToRelative(-69f, 9.5f)
+                quadToRelative(-35f, 1f, -69f, -9f)
+                reflectiveQuadToRelative(-65f, -28f)
+                quadToRelative(-31f, 18f, -64.5f, 27.5f)
+                reflectiveQuadTo(80f, 660f)
+                close()
+            }
+        }.build()
+        
+        return _Tsunami!!
+    }
+
+private var _Tsunami: ImageVector? = null
+

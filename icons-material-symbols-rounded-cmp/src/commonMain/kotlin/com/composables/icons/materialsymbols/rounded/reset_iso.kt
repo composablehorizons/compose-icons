@@ -1,0 +1,99 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Reset_iso: ImageVector
+    get() {
+        if (_Reset_iso != null) return _Reset_iso!!
+        
+        _Reset_iso = ImageVector.Builder(
+            name = "reset_iso",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(480f, 600f)
+                verticalLineToRelative(-60f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(540f, 480f)
+                horizontalLineToRelative(60f)
+                lineTo(480f, 600f)
+                close()
+                moveToRelative(0f, 161f)
+                verticalLineToRelative(-85f)
+                lineToRelative(196f, -196f)
+                horizontalLineToRelative(85f)
+                lineTo(480f, 761f)
+                close()
+                moveToRelative(2f, 75f)
+                lineToRelative(353f, -354f)
+                quadToRelative(16f, 4f, 27.5f, 15.5f)
+                reflectiveQuadTo(878f, 525f)
+                lineTo(524f, 878f)
+                quadToRelative(-16f, -5f, -26.5f, -15.5f)
+                reflectiveQuadTo(482f, 836f)
+                close()
+                moveToRelative(117f, 44f)
+                lineToRelative(281f, -281f)
+                verticalLineToRelative(85f)
+                lineTo(684f, 880f)
+                horizontalLineToRelative(-85f)
+                close()
+                moveToRelative(161f, 0f)
+                lineToRelative(120f, -120f)
+                verticalLineToRelative(60f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(820f, 880f)
+                horizontalLineToRelative(-60f)
+                close()
+                moveTo(480f, 200f)
+                quadToRelative(-117f, 0f, -198.5f, 81.5f)
+                reflectiveQuadTo(200f, 480f)
+                quadToRelative(0f, 72f, 32.5f, 132f)
+                reflectiveQuadToRelative(87.5f, 98f)
+                verticalLineToRelative(-70f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(360f, 600f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(400f, 640f)
+                verticalLineToRelative(160f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(360f, 840f)
+                horizontalLineTo(200f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(160f, 800f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(200f, 760f)
+                horizontalLineToRelative(54f)
+                quadToRelative(-62f, -50f, -98f, -122.5f)
+                reflectiveQuadTo(120f, 480f)
+                quadToRelative(0f, -75f, 28.5f, -140.5f)
+                reflectiveQuadToRelative(77f, -114f)
+                quadToRelative(48.5f, -48.5f, 114f, -77f)
+                reflectiveQuadTo(480f, 120f)
+                quadToRelative(113f, 0f, 203.5f, 63f)
+                reflectiveQuadTo(814f, 345f)
+                quadToRelative(6f, 16f, 0f, 31f)
+                reflectiveQuadToRelative(-22f, 21f)
+                quadToRelative(-16f, 6f, -31.5f, 0f)
+                reflectiveQuadTo(739f, 375f)
+                quadToRelative(-31f, -78f, -100.5f, -126.5f)
+                reflectiveQuadTo(480f, 200f)
+                close()
+            }
+        }.build()
+        
+        return _Reset_iso!!
+    }
+
+private var _Reset_iso: ImageVector? = null
+

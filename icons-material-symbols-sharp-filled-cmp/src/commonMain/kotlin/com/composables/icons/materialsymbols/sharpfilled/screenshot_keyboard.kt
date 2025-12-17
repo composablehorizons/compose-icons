@@ -1,0 +1,49 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Screenshot_keyboard: ImageVector
+    get() {
+        if (_Screenshot_keyboard != null) return _Screenshot_keyboard!!
+        
+        _Screenshot_keyboard = ImageVector.Builder(
+            name = "screenshot_keyboard",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(480f, 480f)
+                close()
+                moveToRelative(0f, 160f)
+                quadToRelative(66f, 0f, 113f, -47f)
+                reflectiveQuadToRelative(47f, -113f)
+                quadToRelative(0f, -66f, -47f, -113f)
+                reflectiveQuadToRelative(-113f, -47f)
+                quadToRelative(-66f, 0f, -113f, 47f)
+                reflectiveQuadToRelative(-47f, 113f)
+                quadToRelative(0f, 66f, 47f, 113f)
+                reflectiveQuadToRelative(113f, 47f)
+                close()
+                moveTo(80f, 800f)
+                verticalLineToRelative(-640f)
+                horizontalLineToRelative(800f)
+                verticalLineToRelative(640f)
+                horizontalLineTo(80f)
+                close()
+            }
+        }.build()
+        
+        return _Screenshot_keyboard!!
+    }
+
+private var _Screenshot_keyboard: ImageVector? = null
+

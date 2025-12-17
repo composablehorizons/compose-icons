@@ -1,0 +1,75 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Import_contacts: ImageVector
+    get() {
+        if (_Import_contacts != null) return _Import_contacts!!
+        
+        _Import_contacts = ImageVector.Builder(
+            name = "import_contacts",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(520f, 682f)
+                quadToRelative(44f, -21f, 88.5f, -31.5f)
+                reflectiveQuadTo(700f, 640f)
+                quadToRelative(36f, 0f, 70.5f, 6f)
+                reflectiveQuadToRelative(69.5f, 18f)
+                verticalLineToRelative(-396f)
+                quadToRelative(-33f, -14f, -68.5f, -21f)
+                reflectiveQuadToRelative(-71.5f, -7f)
+                quadToRelative(-47f, 0f, -93f, 12f)
+                reflectiveQuadToRelative(-87f, 36f)
+                verticalLineToRelative(394f)
+                close()
+                moveToRelative(-40f, 97f)
+                quadToRelative(-14f, 0f, -26.5f, -3.5f)
+                reflectiveQuadTo(430f, 766f)
+                quadToRelative(-39f, -23f, -82f, -34.5f)
+                reflectiveQuadTo(260f, 720f)
+                quadToRelative(-42f, 0f, -82.5f, 11f)
+                reflectiveQuadTo(100f, 762f)
+                quadToRelative(-21f, 11f, -40.5f, -1f)
+                reflectiveQuadTo(40f, 726f)
+                verticalLineToRelative(-482f)
+                quadToRelative(0f, -11f, 5.5f, -21f)
+                reflectiveQuadTo(62f, 208f)
+                quadToRelative(47f, -23f, 96.5f, -35.5f)
+                reflectiveQuadTo(260f, 160f)
+                quadToRelative(58f, 0f, 113.5f, 15f)
+                reflectiveQuadTo(480f, 220f)
+                quadToRelative(51f, -30f, 106.5f, -45f)
+                reflectiveQuadTo(700f, 160f)
+                quadToRelative(52f, 0f, 101.5f, 12.5f)
+                reflectiveQuadTo(898f, 208f)
+                quadToRelative(11f, 5f, 16.5f, 15f)
+                reflectiveQuadToRelative(5.5f, 21f)
+                verticalLineToRelative(482f)
+                quadToRelative(0f, 23f, -19.5f, 35f)
+                reflectiveQuadToRelative(-40.5f, 1f)
+                quadToRelative(-37f, -20f, -77.5f, -31f)
+                reflectiveQuadTo(700f, 720f)
+                quadToRelative(-45f, 0f, -88f, 11.5f)
+                reflectiveQuadTo(530f, 766f)
+                quadToRelative(-11f, 6f, -23.5f, 9.5f)
+                reflectiveQuadTo(480f, 779f)
+                close()
+            }
+        }.build()
+        
+        return _Import_contacts!!
+    }
+
+private var _Import_contacts: ImageVector? = null
+

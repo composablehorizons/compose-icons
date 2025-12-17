@@ -1,0 +1,75 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Book_ribbon: ImageVector
+    get() {
+        if (_Book_ribbon != null) return _Book_ribbon!!
+        
+        _Book_ribbon = ImageVector.Builder(
+            name = "book_ribbon",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(620f, 560f)
+                verticalLineToRelative(-440f)
+                lineToRelative(120f, -40f)
+                verticalLineToRelative(440f)
+                lineToRelative(-120f, 40f)
+                close()
+                moveToRelative(-360f, 80f)
+                quadToRelative(47f, 0f, 92.5f, 11f)
+                reflectiveQuadToRelative(87.5f, 31f)
+                verticalLineToRelative(-394f)
+                quadToRelative(-41f, -24f, -86.5f, -36f)
+                reflectiveQuadTo(260f, 240f)
+                quadToRelative(-36f, 0f, -71.5f, 7f)
+                reflectiveQuadTo(120f, 268f)
+                verticalLineToRelative(396f)
+                quadToRelative(34f, -12f, 69f, -18f)
+                reflectiveQuadToRelative(71f, -6f)
+                close()
+                moveToRelative(580f, 24f)
+                verticalLineToRelative(-481f)
+                quadToRelative(21f, 8f, 41f, 17f)
+                reflectiveQuadToRelative(39f, 22f)
+                verticalLineToRelative(580f)
+                quadToRelative(-47f, -39f, -103f, -60.5f)
+                reflectiveQuadTo(700f, 720f)
+                quadToRelative(-60f, 0f, -116f, 21f)
+                reflectiveQuadToRelative(-104f, 59f)
+                quadToRelative(-48f, -38f, -104f, -59f)
+                reflectiveQuadToRelative(-116f, -21f)
+                quadToRelative(-61f, 0f, -117f, 21.5f)
+                reflectiveQuadTo(40f, 802f)
+                verticalLineToRelative(-580f)
+                quadToRelative(48f, -33f, 104.5f, -47.5f)
+                reflectiveQuadTo(260f, 160f)
+                quadToRelative(70f, 0f, 135.5f, 23f)
+                reflectiveQuadTo(520f, 244f)
+                verticalLineToRelative(438f)
+                quadToRelative(42f, -20f, 87.5f, -31f)
+                reflectiveQuadToRelative(92.5f, -11f)
+                quadToRelative(36f, 0f, 71f, 6f)
+                reflectiveQuadToRelative(69f, 18f)
+                close()
+                moveTo(280f, 461f)
+                close()
+            }
+        }.build()
+        
+        return _Book_ribbon!!
+    }
+
+private var _Book_ribbon: ImageVector? = null
+

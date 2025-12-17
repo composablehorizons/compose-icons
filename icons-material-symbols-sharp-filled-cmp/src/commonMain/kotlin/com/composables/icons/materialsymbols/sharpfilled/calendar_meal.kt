@@ -1,0 +1,74 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Calendar_meal: ImageVector
+    get() {
+        if (_Calendar_meal != null) return _Calendar_meal!!
+        
+        _Calendar_meal = ImageVector.Builder(
+            name = "calendar_meal",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(120f, 840f)
+                verticalLineToRelative(-720f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(320f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(720f)
+                horizontalLineTo(120f)
+                close()
+                moveToRelative(240f, -160f)
+                horizontalLineToRelative(60f)
+                verticalLineToRelative(-160f)
+                quadToRelative(26f, -7f, 43f, -28.5f)
+                reflectiveQuadToRelative(17f, -48.5f)
+                verticalLineToRelative(-163f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(151f)
+                horizontalLineToRelative(-30f)
+                verticalLineToRelative(-151f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(151f)
+                horizontalLineToRelative(-30f)
+                verticalLineToRelative(-151f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(163f)
+                quadToRelative(0f, 27f, 17f, 48.5f)
+                reflectiveQuadToRelative(43f, 28.5f)
+                verticalLineToRelative(160f)
+                close()
+                moveToRelative(240f, 0f)
+                horizontalLineToRelative(60f)
+                verticalLineToRelative(-400f)
+                quadToRelative(-50f, 0f, -85f, 35f)
+                reflectiveQuadToRelative(-35f, 85f)
+                verticalLineToRelative(120f)
+                horizontalLineToRelative(60f)
+                verticalLineToRelative(160f)
+                close()
+            }
+        }.build()
+        
+        return _Calendar_meal!!
+    }
+
+private var _Calendar_meal: ImageVector? = null
+

@@ -1,0 +1,107 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Car_crash: ImageVector
+    get() {
+        if (_Car_crash != null) return _Car_crash!!
+        
+        _Car_crash = ImageVector.Builder(
+            name = "car_crash",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(620f, 680f)
+                quadToRelative(25f, 0f, 42.5f, -17.5f)
+                reflectiveQuadTo(680f, 620f)
+                quadToRelative(0f, -25f, -17.5f, -42.5f)
+                reflectiveQuadTo(620f, 560f)
+                quadToRelative(-25f, 0f, -42.5f, 17.5f)
+                reflectiveQuadTo(560f, 620f)
+                quadToRelative(0f, 25f, 17.5f, 42.5f)
+                reflectiveQuadTo(620f, 680f)
+                close()
+                moveToRelative(-360f, 0f)
+                quadToRelative(25f, 0f, 42.5f, -17.5f)
+                reflectiveQuadTo(320f, 620f)
+                quadToRelative(0f, -25f, -17.5f, -42.5f)
+                reflectiveQuadTo(260f, 560f)
+                quadToRelative(-25f, 0f, -42.5f, 17.5f)
+                reflectiveQuadTo(200f, 620f)
+                quadToRelative(0f, 25f, 17.5f, 42.5f)
+                reflectiveQuadTo(260f, 680f)
+                close()
+                moveToRelative(420f, -200f)
+                quadToRelative(-83f, 0f, -141.5f, -58.5f)
+                reflectiveQuadTo(480f, 280f)
+                quadToRelative(0f, -82f, 58f, -141f)
+                reflectiveQuadToRelative(142f, -59f)
+                quadToRelative(83f, 0f, 141.5f, 58.5f)
+                reflectiveQuadTo(880f, 280f)
+                quadToRelative(0f, 83f, -58.5f, 141.5f)
+                reflectiveQuadTo(680f, 480f)
+                close()
+                moveToRelative(-20f, -160f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-160f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(160f)
+                close()
+                moveToRelative(20f, 80f)
+                quadToRelative(8f, 0f, 14f, -6f)
+                reflectiveQuadToRelative(6f, -14f)
+                quadToRelative(0f, -8f, -6f, -14f)
+                reflectiveQuadToRelative(-14f, -6f)
+                quadToRelative(-8f, 0f, -14f, 6f)
+                reflectiveQuadToRelative(-6f, 14f)
+                quadToRelative(0f, 8f, 6f, 14f)
+                reflectiveQuadToRelative(14f, 6f)
+                close()
+                moveTo(120f, 880f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(80f, 840f)
+                verticalLineToRelative(-320f)
+                lineToRelative(84f, -240f)
+                quadToRelative(6f, -18f, 21.5f, -29f)
+                reflectiveQuadToRelative(34.5f, -11f)
+                horizontalLineToRelative(183f)
+                quadToRelative(-3f, 20f, -3f, 40f)
+                reflectiveQuadToRelative(3f, 40f)
+                horizontalLineTo(234f)
+                lineToRelative(-42f, 120f)
+                horizontalLineToRelative(259f)
+                quadToRelative(40f, 57f, 100f, 88.5f)
+                reflectiveQuadTo(680f, 560f)
+                quadToRelative(31f, 0f, 61.5f, -6.5f)
+                reflectiveQuadTo(800f, 533f)
+                verticalLineToRelative(307f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(760f, 880f)
+                horizontalLineToRelative(-40f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(680f, 840f)
+                verticalLineToRelative(-40f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(160f, 880f)
+                horizontalLineToRelative(-40f)
+                close()
+            }
+        }.build()
+        
+        return _Car_crash!!
+    }
+
+private var _Car_crash: ImageVector? = null
+

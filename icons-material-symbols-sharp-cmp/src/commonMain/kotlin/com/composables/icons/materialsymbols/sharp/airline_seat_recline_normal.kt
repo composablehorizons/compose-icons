@@ -1,0 +1,62 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Airline_seat_recline_normal: ImageVector
+    get() {
+        if (_Airline_seat_recline_normal != null) return _Airline_seat_recline_normal!!
+        
+        _Airline_seat_recline_normal = ImageVector.Builder(
+            name = "airline_seat_recline_normal",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(240f, 800f)
+                verticalLineToRelative(-520f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(440f)
+                horizontalLineToRelative(280f)
+                verticalLineToRelative(80f)
+                horizontalLineTo(240f)
+                close()
+                moveToRelative(220f, -560f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(380f, 160f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(460f, 80f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(540f, 160f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(460f, 240f)
+                close()
+                moveTo(640f, 880f)
+                verticalLineToRelative(-200f)
+                horizontalLineTo(360f)
+                verticalLineToRelative(-300f)
+                quadToRelative(0f, -42f, 29f, -71f)
+                reflectiveQuadToRelative(71f, -29f)
+                quadToRelative(42f, 0f, 71f, 29f)
+                reflectiveQuadToRelative(29f, 71f)
+                verticalLineToRelative(180f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(320f)
+                horizontalLineToRelative(-80f)
+                close()
+            }
+        }.build()
+        
+        return _Airline_seat_recline_normal!!
+    }
+
+private var _Airline_seat_recline_normal: ImageVector? = null
+

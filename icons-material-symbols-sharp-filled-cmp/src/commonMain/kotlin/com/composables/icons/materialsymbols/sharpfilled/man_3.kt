@@ -1,0 +1,47 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Man_3: ImageVector
+    get() {
+        if (_Man_3 != null) return _Man_3!!
+        
+        _Man_3 = ImageVector.Builder(
+            name = "man_3",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(400f, 890f)
+                verticalLineToRelative(-280f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(-320f)
+                horizontalLineToRelative(320f)
+                verticalLineToRelative(320f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(280f)
+                horizontalLineTo(400f)
+                close()
+                moveToRelative(80f, -630f)
+                lineToRelative(-90f, -90f)
+                lineToRelative(90f, -90f)
+                lineToRelative(90f, 90f)
+                lineToRelative(-90f, 90f)
+                close()
+            }
+        }.build()
+        
+        return _Man_3!!
+    }
+
+private var _Man_3: ImageVector? = null
+

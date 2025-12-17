@@ -1,0 +1,73 @@
+package com.composables.icons.materialsymbols.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Outlined.Counter_7: ImageVector
+    get() {
+        if (_Counter_7 != null) return _Counter_7!!
+        
+        _Counter_7 = ImageVector.Builder(
+            name = "counter_7",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(440f, 680f)
+                horizontalLineToRelative(80f)
+                lineToRelative(78f, -310f)
+                quadToRelative(2f, -5f, 2f, -9f)
+                verticalLineToRelative(-9f)
+                quadToRelative(0f, -29f, -20.5f, -50.5f)
+                reflectiveQuadTo(530f, 280f)
+                horizontalLineTo(360f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(160f)
+                lineToRelative(-80f, 320f)
+                close()
+                moveToRelative(40f, 200f)
+                quadToRelative(-83f, 0f, -156f, -31.5f)
+                reflectiveQuadTo(197f, 763f)
+                quadToRelative(-54f, -54f, -85.5f, -127f)
+                reflectiveQuadTo(80f, 480f)
+                quadToRelative(0f, -83f, 31.5f, -156f)
+                reflectiveQuadTo(197f, 197f)
+                quadToRelative(54f, -54f, 127f, -85.5f)
+                reflectiveQuadTo(480f, 80f)
+                quadToRelative(83f, 0f, 156f, 31.5f)
+                reflectiveQuadTo(763f, 197f)
+                quadToRelative(54f, 54f, 85.5f, 127f)
+                reflectiveQuadTo(880f, 480f)
+                quadToRelative(0f, 83f, -31.5f, 156f)
+                reflectiveQuadTo(763f, 763f)
+                quadToRelative(-54f, 54f, -127f, 85.5f)
+                reflectiveQuadTo(480f, 880f)
+                close()
+                moveToRelative(0f, -80f)
+                quadToRelative(134f, 0f, 227f, -93f)
+                reflectiveQuadToRelative(93f, -227f)
+                quadToRelative(0f, -134f, -93f, -227f)
+                reflectiveQuadToRelative(-227f, -93f)
+                quadToRelative(-134f, 0f, -227f, 93f)
+                reflectiveQuadToRelative(-93f, 227f)
+                quadToRelative(0f, 134f, 93f, 227f)
+                reflectiveQuadToRelative(227f, 93f)
+                close()
+                moveToRelative(0f, -320f)
+                close()
+            }
+        }.build()
+        
+        return _Counter_7!!
+    }
+
+private var _Counter_7: ImageVector? = null
+

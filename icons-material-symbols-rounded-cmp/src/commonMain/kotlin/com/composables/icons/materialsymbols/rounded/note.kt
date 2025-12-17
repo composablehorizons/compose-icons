@@ -1,0 +1,63 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Note: ImageVector
+    get() {
+        if (_Note != null) return _Note!!
+        
+        _Note = ImageVector.Builder(
+            name = "note",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(6f, 22f)
+                quadToRelative(-0.825f, 0f, -1.412f, -0.587f)
+                quadTo(4f, 20.825f, 4f, 20f)
+                verticalLineTo(4f)
+                quadToRelative(0f, -0.825f, 0.588f, -1.413f)
+                quadTo(5.175f, 2f, 6f, 2f)
+                horizontalLineToRelative(7.175f)
+                quadToRelative(0.4f, 0f, 0.763f, 0.15f)
+                quadToRelative(0.362f, 0.15f, 0.637f, 0.425f)
+                lineToRelative(4.85f, 4.85f)
+                quadToRelative(0.275f, 0.275f, 0.425f, 0.637f)
+                quadToRelative(0.15f, 0.363f, 0.15f, 0.763f)
+                verticalLineTo(20f)
+                quadToRelative(0f, 0.825f, -0.587f, 1.413f)
+                quadTo(18.825f, 22f, 18f, 22f)
+                close()
+                moveToRelative(7f, -14f)
+                verticalLineTo(4f)
+                horizontalLineTo(6f)
+                verticalLineToRelative(16f)
+                horizontalLineToRelative(12f)
+                verticalLineTo(9f)
+                horizontalLineToRelative(-4f)
+                quadToRelative(-0.425f, 0f, -0.712f, -0.288f)
+                quadTo(13f, 8.425f, 13f, 8f)
+                close()
+                moveTo(6f, 4f)
+                verticalLineToRelative(5f)
+                verticalLineToRelative(-5f)
+                verticalLineToRelative(16f)
+                verticalLineTo(4f)
+                close()
+            }
+        }.build()
+        
+        return _Note!!
+    }
+
+private var _Note: ImageVector? = null
+

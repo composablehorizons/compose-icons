@@ -1,0 +1,61 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Colorize: ImageVector
+    get() {
+        if (_Colorize != null) return _Colorize!!
+        
+        _Colorize = ImageVector.Builder(
+            name = "colorize",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(120f, 840f)
+                verticalLineToRelative(-190f)
+                lineToRelative(358f, -358f)
+                lineToRelative(-58f, -56f)
+                lineToRelative(58f, -56f)
+                lineToRelative(76f, 76f)
+                lineToRelative(124f, -124f)
+                quadToRelative(5f, -5f, 12.5f, -8f)
+                reflectiveQuadToRelative(15.5f, -3f)
+                quadToRelative(8f, 0f, 15f, 3f)
+                reflectiveQuadToRelative(13f, 8f)
+                lineToRelative(94f, 94f)
+                quadToRelative(5f, 6f, 8f, 13f)
+                reflectiveQuadToRelative(3f, 15f)
+                quadToRelative(0f, 8f, -3f, 15.5f)
+                reflectiveQuadToRelative(-8f, 12.5f)
+                lineTo(705f, 405f)
+                lineToRelative(76f, 78f)
+                lineToRelative(-57f, 57f)
+                lineToRelative(-56f, -58f)
+                lineToRelative(-358f, 358f)
+                horizontalLineTo(120f)
+                close()
+                moveToRelative(80f, -80f)
+                horizontalLineToRelative(78f)
+                lineToRelative(332f, -334f)
+                lineToRelative(-76f, -76f)
+                lineToRelative(-334f, 332f)
+                verticalLineToRelative(78f)
+                close()
+            }
+        }.build()
+        
+        return _Colorize!!
+    }
+
+private var _Colorize: ImageVector? = null
+

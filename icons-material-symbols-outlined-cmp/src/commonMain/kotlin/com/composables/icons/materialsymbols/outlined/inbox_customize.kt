@@ -1,0 +1,106 @@
+package com.composables.icons.materialsymbols.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Outlined.Inbox_customize: ImageVector
+    get() {
+        if (_Inbox_customize != null) return _Inbox_customize!!
+        
+        _Inbox_customize = ImageVector.Builder(
+            name = "inbox_customize",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(200f, 800f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(120f, 720f)
+                verticalLineToRelative(-560f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(200f, 80f)
+                horizontalLineToRelative(560f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(840f, 160f)
+                verticalLineToRelative(226f)
+                quadToRelative(-19f, -9f, -39f, -14.5f)
+                reflectiveQuadToRelative(-41f, -8.5f)
+                verticalLineToRelative(-203f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(360f)
+                horizontalLineToRelative(168f)
+                quadToRelative(9f, 27f, 30f, 47f)
+                reflectiveQuadToRelative(47f, 28f)
+                quadToRelative(-3f, 20f, -4f, 40.5f)
+                reflectiveQuadToRelative(2f, 40.5f)
+                quadToRelative(-36f, -7f, -67.5f, -26.5f)
+                reflectiveQuadTo(320f, 600f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(120f)
+                horizontalLineToRelative(253f)
+                quadToRelative(7f, 22f, 16f, 42f)
+                reflectiveQuadToRelative(22f, 38f)
+                horizontalLineTo(200f)
+                close()
+                moveToRelative(0f, -80f)
+                horizontalLineToRelative(253f)
+                horizontalLineToRelative(-253f)
+                close()
+                moveToRelative(481f, 120f)
+                lineToRelative(-12f, -60f)
+                quadToRelative(-12f, -5f, -22.5f, -10.5f)
+                reflectiveQuadTo(625f, 756f)
+                lineToRelative(-58f, 18f)
+                lineToRelative(-40f, -68f)
+                lineToRelative(46f, -40f)
+                quadToRelative(-2f, -12f, -2f, -26f)
+                reflectiveQuadToRelative(2f, -26f)
+                lineToRelative(-46f, -40f)
+                lineToRelative(40f, -68f)
+                lineToRelative(58f, 18f)
+                quadToRelative(11f, -8f, 21.5f, -13.5f)
+                reflectiveQuadTo(669f, 500f)
+                lineToRelative(12f, -60f)
+                horizontalLineToRelative(80f)
+                lineToRelative(12f, 60f)
+                quadToRelative(12f, 5f, 22.5f, 10.5f)
+                reflectiveQuadTo(817f, 524f)
+                lineToRelative(58f, -18f)
+                lineToRelative(40f, 68f)
+                lineToRelative(-46f, 40f)
+                quadToRelative(2f, 12f, 2f, 26f)
+                reflectiveQuadToRelative(-2f, 26f)
+                lineToRelative(46f, 40f)
+                lineToRelative(-40f, 68f)
+                lineToRelative(-58f, -18f)
+                quadToRelative(-11f, 8f, -21.5f, 13.5f)
+                reflectiveQuadTo(773f, 780f)
+                lineToRelative(-12f, 60f)
+                horizontalLineToRelative(-80f)
+                close()
+                moveToRelative(40f, -120f)
+                quadToRelative(33f, 0f, 56.5f, -23.5f)
+                reflectiveQuadTo(801f, 640f)
+                quadToRelative(0f, -33f, -23.5f, -56.5f)
+                reflectiveQuadTo(721f, 560f)
+                quadToRelative(-33f, 0f, -56.5f, 23.5f)
+                reflectiveQuadTo(641f, 640f)
+                quadToRelative(0f, 33f, 23.5f, 56.5f)
+                reflectiveQuadTo(721f, 720f)
+                close()
+            }
+        }.build()
+        
+        return _Inbox_customize!!
+    }
+
+private var _Inbox_customize: ImageVector? = null
+

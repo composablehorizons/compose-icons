@@ -1,0 +1,63 @@
+package com.composables.icons.materialsymbols.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Outlined.Stylus_pen: ImageVector
+    get() {
+        if (_Stylus_pen != null) return _Stylus_pen!!
+        
+        _Stylus_pen = ImageVector.Builder(
+            name = "stylus_pen",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(240f, 640f)
+                lineToRelative(100f, -360f)
+                horizontalLineToRelative(60f)
+                verticalLineToRelative(-60f)
+                lineToRelative(60f, -140f)
+                horizontalLineToRelative(40f)
+                lineToRelative(60f, 140f)
+                verticalLineToRelative(60f)
+                horizontalLineToRelative(60f)
+                lineToRelative(100f, 360f)
+                horizontalLineTo(240f)
+                close()
+                moveToRelative(105f, -80f)
+                horizontalLineToRelative(270f)
+                lineToRelative(-56f, -200f)
+                horizontalLineTo(401f)
+                lineToRelative(-56f, 200f)
+                close()
+                moveTo(160f, 840f)
+                lineToRelative(22f, -65f)
+                quadToRelative(8f, -25f, 29f, -40f)
+                reflectiveQuadToRelative(47f, -15f)
+                horizontalLineToRelative(444f)
+                quadToRelative(26f, 0f, 47f, 15f)
+                reflectiveQuadToRelative(29f, 40f)
+                lineToRelative(22f, 65f)
+                horizontalLineTo(160f)
+                close()
+                moveToRelative(185f, -280f)
+                horizontalLineToRelative(270f)
+                horizontalLineToRelative(-270f)
+                close()
+            }
+        }.build()
+        
+        return _Stylus_pen!!
+    }
+
+private var _Stylus_pen: ImageVector? = null
+

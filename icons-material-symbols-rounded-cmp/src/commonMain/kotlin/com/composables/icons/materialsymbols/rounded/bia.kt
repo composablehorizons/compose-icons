@@ -1,0 +1,106 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Bia: ImageVector
+    get() {
+        if (_Bia != null) return _Bia!!
+        
+        _Bia = ImageVector.Builder(
+            name = "bia",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(240f, 720f)
+                verticalLineToRelative(-80f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(280f, 600f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(320f, 640f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-80f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(440f, 600f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(480f, 640f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-80f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(600f, 600f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(640f, 640f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(-277f)
+                quadToRelative(-33f, 19f, -74.5f, 28f)
+                reflectiveQuadToRelative(-85.5f, 9f)
+                quadToRelative(-45f, 0f, -88f, -10f)
+                reflectiveQuadToRelative(-77f, -30f)
+                horizontalLineTo(160f)
+                verticalLineToRelative(280f)
+                horizontalLineToRelative(80f)
+                close()
+                moveToRelative(40f, -360f)
+                horizontalLineToRelative(126f)
+                quadToRelative(-3f, -9f, -4.5f, -19f)
+                reflectiveQuadToRelative(-1.5f, -21f)
+                quadToRelative(0f, -11f, 1.5f, -21f)
+                reflectiveQuadToRelative(4.5f, -19f)
+                horizontalLineTo(280f)
+                verticalLineToRelative(80f)
+                close()
+                moveToRelative(360f, 40f)
+                quadToRelative(58f, 0f, 109f, -15f)
+                reflectiveQuadToRelative(51f, -65f)
+                quadToRelative(0f, -50f, -51f, -65f)
+                reflectiveQuadToRelative(-109f, -15f)
+                quadToRelative(-58f, 0f, -109f, 15f)
+                reflectiveQuadToRelative(-51f, 65f)
+                quadToRelative(0f, 50f, 51f, 65f)
+                reflectiveQuadToRelative(109f, 15f)
+                close()
+                moveTo(160f, 800f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(80f, 720f)
+                verticalLineToRelative(-280f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(160f, 360f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-80f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(280f, 200f)
+                horizontalLineToRelative(195f)
+                quadToRelative(34f, -20f, 77f, -30f)
+                reflectiveQuadToRelative(88f, -10f)
+                quadToRelative(91f, 0f, 165.5f, 39.5f)
+                reflectiveQuadTo(880f, 320f)
+                verticalLineToRelative(400f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(800f, 800f)
+                horizontalLineTo(160f)
+                close()
+                moveToRelative(80f, -80f)
+                horizontalLineToRelative(560f)
+                horizontalLineToRelative(-640f)
+                horizontalLineToRelative(80f)
+                close()
+            }
+        }.build()
+        
+        return _Bia!!
+    }
+
+private var _Bia: ImageVector? = null
+

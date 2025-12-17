@@ -1,0 +1,52 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Bookmark_added: ImageVector
+    get() {
+        if (_Bookmark_added != null) return _Bookmark_added!!
+        
+        _Bookmark_added = ImageVector.Builder(
+            name = "bookmark_added",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(713f, 360f)
+                lineTo(600f, 247f)
+                lineToRelative(56f, -57f)
+                lineToRelative(57f, 57f)
+                lineToRelative(141f, -142f)
+                lineToRelative(57f, 57f)
+                lineToRelative(-198f, 198f)
+                close()
+                moveTo(200f, 840f)
+                verticalLineToRelative(-720f)
+                horizontalLineToRelative(360f)
+                quadToRelative(-20f, 30f, -30f, 57.5f)
+                reflectiveQuadTo(520f, 240f)
+                quadToRelative(0f, 72f, 45.5f, 127f)
+                reflectiveQuadTo(680f, 436f)
+                quadToRelative(23f, 3f, 40f, 3f)
+                reflectiveQuadToRelative(40f, -3f)
+                verticalLineToRelative(404f)
+                lineTo(480f, 720f)
+                lineTo(200f, 840f)
+                close()
+            }
+        }.build()
+        
+        return _Bookmark_added!!
+    }
+
+private var _Bookmark_added: ImageVector? = null
+

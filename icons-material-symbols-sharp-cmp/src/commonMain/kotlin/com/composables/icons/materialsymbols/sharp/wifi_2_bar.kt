@@ -1,0 +1,51 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Wifi_2_bar: ImageVector
+    get() {
+        if (_Wifi_2_bar != null) return _Wifi_2_bar!!
+        
+        _Wifi_2_bar = ImageVector.Builder(
+            name = "wifi_2_bar",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(254f, 614f)
+                lineToRelative(-84f, -86f)
+                quadToRelative(62f, -62f, 142f, -95f)
+                reflectiveQuadToRelative(168f, -33f)
+                quadToRelative(88f, 0f, 168.5f, 33.5f)
+                reflectiveQuadTo(790f, 530f)
+                lineToRelative(-84f, 84f)
+                quadToRelative(-45f, -45f, -103.5f, -69.5f)
+                reflectiveQuadTo(480f, 520f)
+                quadToRelative(-64f, 0f, -122.5f, 24.5f)
+                reflectiveQuadTo(254f, 614f)
+                close()
+                moveToRelative(226f, 226f)
+                lineTo(339f, 698f)
+                quadToRelative(28f, -28f, 64.5f, -43f)
+                reflectiveQuadToRelative(76.5f, -15f)
+                quadToRelative(40f, 0f, 76.5f, 15f)
+                reflectiveQuadToRelative(64.5f, 43f)
+                lineTo(480f, 840f)
+                close()
+            }
+        }.build()
+        
+        return _Wifi_2_bar!!
+    }
+
+private var _Wifi_2_bar: ImageVector? = null
+

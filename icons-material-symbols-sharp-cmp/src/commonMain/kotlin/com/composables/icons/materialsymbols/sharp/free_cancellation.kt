@@ -1,0 +1,83 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Free_cancellation: ImageVector
+    get() {
+        if (_Free_cancellation != null) return _Free_cancellation!!
+        
+        _Free_cancellation = ImageVector.Builder(
+            name = "free_cancellation",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(662f, 900f)
+                lineTo(520f, 758f)
+                lineToRelative(56f, -56f)
+                lineToRelative(85f, 85f)
+                lineToRelative(170f, -170f)
+                lineToRelative(56f, 57f)
+                lineTo(662f, 900f)
+                close()
+                moveTo(296f, 680f)
+                lineToRelative(-56f, -56f)
+                lineToRelative(64f, -64f)
+                lineToRelative(-64f, -64f)
+                lineToRelative(56f, -56f)
+                lineToRelative(64f, 64f)
+                lineToRelative(64f, -64f)
+                lineToRelative(56f, 56f)
+                lineToRelative(-64f, 64f)
+                lineToRelative(64f, 64f)
+                lineToRelative(-56f, 56f)
+                lineToRelative(-64f, -64f)
+                lineToRelative(-64f, 64f)
+                close()
+                moveTo(120f, 880f)
+                verticalLineToRelative(-720f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(320f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(334f)
+                lineToRelative(-80f, 81f)
+                verticalLineToRelative(-175f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(400f)
+                horizontalLineToRelative(250f)
+                lineToRelative(79f, 80f)
+                horizontalLineTo(120f)
+                close()
+                moveToRelative(80f, -560f)
+                horizontalLineToRelative(560f)
+                verticalLineToRelative(-80f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(80f)
+                close()
+                moveToRelative(0f, 0f)
+                verticalLineToRelative(-80f)
+                verticalLineToRelative(80f)
+                close()
+            }
+        }.build()
+        
+        return _Free_cancellation!!
+    }
+
+private var _Free_cancellation: ImageVector? = null
+

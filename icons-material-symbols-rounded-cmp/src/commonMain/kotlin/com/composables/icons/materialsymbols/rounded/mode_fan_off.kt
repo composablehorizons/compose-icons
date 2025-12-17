@@ -1,0 +1,150 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Mode_fan_off: ImageVector
+    get() {
+        if (_Mode_fan_off != null) return _Mode_fan_off!!
+        
+        _Mode_fan_off = ImageVector.Builder(
+            name = "mode_fan_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(643f, 180f)
+                quadToRelative(0f, 28f, -13.5f, 53f)
+                reflectiveQuadTo(593f, 273f)
+                quadToRelative(-23f, 15f, -30.5f, 30.5f)
+                reflectiveQuadTo(546f, 343f)
+                quadToRelative(-8f, 21f, -29.5f, 27.5f)
+                reflectiveQuadTo(478f, 361f)
+                quadToRelative(-9f, -8f, -12f, -20.5f)
+                reflectiveQuadToRelative(1f, -24.5f)
+                quadToRelative(11f, -32f, 29f, -58.5f)
+                reflectiveQuadToRelative(45f, -46.5f)
+                quadToRelative(8f, -6f, 14.5f, -13.5f)
+                reflectiveQuadTo(562f, 179f)
+                quadToRelative(0f, -10f, -10f, -14.5f)
+                reflectiveQuadToRelative(-21f, -4.5f)
+                quadToRelative(-32f, 0f, -70f, 11.5f)
+                reflectiveQuadTo(408f, 216f)
+                quadToRelative(-8f, 19f, -29.5f, 23f)
+                reflectiveQuadTo(343f, 229f)
+                quadToRelative(-8f, -9f, -10.5f, -21f)
+                reflectiveQuadToRelative(2.5f, -23f)
+                quadToRelative(20f, -45f, 71.5f, -75f)
+                reflectiveQuadTo(539f, 80f)
+                quadToRelative(51f, 0f, 77.5f, 31f)
+                reflectiveQuadToRelative(26.5f, 69f)
+                close()
+                moveToRelative(76f, 140f)
+                quadToRelative(76f, 0f, 118.5f, 66.5f)
+                reflectiveQuadTo(880f, 536f)
+                quadToRelative(0f, 43f, -30f, 73.5f)
+                reflectiveQuadTo(777f, 640f)
+                horizontalLineToRelative(-37f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(700f, 600f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(740f, 560f)
+                horizontalLineToRelative(37f)
+                quadToRelative(10f, 0f, 16.5f, -7f)
+                reflectiveQuadToRelative(6.5f, -17f)
+                quadToRelative(0f, -50f, -18.5f, -92.5f)
+                reflectiveQuadTo(719f, 400f)
+                quadToRelative(-8f, 0f, -16f, 1.5f)
+                reflectiveQuadToRelative(-16f, 4.5f)
+                lineToRelative(-99f, 37f)
+                quadToRelative(-12f, 5f, -23.5f, 1.5f)
+                reflectiveQuadTo(545f, 433f)
+                quadToRelative(-13f, -14f, -10.5f, -35f)
+                reflectiveQuadToRelative(22.5f, -29f)
+                lineToRelative(97f, -36f)
+                quadToRelative(16f, -6f, 32f, -9.5f)
+                reflectiveQuadToRelative(33f, -3.5f)
+                close()
+                moveTo(424f, 880f)
+                quadToRelative(-51f, 0f, -77.5f, -30.5f)
+                reflectiveQuadTo(320f, 780f)
+                quadToRelative(0f, -26f, 11.5f, -50.5f)
+                reflectiveQuadTo(367f, 689f)
+                quadToRelative(22f, -14f, 35.5f, -36f)
+                reflectiveQuadToRelative(18.5f, -47f)
+                lineToRelative(-12f, -6f)
+                quadToRelative(-6f, -3f, -11f, -7f)
+                lineToRelative(-92f, 33f)
+                quadToRelative(-17f, 6f, -33f, 10f)
+                reflectiveQuadToRelative(-33f, 4f)
+                quadToRelative(-63f, 0f, -111.5f, -55f)
+                reflectiveQuadTo(80f, 424f)
+                quadToRelative(0f, -51f, 30.5f, -77.5f)
+                reflectiveQuadTo(179f, 320f)
+                quadToRelative(8f, 0f, 16f, 1f)
+                reflectiveQuadToRelative(16f, 3f)
+                lineTo(80f, 193f)
+                quadToRelative(-12f, -12f, -12f, -28.5f)
+                reflectiveQuadTo(80f, 136f)
+                quadToRelative(12f, -12f, 28.5f, -12f)
+                reflectiveQuadToRelative(28.5f, 12f)
+                lineToRelative(683f, 684f)
+                quadToRelative(12f, 12f, 12f, 28f)
+                reflectiveQuadToRelative(-12f, 28f)
+                quadToRelative(-12f, 12f, -28.5f, 12f)
+                reflectiveQuadTo(763f, 876f)
+                lineTo(637f, 749f)
+                quadToRelative(-13f, 54f, -66.5f, 92.5f)
+                reflectiveQuadTo(424f, 880f)
+                close()
+                moveTo(240f, 560f)
+                quadToRelative(12f, 0f, 33f, -7f)
+                lineToRelative(75f, -27f)
+                quadToRelative(-2f, -6f, -3.5f, -12.5f)
+                reflectiveQuadTo(342f, 501f)
+                quadToRelative(-42f, -8f, -76.5f, -29.5f)
+                reflectiveQuadTo(212f, 422f)
+                quadToRelative(-9f, -14f, -17f, -18f)
+                reflectiveQuadToRelative(-16f, -4f)
+                quadToRelative(-9f, 0f, -14f, 6f)
+                reflectiveQuadToRelative(-5f, 18f)
+                quadToRelative(0f, 54f, 20.5f, 95f)
+                reflectiveQuadToRelative(59.5f, 41f)
+                close()
+                moveToRelative(184f, 240f)
+                quadToRelative(62f, 0f, 100f, -24.5f)
+                reflectiveQuadToRelative(36f, -63.5f)
+                quadToRelative(0f, -10f, -4f, -26f)
+                reflectiveQuadToRelative(-14f, -32f)
+                lineToRelative(-37f, -37f)
+                quadToRelative(-11f, 42f, -34f, 78f)
+                reflectiveQuadToRelative(-60f, 61f)
+                quadToRelative(-5f, 3f, -8f, 10f)
+                reflectiveQuadToRelative(-3f, 14f)
+                quadToRelative(2f, 9f, 7.5f, 14.5f)
+                reflectiveQuadTo(424f, 800f)
+                close()
+                moveTo(254f, 480f)
+                close()
+                moveToRelative(228f, 228f)
+                close()
+                moveToRelative(-72f, -413f)
+                close()
+                moveToRelative(239f, 236f)
+                close()
+            }
+        }.build()
+        
+        return _Mode_fan_off!!
+    }
+
+private var _Mode_fan_off: ImageVector? = null
+

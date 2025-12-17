@@ -1,0 +1,39 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Navigate_next: ImageVector
+    get() {
+        if (_Navigate_next != null) return _Navigate_next!!
+        
+        _Navigate_next = ImageVector.Builder(
+            name = "navigate_next",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(504f, 480f)
+                lineTo(320f, 296f)
+                lineToRelative(56f, -56f)
+                lineToRelative(240f, 240f)
+                lineToRelative(-240f, 240f)
+                lineToRelative(-56f, -56f)
+                lineToRelative(184f, -184f)
+                close()
+            }
+        }.build()
+        
+        return _Navigate_next!!
+    }
+
+private var _Navigate_next: ImageVector? = null
+

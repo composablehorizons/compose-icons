@@ -1,0 +1,78 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Format_textdirection_l_to_r: ImageVector
+    get() {
+        if (_Format_textdirection_l_to_r != null) return _Format_textdirection_l_to_r!!
+        
+        _Format_textdirection_l_to_r = ImageVector.Builder(
+            name = "format_textdirection_l_to_r",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(440f, 160f)
+                verticalLineToRelative(400f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(400f, 600f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(360f, 560f)
+                verticalLineToRelative(-160f)
+                quadToRelative(-66f, 0f, -113f, -47f)
+                reflectiveQuadToRelative(-47f, -113f)
+                quadToRelative(0f, -66f, 47f, -113f)
+                reflectiveQuadToRelative(113f, -47f)
+                horizontalLineToRelative(280f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(680f, 120f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(640f, 160f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(400f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(560f, 600f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(520f, 560f)
+                verticalLineToRelative(-400f)
+                horizontalLineToRelative(-80f)
+                close()
+                moveToRelative(248f, 600f)
+                horizontalLineTo(160f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(120f, 720f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(160f, 680f)
+                horizontalLineToRelative(528f)
+                lineToRelative(-36f, -36f)
+                quadToRelative(-11f, -11f, -11f, -28f)
+                reflectiveQuadToRelative(11f, -28f)
+                quadToRelative(11f, -11f, 28f, -11f)
+                reflectiveQuadToRelative(28f, 11f)
+                lineToRelative(104f, 104f)
+                quadToRelative(12f, 12f, 12f, 28f)
+                reflectiveQuadToRelative(-12f, 28f)
+                lineTo(708f, 852f)
+                quadToRelative(-11f, 11f, -28f, 11f)
+                reflectiveQuadToRelative(-28f, -11f)
+                quadToRelative(-11f, -11f, -11f, -28f)
+                reflectiveQuadToRelative(11f, -28f)
+                lineToRelative(36f, -36f)
+                close()
+            }
+        }.build()
+        
+        return _Format_textdirection_l_to_r!!
+    }
+
+private var _Format_textdirection_l_to_r: ImageVector? = null
+

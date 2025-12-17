@@ -1,0 +1,89 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Chess_queen: ImageVector
+    get() {
+        if (_Chess_queen != null) return _Chess_queen!!
+        
+        _Chess_queen = ImageVector.Builder(
+            name = "chess_queen",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(289f, 840f)
+                quadToRelative(-29f, 0f, -51f, -18.5f)
+                reflectiveQuadTo(211f, 774f)
+                lineToRelative(-77f, -415f)
+                quadToRelative(-37f, 7f, -65.5f, -17f)
+                reflectiveQuadTo(40f, 280f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(120f, 200f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(200f, 280f)
+                quadToRelative(0f, 14f, -4f, 26f)
+                reflectiveQuadToRelative(-12f, 22f)
+                quadToRelative(22f, 13f, 44.5f, 21.5f)
+                reflectiveQuadTo(276f, 358f)
+                quadToRelative(44f, 0f, 81.5f, -22f)
+                reflectiveQuadToRelative(58.5f, -60f)
+                lineToRelative(25f, -46f)
+                quadToRelative(-19f, -11f, -30f, -29f)
+                reflectiveQuadToRelative(-11f, -41f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(480f, 80f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(560f, 160f)
+                quadToRelative(0f, 23f, -11f, 41f)
+                reflectiveQuadToRelative(-30f, 29f)
+                lineToRelative(25f, 46f)
+                quadToRelative(21f, 38f, 58.5f, 60f)
+                reflectiveQuadToRelative(81.5f, 22f)
+                quadToRelative(25f, 0f, 47.5f, -8f)
+                reflectiveQuadToRelative(44.5f, -21f)
+                quadToRelative(-8f, -10f, -12f, -22.5f)
+                reflectiveQuadToRelative(-4f, -26.5f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(840f, 200f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(920f, 280f)
+                quadToRelative(0f, 38f, -28.5f, 62f)
+                reflectiveQuadTo(826f, 359f)
+                lineToRelative(-77f, 415f)
+                quadToRelative(-5f, 29f, -27f, 47.5f)
+                reflectiveQuadTo(671f, 840f)
+                horizontalLineTo(289f)
+                close()
+                moveToRelative(1f, -80f)
+                horizontalLineToRelative(380f)
+                lineToRelative(60f, -326f)
+                quadToRelative(-11f, 2f, -23f, 3.5f)
+                reflectiveQuadToRelative(-23f, 1.5f)
+                quadToRelative(-63f, 0f, -117f, -30f)
+                reflectiveQuadToRelative(-87f, -84f)
+                quadToRelative(-33f, 54f, -87f, 84f)
+                reflectiveQuadToRelative(-117f, 30f)
+                quadToRelative(-11f, 0f, -23f, -1.5f)
+                reflectiveQuadToRelative(-23f, -3.5f)
+                lineToRelative(60f, 326f)
+                close()
+                moveToRelative(190f, 0f)
+                close()
+            }
+        }.build()
+        
+        return _Chess_queen!!
+    }
+
+private var _Chess_queen: ImageVector? = null
+

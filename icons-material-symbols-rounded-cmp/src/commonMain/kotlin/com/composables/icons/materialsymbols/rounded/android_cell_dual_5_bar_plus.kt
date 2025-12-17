@@ -1,0 +1,151 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Android_cell_dual_5_bar_plus: ImageVector
+    get() {
+        if (_Android_cell_dual_5_bar_plus != null) return _Android_cell_dual_5_bar_plus!!
+        
+        _Android_cell_dual_5_bar_plus = ImageVector.Builder(
+            name = "android_cell_dual_5_bar_plus",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(760f, 720f)
+                horizontalLineToRelative(-40f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(680f, 680f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(720f, 640f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-40f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(800f, 560f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(840f, 600f)
+                verticalLineToRelative(40f)
+                horizontalLineToRelative(40f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(920f, 680f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(880f, 720f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(800f, 800f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(760f, 760f)
+                verticalLineToRelative(-40f)
+                close()
+                moveTo(40f, 500f)
+                verticalLineToRelative(-60f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(100f, 380f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(160f, 440f)
+                verticalLineToRelative(60f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(100f, 560f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(40f, 500f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-120f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(290f, 320f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(350f, 380f)
+                verticalLineToRelative(120f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(290f, 560f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(230f, 500f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-160f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(480f, 280f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(540f, 340f)
+                verticalLineToRelative(160f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(480f, 560f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(420f, 500f)
+                close()
+                moveTo(40f, 740f)
+                verticalLineToRelative(-40f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(100f, 640f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(160f, 700f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(100f, 800f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(40f, 740f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-40f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(290f, 640f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(350f, 700f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(290f, 800f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(230f, 740f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-40f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(480f, 640f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(540f, 700f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 25f, -17.5f, 42.5f)
+                reflectiveQuadTo(480f, 800f)
+                quadToRelative(-25f, 0f, -42.5f, -17.5f)
+                reflectiveQuadTo(420f, 740f)
+                close()
+                moveToRelative(380f, -260f)
+                verticalLineToRelative(-260f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(860f, 160f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(920f, 220f)
+                verticalLineToRelative(300f)
+                quadToRelative(-25f, -19f, -55.5f, -29.5f)
+                reflectiveQuadTo(800f, 480f)
+                close()
+                moveTo(670f, 240f)
+                quadToRelative(25f, 0f, 42.5f, 17.5f)
+                reflectiveQuadTo(730f, 300f)
+                verticalLineToRelative(203f)
+                quadToRelative(-23f, 9f, -42f, 23f)
+                reflectiveQuadToRelative(-34f, 32f)
+                quadToRelative(-19f, -5f, -31.5f, -21f)
+                reflectiveQuadTo(610f, 500f)
+                verticalLineToRelative(-200f)
+                quadToRelative(0f, -25f, 17.5f, -42.5f)
+                reflectiveQuadTo(670f, 240f)
+                close()
+            }
+        }.build()
+        
+        return _Android_cell_dual_5_bar_plus!!
+    }
+
+private var _Android_cell_dual_5_bar_plus: ImageVector? = null
+

@@ -1,0 +1,147 @@
+package com.composables.icons.materialsymbols.outlined
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Outlined.Vaccines: ImageVector
+    get() {
+        if (_Vaccines != null) return _Vaccines!!
+        
+        _Vaccines = ImageVector.Builder(
+            name = "vaccines",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(320f, 900f)
+                lineToRelative(-80f, -60f)
+                verticalLineToRelative(-160f)
+                horizontalLineToRelative(-40f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(120f, 600f)
+                verticalLineToRelative(-300f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(80f, 260f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(120f, 220f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(-60f)
+                horizontalLineToRelative(-20f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(180f, 120f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(220f, 80f)
+                horizontalLineToRelative(120f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(380f, 120f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(340f, 160f)
+                horizontalLineToRelative(-20f)
+                verticalLineToRelative(60f)
+                horizontalLineToRelative(120f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(480f, 260f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(440f, 300f)
+                verticalLineToRelative(300f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(360f, 680f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(220f)
+                close()
+                moveTo(200f, 600f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(-60f)
+                horizontalLineToRelative(-70f)
+                quadToRelative(-12f, 0f, -21f, -9f)
+                reflectiveQuadToRelative(-9f, -21f)
+                quadToRelative(0f, -12f, 9f, -21f)
+                reflectiveQuadToRelative(21f, -9f)
+                horizontalLineToRelative(70f)
+                verticalLineToRelative(-60f)
+                horizontalLineToRelative(-70f)
+                quadToRelative(-12f, 0f, -21f, -9f)
+                reflectiveQuadToRelative(-9f, -21f)
+                quadToRelative(0f, -12f, 9f, -21f)
+                reflectiveQuadToRelative(21f, -9f)
+                horizontalLineToRelative(70f)
+                verticalLineToRelative(-60f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(300f)
+                close()
+                moveTo(600f, 880f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(520f, 800f)
+                verticalLineToRelative(-260f)
+                quadToRelative(0f, -29f, 10f, -48f)
+                reflectiveQuadToRelative(21f, -33f)
+                quadToRelative(11f, -14f, 20f, -22.5f)
+                reflectiveQuadToRelative(9f, -16.5f)
+                verticalLineToRelative(-20f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(540f, 360f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(580f, 320f)
+                horizontalLineToRelative(200f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(820f, 360f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(780f, 400f)
+                verticalLineToRelative(20f)
+                quadToRelative(0f, 8f, 10f, 18f)
+                reflectiveQuadToRelative(22f, 24f)
+                quadToRelative(11f, 14f, 19.5f, 33f)
+                reflectiveQuadToRelative(8.5f, 45f)
+                verticalLineToRelative(260f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(760f, 880f)
+                horizontalLineTo(600f)
+                close()
+                moveToRelative(0f, -320f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(-20f)
+                quadToRelative(0f, -15f, -9f, -26f)
+                reflectiveQuadToRelative(-20f, -24f)
+                quadToRelative(-11f, -13f, -21f, -29f)
+                reflectiveQuadToRelative(-10f, -41f)
+                verticalLineToRelative(-20f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(20f)
+                quadToRelative(0f, 24f, -9.5f, 40f)
+                reflectiveQuadTo(630f, 489f)
+                quadToRelative(-11f, 13f, -20.5f, 24.5f)
+                reflectiveQuadTo(600f, 540f)
+                verticalLineToRelative(20f)
+                close()
+                moveToRelative(0f, 120f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(-60f)
+                horizontalLineTo(600f)
+                verticalLineToRelative(60f)
+                close()
+                moveToRelative(0f, 120f)
+                horizontalLineToRelative(160f)
+                verticalLineToRelative(-60f)
+                horizontalLineTo(600f)
+                verticalLineToRelative(60f)
+                close()
+                moveToRelative(0f, -120f)
+                horizontalLineToRelative(160f)
+                horizontalLineToRelative(-160f)
+                close()
+            }
+        }.build()
+        
+        return _Vaccines!!
+    }
+
+private var _Vaccines: ImageVector? = null
+

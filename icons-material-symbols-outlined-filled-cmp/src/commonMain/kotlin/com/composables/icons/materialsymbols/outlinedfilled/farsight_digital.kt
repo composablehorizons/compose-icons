@@ -1,0 +1,138 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Farsight_digital: ImageVector
+    get() {
+        if (_Farsight_digital != null) return _Farsight_digital!!
+        
+        _Farsight_digital = ImageVector.Builder(
+            name = "farsight_digital",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(413f, 456f)
+                horizontalLineToRelative(28f)
+                verticalLineToRelative(-172f)
+                horizontalLineToRelative(-20f)
+                lineToRelative(-50f, 36f)
+                lineToRelative(14f, 22f)
+                lineToRelative(28f, -20f)
+                verticalLineToRelative(134f)
+                close()
+                moveToRelative(65f, 0f)
+                horizontalLineToRelative(112f)
+                lineToRelative(-1f, -25f)
+                horizontalLineToRelative(-75f)
+                verticalLineToRelative(-1f)
+                lineToRelative(44f, -44f)
+                quadToRelative(16f, -16f, 22.5f, -29f)
+                reflectiveQuadToRelative(6.5f, -28f)
+                quadToRelative(0f, -20f, -16f, -34.5f)
+                reflectiveQuadTo(532f, 280f)
+                quadToRelative(-20f, 0f, -35f, 11f)
+                reflectiveQuadToRelative(-20f, 28f)
+                lineToRelative(25f, 10f)
+                quadToRelative(3f, -11f, 11f, -17f)
+                reflectiveQuadToRelative(18f, -6f)
+                quadToRelative(12f, 0f, 20f, 6.5f)
+                reflectiveQuadToRelative(8f, 16.5f)
+                quadToRelative(0f, 11f, -5f, 21f)
+                reflectiveQuadToRelative(-14f, 19f)
+                lineToRelative(-62f, 61f)
+                verticalLineToRelative(26f)
+                close()
+                moveToRelative(-70f, 224f)
+                quadToRelative(26f, 0f, 43f, -14.5f)
+                reflectiveQuadToRelative(17f, -37.5f)
+                quadToRelative(0f, -14f, -8f, -25.5f)
+                reflectiveQuadTo(439f, 586f)
+                verticalLineToRelative(-2f)
+                quadToRelative(11f, -5f, 17f, -15.5f)
+                reflectiveQuadToRelative(6f, -22.5f)
+                quadToRelative(0f, -20f, -15.5f, -33f)
+                reflectiveQuadTo(407f, 500f)
+                quadToRelative(-17f, 0f, -32.5f, 10f)
+                reflectiveQuadTo(354f, 536f)
+                lineToRelative(25f, 10f)
+                quadToRelative(4f, -11f, 10.5f, -16f)
+                reflectiveQuadToRelative(16.5f, -5f)
+                quadToRelative(12f, 0f, 19.5f, 6f)
+                reflectiveQuadToRelative(7.5f, 17f)
+                quadToRelative(0f, 11f, -8.5f, 18f)
+                reflectiveQuadToRelative(-20.5f, 7f)
+                horizontalLineToRelative(-13f)
+                verticalLineToRelative(25f)
+                horizontalLineToRelative(15f)
+                quadToRelative(14f, 0f, 23.5f, 8f)
+                reflectiveQuadToRelative(9.5f, 20f)
+                quadToRelative(0f, 11f, -9f, 19f)
+                reflectiveQuadToRelative(-22f, 8f)
+                quadToRelative(-11f, 0f, -20.5f, -8f)
+                reflectiveQuadTo(375f, 625f)
+                lineToRelative(-25f, 11f)
+                quadToRelative(6f, 20f, 22f, 32f)
+                reflectiveQuadToRelative(36f, 12f)
+                close()
+                moveToRelative(142f, 0f)
+                quadToRelative(24f, 0f, 42f, -17.5f)
+                reflectiveQuadToRelative(18f, -40.5f)
+                quadToRelative(0f, -23f, -15.5f, -39.5f)
+                reflectiveQuadTo(558f, 566f)
+                quadToRelative(-5f, 0f, -18f, 4f)
+                horizontalLineToRelative(-1f)
+                lineToRelative(39f, -55f)
+                lineToRelative(-22f, -15f)
+                lineToRelative(-43f, 64f)
+                quadToRelative(-14f, 20f, -18.5f, 32f)
+                reflectiveQuadToRelative(-4.5f, 25f)
+                quadToRelative(0f, 25f, 17f, 42f)
+                reflectiveQuadToRelative(43f, 17f)
+                close()
+                moveToRelative(0f, -26f)
+                quadToRelative(-14f, 0f, -23f, -9f)
+                reflectiveQuadToRelative(-9f, -23f)
+                quadToRelative(0f, -8f, 4f, -15.5f)
+                reflectiveQuadToRelative(12f, -12.5f)
+                quadToRelative(3f, -2f, 16f, -4f)
+                quadToRelative(13f, 0f, 22.5f, 9.5f)
+                reflectiveQuadTo(582f, 623f)
+                quadToRelative(0f, 13f, -9f, 22f)
+                reflectiveQuadToRelative(-23f, 9f)
+                close()
+                moveTo(480f, 880f)
+                quadToRelative(-83f, 0f, -156f, -31.5f)
+                reflectiveQuadTo(197f, 763f)
+                quadToRelative(-54f, -54f, -85.5f, -127f)
+                reflectiveQuadTo(80f, 480f)
+                quadToRelative(0f, -83f, 31.5f, -156f)
+                reflectiveQuadTo(197f, 197f)
+                quadToRelative(54f, -54f, 127f, -85.5f)
+                reflectiveQuadTo(480f, 80f)
+                quadToRelative(83f, 0f, 156f, 31.5f)
+                reflectiveQuadTo(763f, 197f)
+                quadToRelative(54f, 54f, 85.5f, 127f)
+                reflectiveQuadTo(880f, 480f)
+                quadToRelative(0f, 83f, -31.5f, 156f)
+                reflectiveQuadTo(763f, 763f)
+                quadToRelative(-54f, 54f, -127f, 85.5f)
+                reflectiveQuadTo(480f, 880f)
+                close()
+            }
+        }.build()
+        
+        return _Farsight_digital!!
+    }
+
+private var _Farsight_digital: ImageVector? = null
+

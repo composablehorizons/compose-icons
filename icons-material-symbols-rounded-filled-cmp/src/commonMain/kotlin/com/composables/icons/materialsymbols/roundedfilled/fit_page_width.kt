@@ -1,0 +1,67 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Fit_page_width: ImageVector
+    get() {
+        if (_Fit_page_width != null) return _Fit_page_width!!
+        
+        _Fit_page_width = ImageVector.Builder(
+            name = "fit_page_width",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(160f, 800f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(80f, 720f)
+                verticalLineToRelative(-480f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(160f, 160f)
+                horizontalLineToRelative(640f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(880f, 240f)
+                verticalLineToRelative(480f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(800f, 800f)
+                horizontalLineTo(160f)
+                close()
+                moveToRelative(200f, -248f)
+                verticalLineToRelative(-144f)
+                quadToRelative(0f, -14f, -12f, -19f)
+                reflectiveQuadToRelative(-22f, 5f)
+                lineToRelative(-58f, 58f)
+                quadToRelative(-12f, 12f, -12f, 28f)
+                reflectiveQuadToRelative(12f, 28f)
+                lineToRelative(58f, 58f)
+                quadToRelative(10f, 10f, 22f, 5f)
+                reflectiveQuadToRelative(12f, -19f)
+                close()
+                moveToRelative(332f, -100f)
+                lineToRelative(-58f, -58f)
+                quadToRelative(-10f, -10f, -22f, -5f)
+                reflectiveQuadToRelative(-12f, 19f)
+                verticalLineToRelative(144f)
+                quadToRelative(0f, 14f, 12f, 19f)
+                reflectiveQuadToRelative(22f, -5f)
+                lineToRelative(58f, -58f)
+                quadToRelative(12f, -12f, 12f, -28f)
+                reflectiveQuadToRelative(-12f, -28f)
+                close()
+            }
+        }.build()
+        
+        return _Fit_page_width!!
+    }
+
+private var _Fit_page_width: ImageVector? = null
+

@@ -1,0 +1,45 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.H_mobiledata: ImageVector
+    get() {
+        if (_H_mobiledata != null) return _H_mobiledata!!
+        
+        _H_mobiledata = ImageVector.Builder(
+            name = "h_mobiledata",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(280f, 680f)
+                verticalLineToRelative(-400f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(160f)
+                horizontalLineToRelative(240f)
+                verticalLineToRelative(-160f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(400f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(-160f)
+                horizontalLineTo(360f)
+                verticalLineToRelative(160f)
+                horizontalLineToRelative(-80f)
+                close()
+            }
+        }.build()
+        
+        return _H_mobiledata!!
+    }
+
+private var _H_mobiledata: ImageVector? = null
+

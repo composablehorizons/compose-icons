@@ -97,6 +97,13 @@ kotlin {
             implementation(projects.iconsMaterialIconsOutlinedCmp)
             implementation(projects.iconsMaterialIconsRoundedCmp)
             implementation(projects.iconsMaterialIconsSharpCmp)
+
+            implementation(projects.iconsMaterialSymbolsOutlinedCmp)
+            implementation(projects.iconsMaterialSymbolsRoundedCmp)
+            implementation(projects.iconsMaterialSymbolsSharpCmp)
+            implementation(projects.iconsMaterialSymbolsOutlinedFilledCmp)
+            implementation(projects.iconsMaterialSymbolsRoundedFilledCmp)
+            implementation(projects.iconsMaterialSymbolsSharpFilledCmp)
         }
 
         androidMain.dependencies {

@@ -1,0 +1,107 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Adaptive_audio_mic_off: ImageVector
+    get() {
+        if (_Adaptive_audio_mic_off != null) return _Adaptive_audio_mic_off!!
+        
+        _Adaptive_audio_mic_off = ImageVector.Builder(
+            name = "adaptive_audio_mic_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(791f, 904f)
+                lineTo(56f, 169f)
+                lineToRelative(56f, -57f)
+                lineToRelative(735f, 736f)
+                lineToRelative(-56f, 56f)
+                close()
+                moveTo(680f, 320f)
+                quadToRelative(-50f, 0f, -85f, -35f)
+                reflectiveQuadToRelative(-35f, -85f)
+                quadToRelative(0f, -50f, 35f, -85f)
+                reflectiveQuadToRelative(85f, -35f)
+                quadToRelative(50f, 0f, 85f, 35f)
+                reflectiveQuadToRelative(35f, 85f)
+                quadToRelative(0f, 50f, -35f, 85f)
+                reflectiveQuadToRelative(-85f, 35f)
+                close()
+                moveToRelative(-300f, -53f)
+                lineTo(213f, 100f)
+                quadToRelative(14f, -10f, 31f, -15f)
+                reflectiveQuadToRelative(36f, -5f)
+                quadToRelative(50f, 0f, 85f, 35f)
+                reflectiveQuadToRelative(35f, 85f)
+                quadToRelative(0f, 19f, -5f, 36f)
+                reflectiveQuadToRelative(-15f, 31f)
+                close()
+                moveToRelative(100f, 413f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(400f, 600f)
+                verticalLineToRelative(-120f)
+                quadToRelative(0f, -17f, 6f, -31f)
+                reflectiveQuadToRelative(17f, -25f)
+                lineToRelative(137f, 137f)
+                verticalLineToRelative(39f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(480f, 680f)
+                close()
+                moveTo(450f, 880f)
+                verticalLineToRelative(-82f)
+                quadToRelative(-72f, -11f, -121f, -67f)
+                reflectiveQuadToRelative(-49f, -131f)
+                horizontalLineToRelative(60f)
+                quadToRelative(0f, 58f, 41f, 99f)
+                reflectiveQuadToRelative(99f, 41f)
+                quadToRelative(53f, 0f, 92.5f, -35f)
+                reflectiveQuadToRelative(46.5f, -86f)
+                lineToRelative(49f, 50f)
+                quadToRelative(-19f, 51f, -61f, 86f)
+                reflectiveQuadToRelative(-97f, 43f)
+                verticalLineToRelative(82f)
+                horizontalLineToRelative(-60f)
+                close()
+                moveToRelative(287f, -320f)
+                quadToRelative(-10f, -67f, -51.5f, -119.5f)
+                reflectiveQuadTo(582f, 361f)
+                quadToRelative(23f, -5f, 47.5f, -8f)
+                reflectiveQuadToRelative(50.5f, -3f)
+                quadToRelative(53f, 0f, 99f, 11f)
+                reflectiveQuadToRelative(86f, 32f)
+                quadToRelative(26f, 14f, 40.5f, 41.5f)
+                reflectiveQuadTo(920f, 497f)
+                verticalLineToRelative(63f)
+                horizontalLineTo(737f)
+                close()
+                moveToRelative(-697f, 0f)
+                verticalLineToRelative(-63f)
+                quadToRelative(0f, -35f, 14.5f, -62.5f)
+                reflectiveQuadTo(95f, 393f)
+                quadToRelative(40f, -21f, 86f, -32f)
+                reflectiveQuadToRelative(99f, -11f)
+                quadToRelative(20f, 0f, 39f, 2f)
+                reflectiveQuadToRelative(37f, 5f)
+                lineToRelative(10f, 9f)
+                quadToRelative(-57f, 28f, -95.5f, 79f)
+                reflectiveQuadTo(223f, 560f)
+                horizontalLineTo(40f)
+                close()
+            }
+        }.build()
+        
+        return _Adaptive_audio_mic_off!!
+    }
+
+private var _Adaptive_audio_mic_off: ImageVector? = null
+

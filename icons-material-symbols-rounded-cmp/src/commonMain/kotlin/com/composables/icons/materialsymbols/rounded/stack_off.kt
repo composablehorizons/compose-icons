@@ -1,0 +1,85 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Stack_off: ImageVector
+    get() {
+        if (_Stack_off != null) return _Stack_off!!
+        
+        _Stack_off = ImageVector.Builder(
+            name = "stack_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(880f, 766f)
+                lineToRelative(-80f, -80f)
+                verticalLineToRelative(-286f)
+                horizontalLineTo(514f)
+                lineToRelative(-80f, -80f)
+                horizontalLineToRelative(366f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(880f, 400f)
+                verticalLineToRelative(366f)
+                close()
+                moveTo(274f, 160f)
+                lineToRelative(-80f, -80f)
+                horizontalLineToRelative(366f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(640f, 160f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(-80f)
+                horizontalLineTo(274f)
+                close()
+                moveToRelative(383f, 383f)
+                close()
+                moveTo(400f, 800f)
+                horizontalLineToRelative(286f)
+                lineTo(400f, 514f)
+                verticalLineToRelative(286f)
+                close()
+                moveToRelative(0f, 80f)
+                quadToRelative(-34f, 0f, -57f, -23f)
+                reflectiveQuadToRelative(-23f, -57f)
+                verticalLineToRelative(-366f)
+                lineTo(160f, 274f)
+                verticalLineToRelative(286f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineToRelative(-80f)
+                quadToRelative(-34f, 0f, -57f, -23f)
+                reflectiveQuadToRelative(-23f, -57f)
+                verticalLineToRelative(-366f)
+                lineToRelative(-29f, -29f)
+                quadToRelative(-12f, -12f, -11.5f, -28.5f)
+                reflectiveQuadTo(52f, 108f)
+                quadToRelative(12f, -12f, 28.5f, -12f)
+                reflectiveQuadToRelative(28.5f, 12f)
+                lineToRelative(743f, 744f)
+                quadToRelative(12f, 12f, 12f, 28f)
+                reflectiveQuadToRelative(-12f, 28f)
+                quadToRelative(-12f, 12f, -28.5f, 12f)
+                reflectiveQuadTo(795f, 908f)
+                lineToRelative(-29f, -28f)
+                horizontalLineTo(400f)
+                close()
+                moveToRelative(143f, -223f)
+                close()
+            }
+        }.build()
+        
+        return _Stack_off!!
+    }
+
+private var _Stack_off: ImageVector? = null
+

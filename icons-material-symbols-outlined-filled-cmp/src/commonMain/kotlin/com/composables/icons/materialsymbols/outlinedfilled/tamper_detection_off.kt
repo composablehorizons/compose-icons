@@ -1,0 +1,99 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Tamper_detection_off: ImageVector
+    get() {
+        if (_Tamper_detection_off != null) return _Tamper_detection_off!!
+        
+        _Tamper_detection_off = ImageVector.Builder(
+            name = "tamper_detection_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(822f, 934f)
+                lineTo(678f, 790f)
+                quadToRelative(-8f, 5f, -17.5f, 7.5f)
+                reflectiveQuadTo(640f, 800f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(-128f)
+                lineTo(248f, 360f)
+                horizontalLineTo(80f)
+                verticalLineToRelative(-120f)
+                quadToRelative(0f, -11f, 2.5f, -20.5f)
+                reflectiveQuadTo(90f, 202f)
+                lineToRelative(-64f, -64f)
+                lineToRelative(56f, -56f)
+                lineTo(878f, 878f)
+                lineToRelative(-56f, 56f)
+                close()
+                moveToRelative(58f, -234f)
+                lineTo(720f, 540f)
+                verticalLineToRelative(68f)
+                lineTo(272f, 160f)
+                horizontalLineToRelative(368f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(720f, 240f)
+                verticalLineToRelative(180f)
+                lineToRelative(160f, -160f)
+                verticalLineToRelative(440f)
+                close()
+                moveTo(178f, 920f)
+                quadToRelative(-17f, 0f, -31.5f, -6.5f)
+                reflectiveQuadTo(121f, 896f)
+                lineTo(0f, 776f)
+                lineToRelative(14f, -14f)
+                quadToRelative(8f, -8f, 19f, -13f)
+                reflectiveQuadToRelative(23f, -5f)
+                quadToRelative(12f, 0f, 23f, 4.5f)
+                reflectiveQuadTo(98f, 762f)
+                lineToRelative(22f, 22f)
+                verticalLineToRelative(-294f)
+                quadToRelative(0f, -13f, 9f, -21.5f)
+                reflectiveQuadToRelative(21f, -8.5f)
+                quadToRelative(13f, 0f, 21.5f, 8.5f)
+                reflectiveQuadTo(180f, 490f)
+                verticalLineToRelative(150f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-210f)
+                quadToRelative(0f, -13f, 9f, -21.5f)
+                reflectiveQuadToRelative(21f, -8.5f)
+                quadToRelative(13f, 0f, 21.5f, 8.5f)
+                reflectiveQuadTo(280f, 430f)
+                verticalLineToRelative(210f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-170f)
+                quadToRelative(0f, -13f, 9f, -21.5f)
+                reflectiveQuadToRelative(21f, -8.5f)
+                quadToRelative(13f, 0f, 21.5f, 8.5f)
+                reflectiveQuadTo(380f, 470f)
+                verticalLineToRelative(170f)
+                horizontalLineToRelative(40f)
+                verticalLineToRelative(-130f)
+                quadToRelative(0f, -13f, 9f, -21.5f)
+                reflectiveQuadToRelative(21f, -8.5f)
+                quadToRelative(13f, 0f, 21.5f, 8.5f)
+                reflectiveQuadTo(480f, 510f)
+                verticalLineToRelative(330f)
+                quadToRelative(0f, 33f, -23f, 56.5f)
+                reflectiveQuadTo(400f, 920f)
+                horizontalLineTo(178f)
+                close()
+            }
+        }.build()
+        
+        return _Tamper_detection_off!!
+    }
+
+private var _Tamper_detection_off: ImageVector? = null
+

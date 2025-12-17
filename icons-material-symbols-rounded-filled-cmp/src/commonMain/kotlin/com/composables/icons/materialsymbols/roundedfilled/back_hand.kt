@@ -1,0 +1,70 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Back_hand: ImageVector
+    get() {
+        if (_Back_hand != null) return _Back_hand!!
+        
+        _Back_hand = ImageVector.Builder(
+            name = "back_hand",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(512f, 920f)
+                quadToRelative(-82f, 0f, -154f, -37.5f)
+                reflectiveQuadTo(240f, 778f)
+                lineTo(63f, 518f)
+                quadToRelative(-7f, -10f, -5.5f, -21.5f)
+                reflectiveQuadTo(67f, 477f)
+                quadToRelative(20f, -21f, 49.5f, -24f)
+                reflectiveQuadToRelative(53.5f, 14f)
+                lineToRelative(110f, 76f)
+                verticalLineToRelative(-383f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(320f, 120f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(360f, 160f)
+                verticalLineToRelative(320f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-400f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(480f, 40f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(520f, 80f)
+                verticalLineToRelative(400f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-360f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(640f, 80f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(680f, 120f)
+                verticalLineToRelative(360f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-280f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(800f, 160f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(840f, 200f)
+                verticalLineToRelative(392f)
+                quadToRelative(0f, 137f, -95.5f, 232.5f)
+                reflectiveQuadTo(512f, 920f)
+                close()
+            }
+        }.build()
+        
+        return _Back_hand!!
+    }
+
+private var _Back_hand: ImageVector? = null
+

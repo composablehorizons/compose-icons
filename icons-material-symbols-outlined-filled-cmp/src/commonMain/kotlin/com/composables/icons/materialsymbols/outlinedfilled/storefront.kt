@@ -1,0 +1,87 @@
+package com.composables.icons.materialsymbols.outlinedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.OutlinedFilled.Storefront: ImageVector
+    get() {
+        if (_Storefront != null) return _Storefront!!
+        
+        _Storefront = ImageVector.Builder(
+            name = "storefront",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(841f, 442f)
+                verticalLineToRelative(318f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(761f, 840f)
+                horizontalLineTo(201f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(121f, 760f)
+                verticalLineToRelative(-318f)
+                quadToRelative(-23f, -21f, -35.5f, -54f)
+                reflectiveQuadToRelative(-0.5f, -72f)
+                lineToRelative(42f, -136f)
+                quadToRelative(8f, -26f, 28.5f, -43f)
+                reflectiveQuadToRelative(47.5f, -17f)
+                horizontalLineToRelative(556f)
+                quadToRelative(27f, 0f, 47f, 16.5f)
+                reflectiveQuadToRelative(29f, 43.5f)
+                lineToRelative(42f, 136f)
+                quadToRelative(12f, 39f, -0.5f, 71f)
+                reflectiveQuadTo(841f, 442f)
+                close()
+                moveToRelative(-272f, -42f)
+                quadToRelative(27f, 0f, 41f, -18.5f)
+                reflectiveQuadToRelative(11f, -41.5f)
+                lineToRelative(-22f, -140f)
+                horizontalLineToRelative(-78f)
+                verticalLineToRelative(148f)
+                quadToRelative(0f, 21f, 14f, 36.5f)
+                reflectiveQuadToRelative(34f, 15.5f)
+                close()
+                moveToRelative(-180f, 0f)
+                quadToRelative(23f, 0f, 37.5f, -15.5f)
+                reflectiveQuadTo(441f, 348f)
+                verticalLineToRelative(-148f)
+                horizontalLineToRelative(-78f)
+                lineToRelative(-22f, 140f)
+                quadToRelative(-4f, 24f, 10.5f, 42f)
+                reflectiveQuadToRelative(37.5f, 18f)
+                close()
+                moveToRelative(-178f, 0f)
+                quadToRelative(18f, 0f, 31.5f, -13f)
+                reflectiveQuadToRelative(16.5f, -33f)
+                lineToRelative(22f, -154f)
+                horizontalLineToRelative(-78f)
+                lineToRelative(-40f, 134f)
+                quadToRelative(-6f, 20f, 6.5f, 43f)
+                reflectiveQuadToRelative(41.5f, 23f)
+                close()
+                moveToRelative(540f, 0f)
+                quadToRelative(29f, 0f, 42f, -23f)
+                reflectiveQuadToRelative(6f, -43f)
+                lineToRelative(-42f, -134f)
+                horizontalLineToRelative(-76f)
+                lineToRelative(22f, 154f)
+                quadToRelative(3f, 20f, 16.5f, 33f)
+                reflectiveQuadToRelative(31.5f, 13f)
+                close()
+            }
+        }.build()
+        
+        return _Storefront!!
+    }
+
+private var _Storefront: ImageVector? = null
+

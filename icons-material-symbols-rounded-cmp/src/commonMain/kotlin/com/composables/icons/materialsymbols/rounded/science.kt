@@ -1,0 +1,63 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Science: ImageVector
+    get() {
+        if (_Science != null) return _Science!!
+        
+        _Science = ImageVector.Builder(
+            name = "science",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(200f, 840f)
+                quadToRelative(-51f, 0f, -72.5f, -45.5f)
+                reflectiveQuadTo(138f, 710f)
+                lineToRelative(222f, -270f)
+                verticalLineToRelative(-240f)
+                horizontalLineToRelative(-40f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(280f, 160f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(320f, 120f)
+                horizontalLineToRelative(320f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(680f, 160f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(640f, 200f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(240f)
+                lineToRelative(222f, 270f)
+                quadToRelative(32f, 39f, 10.5f, 84.5f)
+                reflectiveQuadTo(760f, 840f)
+                horizontalLineTo(200f)
+                close()
+                moveToRelative(0f, -80f)
+                horizontalLineToRelative(560f)
+                lineTo(520f, 468f)
+                verticalLineToRelative(-268f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(268f)
+                lineTo(200f, 760f)
+                close()
+                moveToRelative(280f, -280f)
+                close()
+            }
+        }.build()
+        
+        return _Science!!
+    }
+
+private var _Science: ImageVector? = null
+

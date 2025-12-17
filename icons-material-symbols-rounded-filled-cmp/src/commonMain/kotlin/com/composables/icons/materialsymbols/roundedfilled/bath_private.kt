@@ -1,0 +1,141 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Bath_private: ImageVector
+    get() {
+        if (_Bath_private != null) return _Bath_private!!
+        
+        _Bath_private = ImageVector.Builder(
+            name = "bath_private",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(770f, 380f)
+                quadToRelative(-29f, 0f, -49.5f, -21f)
+                reflectiveQuadTo(700f, 309f)
+                quadToRelative(0f, -29f, 20.5f, -49.5f)
+                reflectiveQuadTo(770f, 239f)
+                quadToRelative(29f, 0f, 49.5f, 20.5f)
+                reflectiveQuadTo(840f, 309f)
+                quadToRelative(0f, 29f, -20.5f, 50f)
+                reflectiveQuadTo(770f, 380f)
+                close()
+                moveToRelative(-580f, 0f)
+                quadToRelative(-29f, 0f, -49.5f, -21f)
+                reflectiveQuadTo(120f, 309f)
+                quadToRelative(0f, -29f, 20.5f, -49.5f)
+                reflectiveQuadTo(190f, 239f)
+                quadToRelative(29f, 0f, 49.5f, 20.5f)
+                reflectiveQuadTo(260f, 309f)
+                quadToRelative(0f, 29f, -20.5f, 50f)
+                reflectiveQuadTo(190f, 380f)
+                close()
+                moveToRelative(173f, -60f)
+                quadToRelative(-12f, 0f, -19f, -9.5f)
+                reflectiveQuadToRelative(-6f, -21.5f)
+                quadToRelative(2f, -23f, -5f, -43f)
+                reflectiveQuadToRelative(-23f, -39f)
+                quadToRelative(-27f, -32f, -38f, -64.5f)
+                reflectiveQuadToRelative(-8f, -70.5f)
+                quadToRelative(2f, -14f, 11.5f, -23f)
+                reflectiveQuadToRelative(23.5f, -9f)
+                quadToRelative(12f, 0f, 20f, 9.5f)
+                reflectiveQuadToRelative(7f, 22.5f)
+                quadToRelative(-2f, 29f, 5f, 52f)
+                reflectiveQuadToRelative(24f, 44f)
+                quadToRelative(26f, 31f, 36.5f, 59.5f)
+                reflectiveQuadTo(400f, 288f)
+                quadToRelative(-1f, 14f, -12f, 23f)
+                reflectiveQuadToRelative(-25f, 9f)
+                close()
+                moveToRelative(120f, 0f)
+                quadToRelative(-12f, 0f, -19f, -9.5f)
+                reflectiveQuadToRelative(-6f, -21.5f)
+                quadToRelative(2f, -23f, -5f, -43f)
+                reflectiveQuadToRelative(-23f, -39f)
+                quadToRelative(-27f, -32f, -38f, -64.5f)
+                reflectiveQuadToRelative(-8f, -70.5f)
+                quadToRelative(2f, -14f, 12f, -23f)
+                reflectiveQuadToRelative(24f, -9f)
+                quadToRelative(12f, 0f, 19.5f, 10f)
+                reflectiveQuadToRelative(6.5f, 23f)
+                quadToRelative(-2f, 30f, 5f, 52.5f)
+                reflectiveQuadToRelative(24f, 42.5f)
+                quadToRelative(26f, 31f, 36.5f, 59.5f)
+                reflectiveQuadTo(520f, 288f)
+                quadToRelative(-1f, 14f, -12f, 23f)
+                reflectiveQuadToRelative(-25f, 9f)
+                close()
+                moveToRelative(120f, 0f)
+                quadToRelative(-12f, 0f, -19f, -9.5f)
+                reflectiveQuadToRelative(-6f, -21.5f)
+                quadToRelative(2f, -23f, -5f, -43f)
+                reflectiveQuadToRelative(-23f, -39f)
+                quadToRelative(-27f, -32f, -38f, -64.5f)
+                reflectiveQuadToRelative(-8f, -70.5f)
+                quadToRelative(2f, -14f, 12f, -23f)
+                reflectiveQuadToRelative(24f, -9f)
+                quadToRelative(12f, 0f, 19.5f, 10f)
+                reflectiveQuadToRelative(6.5f, 23f)
+                quadToRelative(-2f, 30f, 5f, 52.5f)
+                reflectiveQuadToRelative(24f, 42.5f)
+                quadToRelative(26f, 31f, 36.5f, 59.5f)
+                reflectiveQuadTo(640f, 288f)
+                quadToRelative(-1f, 14f, -12f, 23f)
+                reflectiveQuadToRelative(-25f, 9f)
+                close()
+                moveTo(80f, 680f)
+                verticalLineToRelative(-120f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(120f, 520f)
+                verticalLineToRelative(-25f)
+                quadToRelative(0f, -31f, 21.5f, -53f)
+                reflectiveQuadToRelative(52.5f, -22f)
+                quadToRelative(16f, 0f, 30.5f, 7.5f)
+                reflectiveQuadTo(250f, 446f)
+                lineToRelative(45f, 51f)
+                quadToRelative(6f, 6f, 12.5f, 12f)
+                reflectiveQuadToRelative(13.5f, 11f)
+                horizontalLineToRelative(318f)
+                quadToRelative(8f, -5f, 14f, -11f)
+                lineToRelative(12f, -12f)
+                lineToRelative(45f, -51f)
+                quadToRelative(11f, -11f, 25.5f, -18.5f)
+                reflectiveQuadTo(766f, 420f)
+                quadToRelative(31f, 0f, 52.5f, 22f)
+                reflectiveQuadToRelative(21.5f, 53f)
+                verticalLineToRelative(25f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(880f, 560f)
+                verticalLineToRelative(120f)
+                horizontalLineTo(80f)
+                close()
+                moveToRelative(80f, 200f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(80f, 800f)
+                verticalLineToRelative(-40f)
+                horizontalLineToRelative(800f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(800f, 880f)
+                horizontalLineTo(160f)
+                close()
+            }
+        }.build()
+        
+        return _Bath_private!!
+    }
+
+private var _Bath_private: ImageVector? = null
+

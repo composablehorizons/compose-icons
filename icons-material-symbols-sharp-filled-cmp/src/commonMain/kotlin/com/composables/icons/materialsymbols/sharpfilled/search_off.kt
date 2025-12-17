@@ -1,0 +1,80 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Search_off: ImageVector
+    get() {
+        if (_Search_off != null) return _Search_off!!
+        
+        _Search_off = ImageVector.Builder(
+            name = "search_off",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(280f, 880f)
+                quadToRelative(-83f, 0f, -141.5f, -58.5f)
+                reflectiveQuadTo(80f, 680f)
+                quadToRelative(0f, -83f, 58.5f, -141.5f)
+                reflectiveQuadTo(280f, 480f)
+                quadToRelative(83f, 0f, 141.5f, 58.5f)
+                reflectiveQuadTo(480f, 680f)
+                quadToRelative(0f, 83f, -58.5f, 141.5f)
+                reflectiveQuadTo(280f, 880f)
+                close()
+                moveToRelative(544f, -40f)
+                lineTo(568f, 584f)
+                quadToRelative(-12f, -13f, -25.5f, -26.5f)
+                reflectiveQuadTo(516f, 532f)
+                quadToRelative(38f, -24f, 61f, -64f)
+                reflectiveQuadToRelative(23f, -88f)
+                quadToRelative(0f, -75f, -52.5f, -127.5f)
+                reflectiveQuadTo(420f, 200f)
+                quadToRelative(-75f, 0f, -127.5f, 52.5f)
+                reflectiveQuadTo(240f, 380f)
+                quadToRelative(0f, 6f, 0.5f, 11.5f)
+                reflectiveQuadTo(242f, 403f)
+                quadToRelative(-18f, 2f, -39.5f, 8f)
+                reflectiveQuadTo(164f, 425f)
+                quadToRelative(-2f, -11f, -3f, -22f)
+                reflectiveQuadToRelative(-1f, -23f)
+                quadToRelative(0f, -109f, 75.5f, -184.5f)
+                reflectiveQuadTo(420f, 120f)
+                quadToRelative(109f, 0f, 184.5f, 75.5f)
+                reflectiveQuadTo(680f, 380f)
+                quadToRelative(0f, 43f, -13.5f, 81.5f)
+                reflectiveQuadTo(629f, 532f)
+                lineToRelative(251f, 252f)
+                lineToRelative(-56f, 56f)
+                close()
+                moveToRelative(-615f, -61f)
+                lineToRelative(71f, -71f)
+                lineToRelative(70f, 71f)
+                lineToRelative(29f, -28f)
+                lineToRelative(-71f, -71f)
+                lineToRelative(71f, -71f)
+                lineToRelative(-28f, -28f)
+                lineToRelative(-71f, 71f)
+                lineToRelative(-71f, -71f)
+                lineToRelative(-28f, 28f)
+                lineToRelative(71f, 71f)
+                lineToRelative(-71f, 71f)
+                lineToRelative(28f, 28f)
+                close()
+            }
+        }.build()
+        
+        return _Search_off!!
+    }
+
+private var _Search_off: ImageVector? = null
+

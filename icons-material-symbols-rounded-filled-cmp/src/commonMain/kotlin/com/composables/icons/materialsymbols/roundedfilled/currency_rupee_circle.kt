@@ -1,0 +1,95 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Currency_rupee_circle: ImageVector
+    get() {
+        if (_Currency_rupee_circle != null) return _Currency_rupee_circle!!
+        
+        _Currency_rupee_circle = ImageVector.Builder(
+            name = "currency_rupee_circle",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(571f, 690f)
+                quadToRelative(11f, -10f, 12f, -25f)
+                reflectiveQuadToRelative(-10f, -26f)
+                lineTo(462f, 522f)
+                lineToRelative(1f, -3f)
+                horizontalLineToRelative(10f)
+                quadToRelative(54f, 0f, 89.5f, -33f)
+                reflectiveQuadToRelative(43.5f, -77f)
+                horizontalLineToRelative(17f)
+                quadToRelative(10f, 0f, 16.5f, -7f)
+                reflectiveQuadToRelative(6.5f, -17f)
+                quadToRelative(0f, -10f, -6.5f, -16.5f)
+                reflectiveQuadTo(623f, 362f)
+                horizontalLineToRelative(-18f)
+                quadToRelative(-3f, -15f, -10.5f, -28.5f)
+                reflectiveQuadTo(576f, 307f)
+                horizontalLineToRelative(47f)
+                quadToRelative(10f, 0f, 16.5f, -7f)
+                reflectiveQuadToRelative(6.5f, -17f)
+                quadToRelative(0f, -10f, -6.5f, -16.5f)
+                reflectiveQuadTo(623f, 260f)
+                horizontalLineTo(343f)
+                quadToRelative(-12f, 0f, -20.5f, 8.5f)
+                reflectiveQuadTo(314f, 289f)
+                quadToRelative(0f, 12f, 8.5f, 20f)
+                reflectiveQuadToRelative(20.5f, 8f)
+                horizontalLineToRelative(127f)
+                quadToRelative(26f, 0f, 42.5f, 13f)
+                reflectiveQuadToRelative(22.5f, 32f)
+                horizontalLineTo(337f)
+                quadToRelative(-10f, 0f, -16.5f, 7f)
+                reflectiveQuadToRelative(-6.5f, 17f)
+                quadToRelative(0f, 10f, 6.5f, 16.5f)
+                reflectiveQuadTo(337f, 409f)
+                horizontalLineToRelative(199f)
+                quadToRelative(-6f, 20f, -23f, 34.5f)
+                reflectiveQuadTo(467f, 458f)
+                horizontalLineToRelative(-68f)
+                quadToRelative(-13f, 0f, -22.5f, 6f)
+                reflectiveQuadTo(362f, 481f)
+                quadToRelative(-5f, 11f, -3f, 22.5f)
+                reflectiveQuadToRelative(11f, 21.5f)
+                lineToRelative(150f, 164f)
+                quadToRelative(10f, 11f, 25f, 11f)
+                reflectiveQuadToRelative(26f, -10f)
+                close()
+                moveTo(480f, 880f)
+                quadToRelative(-83f, 0f, -156f, -31.5f)
+                reflectiveQuadTo(197f, 763f)
+                quadToRelative(-54f, -54f, -85.5f, -127f)
+                reflectiveQuadTo(80f, 480f)
+                quadToRelative(0f, -83f, 31.5f, -156f)
+                reflectiveQuadTo(197f, 197f)
+                quadToRelative(54f, -54f, 127f, -85.5f)
+                reflectiveQuadTo(480f, 80f)
+                quadToRelative(83f, 0f, 156f, 31.5f)
+                reflectiveQuadTo(763f, 197f)
+                quadToRelative(54f, 54f, 85.5f, 127f)
+                reflectiveQuadTo(880f, 480f)
+                quadToRelative(0f, 83f, -31.5f, 156f)
+                reflectiveQuadTo(763f, 763f)
+                quadToRelative(-54f, 54f, -127f, 85.5f)
+                reflectiveQuadTo(480f, 880f)
+                close()
+            }
+        }.build()
+        
+        return _Currency_rupee_circle!!
+    }
+
+private var _Currency_rupee_circle: ImageVector? = null
+

@@ -1,0 +1,94 @@
+package com.composables.icons.materialsymbols.rounded
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Rounded.Music_history: ImageVector
+    get() {
+        if (_Music_history != null) return _Music_history!!
+        
+        _Music_history = ImageVector.Builder(
+            name = "music_history",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(420f, 680f)
+                quadToRelative(-42f, 0f, -71f, -29f)
+                reflectiveQuadToRelative(-29f, -71f)
+                quadToRelative(0f, -42f, 29f, -71f)
+                reflectiveQuadToRelative(71f, -29f)
+                quadToRelative(17f, 0f, 32f, 5f)
+                reflectiveQuadToRelative(28f, 15f)
+                verticalLineToRelative(-200f)
+                quadToRelative(0f, -8f, 6f, -14f)
+                reflectiveQuadToRelative(14f, -6f)
+                horizontalLineToRelative(120f)
+                quadToRelative(8f, 0f, 14f, 6f)
+                reflectiveQuadToRelative(6f, 14f)
+                verticalLineToRelative(40f)
+                quadToRelative(0f, 8f, -6f, 14f)
+                reflectiveQuadToRelative(-14f, 6f)
+                horizontalLineTo(520f)
+                verticalLineToRelative(220f)
+                quadToRelative(0f, 42f, -29f, 71f)
+                reflectiveQuadToRelative(-71f, 29f)
+                close()
+                moveToRelative(460f, -200f)
+                quadToRelative(0f, 83f, -31.5f, 156f)
+                reflectiveQuadTo(763f, 763f)
+                quadToRelative(-54f, 54f, -127f, 85.5f)
+                reflectiveQuadTo(480f, 880f)
+                quadToRelative(-76f, 0f, -144.5f, -27f)
+                reflectiveQuadToRelative(-122f, -74.5f)
+                quadTo(160f, 731f, 126f, 666.5f)
+                reflectiveQuadTo(83f, 526f)
+                quadToRelative(-2f, -19f, 9f, -29.5f)
+                reflectiveQuadToRelative(26f, -12.5f)
+                quadToRelative(15f, -2f, 29f, 6.5f)
+                reflectiveQuadToRelative(16f, 29.5f)
+                quadToRelative(15f, 121f, 105.5f, 201f)
+                reflectiveQuadTo(480f, 801f)
+                quadToRelative(134f, 0f, 227f, -93f)
+                reflectiveQuadToRelative(93f, -227f)
+                quadToRelative(0f, -134f, -93f, -227f)
+                reflectiveQuadToRelative(-227f, -93f)
+                quadToRelative(-89f, 0f, -161.5f, 43.5f)
+                reflectiveQuadTo(204f, 320f)
+                horizontalLineToRelative(76f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(320f, 360f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(280f, 400f)
+                horizontalLineTo(120f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(80f, 360f)
+                verticalLineToRelative(-160f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(120f, 160f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(160f, 200f)
+                verticalLineToRelative(40f)
+                quadToRelative(55f, -73f, 138f, -116.5f)
+                reflectiveQuadTo(480f, 80f)
+                quadToRelative(83f, 0f, 156f, 31.5f)
+                reflectiveQuadTo(763f, 197f)
+                quadToRelative(54f, 54f, 85.5f, 127f)
+                reflectiveQuadTo(880f, 480f)
+                close()
+            }
+        }.build()
+        
+        return _Music_history!!
+    }
+
+private var _Music_history: ImageVector? = null
+

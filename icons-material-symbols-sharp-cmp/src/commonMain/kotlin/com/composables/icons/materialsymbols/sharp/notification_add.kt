@@ -1,0 +1,81 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Notification_add: ImageVector
+    get() {
+        if (_Notification_add != null) return _Notification_add!!
+        
+        _Notification_add = ImageVector.Builder(
+            name = "notification_add",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(480f, 460f)
+                close()
+                moveToRelative(0f, 420f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(400f, 800f)
+                horizontalLineToRelative(160f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(480f, 880f)
+                close()
+                moveToRelative(240f, -360f)
+                verticalLineToRelative(-120f)
+                horizontalLineTo(600f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(-120f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(120f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(80f)
+                horizontalLineTo(800f)
+                verticalLineToRelative(120f)
+                horizontalLineToRelative(-80f)
+                close()
+                moveTo(160f, 760f)
+                verticalLineToRelative(-80f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(-280f)
+                quadToRelative(0f, -83f, 50f, -147.5f)
+                reflectiveQuadTo(420f, 168f)
+                verticalLineToRelative(-88f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(88f)
+                quadToRelative(14f, 4f, 27.5f, 8.5f)
+                reflectiveQuadTo(593f, 188f)
+                quadToRelative(-15f, 14f, -27f, 30.5f)
+                reflectiveQuadTo(545f, 254f)
+                quadToRelative(-15f, -7f, -31.5f, -10.5f)
+                reflectiveQuadTo(480f, 240f)
+                quadToRelative(-66f, 0f, -113f, 47f)
+                reflectiveQuadToRelative(-47f, 113f)
+                verticalLineToRelative(280f)
+                horizontalLineToRelative(320f)
+                verticalLineToRelative(-112f)
+                quadToRelative(18f, 11f, 38f, 18f)
+                reflectiveQuadToRelative(42f, 11f)
+                verticalLineToRelative(83f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(80f)
+                horizontalLineTo(160f)
+                close()
+            }
+        }.build()
+        
+        return _Notification_add!!
+    }
+
+private var _Notification_add: ImageVector? = null
+

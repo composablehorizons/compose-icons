@@ -1,0 +1,62 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Left_panel_open: ImageVector
+    get() {
+        if (_Left_panel_open != null) return _Left_panel_open!!
+        
+        _Left_panel_open = ImageVector.Builder(
+            name = "left_panel_open",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(500f, 368f)
+                verticalLineToRelative(224f)
+                quadToRelative(0f, 14f, 12f, 19f)
+                reflectiveQuadToRelative(22f, -5f)
+                lineToRelative(98f, -98f)
+                quadToRelative(12f, -12f, 12f, -28f)
+                reflectiveQuadToRelative(-12f, -28f)
+                lineToRelative(-98f, -98f)
+                quadToRelative(-10f, -10f, -22f, -5f)
+                reflectiveQuadToRelative(-12f, 19f)
+                close()
+                moveTo(200f, 840f)
+                quadToRelative(-33f, 0f, -56.5f, -23.5f)
+                reflectiveQuadTo(120f, 760f)
+                verticalLineToRelative(-560f)
+                quadToRelative(0f, -33f, 23.5f, -56.5f)
+                reflectiveQuadTo(200f, 120f)
+                horizontalLineToRelative(560f)
+                quadToRelative(33f, 0f, 56.5f, 23.5f)
+                reflectiveQuadTo(840f, 200f)
+                verticalLineToRelative(560f)
+                quadToRelative(0f, 33f, -23.5f, 56.5f)
+                reflectiveQuadTo(760f, 840f)
+                horizontalLineTo(200f)
+                close()
+                moveToRelative(200f, -80f)
+                horizontalLineToRelative(360f)
+                verticalLineToRelative(-560f)
+                horizontalLineTo(400f)
+                verticalLineToRelative(560f)
+                close()
+            }
+        }.build()
+        
+        return _Left_panel_open!!
+    }
+
+private var _Left_panel_open: ImageVector? = null
+

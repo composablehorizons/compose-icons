@@ -1,0 +1,80 @@
+package com.composables.icons.materialsymbols.sharpfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.SharpFilled.Doorbell_3p: ImageVector
+    get() {
+        if (_Doorbell_3p != null) return _Doorbell_3p!!
+        
+        _Doorbell_3p = ImageVector.Builder(
+            name = "doorbell_3p",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(200f, 880f)
+                verticalLineToRelative(-800f)
+                horizontalLineToRelative(560f)
+                verticalLineToRelative(800f)
+                horizontalLineTo(200f)
+                close()
+                moveToRelative(280f, -120f)
+                quadToRelative(33f, 0f, 56.5f, -23.5f)
+                reflectiveQuadTo(560f, 680f)
+                quadToRelative(0f, -33f, -23.5f, -56.5f)
+                reflectiveQuadTo(480f, 600f)
+                quadToRelative(-33f, 0f, -56.5f, 23.5f)
+                reflectiveQuadTo(400f, 680f)
+                quadToRelative(0f, 33f, 23.5f, 56.5f)
+                reflectiveQuadTo(480f, 760f)
+                close()
+                moveToRelative(0f, -40f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(440f, 680f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(480f, 640f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(520f, 680f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(480f, 720f)
+                close()
+                moveToRelative(0f, -180f)
+                quadToRelative(18f, 0f, 29f, -11f)
+                reflectiveQuadToRelative(11f, -29f)
+                horizontalLineToRelative(-80f)
+                quadToRelative(0f, 18f, 11f, 29f)
+                reflectiveQuadToRelative(29f, 11f)
+                close()
+                moveToRelative(-160f, -60f)
+                horizontalLineToRelative(320f)
+                verticalLineToRelative(-40f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(-92f)
+                quadToRelative(0f, -45f, -23f, -80.5f)
+                reflectiveQuadTo(512f, 220f)
+                verticalLineToRelative(-44f)
+                horizontalLineToRelative(-64f)
+                verticalLineToRelative(44f)
+                quadToRelative(-42f, 15f, -65f, 49f)
+                reflectiveQuadToRelative(-23f, 79f)
+                verticalLineToRelative(92f)
+                horizontalLineToRelative(-40f)
+                verticalLineToRelative(40f)
+                close()
+            }
+        }.build()
+        
+        return _Doorbell_3p!!
+    }
+
+private var _Doorbell_3p: ImageVector? = null
+

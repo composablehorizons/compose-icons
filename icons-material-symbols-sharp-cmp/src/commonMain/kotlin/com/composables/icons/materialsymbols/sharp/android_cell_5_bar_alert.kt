@@ -1,0 +1,84 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Android_cell_5_bar_alert: ImageVector
+    get() {
+        if (_Android_cell_5_bar_alert != null) return _Android_cell_5_bar_alert!!
+        
+        _Android_cell_5_bar_alert = ImageVector.Builder(
+            name = "android_cell_5_bar_alert",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(40f, 800f)
+                verticalLineToRelative(-240f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(240f)
+                horizontalLineTo(40f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-320f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(320f)
+                horizontalLineTo(230f)
+                close()
+                moveToRelative(190f, 0f)
+                verticalLineToRelative(-440f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(440f)
+                horizontalLineTo(420f)
+                close()
+                moveToRelative(460f, 0f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(840f, 760f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(880f, 720f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(920f, 760f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(880f, 800f)
+                close()
+                moveToRelative(-40f, -120f)
+                verticalLineToRelative(-140f)
+                horizontalLineToRelative(80f)
+                verticalLineToRelative(140f)
+                horizontalLineToRelative(-80f)
+                close()
+                moveToRelative(-40f, -193f)
+                verticalLineToRelative(-327f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(314f)
+                quadToRelative(-10f, -2f, -19.5f, -3f)
+                reflectiveQuadToRelative(-20.5f, -1f)
+                quadToRelative(-21f, 0f, -41.5f, 4.5f)
+                reflectiveQuadTo(800f, 487f)
+                close()
+                moveTo(610f, 800f)
+                verticalLineToRelative(-520f)
+                horizontalLineToRelative(120f)
+                verticalLineToRelative(258f)
+                quadToRelative(-24f, 27f, -37f, 61f)
+                reflectiveQuadToRelative(-13f, 70f)
+                quadToRelative(0f, 36f, 12.5f, 70f)
+                reflectiveQuadToRelative(35.5f, 61f)
+                horizontalLineTo(610f)
+                close()
+            }
+        }.build()
+        
+        return _Android_cell_5_bar_alert!!
+    }
+
+private var _Android_cell_5_bar_alert: ImageVector? = null
+

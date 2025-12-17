@@ -1,0 +1,133 @@
+package com.composables.icons.materialsymbols.roundedfilled
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.RoundedFilled.Gynecology: ImageVector
+    get() {
+        if (_Gynecology != null) return _Gynecology!!
+        
+        _Gynecology = ImageVector.Builder(
+            name = "gynecology",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(318f, 728f)
+                quadToRelative(0f, -23f, 6.5f, -45.5f)
+                reflectiveQuadTo(345f, 640f)
+                quadToRelative(8f, -11f, 12f, -23.5f)
+                reflectiveQuadToRelative(4f, -26.5f)
+                quadToRelative(0f, -16f, -6f, -30f)
+                lineToRelative(-12f, -28f)
+                quadToRelative(-10f, -19f, -16.5f, -39f)
+                reflectiveQuadToRelative(-6.5f, -41f)
+                verticalLineToRelative(-152f)
+                quadToRelative(0f, -25f, -17.5f, -42.5f)
+                reflectiveQuadTo(260f, 240f)
+                quadToRelative(-21f, 0f, -37f, 14f)
+                reflectiveQuadToRelative(-21f, 34f)
+                quadToRelative(34f, 13f, 56f, 43.5f)
+                reflectiveQuadToRelative(22f, 68.5f)
+                quadToRelative(0f, 50f, -35f, 85f)
+                reflectiveQuadToRelative(-85f, 35f)
+                quadToRelative(-50f, 0f, -85f, -35f)
+                reflectiveQuadToRelative(-35f, -85f)
+                quadToRelative(0f, -40f, 23f, -71f)
+                reflectiveQuadToRelative(59f, -43f)
+                quadToRelative(5f, -54f, 44.5f, -90f)
+                reflectiveQuadToRelative(93.5f, -36f)
+                quadToRelative(7f, 0f, 14f, 0.5f)
+                reflectiveQuadToRelative(14f, 2.5f)
+                quadToRelative(44f, -23f, 92.5f, -33f)
+                reflectiveQuadToRelative(99.5f, -10f)
+                quadToRelative(50f, 0f, 98.5f, 10f)
+                reflectiveQuadToRelative(92.5f, 33f)
+                quadToRelative(7f, -2f, 14f, -2.5f)
+                reflectiveQuadToRelative(14f, -0.5f)
+                quadToRelative(55f, 0f, 94.5f, 36f)
+                reflectiveQuadToRelative(44.5f, 90f)
+                quadToRelative(36f, 12f, 59f, 43f)
+                reflectiveQuadToRelative(23f, 71f)
+                quadToRelative(0f, 50f, -35f, 85f)
+                reflectiveQuadToRelative(-85f, 35f)
+                quadToRelative(-50f, 0f, -85f, -35f)
+                reflectiveQuadToRelative(-35f, -85f)
+                quadToRelative(0f, -38f, 22f, -68.5f)
+                reflectiveQuadToRelative(56f, -43.5f)
+                quadToRelative(-5f, -20f, -21f, -34f)
+                reflectiveQuadToRelative(-38f, -14f)
+                quadToRelative(-25f, 0f, -42f, 17.5f)
+                reflectiveQuadTo(640f, 300f)
+                verticalLineToRelative(152f)
+                quadToRelative(0f, 21f, -7f, 41f)
+                reflectiveQuadToRelative(-16f, 39f)
+                quadToRelative(-7f, 14f, -12.5f, 28f)
+                reflectiveQuadToRelative(-5.5f, 30f)
+                quadToRelative(0f, 14f, 4f, 26.5f)
+                reflectiveQuadToRelative(12f, 23.5f)
+                quadToRelative(13f, 20f, 20f, 42.5f)
+                reflectiveQuadToRelative(7f, 45.5f)
+                quadToRelative(0f, 19f, -4.5f, 37f)
+                reflectiveQuadTo(625f, 800f)
+                lineToRelative(-11f, 22f)
+                quadToRelative(-8f, 21f, -31f, 24.5f)
+                lineToRelative(-23f, 3.5f)
+                quadToRelative(-14f, -14f, -20f, -30.5f)
+                reflectiveQuadToRelative(2f, -33.5f)
+                lineToRelative(11f, -22f)
+                quadToRelative(5f, -8f, 7f, -17f)
+                reflectiveQuadToRelative(2f, -19f)
+                quadToRelative(0f, -12f, -4f, -23f)
+                reflectiveQuadToRelative(-10f, -21f)
+                quadToRelative(-14f, -20f, -21.5f, -44f)
+                reflectiveQuadToRelative(-7.5f, -49f)
+                quadToRelative(0f, -23f, 6.5f, -43.5f)
+                reflectiveQuadTo(543f, 507f)
+                quadToRelative(6f, -14f, 11.5f, -27.5f)
+                reflectiveQuadTo(560f, 452f)
+                verticalLineToRelative(-152f)
+                quadToRelative(0f, -24f, 7.5f, -45.5f)
+                reflectiveQuadTo(589f, 215f)
+                quadToRelative(-26f, -8f, -53.5f, -11.5f)
+                reflectiveQuadTo(480f, 200f)
+                quadToRelative(-28f, 0f, -55.5f, 3.5f)
+                reflectiveQuadTo(371f, 215f)
+                quadToRelative(14f, 18f, 21.5f, 39.5f)
+                reflectiveQuadTo(400f, 300f)
+                verticalLineToRelative(152f)
+                quadToRelative(0f, 14f, 5f, 28f)
+                reflectiveQuadToRelative(12f, 27f)
+                quadToRelative(10f, 20f, 17f, 40.5f)
+                reflectiveQuadToRelative(7f, 43.5f)
+                quadToRelative(0f, 25f, -7.5f, 48.5f)
+                reflectiveQuadTo(412f, 684f)
+                quadToRelative(-7f, 10f, -10.5f, 21f)
+                reflectiveQuadToRelative(-3.5f, 23f)
+                quadToRelative(0f, 10f, 2f, 19f)
+                reflectiveQuadToRelative(7f, 17f)
+                lineToRelative(11f, 22f)
+                quadToRelative(8f, 15f, 2.5f, 30.5f)
+                reflectiveQuadTo(400f, 840f)
+                quadToRelative(-15f, 8f, -30.5f, 2.5f)
+                reflectiveQuadTo(346f, 822f)
+                lineToRelative(-11f, -22f)
+                quadToRelative(-9f, -17f, -13f, -35f)
+                reflectiveQuadToRelative(-4f, -37f)
+                close()
+            }
+        }.build()
+        
+        return _Gynecology!!
+    }
+
+private var _Gynecology: ImageVector? = null
+

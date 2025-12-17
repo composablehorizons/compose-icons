@@ -1,0 +1,118 @@
+package com.composables.icons.materialsymbols.sharp
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.materialsymbols.MaterialSymbols
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val MaterialSymbols.Sharp.Fragrance: ImageVector
+    get() {
+        if (_Fragrance != null) return _Fragrance!!
+        
+        _Fragrance = ImageVector.Builder(
+            name = "fragrance",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 960f,
+            viewportHeight = 960f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(200f, 360f)
+                verticalLineToRelative(-180f)
+                lineToRelative(60f, -60f)
+                horizontalLineToRelative(180f)
+                verticalLineToRelative(240f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(-160f)
+                horizontalLineToRelative(-80f)
+                verticalLineToRelative(160f)
+                horizontalLineToRelative(-80f)
+                close()
+                moveToRelative(360f, -40f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(520f, 280f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(560f, 240f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(600f, 280f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(560f, 320f)
+                close()
+                moveToRelative(240f, 0f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(760f, 280f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(800f, 240f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(840f, 280f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(800f, 320f)
+                close()
+                moveToRelative(-120f, -80f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(640f, 200f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(680f, 160f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(720f, 200f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(680f, 240f)
+                close()
+                moveToRelative(120f, -80f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(760f, 120f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(800f, 80f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(840f, 120f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(800f, 160f)
+                close()
+                moveTo(680f, 400f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(640f, 360f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(680f, 320f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(720f, 360f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(680f, 400f)
+                close()
+                moveToRelative(120f, 80f)
+                quadToRelative(-17f, 0f, -28.5f, -11.5f)
+                reflectiveQuadTo(760f, 440f)
+                quadToRelative(0f, -17f, 11.5f, -28.5f)
+                reflectiveQuadTo(800f, 400f)
+                quadToRelative(17f, 0f, 28.5f, 11.5f)
+                reflectiveQuadTo(840f, 440f)
+                quadToRelative(0f, 17f, -11.5f, 28.5f)
+                reflectiveQuadTo(800f, 480f)
+                close()
+                moveTo(200f, 760f)
+                horizontalLineToRelative(240f)
+                verticalLineToRelative(-320f)
+                horizontalLineTo(200f)
+                verticalLineToRelative(320f)
+                close()
+                moveToRelative(-80f, 80f)
+                verticalLineToRelative(-480f)
+                horizontalLineToRelative(400f)
+                verticalLineToRelative(480f)
+                horizontalLineTo(120f)
+                close()
+                moveToRelative(80f, -80f)
+                horizontalLineToRelative(240f)
+                horizontalLineToRelative(-240f)
+                close()
+            }
+        }.build()
+        
+        return _Fragrance!!
+    }
+
+private var _Fragrance: ImageVector? = null
+
