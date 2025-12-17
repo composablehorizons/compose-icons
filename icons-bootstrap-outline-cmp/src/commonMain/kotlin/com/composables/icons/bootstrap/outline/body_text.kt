@@ -1,0 +1,109 @@
+package com.composables.icons.bootstrap.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.bootstrap.Bootstrap
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Bootstrap.Outline.BodyText: ImageVector
+    get() {
+        if (_BodyText != null) return _BodyText!!
+        
+        _BodyText = ImageVector.Builder(
+            name = "body-text",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 16f,
+            viewportHeight = 16f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(0f, 0.5f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0.5f, 0f)
+                horizontalLineToRelative(4f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-4f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0f, 0.5f)
+                moveToRelative(0f, 2f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0.5f, 2f)
+                horizontalLineToRelative(7f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-7f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(9f, 0f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(-9f, 2f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0.5f, 4f)
+                horizontalLineToRelative(3f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-3f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(5f, 0f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(7f, 0f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(3f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-3f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(-12f, 2f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0.5f, 6f)
+                horizontalLineToRelative(6f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-6f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(8f, 0f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(-8f, 2f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 0.5f, 8f)
+                horizontalLineToRelative(5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(7f, 0f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(7f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-7f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(-7f, 2f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(8f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-8f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(0f, 2f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(4f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-4f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+                moveToRelative(0f, 2f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.5f, -0.5f)
+                horizontalLineToRelative(2f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, 1f)
+                horizontalLineToRelative(-2f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.5f, -0.5f)
+            }
+        }.build()
+        
+        return _BodyText!!
+    }
+
+private var _BodyText: ImageVector? = null
+

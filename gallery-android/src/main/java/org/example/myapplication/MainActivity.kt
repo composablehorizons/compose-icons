@@ -7,7 +7,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.runtime.Composable
@@ -28,17 +27,26 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun App() {
+    val iconsRes = listOf(
+        com.composables.icons.lucide.R.drawable.lucide_ic_axe,
+        com.composables.icons.feather.R.drawable.feather_ic_file,
+        com.composables.icons.bootstrap.fill.R.drawable.bootstrap_ic_0_circle_fill,
+        com.composables.icons.bootstrap.outline.R.drawable.bootstrap_ic_0_circle_outline,
+        com.composables.icons.codicons.R.drawable.codicons_ic_account,
+        com.composables.icons.radix.R.drawable.radix_ic_accessibility
+    )
     Row(
         horizontalArrangement = Arrangement.spacedBy(16.dp),
-        modifier = Modifier.fillMaxSize().safeDrawingPadding().padding(16.dp)
+        modifier = Modifier
+            .fillMaxSize()
+            .safeDrawingPadding()
+            .padding(16.dp)
     ) {
-        Icon(
-            painterResource(com.composables.icons.lucide.R.drawable.lucide_ic_axe),
-            contentDescription = null,
-        )
-        Icon(
-            painterResource(com.composables.icons.feather.R.drawable.feather_ic_file),
-            contentDescription = null,
-        )
+        iconsRes.forEach { id ->
+            Icon(
+                painter = painterResource(id),
+                contentDescription = null,
+            )
+        }
     }
 }

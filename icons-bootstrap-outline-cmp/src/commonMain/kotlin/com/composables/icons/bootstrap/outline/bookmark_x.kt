@@ -1,0 +1,68 @@
+package com.composables.icons.bootstrap.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.bootstrap.Bootstrap
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Bootstrap.Outline.BookmarkX: ImageVector
+    get() {
+        if (_BookmarkX != null) return _BookmarkX!!
+        
+        _BookmarkX = ImageVector.Builder(
+            name = "bookmark-x",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 16f,
+            viewportHeight = 16f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(6.146f, 5.146f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.708f, 0f)
+                lineTo(8f, 6.293f)
+                lineToRelative(1.146f, -1.147f)
+                arcToRelative(0.5f, 0.5f, 0f, true, true, 0.708f, 0.708f)
+                lineTo(8.707f, 7f)
+                lineToRelative(1.147f, 1.146f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.708f, 0.708f)
+                lineTo(8f, 7.707f)
+                lineTo(6.854f, 8.854f)
+                arcToRelative(0.5f, 0.5f, 0f, true, true, -0.708f, -0.708f)
+                lineTo(7.293f, 7f)
+                lineTo(6.146f, 5.854f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0f, -0.708f)
+            }
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(2f, 2f)
+                arcToRelative(2f, 2f, 0f, false, true, 2f, -2f)
+                horizontalLineToRelative(8f)
+                arcToRelative(2f, 2f, 0f, false, true, 2f, 2f)
+                verticalLineToRelative(13.5f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, -0.777f, 0.416f)
+                lineTo(8f, 13.101f)
+                lineToRelative(-5.223f, 2.815f)
+                arcTo(0.5f, 0.5f, 0f, false, true, 2f, 15.5f)
+                close()
+                moveToRelative(2f, -1f)
+                arcToRelative(1f, 1f, 0f, false, false, -1f, 1f)
+                verticalLineToRelative(12.566f)
+                lineToRelative(4.723f, -2.482f)
+                arcToRelative(0.5f, 0.5f, 0f, false, true, 0.554f, 0f)
+                lineTo(13f, 14.566f)
+                verticalLineTo(2f)
+                arcToRelative(1f, 1f, 0f, false, false, -1f, -1f)
+                close()
+            }
+        }.build()
+        
+        return _BookmarkX!!
+    }
+
+private var _BookmarkX: ImageVector? = null
+

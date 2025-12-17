@@ -76,6 +76,13 @@ kotlin {
             implementation(projects.iconsFeatherCmp)
             implementation(projects.iconsRadixCmp)
             implementation(projects.iconsCodiconsCmp)
+
+            implementation(projects.iconsBootstrapFillCmp)
+            implementation(projects.iconsBootstrapOutlineCmp)
+
+            implementation(projects.iconsFontAwesomeBrandsCmp)
+            implementation(projects.iconsFontAwesomeRegularCmp)
+            implementation(projects.iconsFontAwesomeSolidCmp)
         }
 
         androidMain.dependencies {
