@@ -28,6 +28,15 @@
             <option value="$PROJECT_DIR$/icons-font-awesome-regular-cmp" />
             <option value="$PROJECT_DIR$/icons-font-awesome-solid-android" />
             <option value="$PROJECT_DIR$/icons-font-awesome-solid-cmp" />
+            <option value="$PROJECT_DIR$/icons-heroicons-cmp" />
+            <option value="$PROJECT_DIR$/icons-heroicons-micro-android" />
+            <option value="$PROJECT_DIR$/icons-heroicons-micro-cmp" />
+            <option value="$PROJECT_DIR$/icons-heroicons-mini-android" />
+            <option value="$PROJECT_DIR$/icons-heroicons-mini-cmp" />
+            <option value="$PROJECT_DIR$/icons-heroicons-outline-android" />
+            <option value="$PROJECT_DIR$/icons-heroicons-outline-cmp" />
+            <option value="$PROJECT_DIR$/icons-heroicons-solid-android" />
+            <option value="$PROJECT_DIR$/icons-heroicons-solid-cmp" />
             <option value="$PROJECT_DIR$/icons-lucide-android" />
             <option value="$PROJECT_DIR$/icons-lucide-cmp" />
             <option value="$PROJECT_DIR$/icons-radix-android" />

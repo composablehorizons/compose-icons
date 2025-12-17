@@ -86,6 +86,11 @@ kotlin {
 
             implementation(projects.iconsTablerFilledCmp)
             implementation(projects.iconsTablerOutlineCmp)
+
+            implementation(projects.iconsHeroiconsOutlineCmp)
+            implementation(projects.iconsHeroiconsSolidCmp)
+            implementation(projects.iconsHeroiconsMiniCmp)
+            implementation(projects.iconsHeroiconsMicroCmp)
         }
 
         androidMain.dependencies {

@@ -1,0 +1,56 @@
+package com.composables.icons.heroicons.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeJoin
+import com.composables.icons.heroicons.Heroicons
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Heroicons.Outline.Battery100: ImageVector
+    get() {
+        if (_Battery100 != null) return _Battery100!!
+        
+        _Battery100 = ImageVector.Builder(
+            name = "battery-100",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 1.5f,
+                strokeLineJoin = StrokeJoin.Miter
+            ) {
+                moveTo(21f, 10.5f)
+                horizontalLineToRelative(0.375f)
+                curveToRelative(0.621f, 0f, 1.125f, 0.504f, 1.125f, 1.125f)
+                verticalLineToRelative(2.25f)
+                curveToRelative(0f, 0.621f, -0.504f, 1.125f, -1.125f, 1.125f)
+                horizontalLineTo(21f)
+                moveTo(4.5f, 10.5f)
+                horizontalLineTo(18f)
+                verticalLineTo(15f)
+                horizontalLineTo(4.5f)
+                verticalLineToRelative(-4.5f)
+                close()
+                moveTo(3.75f, 18f)
+                horizontalLineToRelative(15f)
+                arcTo(2.25f, 2.25f, 0f, false, false, 21f, 15.75f)
+                verticalLineToRelative(-6f)
+                arcToRelative(2.25f, 2.25f, 0f, false, false, -2.25f, -2.25f)
+                horizontalLineToRelative(-15f)
+                arcTo(2.25f, 2.25f, 0f, false, false, 1.5f, 9.75f)
+                verticalLineToRelative(6f)
+                arcTo(2.25f, 2.25f, 0f, false, false, 3.75f, 18f)
+                close()
+            }
+        }.build()
+        
+        return _Battery100!!
+    }
+
+private var _Battery100: ImageVector? = null
+

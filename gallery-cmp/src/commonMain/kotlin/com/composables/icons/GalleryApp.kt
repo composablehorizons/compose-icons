@@ -13,6 +13,13 @@ import com.composables.icons.fontawesome.FontAwesome
 import com.composables.icons.fontawesome.brands.Adn
 import com.composables.icons.fontawesome.regular.AddressBook
 import com.composables.icons.fontawesome.solid.Fill
+import com.composables.icons.heroicons.Heroicons
+import com.composables.icons.heroicons.micro.AcademicCap
+import com.composables.icons.heroicons.mini.AcademicCap
+import com.composables.icons.heroicons.mini.H1
+import com.composables.icons.heroicons.outline.AcademicCap
+import com.composables.icons.heroicons.solid.AcademicCap
+import com.composables.icons.heroicons.solid.H1
 import com.composables.icons.lucide.AppWindow
 import com.composables.icons.lucide.Lucide
 import com.composables.icons.radix.Radix
@@ -36,6 +43,10 @@ fun App() {
         FontAwesome.Regular.AddressBook,
         Tabler.Filled.FileCode,
         Tabler.Outline.Circle,
+        Heroicons.Outline.AcademicCap,
+        Heroicons.Solid.AcademicCap,
+        Heroicons.Mini.AcademicCap,
+        Heroicons.Micro.AcademicCap,
     )
     FlowRow {
         vectors.forEach {
