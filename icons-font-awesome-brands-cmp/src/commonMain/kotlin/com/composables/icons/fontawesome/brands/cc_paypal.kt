@@ -1,0 +1,150 @@
+package com.composables.icons.fontawesome.brands
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.fontawesome.FontAwesome
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val FontAwesome.Brands.CcPaypal: ImageVector
+    get() {
+        if (_CcPaypal != null) return _CcPaypal!!
+        
+        _CcPaypal = ImageVector.Builder(
+            name = "cc-paypal",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 576f,
+            viewportHeight = 512f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(186.3f, 258.2f)
+                curveToRelative(0f, 12.2f, -9.7f, 21.5f, -22f, 21.5f)
+                curveToRelative(-9.2f, 0f, -16f, -5.2f, -16f, -15f)
+                curveToRelative(0f, -12.2f, 9.5f, -22f, 21.7f, -22f)
+                curveToRelative(9.3f, 0f, 16.3f, 5.7f, 16.3f, 15.5f)
+                close()
+                moveTo(80.5f, 209.7f)
+                horizontalLineToRelative(-4.7f)
+                curveToRelative(-1.5f, 0f, -3f, 1f, -3.2f, 2.7f)
+                lineToRelative(-4.3f, 26.7f)
+                lineToRelative(8.2f, -0.3f)
+                curveToRelative(11f, 0f, 19.5f, -1.5f, 21.5f, -14.2f)
+                curveToRelative(2.3f, -13.4f, -6.2f, -14.9f, -17.5f, -14.9f)
+                close()
+                moveToRelative(284f, 0f)
+                horizontalLineTo(360f)
+                curveToRelative(-1.8f, 0f, -3f, 1f, -3.2f, 2.7f)
+                lineToRelative(-4.2f, 26.7f)
+                lineToRelative(8f, -0.3f)
+                curveToRelative(13f, 0f, 22f, -3f, 22f, -18f)
+                curveToRelative(-0.1f, -10.6f, -9.6f, -11.1f, -18.1f, -11.1f)
+                close()
+                moveTo(576f, 80f)
+                verticalLineToRelative(352f)
+                curveToRelative(0f, 26.5f, -21.5f, 48f, -48f, 48f)
+                horizontalLineTo(48f)
+                curveToRelative(-26.5f, 0f, -48f, -21.5f, -48f, -48f)
+                verticalLineTo(80f)
+                curveToRelative(0f, -26.5f, 21.5f, -48f, 48f, -48f)
+                horizontalLineToRelative(480f)
+                curveToRelative(26.5f, 0f, 48f, 21.5f, 48f, 48f)
+                close()
+                moveTo(128.3f, 215.4f)
+                curveToRelative(0f, -21f, -16.2f, -28f, -34.7f, -28f)
+                horizontalLineToRelative(-40f)
+                curveToRelative(-2.5f, 0f, -5f, 2f, -5.2f, 4.7f)
+                lineTo(32f, 294.2f)
+                curveToRelative(-0.3f, 2f, 1.2f, 4f, 3.2f, 4f)
+                horizontalLineToRelative(19f)
+                curveToRelative(2.7f, 0f, 5.2f, -2.9f, 5.5f, -5.7f)
+                lineToRelative(4.5f, -26.6f)
+                curveToRelative(1f, -7.2f, 13.2f, -4.7f, 18f, -4.7f)
+                curveToRelative(28.6f, 0f, 46.1f, -17f, 46.1f, -45.8f)
+                close()
+                moveToRelative(84.2f, 8.8f)
+                horizontalLineToRelative(-19f)
+                curveToRelative(-3.8f, 0f, -4f, 5.5f, -4.2f, 8.2f)
+                curveToRelative(-5.8f, -8.5f, -14.2f, -10f, -23.7f, -10f)
+                curveToRelative(-24.5f, 0f, -43.2f, 21.5f, -43.2f, 45.2f)
+                curveToRelative(0f, 19.5f, 12.2f, 32.2f, 31.7f, 32.2f)
+                curveToRelative(9f, 0f, 20.2f, -4.9f, 26.5f, -11.9f)
+                curveToRelative(-0.5f, 1.5f, -1f, 4.7f, -1f, 6.2f)
+                curveToRelative(0f, 2.3f, 1f, 4f, 3.2f, 4f)
+                horizontalLineTo(200f)
+                curveToRelative(2.7f, 0f, 5f, -2.9f, 5.5f, -5.7f)
+                lineToRelative(10.2f, -64.3f)
+                curveToRelative(0.3f, -1.9f, -1.2f, -3.9f, -3.2f, -3.9f)
+                close()
+                moveToRelative(40.5f, 97.9f)
+                lineToRelative(63.7f, -92.6f)
+                curveToRelative(0.5f, -0.5f, 0.5f, -1f, 0.5f, -1.7f)
+                curveToRelative(0f, -1.7f, -1.5f, -3.5f, -3.2f, -3.5f)
+                horizontalLineToRelative(-19.2f)
+                curveToRelative(-1.7f, 0f, -3.5f, 1f, -4.5f, 2.5f)
+                lineToRelative(-26.5f, 39f)
+                lineToRelative(-11f, -37.5f)
+                curveToRelative(-0.8f, -2.2f, -3f, -4f, -5.5f, -4f)
+                horizontalLineToRelative(-18.7f)
+                curveToRelative(-1.7f, 0f, -3.2f, 1.8f, -3.2f, 3.5f)
+                curveToRelative(0f, 1.2f, 19.5f, 56.8f, 21.2f, 62.1f)
+                curveToRelative(-2.7f, 3.8f, -20.5f, 28.6f, -20.5f, 31.6f)
+                curveToRelative(0f, 1.8f, 1.5f, 3.2f, 3.2f, 3.2f)
+                horizontalLineToRelative(19.2f)
+                curveToRelative(1.8f, -0.1f, 3.5f, -1.1f, 4.5f, -2.6f)
+                close()
+                moveToRelative(159.3f, -106.7f)
+                curveToRelative(0f, -21f, -16.2f, -28f, -34.7f, -28f)
+                horizontalLineToRelative(-39.7f)
+                curveToRelative(-2.7f, 0f, -5.2f, 2f, -5.5f, 4.7f)
+                lineToRelative(-16.2f, 102f)
+                curveToRelative(-0.2f, 2f, 1.3f, 4f, 3.2f, 4f)
+                horizontalLineToRelative(20.5f)
+                curveToRelative(2f, 0f, 3.5f, -1.5f, 4f, -3.2f)
+                lineToRelative(4.5f, -29f)
+                curveToRelative(1f, -7.2f, 13.2f, -4.7f, 18f, -4.7f)
+                curveToRelative(28.4f, 0f, 45.9f, -17f, 45.9f, -45.8f)
+                close()
+                moveToRelative(84.2f, 8.8f)
+                horizontalLineToRelative(-19f)
+                curveToRelative(-3.8f, 0f, -4f, 5.5f, -4.3f, 8.2f)
+                curveToRelative(-5.5f, -8.5f, -14f, -10f, -23.7f, -10f)
+                curveToRelative(-24.5f, 0f, -43.2f, 21.5f, -43.2f, 45.2f)
+                curveToRelative(0f, 19.5f, 12.2f, 32.2f, 31.7f, 32.2f)
+                curveToRelative(9.3f, 0f, 20.5f, -4.9f, 26.5f, -11.9f)
+                curveToRelative(-0.3f, 1.5f, -1f, 4.7f, -1f, 6.2f)
+                curveToRelative(0f, 2.3f, 1f, 4f, 3.2f, 4f)
+                horizontalLineTo(484f)
+                curveToRelative(2.7f, 0f, 5f, -2.9f, 5.5f, -5.7f)
+                lineToRelative(10.2f, -64.3f)
+                curveToRelative(0.3f, -1.9f, -1.2f, -3.9f, -3.2f, -3.9f)
+                close()
+                moveToRelative(47.5f, -33.3f)
+                curveToRelative(0f, -2f, -1.5f, -3.5f, -3.2f, -3.5f)
+                horizontalLineToRelative(-18.5f)
+                curveToRelative(-1.5f, 0f, -3f, 1.2f, -3.2f, 2.7f)
+                lineToRelative(-16.2f, 104f)
+                lineToRelative(-0.3f, 0.5f)
+                curveToRelative(0f, 1.8f, 1.5f, 3.5f, 3.5f, 3.5f)
+                horizontalLineToRelative(16.5f)
+                curveToRelative(2.5f, 0f, 5f, -2.9f, 5.2f, -5.7f)
+                lineTo(544f, 191.2f)
+                verticalLineToRelative(-0.3f)
+                close()
+                moveToRelative(-90f, 51.8f)
+                curveToRelative(-12.2f, 0f, -21.7f, 9.7f, -21.7f, 22f)
+                curveToRelative(0f, 9.7f, 7f, 15f, 16.2f, 15f)
+                curveToRelative(12f, 0f, 21.7f, -9.2f, 21.7f, -21.5f)
+                curveToRelative(0.1f, -9.8f, -6.9f, -15.5f, -16.2f, -15.5f)
+                close()
+            }
+        }.build()
+        
+        return _CcPaypal!!
+    }
+
+private var _CcPaypal: ImageVector? = null
+

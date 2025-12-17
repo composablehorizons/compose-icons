@@ -1,0 +1,153 @@
+package com.composables.icons.fontawesome.brands
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.fontawesome.FontAwesome
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val FontAwesome.Brands.Laravel: ImageVector
+    get() {
+        if (_Laravel != null) return _Laravel!!
+        
+        _Laravel = ImageVector.Builder(
+            name = "laravel",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 512f,
+            viewportHeight = 512f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(504.4f, 115.83f)
+                arcToRelative(5.72f, 5.72f, 0f, false, false, -0.28f, -0.68f)
+                arcToRelative(8.52f, 8.52f, 0f, false, false, -0.53f, -1.25f)
+                arcToRelative(6f, 6f, 0f, false, false, -0.54f, -0.71f)
+                arcToRelative(9.36f, 9.36f, 0f, false, false, -0.72f, -0.94f)
+                curveToRelative(-0.23f, -0.22f, -0.52f, -0.4f, -0.77f, -0.6f)
+                arcToRelative(8.84f, 8.84f, 0f, false, false, -0.9f, -0.68f)
+                lineTo(404.4f, 55.55f)
+                arcToRelative(8f, 8f, 0f, false, false, -8f, 0f)
+                lineTo(300.12f, 111f)
+                horizontalLineToRelative(0f)
+                arcToRelative(8.07f, 8.07f, 0f, false, false, -0.88f, 0.69f)
+                arcToRelative(7.68f, 7.68f, 0f, false, false, -0.78f, 0.6f)
+                arcToRelative(8.23f, 8.23f, 0f, false, false, -0.72f, 0.93f)
+                curveToRelative(-0.17f, 0.24f, -0.39f, 0.45f, -0.54f, 0.71f)
+                arcToRelative(9.7f, 9.7f, 0f, false, false, -0.52f, 1.25f)
+                curveToRelative(-0.08f, 0.23f, -0.21f, 0.44f, -0.28f, 0.68f)
+                arcToRelative(8.08f, 8.08f, 0f, false, false, -0.28f, 2.08f)
+                verticalLineTo(223.18f)
+                lineToRelative(-80.22f, 46.19f)
+                verticalLineTo(63.44f)
+                arcToRelative(7.8f, 7.8f, 0f, false, false, -0.28f, -2.09f)
+                curveToRelative(-0.06f, -0.24f, -0.2f, -0.45f, -0.28f, -0.68f)
+                arcToRelative(8.35f, 8.35f, 0f, false, false, -0.52f, -1.24f)
+                curveToRelative(-0.14f, -0.26f, -0.37f, -0.47f, -0.54f, -0.72f)
+                arcToRelative(9.36f, 9.36f, 0f, false, false, -0.72f, -0.94f)
+                arcToRelative(9.46f, 9.46f, 0f, false, false, -0.78f, -0.6f)
+                arcToRelative(9.8f, 9.8f, 0f, false, false, -0.88f, -0.68f)
+                horizontalLineToRelative(0f)
+                lineTo(115.61f, 1.07f)
+                arcToRelative(8f, 8f, 0f, false, false, -8f, 0f)
+                lineTo(11.34f, 56.49f)
+                horizontalLineToRelative(0f)
+                arcToRelative(6.52f, 6.52f, 0f, false, false, -0.88f, 0.69f)
+                arcToRelative(7.81f, 7.81f, 0f, false, false, -0.79f, 0.6f)
+                arcToRelative(8.15f, 8.15f, 0f, false, false, -0.71f, 0.93f)
+                curveToRelative(-0.18f, 0.25f, -0.4f, 0.46f, -0.55f, 0.72f)
+                arcToRelative(7.88f, 7.88f, 0f, false, false, -0.51f, 1.24f)
+                arcToRelative(6.46f, 6.46f, 0f, false, false, -0.29f, 0.67f)
+                arcToRelative(8.18f, 8.18f, 0f, false, false, -0.28f, 2.1f)
+                verticalLineToRelative(329.7f)
+                arcToRelative(8f, 8f, 0f, false, false, 4f, 6.95f)
+                lineToRelative(192.5f, 110.84f)
+                arcToRelative(8.83f, 8.83f, 0f, false, false, 1.33f, 0.54f)
+                curveToRelative(0.21f, 0.08f, 0.41f, 0.2f, 0.63f, 0.26f)
+                arcToRelative(7.92f, 7.92f, 0f, false, false, 4.1f, 0f)
+                curveToRelative(0.2f, -0.05f, 0.37f, -0.16f, 0.55f, -0.22f)
+                arcToRelative(8.6f, 8.6f, 0f, false, false, 1.4f, -0.58f)
+                lineTo(404.4f, 400.09f)
+                arcToRelative(8f, 8f, 0f, false, false, 4f, -6.95f)
+                verticalLineTo(287.88f)
+                lineToRelative(92.24f, -53.11f)
+                arcToRelative(8f, 8f, 0f, false, false, 4f, -7f)
+                verticalLineTo(117.92f)
+                arcTo(8.63f, 8.63f, 0f, false, false, 504.4f, 115.83f)
+                close()
+                moveTo(111.6f, 17.28f)
+                horizontalLineToRelative(0f)
+                lineToRelative(80.19f, 46.15f)
+                lineToRelative(-80.2f, 46.18f)
+                lineTo(31.41f, 63.44f)
+                close()
+                moveToRelative(88.25f, 60f)
+                verticalLineTo(278.6f)
+                lineToRelative(-46.53f, 26.79f)
+                lineToRelative(-33.69f, 19.4f)
+                verticalLineTo(123.5f)
+                lineToRelative(46.53f, -26.79f)
+                close()
+                moveToRelative(0f, 412.78f)
+                lineTo(23.37f, 388.5f)
+                verticalLineTo(77.32f)
+                lineTo(57.06f, 96.7f)
+                lineToRelative(46.52f, 26.8f)
+                verticalLineTo(338.68f)
+                arcToRelative(6.94f, 6.94f, 0f, false, false, 0.12f, 0.9f)
+                arcToRelative(8f, 8f, 0f, false, false, 0.16f, 1.18f)
+                horizontalLineToRelative(0f)
+                arcToRelative(5.92f, 5.92f, 0f, false, false, 0.38f, 0.9f)
+                arcToRelative(6.38f, 6.38f, 0f, false, false, 0.42f, 1f)
+                verticalLineToRelative(0f)
+                arcToRelative(8.54f, 8.54f, 0f, false, false, 0.6f, 0.78f)
+                arcToRelative(7.62f, 7.62f, 0f, false, false, 0.66f, 0.84f)
+                lineToRelative(0f, 0f)
+                curveToRelative(0.23f, 0.22f, 0.52f, 0.38f, 0.77f, 0.58f)
+                arcToRelative(8.93f, 8.93f, 0f, false, false, 0.86f, 0.66f)
+                lineToRelative(0f, 0f)
+                lineToRelative(0f, 0f)
+                lineToRelative(92.19f, 52.18f)
+                close()
+                moveToRelative(8f, -106.17f)
+                lineToRelative(-80.06f, -45.32f)
+                lineToRelative(84.09f, -48.41f)
+                lineToRelative(92.26f, -53.11f)
+                lineToRelative(80.13f, 46.13f)
+                lineToRelative(-58.8f, 33.56f)
+                close()
+                moveToRelative(184.52f, 4.57f)
+                lineTo(215.88f, 490.11f)
+                verticalLineTo(397.8f)
+                lineTo(346.6f, 323.2f)
+                lineToRelative(45.77f, -26.15f)
+                close()
+                moveToRelative(0f, -119.13f)
+                lineTo(358.68f, 250f)
+                lineToRelative(-46.53f, -26.79f)
+                verticalLineTo(131.79f)
+                lineToRelative(33.69f, 19.4f)
+                lineTo(392.37f, 178f)
+                close()
+                moveToRelative(8f, -105.28f)
+                lineToRelative(-80.2f, -46.17f)
+                lineToRelative(80.2f, -46.16f)
+                lineToRelative(80.18f, 46.15f)
+                close()
+                moveToRelative(8f, 105.28f)
+                verticalLineTo(178f)
+                lineTo(455f, 151.19f)
+                lineToRelative(33.68f, -19.4f)
+                verticalLineToRelative(91.39f)
+                horizontalLineToRelative(0f)
+                close()
+            }
+        }.build()
+        
+        return _Laravel!!
+    }
+
+private var _Laravel: ImageVector? = null
+

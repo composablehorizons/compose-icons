@@ -1,0 +1,52 @@
+package com.composables.icons.fontawesome.solid
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.fontawesome.FontAwesome
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val FontAwesome.Solid.PuzzlePiece: ImageVector
+    get() {
+        if (_PuzzlePiece != null) return _PuzzlePiece!!
+        
+        _PuzzlePiece = ImageVector.Builder(
+            name = "puzzle-piece",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 576f,
+            viewportHeight = 512f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(519.442f, 288.651f)
+                curveToRelative(-41.519f, 0f, -59.5f, 31.593f, -82.058f, 31.593f)
+                curveTo(377.409f, 320.244f, 432f, 144f, 432f, 144f)
+                reflectiveCurveToRelative(-196.288f, 80f, -196.288f, -3.297f)
+                curveToRelative(0f, -35.827f, 36.288f, -46.25f, 36.288f, -85.985f)
+                curveTo(272f, 19.216f, 243.885f, 0f, 210.539f, 0f)
+                curveToRelative(-34.654f, 0f, -66.366f, 18.891f, -66.366f, 56.346f)
+                curveToRelative(0f, 41.364f, 31.711f, 59.277f, 31.711f, 81.75f)
+                curveTo(175.885f, 207.719f, 0f, 166.758f, 0f, 166.758f)
+                verticalLineToRelative(333.237f)
+                reflectiveCurveToRelative(178.635f, 41.047f, 178.635f, -28.662f)
+                curveToRelative(0f, -22.473f, -40f, -40.107f, -40f, -81.471f)
+                curveToRelative(0f, -37.456f, 29.25f, -56.346f, 63.577f, -56.346f)
+                curveToRelative(33.673f, 0f, 61.788f, 19.216f, 61.788f, 54.717f)
+                curveToRelative(0f, 39.735f, -36.288f, 50.158f, -36.288f, 85.985f)
+                curveToRelative(0f, 60.803f, 129.675f, 25.73f, 181.23f, 25.73f)
+                curveToRelative(0f, 0f, -34.725f, -120.101f, 25.827f, -120.101f)
+                curveToRelative(35.962f, 0f, 46.423f, 36.152f, 86.308f, 36.152f)
+                curveTo(556.712f, 416f, 576f, 387.99f, 576f, 354.443f)
+                curveToRelative(0f, -34.199f, -18.962f, -65.792f, -56.558f, -65.792f)
+                close()
+            }
+        }.build()
+        
+        return _PuzzlePiece!!
+    }
+
+private var _PuzzlePiece: ImageVector? = null
+

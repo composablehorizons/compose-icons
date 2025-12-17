@@ -1,0 +1,56 @@
+package com.composables.icons.fontawesome.brands
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.fontawesome.FontAwesome
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val FontAwesome.Brands.LinkedinIn: ImageVector
+    get() {
+        if (_LinkedinIn != null) return _LinkedinIn!!
+        
+        _LinkedinIn = ImageVector.Builder(
+            name = "linkedin-in",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 448f,
+            viewportHeight = 512f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(100.28f, 448f)
+                horizontalLineTo(7.4f)
+                verticalLineTo(148.9f)
+                horizontalLineToRelative(92.88f)
+                close()
+                moveTo(53.79f, 108.1f)
+                curveTo(24.09f, 108.1f, 0f, 83.5f, 0f, 53.8f)
+                arcToRelative(53.79f, 53.79f, 0f, false, true, 107.58f, 0f)
+                curveToRelative(0f, 29.7f, -24.1f, 54.3f, -53.79f, 54.3f)
+                close()
+                moveTo(447.9f, 448f)
+                horizontalLineToRelative(-92.68f)
+                verticalLineTo(302.4f)
+                curveToRelative(0f, -34.7f, -0.7f, -79.2f, -48.29f, -79.2f)
+                curveToRelative(-48.29f, 0f, -55.69f, 37.7f, -55.69f, 76.7f)
+                verticalLineTo(448f)
+                horizontalLineToRelative(-92.78f)
+                verticalLineTo(148.9f)
+                horizontalLineToRelative(89.08f)
+                verticalLineToRelative(40.8f)
+                horizontalLineToRelative(1.3f)
+                curveToRelative(12.4f, -23.5f, 42.69f, -48.3f, 87.88f, -48.3f)
+                curveToRelative(94f, 0f, 111.28f, 61.9f, 111.28f, 142.3f)
+                verticalLineTo(448f)
+                close()
+            }
+        }.build()
+        
+        return _LinkedinIn!!
+    }
+
+private var _LinkedinIn: ImageVector? = null
+

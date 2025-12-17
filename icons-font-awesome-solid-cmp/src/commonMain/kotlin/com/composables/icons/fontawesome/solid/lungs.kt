@@ -1,0 +1,70 @@
+package com.composables.icons.fontawesome.solid
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import com.composables.icons.fontawesome.FontAwesome
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val FontAwesome.Solid.Lungs: ImageVector
+    get() {
+        if (_Lungs != null) return _Lungs!!
+        
+        _Lungs = ImageVector.Builder(
+            name = "lungs",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 640f,
+            viewportHeight = 512f
+        ).apply {
+            path(
+                fill = SolidColor(Color(0xFF000000))
+            ) {
+                moveTo(636.11f, 390.15f)
+                curveTo(614.44f, 308.85f, 580.07f, 231f, 534.1f, 159.13f)
+                curveTo(511.98f, 124.56f, 498.03f, 96f, 454.05f, 96f)
+                curveTo(415.36f, 96f, 384f, 125.42f, 384f, 161.71f)
+                verticalLineToRelative(60.11f)
+                lineToRelative(-32.88f, -21.92f)
+                arcToRelative(15.996f, 15.996f, 0f, false, true, -7.12f, -13.31f)
+                verticalLineTo(16f)
+                curveToRelative(0f, -8.84f, -7.16f, -16f, -16f, -16f)
+                horizontalLineToRelative(-16f)
+                curveToRelative(-8.84f, 0f, -16f, 7.16f, -16f, 16f)
+                verticalLineToRelative(170.59f)
+                curveToRelative(0f, 5.35f, -2.67f, 10.34f, -7.12f, 13.31f)
+                lineTo(256f, 221.82f)
+                verticalLineToRelative(-60.11f)
+                curveTo(256f, 125.42f, 224.64f, 96f, 185.95f, 96f)
+                curveToRelative(-43.98f, 0f, -57.93f, 28.56f, -80.05f, 63.13f)
+                curveTo(59.93f, 231f, 25.56f, 308.85f, 3.89f, 390.15f)
+                curveTo(1.3f, 399.84f, 0f, 409.79f, 0f, 419.78f)
+                curveToRelative(0f, 61.23f, 62.48f, 105.44f, 125.24f, 88.62f)
+                lineToRelative(59.5f, -15.95f)
+                curveToRelative(42.18f, -11.3f, 71.26f, -47.47f, 71.26f, -88.62f)
+                verticalLineToRelative(-87.49f)
+                lineToRelative(-85.84f, 57.23f)
+                arcToRelative(7.992f, 7.992f, 0f, false, true, -11.09f, -2.22f)
+                lineToRelative(-8.88f, -13.31f)
+                arcToRelative(7.992f, 7.992f, 0f, false, true, 2.22f, -11.09f)
+                lineTo(320f, 235.23f)
+                lineToRelative(167.59f, 111.72f)
+                arcToRelative(7.994f, 7.994f, 0f, false, true, 2.22f, 11.09f)
+                lineToRelative(-8.88f, 13.31f)
+                arcToRelative(7.994f, 7.994f, 0f, false, true, -11.09f, 2.22f)
+                lineTo(384f, 316.34f)
+                verticalLineToRelative(87.49f)
+                curveToRelative(0f, 41.15f, 29.08f, 77.31f, 71.26f, 88.62f)
+                lineToRelative(59.5f, 15.95f)
+                curveTo(577.52f, 525.22f, 640f, 481.01f, 640f, 419.78f)
+                curveToRelative(0f, -9.99f, -1.3f, -19.94f, -3.89f, -29.63f)
+                close()
+            }
+        }.build()
+        
+        return _Lungs!!
+    }
+
+private var _Lungs: ImageVector? = null
+
