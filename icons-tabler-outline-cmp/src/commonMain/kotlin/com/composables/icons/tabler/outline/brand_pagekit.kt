@@ -1,0 +1,42 @@
+package com.composables.icons.tabler.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import com.composables.icons.tabler.Tabler
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Tabler.Outline.BrandPagekit: ImageVector
+    get() {
+        if (_BrandPagekit != null) return _BrandPagekit!!
+        
+        _BrandPagekit = ImageVector.Builder(
+            name = "brand-pagekit",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12.077f, 20f)
+                horizontalLineToRelative(-5.077f)
+                verticalLineToRelative(-16f)
+                horizontalLineToRelative(11f)
+                verticalLineToRelative(14f)
+                horizontalLineToRelative(-5.077f)
+            }
+        }.build()
+        
+        return _BrandPagekit!!
+    }
+
+private var _BrandPagekit: ImageVector? = null
+

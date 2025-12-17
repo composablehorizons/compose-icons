@@ -32,6 +32,11 @@
             <option value="$PROJECT_DIR$/icons-lucide-cmp" />
             <option value="$PROJECT_DIR$/icons-radix-android" />
             <option value="$PROJECT_DIR$/icons-radix-cmp" />
+            <option value="$PROJECT_DIR$/icons-tabler-cmp" />
+            <option value="$PROJECT_DIR$/icons-tabler-filled-android" />
+            <option value="$PROJECT_DIR$/icons-tabler-filled-cmp" />
+            <option value="$PROJECT_DIR$/icons-tabler-outline-android" />
+            <option value="$PROJECT_DIR$/icons-tabler-outline-cmp" />
           </set>
         </option>
       </GradleProjectSettings>

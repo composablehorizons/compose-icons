@@ -1,0 +1,67 @@
+package com.composables.icons.tabler.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import com.composables.icons.tabler.Tabler
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Tabler.Outline.Sunrise: ImageVector
+    get() {
+        if (_Sunrise != null) return _Sunrise!!
+        
+        _Sunrise = ImageVector.Builder(
+            name = "sunrise",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(3f, 17f)
+                horizontalLineToRelative(1f)
+                moveToRelative(16f, 0f)
+                horizontalLineToRelative(1f)
+                moveToRelative(-15.4f, -6.4f)
+                lineToRelative(0.7f, 0.7f)
+                moveToRelative(12.1f, -0.7f)
+                lineToRelative(-0.7f, 0.7f)
+                moveToRelative(-9.7f, 5.7f)
+                arcToRelative(4f, 4f, 0f, false, true, 8f, 0f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(3f, 21f)
+                lineToRelative(18f, 0f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 9f)
+                verticalLineToRelative(-6f)
+                lineToRelative(3f, 3f)
+                moveToRelative(-6f, 0f)
+                lineToRelative(3f, -3f)
+            }
+        }.build()
+        
+        return _Sunrise!!
+    }
+
+private var _Sunrise: ImageVector? = null
+

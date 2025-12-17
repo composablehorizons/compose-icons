@@ -1,0 +1,94 @@
+package com.composables.icons.tabler.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import com.composables.icons.tabler.Tabler
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val Tabler.Outline.ProgressHelp: ImageVector
+    get() {
+        if (_ProgressHelp != null) return _ProgressHelp!!
+        
+        _ProgressHelp = ImageVector.Builder(
+            name = "progress-help",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 16f)
+                verticalLineToRelative(0.01f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 13f)
+                arcToRelative(2f, 2f, 0f, false, false, 0.914f, -3.782f)
+                arcToRelative(1.98f, 1.98f, 0f, false, false, -2.414f, 0.483f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(10f, 20.777f)
+                arcToRelative(8.942f, 8.942f, 0f, false, true, -2.48f, -0.969f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(14f, 3.223f)
+                arcToRelative(9.003f, 9.003f, 0f, false, true, 0f, 17.554f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(4.579f, 17.093f)
+                arcToRelative(8.961f, 8.961f, 0f, false, true, -1.227f, -2.592f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(3.124f, 10.5f)
+                curveToRelative(0.16f, -0.95f, 0.468f, -1.85f, 0.9f, -2.675f)
+                lineToRelative(0.169f, -0.305f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(6.907f, 4.579f)
+                arcToRelative(8.954f, 8.954f, 0f, false, true, 3.093f, -1.356f)
+            }
+        }.build()
+        
+        return _ProgressHelp!!
+    }
+
+private var _ProgressHelp: ImageVector? = null
+

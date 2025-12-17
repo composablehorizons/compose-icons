@@ -83,6 +83,9 @@ kotlin {
             implementation(projects.iconsFontAwesomeBrandsCmp)
             implementation(projects.iconsFontAwesomeRegularCmp)
             implementation(projects.iconsFontAwesomeSolidCmp)
+
+            implementation(projects.iconsTablerFilledCmp)
+            implementation(projects.iconsTablerOutlineCmp)
         }
 
         androidMain.dependencies {
