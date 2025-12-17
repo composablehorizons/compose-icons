@@ -17,7 +17,7 @@ dependencies {
 ```kotlin
 Icon(
     painterResource(R.drawable.radix_ic_icon),
-    contentDescription = null,
+    contentDescription = null
 )
 ```
 
