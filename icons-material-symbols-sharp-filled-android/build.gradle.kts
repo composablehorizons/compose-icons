@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Symbols sharp-filled Android")
-        description.set("Compose Icons Material Symbols sharp-filled for Android.")
+        name.set("Compose Icons Material Symbols SharpFilled Android")
+        description.set("Compose Icons Material Symbols SharpFilled for Android.")
         url.set(projectUrl)
 
         licenses {

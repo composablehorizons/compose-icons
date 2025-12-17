@@ -1,6 +1,6 @@
-# Material Symbols outlined-filled icons for Android
+# Material Symbols OutlinedFilled icons for Android
 
-An Android icon library with all available Material Symbols outlined-filled icons as XML drawables.
+An Android icon library with all available Material Symbols OutlinedFilled icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_outlined-filled),
+    painterResource(R.drawable.material-symbols_ic_icon_outlined-filled),
     contentDescription = null
 )
 ```

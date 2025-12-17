@@ -1,6 +1,6 @@
-# Bootstrap outline icons for Android
+# Bootstrap Outline icons for Android
 
-An Android icon library with all available Bootstrap outline icons as XML drawables.
+An Android icon library with all available Bootstrap Outline icons as XML drawables.
 
 ## Installation
 

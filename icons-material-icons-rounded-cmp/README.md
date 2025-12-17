@@ -1,6 +1,6 @@
-# Material Icons rounded icons for Compose Multiplatform
+# Material Icons Rounded icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Icons rounded icons.
+A Compose Multiplatform icon library with all available Material Icons Rounded icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Icons rounded` object (Rounded variant):
+All icons are accessible via the `Material Icons Rounded` object (Rounded variant):
 
 ```kotlin
-Image(Material Icons rounded.Rounded.Icon, contentDescription = null)
+Image(Material Icons Rounded.Rounded.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

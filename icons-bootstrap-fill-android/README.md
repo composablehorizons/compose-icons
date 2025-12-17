@@ -1,6 +1,6 @@
-# Bootstrap fill icons for Android
+# Bootstrap Fill icons for Android
 
-An Android icon library with all available Bootstrap fill icons as XML drawables.
+An Android icon library with all available Bootstrap Fill icons as XML drawables.
 
 ## Installation
 

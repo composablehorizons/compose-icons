@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesMaterial Icons twotone"
+            baseName = "MaterialIconsTwotone"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Icons twotone")
-        description.set("Compose Icons Material Icons twotone for Compose Multiplatform.")
+        name.set("Compose Icons Material Icons Twotone")
+        description.set("Compose Icons Material Icons Twotone for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

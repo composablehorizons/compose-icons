@@ -1,6 +1,6 @@
-# Font Awesome solid icons for Android
+# Font Awesome Solid icons for Android
 
-An Android icon library with all available Font Awesome solid icons as XML drawables.
+An Android icon library with all available Font Awesome Solid icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_solid),
+    painterResource(R.drawable.font-awesome_ic_icon_solid),
     contentDescription = null
 )
 ```

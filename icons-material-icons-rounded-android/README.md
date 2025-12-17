@@ -1,6 +1,6 @@
-# Material Icons rounded icons for Android
+# Material Icons Rounded icons for Android
 
-An Android icon library with all available Material Icons rounded icons as XML drawables.
+An Android icon library with all available Material Icons Rounded icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_rounded),
+    painterResource(R.drawable.material-icons_ic_icon_rounded),
     contentDescription = null
 )
 ```

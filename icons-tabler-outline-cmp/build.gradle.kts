@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesTabler outline"
+            baseName = "TablerOutline"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Tabler outline")
-        description.set("Compose Icons Tabler outline for Compose Multiplatform.")
+        name.set("Compose Icons Tabler Outline")
+        description.set("Compose Icons Tabler Outline for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

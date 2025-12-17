@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Heroicons outline Android")
-        description.set("Compose Icons Heroicons outline for Android.")
+        name.set("Compose Icons Heroicons Outline Android")
+        description.set("Compose Icons Heroicons Outline for Android.")
         url.set(projectUrl)
 
         licenses {

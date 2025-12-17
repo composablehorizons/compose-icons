@@ -1,6 +1,6 @@
-# Tabler outline icons for Compose Multiplatform
+# Tabler Outline icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Tabler outline icons.
+A Compose Multiplatform icon library with all available Tabler Outline icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Tabler outline` object (Outline variant):
+All icons are accessible via the `Tabler Outline` object (Outline variant):
 
 ```kotlin
-Image(Tabler outline.Outline.Icon, contentDescription = null)
+Image(Tabler Outline.Outline.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

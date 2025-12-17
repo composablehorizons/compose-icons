@@ -1,6 +1,6 @@
-# Heroicons micro icons for Android
+# Heroicons Micro icons for Android
 
-An Android icon library with all available Heroicons micro icons as XML drawables.
+An Android icon library with all available Heroicons Micro icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_micro),
+    painterResource(R.drawable.heroicons_ic_icon_micro),
     contentDescription = null
 )
 ```

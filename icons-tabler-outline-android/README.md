@@ -1,6 +1,6 @@
-# Tabler outline icons for Android
+# Tabler Outline icons for Android
 
-An Android icon library with all available Tabler outline icons as XML drawables.
+An Android icon library with all available Tabler Outline icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_outline),
+    painterResource(R.drawable.tabler_ic_icon_outline),
     contentDescription = null
 )
 ```

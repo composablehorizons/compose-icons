@@ -1,6 +1,6 @@
-# Font Awesome brands icons for Android
+# Font Awesome Brands icons for Android
 
-An Android icon library with all available Font Awesome brands icons as XML drawables.
+An Android icon library with all available Font Awesome Brands icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_brands),
+    painterResource(R.drawable.font-awesome_ic_icon_brands),
     contentDescription = null
 )
 ```

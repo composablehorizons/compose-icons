@@ -1,6 +1,6 @@
-# Heroicons solid icons for Compose Multiplatform
+# Heroicons Solid icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Heroicons solid icons.
+A Compose Multiplatform icon library with all available Heroicons Solid icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Heroicons solid` object (Solid variant):
+All icons are accessible via the `Heroicons Solid` object (Solid variant):
 
 ```kotlin
-Image(Heroicons solid.Solid.Icon, contentDescription = null)
+Image(Heroicons Solid.Solid.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

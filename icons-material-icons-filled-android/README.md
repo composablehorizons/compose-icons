@@ -1,6 +1,6 @@
-# Material Icons filled icons for Android
+# Material Icons Filled icons for Android
 
-An Android icon library with all available Material Icons filled icons as XML drawables.
+An Android icon library with all available Material Icons Filled icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_filled),
+    painterResource(R.drawable.material-icons_ic_icon_filled),
     contentDescription = null
 )
 ```

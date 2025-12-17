@@ -1,6 +1,6 @@
-# Heroicons micro icons for Compose Multiplatform
+# Heroicons Micro icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Heroicons micro icons.
+A Compose Multiplatform icon library with all available Heroicons Micro icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Heroicons micro` object (Micro variant):
+All icons are accessible via the `Heroicons Micro` object (Micro variant):
 
 ```kotlin
-Image(Heroicons micro.Micro.Icon, contentDescription = null)
+Image(Heroicons Micro.Micro.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

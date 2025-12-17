@@ -1,6 +1,6 @@
-# Tabler filled icons for Android
+# Tabler Filled icons for Android
 
-An Android icon library with all available Tabler filled icons as XML drawables.
+An Android icon library with all available Tabler Filled icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_filled),
+    painterResource(R.drawable.tabler_ic_icon_filled),
     contentDescription = null
 )
 ```

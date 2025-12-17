@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesMaterial Icons filled"
+            baseName = "MaterialIconsFilled"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Icons filled")
-        description.set("Compose Icons Material Icons filled for Compose Multiplatform.")
+        name.set("Compose Icons Material Icons Filled")
+        description.set("Compose Icons Material Icons Filled for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

@@ -1,6 +1,6 @@
-# Heroicons mini icons for Android
+# Heroicons Mini icons for Android
 
-An Android icon library with all available Heroicons mini icons as XML drawables.
+An Android icon library with all available Heroicons Mini icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_mini),
+    painterResource(R.drawable.heroicons_ic_icon_mini),
     contentDescription = null
 )
 ```

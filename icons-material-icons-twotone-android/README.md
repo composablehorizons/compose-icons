@@ -1,6 +1,6 @@
-# Material Icons twotone icons for Android
+# Material Icons Twotone icons for Android
 
-An Android icon library with all available Material Icons twotone icons as XML drawables.
+An Android icon library with all available Material Icons Twotone icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_twotone),
+    painterResource(R.drawable.material-icons_ic_icon_twotone),
     contentDescription = null
 )
 ```

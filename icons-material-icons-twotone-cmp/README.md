@@ -1,6 +1,6 @@
-# Material Icons twotone icons for Compose Multiplatform
+# Material Icons Twotone icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Icons twotone icons.
+A Compose Multiplatform icon library with all available Material Icons Twotone icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Icons twotone` object (Twotone variant):
+All icons are accessible via the `Material Icons Twotone` object (Twotone variant):
 
 ```kotlin
-Image(Material Icons twotone.Twotone.Icon, contentDescription = null)
+Image(Material Icons Twotone.Twotone.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

@@ -1,6 +1,6 @@
-# Font Awesome regular icons for Compose Multiplatform
+# Font Awesome Regular icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Font Awesome regular icons.
+A Compose Multiplatform icon library with all available Font Awesome Regular icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Font Awesome regular` object (Regular variant):
+All icons are accessible via the `Font Awesome Regular` object (Regular variant):
 
 ```kotlin
-Image(Font Awesome regular.Regular.Icon, contentDescription = null)
+Image(Font Awesome Regular.Regular.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

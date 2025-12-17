@@ -1,6 +1,6 @@
-# Bootstrap outline icons for Compose Multiplatform
+# Bootstrap Outline icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Bootstrap outline icons.
+A Compose Multiplatform icon library with all available Bootstrap Outline icons.
 
 ## Installation
 

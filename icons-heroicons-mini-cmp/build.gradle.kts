@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesHeroicons mini"
+            baseName = "HeroiconsMini"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Heroicons mini")
-        description.set("Compose Icons Heroicons mini for Compose Multiplatform.")
+        name.set("Compose Icons Heroicons Mini")
+        description.set("Compose Icons Heroicons Mini for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

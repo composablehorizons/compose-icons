@@ -1,6 +1,6 @@
-# Heroicons outline icons for Compose Multiplatform
+# Heroicons Outline icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Heroicons outline icons.
+A Compose Multiplatform icon library with all available Heroicons Outline icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Heroicons outline` object (Outline variant):
+All icons are accessible via the `Heroicons Outline` object (Outline variant):
 
 ```kotlin
-Image(Heroicons outline.Outline.Icon, contentDescription = null)
+Image(Heroicons Outline.Outline.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

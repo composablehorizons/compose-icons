@@ -1,6 +1,6 @@
-# Bootstrap fill icons for Compose Multiplatform
+# Bootstrap Fill icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Bootstrap fill icons.
+A Compose Multiplatform icon library with all available Bootstrap Fill icons.
 
 ## Installation
 

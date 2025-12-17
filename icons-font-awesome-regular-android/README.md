@@ -1,6 +1,6 @@
-# Font Awesome regular icons for Android
+# Font Awesome Regular icons for Android
 
-An Android icon library with all available Font Awesome regular icons as XML drawables.
+An Android icon library with all available Font Awesome Regular icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_regular),
+    painterResource(R.drawable.font-awesome_ic_icon_regular),
     contentDescription = null
 )
 ```

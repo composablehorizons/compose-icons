@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesFont Awesome solid"
+            baseName = "FontAwesomeSolid"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Font Awesome solid")
-        description.set("Compose Icons Font Awesome solid for Compose Multiplatform.")
+        name.set("Compose Icons Font Awesome Solid")
+        description.set("Compose Icons Font Awesome Solid for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

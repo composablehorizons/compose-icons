@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesMaterial Symbols rounded"
+            baseName = "MaterialSymbolsRounded"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Symbols rounded")
-        description.set("Compose Icons Material Symbols rounded for Compose Multiplatform.")
+        name.set("Compose Icons Material Symbols Rounded")
+        description.set("Compose Icons Material Symbols Rounded for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

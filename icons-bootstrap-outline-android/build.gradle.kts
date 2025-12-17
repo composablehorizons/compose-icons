@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Bootstrap outline Android")
-        description.set("Compose Icons Bootstrap outline for Android.")
+        name.set("Compose Icons Bootstrap Outline Android")
+        description.set("Compose Icons Bootstrap Outline for Android.")
         url.set(projectUrl)
 
         licenses {

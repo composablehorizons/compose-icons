@@ -1,6 +1,6 @@
-# Material Symbols sharp-filled icons for Compose Multiplatform
+# Material Symbols SharpFilled icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Symbols sharp-filled icons.
+A Compose Multiplatform icon library with all available Material Symbols SharpFilled icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Symbols sharpFilled` object (SharpFilled variant):
+All icons are accessible via the `Material Symbols SharpFilled` object (SharpFilled variant):
 
 ```kotlin
-Image(Material Symbols sharpFilled.SharpFilled.Icon, contentDescription = null)
+Image(Material Symbols SharpFilled.SharpFilled.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

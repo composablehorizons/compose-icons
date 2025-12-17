@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Icons twotone Android")
-        description.set("Compose Icons Material Icons twotone for Android.")
+        name.set("Compose Icons Material Icons Twotone Android")
+        description.set("Compose Icons Material Icons Twotone for Android.")
         url.set(projectUrl)
 
         licenses {

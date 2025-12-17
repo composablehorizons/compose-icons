@@ -1,6 +1,6 @@
-# Material Icons filled icons for Compose Multiplatform
+# Material Icons Filled icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Icons filled icons.
+A Compose Multiplatform icon library with all available Material Icons Filled icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Icons filled` object (Filled variant):
+All icons are accessible via the `Material Icons Filled` object (Filled variant):
 
 ```kotlin
-Image(Material Icons filled.Filled.Icon, contentDescription = null)
+Image(Material Icons Filled.Filled.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

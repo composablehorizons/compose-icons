@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Tabler filled Android")
-        description.set("Compose Icons Tabler filled for Android.")
+        name.set("Compose Icons Tabler Filled Android")
+        description.set("Compose Icons Tabler Filled for Android.")
         url.set(projectUrl)
 
         licenses {

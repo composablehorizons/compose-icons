@@ -42,8 +42,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Font Awesome solid Android")
-        description.set("Compose Icons Font Awesome solid for Android.")
+        name.set("Compose Icons Font Awesome Solid Android")
+        description.set("Compose Icons Font Awesome Solid for Android.")
         url.set(projectUrl)
 
         licenses {

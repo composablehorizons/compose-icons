@@ -1,6 +1,6 @@
-# Font Awesome solid icons for Compose Multiplatform
+# Font Awesome Solid icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Font Awesome solid icons.
+A Compose Multiplatform icon library with all available Font Awesome Solid icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Font Awesome solid` object (Solid variant):
+All icons are accessible via the `Font Awesome Solid` object (Solid variant):
 
 ```kotlin
-Image(Font Awesome solid.Solid.Icon, contentDescription = null)
+Image(Font Awesome Solid.Solid.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

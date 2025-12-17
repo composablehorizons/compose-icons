@@ -1,6 +1,6 @@
-# Font Awesome brands icons for Compose Multiplatform
+# Font Awesome Brands icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Font Awesome brands icons.
+A Compose Multiplatform icon library with all available Font Awesome Brands icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Font Awesome brands` object (Brands variant):
+All icons are accessible via the `Font Awesome Brands` object (Brands variant):
 
 ```kotlin
-Image(Font Awesome brands.Brands.Icon, contentDescription = null)
+Image(Font Awesome Brands.Brands.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

@@ -1,6 +1,6 @@
-# Material Symbols outlined icons for Compose Multiplatform
+# Material Symbols Outlined icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Symbols outlined icons.
+A Compose Multiplatform icon library with all available Material Symbols Outlined icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Symbols outlined` object (Outlined variant):
+All icons are accessible via the `Material Symbols Outlined` object (Outlined variant):
 
 ```kotlin
-Image(Material Symbols outlined.Outlined.Icon, contentDescription = null)
+Image(Material Symbols Outlined.Outlined.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

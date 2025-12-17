@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesMaterial Symbols sharp"
+            baseName = "MaterialSymbolsSharp"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Material Symbols sharp")
-        description.set("Compose Icons Material Symbols sharp for Compose Multiplatform.")
+        name.set("Compose Icons Material Symbols Sharp")
+        description.set("Compose Icons Material Symbols Sharp for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

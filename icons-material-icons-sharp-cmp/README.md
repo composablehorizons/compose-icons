@@ -1,6 +1,6 @@
-# Material Icons sharp icons for Compose Multiplatform
+# Material Icons Sharp icons for Compose Multiplatform
 
-A Compose Multiplatform icon library with all available Material Icons sharp icons.
+A Compose Multiplatform icon library with all available Material Icons Sharp icons.
 
 ## Installation
 
@@ -12,10 +12,10 @@ dependencies {
 
 ## Basic usage
 
-All icons are accessible via the `Material Icons sharp` object (Sharp variant):
+All icons are accessible via the `Material Icons Sharp` object (Sharp variant):
 
 ```kotlin
-Image(Material Icons sharp.Sharp.Icon, contentDescription = null)
+Image(Material Icons Sharp.Sharp.Icon, contentDescription = null)
 ```
 
 ## Browse over 17,000+ icons for Compose Multiplatform

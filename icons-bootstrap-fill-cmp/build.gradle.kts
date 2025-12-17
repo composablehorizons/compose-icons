@@ -46,7 +46,7 @@ kotlin {
 
     listOf(iosX64(), iosArm64(), iosSimulatorArm64()).forEach { iosTarget ->
         iosTarget.binaries.framework {
-            baseName = "ComposablesBootstrap fill"
+            baseName = "BootstrapFill"
             isStatic = true
         }
     }
@@ -82,8 +82,8 @@ mavenPublishing {
     coordinates(publishGroupId, publishArtifactId, publishVersion)
 
     pom {
-        name.set("Compose Icons Bootstrap fill")
-        description.set("Compose Icons Bootstrap fill for Compose Multiplatform.")
+        name.set("Compose Icons Bootstrap Fill")
+        description.set("Compose Icons Bootstrap Fill for Compose Multiplatform.")
         url.set(projectUrl)
 
         licenses {

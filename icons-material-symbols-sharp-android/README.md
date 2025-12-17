@@ -1,6 +1,6 @@
-# Material Symbols sharp icons for Android
+# Material Symbols Sharp icons for Android
 
-An Android icon library with all available Material Symbols sharp icons as XML drawables.
+An Android icon library with all available Material Symbols Sharp icons as XML drawables.
 
 ## Installation
 
@@ -16,7 +16,7 @@ dependencies {
 
 ```kotlin
 Icon(
-    painterResource(R.drawable.bootstrap_ic_icon_sharp),
+    painterResource(R.drawable.material-symbols_ic_icon_sharp),
     contentDescription = null
 )
 ```
