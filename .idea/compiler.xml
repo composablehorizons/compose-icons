@@ -7,6 +7,17 @@
       <module name="composeicons.gallery.jvmMain" target="21" />
       <module name="composeicons.gallery.jvmTest" target="21" />
       <module name="composeicons.icons-heroicons-android" target="21" />
+      <module name="composeicons.icons-material-icons-filled-android" target="21" />
+      <module name="composeicons.icons-material-icons-outlined-android" target="21" />
+      <module name="composeicons.icons-material-icons-rounded-android" target="21" />
+      <module name="composeicons.icons-material-icons-sharp-android" target="21" />
+      <module name="composeicons.icons-material-icons-twotone-android" target="21" />
+      <module name="composeicons.icons-material-symbols-outlined-android" target="21" />
+      <module name="composeicons.icons-material-symbols-outlined-filled-android" target="21" />
+      <module name="composeicons.icons-material-symbols-rounded-android" target="21" />
+      <module name="composeicons.icons-material-symbols-rounded-filled-android" target="21" />
+      <module name="composeicons.icons-material-symbols-sharp-android" target="21" />
+      <module name="composeicons.icons-material-symbols-sharp-filled-android" target="21" />
       <module name="composeicons.nonAndroidMain" target="21" />
       <module name="composeicons.nonAndroidMain.jvmDev" target="21" />
       <module name="composeicons.nonAndroidMain.jvmMain" target="21" />

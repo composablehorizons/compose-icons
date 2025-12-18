@@ -20,23 +20,23 @@ import com.composables.icons.heroicons.solid.AcademicCap
 import com.composables.icons.heroicons.mini.AcademicCap
 import com.composables.icons.heroicons.micro.AcademicCap
 import com.composables.icons.lucide.AppWindow
-import com.composables.icons.materialicons.MaterialIcons
-import com.composables.icons.materialicons.filled.Android
-import com.composables.icons.materialicons.rounded.Android
-import com.composables.icons.materialicons.sharp.Android
-import com.composables.icons.materialicons.twotone.Android
 import com.composables.icons.lucide.Lucide
 import com.composables.icons.radix.Radix
 import com.composables.icons.radix.Timer
 import com.composables.icons.tabler.Tabler
 import com.composables.icons.tabler.filled.FileCode
 import com.composables.icons.tabler.outline.Circle
-import com.composables.icons.materialsymbols.MaterialSymbols
-import com.composables.icons.materialsymbols.outlined.Image
-import com.composables.icons.materialsymbols.rounded.Image
-import com.composables.icons.materialsymbols.roundedfilled.Image
-import com.composables.icons.materialsymbols.sharp.Image
-import com.composables.icons.materialsymbols.sharpfilled.Image
+//import com.composables.icons.materialicons.MaterialIcons
+//import com.composables.icons.materialicons.filled.Android
+//import com.composables.icons.materialicons.rounded.Android
+//import com.composables.icons.materialicons.sharp.Android
+//import com.composables.icons.materialicons.twotone.Android
+//import com.composables.icons.materialsymbols.MaterialSymbols
+//import com.composables.icons.materialsymbols.outlined.Image
+//import com.composables.icons.materialsymbols.rounded.Image
+//import com.composables.icons.materialsymbols.roundedfilled.Image
+//import com.composables.icons.materialsymbols.sharp.Image
+//import com.composables.icons.materialsymbols.sharpfilled.Image
 
 @Composable
 fun App() {
@@ -57,17 +57,17 @@ fun App() {
         Heroicons.Mini.AcademicCap,
         Heroicons.Micro.AcademicCap,
 
-        MaterialIcons.Filled.Android,
-        MaterialIcons.Rounded.Android,
-        MaterialIcons.Sharp.Android,
-        MaterialIcons.Twotone.Android,
+//        MaterialIcons.Filled.Android,
+//        MaterialIcons.Rounded.Android,
+//        MaterialIcons.Sharp.Android,
+//        MaterialIcons.Twotone.Android,
 
-        MaterialSymbols.Outlined.Image,
-        MaterialSymbols.Rounded.Image,
-        MaterialSymbols.Sharp.Image,
-        MaterialSymbols.Outlined.Image,
-        MaterialSymbols.RoundedFilled.Image,
-        MaterialSymbols.SharpFilled.Image,
+//        MaterialSymbols.Outlined.Image,
+//        MaterialSymbols.Rounded.Image,
+//        MaterialSymbols.Sharp.Image,
+//        MaterialSymbols.Outlined.Image,
+//        MaterialSymbols.RoundedFilled.Image,
+//        MaterialSymbols.SharpFilled.Image,
     )
     FlowRow {
         vectors.forEach {
