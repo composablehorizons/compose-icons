@@ -9,6 +9,21 @@ permissions:
 
 jobs:
   publish:
+    strategy:
+      matrix:
+        module: [
+          icons-material-icons-cmp,
+          icons-material-icons-filled-cmp,
+          icons-material-icons-outlined-cmp,
+          icons-material-icons-rounded-cmp,
+          icons-material-icons-sharp-cmp,
+          icons-material-icons-twotone-cmp,
+          icons-material-icons-filled-android,
+          icons-material-icons-outlined-android,
+          icons-material-icons-rounded-android,
+          icons-material-icons-sharp-android,
+          icons-material-icons-twotone-android
+        ]
     runs-on: ubuntu-latest
     environment: maven-central
     steps:
@@ -33,11 +48,11 @@ jobs:
       - name: Compile
         run: ./gradlew --no-daemon --console=plain :assemble
 
-      - name: Publish to Maven Central
+      - name: Publish ${{ matrix.module }}
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.OSSRH_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.OSSRH_PASSWORD }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.SIGNING_KEY_ID }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_PASSWORD }}
           ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.SIGNING_KEY }}
-        run: ./gradlew publishAllPublicationsToMavenCentral --no-configuration-cache
+        run: ./gradlew :${{ matrix.module }}:publishAllPublicationsToMavenCentral --no-configuration-cache
