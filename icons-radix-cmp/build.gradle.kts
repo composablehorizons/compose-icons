@@ -75,7 +75,7 @@ val projectUrl = "https://github.com/composablehorizons/composeicons"
 
 mavenPublishing {
     publishToMavenCentral(automaticRelease = true, validateDeployment = false)
-    if (project.hasProperty("SIGNING_KEY_ID")) {
+    if (project.hasProperty("signingInMemoryKey")) {
         signAllPublications()
     }
     coordinates(publishGroupId, publishArtifactId, publishVersion)

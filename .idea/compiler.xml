@@ -3,30 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="17">
       <module name="composeicons.gallery" target="21" />
-      <module name="composeicons.gallery-android" target="21" />
-      <module name="composeicons.gallery-cmp" target="21" />
-      <module name="composeicons.gallery-cmp.jvmDev" target="21" />
-      <module name="composeicons.gallery-cmp.jvmMain" target="21" />
-      <module name="composeicons.gallery-cmp.jvmTest" target="21" />
       <module name="composeicons.gallery.jvmDev" target="21" />
       <module name="composeicons.gallery.jvmMain" target="21" />
       <module name="composeicons.gallery.jvmTest" target="21" />
-      <module name="composeicons.icons-bootstrap-fill-android" target="21" />
-      <module name="composeicons.icons-bootstrap-outline-android" target="21" />
-      <module name="composeicons.icons-codicons-android" target="21" />
-      <module name="composeicons.icons-feather-android" target="21" />
-      <module name="composeicons.icons-font-awesome-brands-android" target="21" />
-      <module name="composeicons.icons-font-awesome-regular-android" target="21" />
-      <module name="composeicons.icons-font-awesome-solid-android" target="21" />
       <module name="composeicons.icons-heroicons-android" target="21" />
-      <module name="composeicons.icons-heroicons-micro-android" target="21" />
-      <module name="composeicons.icons-heroicons-mini-android" target="21" />
-      <module name="composeicons.icons-heroicons-outline-android" target="21" />
-      <module name="composeicons.icons-heroicons-solid-android" target="21" />
-      <module name="composeicons.icons-lucide-android" target="21" />
-      <module name="composeicons.icons-radix-android" target="21" />
-      <module name="composeicons.icons-tabler-filled-android" target="21" />
-      <module name="composeicons.icons-tabler-outline-android" target="21" />
       <module name="composeicons.nonAndroidMain" target="21" />
       <module name="composeicons.nonAndroidMain.jvmDev" target="21" />
       <module name="composeicons.nonAndroidMain.jvmMain" target="21" />
