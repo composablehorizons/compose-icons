@@ -5,13 +5,23 @@ Image Vector format.
 
 ## Android vs Compose Multiplatform
 
-In this repository you will find 2 versions of the same library `-android` and `-cmp`.
+The reason for this split is that some libraries are huge. The Material Icons library alone contains over 2,000 icons.
+Multiply this by 5 styles. You already have 10,000 Kotlin files added to your build.
 
-The Android version of the library adds all icons as Android Vector Drawables (XML) which you can access via `R`.
+This can significantly affect your build setup. This is the reason why Google decided to discontinue the original
+Material Icons library.
 
-The Compose Multiplatform version the icons can be used directly from Kotlin.
+I have been personally using a library with a single style (Lucide – 1.6k icons) in my Compose Multiplatform apps for
+months now. I haven't noticed any performance hits while using the JVM target on my M3 Pro Max.
 
-This is because some icon libraries have thousands of icons. Having thousands of   
+Every library also comes in two variants: Android and Compose Multiplatform.
+
+The Android variant bundles icons as Android Vector Drawables (XML) which you can access via the `R.drawable` class. The
+CMP variant adds icons as Compose Image Vectors, as extension to the respective object (i.e. `Lucide.Icon`).
+
+This is more for a preference perspective, than performance. Android Studio gives you XML previews out of the box in the
+autocomplete, while the Image Vectors don't.
+   
 
 ## Basic Usage
 
