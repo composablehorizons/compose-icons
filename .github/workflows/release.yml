@@ -49,7 +49,7 @@ jobs:
             gradle-${{ runner.os }}-
 
       - name: Compile
-        run: ./gradlew --no-daemon --console=plain :assemble
+        run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: Publish ${{ matrix.module }}
         env:
