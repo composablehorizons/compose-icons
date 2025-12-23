@@ -51,7 +51,7 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: MAIN DRY RUN - Compile
+      - name: MAIN DRY RUN - Compile ${{ matrix.module }}
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: MAIN DRY RUN - Publish ${{ matrix.module }}
@@ -90,7 +90,7 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: MAIN LOCAL - Compile
+      - name: MAIN LOCAL - Compile ${{ matrix.module }}
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: MAIN LOCAL - Publish ${{ matrix.module }}

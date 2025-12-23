@@ -50,7 +50,7 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: RELEASE - Compile
+      - name: RELEASE - Compile ${{ matrix.module }}
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: RELEASE - Publish ${{ matrix.module }}

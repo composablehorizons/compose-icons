@@ -51,7 +51,7 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: PR DRY RUN - Compile
+      - name: PR DRY RUN - Compile ${{ matrix.module }}
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: PR DRY RUN - Publish ${{ matrix.module }}
@@ -90,7 +90,7 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: PR LOCAL - Compile
+      - name: PR LOCAL - Compile ${{ matrix.module }}
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
       - name: PR LOCAL - Publish ${{ matrix.module }}
