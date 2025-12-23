@@ -9,6 +9,7 @@ permissions:
 
 jobs:
   setup:
+    name: Setup - Release
     runs-on: ubuntu-latest
     outputs:
       modules: ${{ steps.generate.outputs.modules }}
@@ -23,6 +24,7 @@ jobs:
           echo "modules=$modules" >> $GITHUB_OUTPUT
 
   publish:
+    name: Publish to Maven Central - Release
     needs: setup
     strategy:
       matrix:

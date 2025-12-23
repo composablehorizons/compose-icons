@@ -10,6 +10,7 @@ permissions:
 
 jobs:
   setup:
+    name: Setup - PR
     runs-on: ubuntu-latest
     outputs:
       modules: ${{ steps.generate.outputs.modules }}
@@ -50,10 +51,10 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: PR - Compile
+      - name: PR DRY RUN - Compile
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
-      - name: PR - Publish ${{ matrix.module }}
+      - name: PR DRY RUN - Publish ${{ matrix.module }}
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.OSSRH_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.OSSRH_PASSWORD }}
@@ -63,7 +64,7 @@ jobs:
         run: ./gradlew :${{ matrix.module }}:publishAllPublicationsToMavenCentral --no-configuration-cache --dry-run
 
   publish-mavenLocal:
-    name: Dry run publish - PR
+    name: Maven local publish - PR
     needs: setup
     strategy:
       matrix:
@@ -89,10 +90,10 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
-      - name: PR - Compile
+      - name: PR LOCAL - Compile
         run: ./gradlew --no-daemon --console=plain :${{ matrix.module }}:assemble
 
-      - name: PR - Publish ${{ matrix.module }}
+      - name: PR LOCAL - Publish ${{ matrix.module }}
         env:
           ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.SIGNING_KEY_ID }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_PASSWORD }}
