@@ -69,8 +69,8 @@ Replace `Library` with the specific object name from the library.
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-bootstrap-fill-android:2.2.0")
-    implementation("com.composables:icons-bootstrap-outline-android:2.2.0")
+    implementation("com.composables:icons-bootstrap-fill-android:2.2.1")
+    implementation("com.composables:icons-bootstrap-outline-android:2.2.1")
 }
 ```
 
@@ -78,8 +78,8 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-bootstrap-fill-cmp:2.2.0")
-    implementation("com.composables:icons-bootstrap-outline-cmp:2.2.0")
+    implementation("com.composables:icons-bootstrap-fill-cmp:2.2.1")
+    implementation("com.composables:icons-bootstrap-outline-cmp:2.2.1")
 }
 ```
 
@@ -89,7 +89,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-codicons-android:2.2.0")
+    implementation("com.composables:icons-codicons-android:2.2.1")
 }
 ```
 
@@ -97,7 +97,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-codicons-cmp:2.2.0")
+    implementation("com.composables:icons-codicons-cmp:2.2.1")
 }
 ```
 
@@ -107,7 +107,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-feather-android:2.2.0")
+    implementation("com.composables:icons-feather-android:2.2.1")
 }
 ```
 
@@ -115,7 +115,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-feather-cmp:2.2.0")
+    implementation("com.composables:icons-feather-cmp:2.2.1")
 }
 ```
 
@@ -125,9 +125,9 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-font-awesome-solid-android:2.2.0")
-    implementation("com.composables:icons-font-awesome-regular-android:2.2.0")
-    implementation("com.composables:icons-font-awesome-brands-android:2.2.0")
+    implementation("com.composables:icons-font-awesome-solid-android:2.2.1")
+    implementation("com.composables:icons-font-awesome-regular-android:2.2.1")
+    implementation("com.composables:icons-font-awesome-brands-android:2.2.1")
 }
 ```
 
@@ -135,9 +135,9 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-font-awesome-solid-cmp:2.2.0")
-    implementation("com.composables:icons-font-awesome-regular-cmp:2.2.0")
-    implementation("com.composables:icons-font-awesome-brands-cmp:2.2.0")
+    implementation("com.composables:icons-font-awesome-solid-cmp:2.2.1")
+    implementation("com.composables:icons-font-awesome-regular-cmp:2.2.1")
+    implementation("com.composables:icons-font-awesome-brands-cmp:2.2.1")
 }
 ```
 
@@ -147,10 +147,10 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-heroicons-outline-android:2.2.0")
-    implementation("com.composables:icons-heroicons-solid-android:2.2.0")
-    implementation("com.composables:icons-heroicons-mini-android:2.2.0")
-    implementation("com.composables:icons-heroicons-micro-android:2.2.0")
+    implementation("com.composables:icons-heroicons-outline-android:2.2.1")
+    implementation("com.composables:icons-heroicons-solid-android:2.2.1")
+    implementation("com.composables:icons-heroicons-mini-android:2.2.1")
+    implementation("com.composables:icons-heroicons-micro-android:2.2.1")
 }
 ```
 
@@ -158,10 +158,10 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-heroicons-outline-cmp:2.2.0")
-    implementation("com.composables:icons-heroicons-solid-cmp:2.2.0")
-    implementation("com.composables:icons-heroicons-mini-cmp:2.2.0")
-    implementation("com.composables:icons-heroicons-micro-cmp:2.2.0")
+    implementation("com.composables:icons-heroicons-outline-cmp:2.2.1")
+    implementation("com.composables:icons-heroicons-solid-cmp:2.2.1")
+    implementation("com.composables:icons-heroicons-mini-cmp:2.2.1")
+    implementation("com.composables:icons-heroicons-micro-cmp:2.2.1")
 }
 ```
 
@@ -171,7 +171,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-lucide-android:2.2.0")
+    implementation("com.composables:icons-lucide-android:2.2.1")
 }
 ```
 
@@ -179,7 +179,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-lucide-cmp:2.2.0")
+    implementation("com.composables:icons-lucide-cmp:2.2.1")
 }
 ```
 
@@ -189,11 +189,11 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-material-icons-filled-android:2.2.0")
-    implementation("com.composables:icons-material-icons-outlined-android:2.2.0")
-    implementation("com.composables:icons-material-icons-rounded-android:2.2.0")
-    implementation("com.composables:icons-material-icons-sharp-android:2.2.0")
-    implementation("com.composables:icons-material-icons-twotone-android:2.2.0")
+    implementation("com.composables:icons-material-icons-filled-android:2.2.1")
+    implementation("com.composables:icons-material-icons-outlined-android:2.2.1")
+    implementation("com.composables:icons-material-icons-rounded-android:2.2.1")
+    implementation("com.composables:icons-material-icons-sharp-android:2.2.1")
+    implementation("com.composables:icons-material-icons-twotone-android:2.2.1")
 }
 ```
 
@@ -201,11 +201,11 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-material-icons-filled-cmp:2.2.0")
-    implementation("com.composables:icons-material-icons-outlined-cmp:2.2.0")
-    implementation("com.composables:icons-material-icons-rounded-cmp:2.2.0")
-    implementation("com.composables:icons-material-icons-sharp-cmp:2.2.0")
-    implementation("com.composables:icons-material-icons-twotone-cmp:2.2.0")
+    implementation("com.composables:icons-material-icons-filled-cmp:2.2.1")
+    implementation("com.composables:icons-material-icons-outlined-cmp:2.2.1")
+    implementation("com.composables:icons-material-icons-rounded-cmp:2.2.1")
+    implementation("com.composables:icons-material-icons-sharp-cmp:2.2.1")
+    implementation("com.composables:icons-material-icons-twotone-cmp:2.2.1")
 }
 ```
 
@@ -215,12 +215,12 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-material-symbols-outlined-android:2.2.0")
-    implementation("com.composables:icons-material-symbols-rounded-android:2.2.0")
-    implementation("com.composables:icons-material-symbols-sharp-android:2.2.0")
-    implementation("com.composables:icons-material-symbols-outlined-filled-android:2.2.0")
-    implementation("com.composables:icons-material-symbols-rounded-filled-android:2.2.0")
-    implementation("com.composables:icons-material-symbols-sharp-filled-android:2.2.0")
+    implementation("com.composables:icons-material-symbols-outlined-android:2.2.1")
+    implementation("com.composables:icons-material-symbols-rounded-android:2.2.1")
+    implementation("com.composables:icons-material-symbols-sharp-android:2.2.1")
+    implementation("com.composables:icons-material-symbols-outlined-filled-android:2.2.1")
+    implementation("com.composables:icons-material-symbols-rounded-filled-android:2.2.1")
+    implementation("com.composables:icons-material-symbols-sharp-filled-android:2.2.1")
 }
 ```
 
@@ -228,12 +228,12 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-material-symbols-outlined-cmp:2.2.0")
-    implementation("com.composables:icons-material-symbols-rounded-cmp:2.2.0")
-    implementation("com.composables:icons-material-symbols-sharp-cmp:2.2.0")
-    implementation("com.composables:icons-material-symbols-outlined-filled-cmp:2.2.0")
-    implementation("com.composables:icons-material-symbols-rounded-filled-cmp:2.2.0")
-    implementation("com.composables:icons-material-symbols-sharp-filled-cmp:2.2.0")
+    implementation("com.composables:icons-material-symbols-outlined-cmp:2.2.1")
+    implementation("com.composables:icons-material-symbols-rounded-cmp:2.2.1")
+    implementation("com.composables:icons-material-symbols-sharp-cmp:2.2.1")
+    implementation("com.composables:icons-material-symbols-outlined-filled-cmp:2.2.1")
+    implementation("com.composables:icons-material-symbols-rounded-filled-cmp:2.2.1")
+    implementation("com.composables:icons-material-symbols-sharp-filled-cmp:2.2.1")
 }
 ```
 
@@ -243,7 +243,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-radix-android:2.2.0")
+    implementation("com.composables:icons-radix-android:2.2.1")
 }
 ```
 
@@ -251,7 +251,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-radix-cmp:2.2.0")
+    implementation("com.composables:icons-radix-cmp:2.2.1")
 }
 ```
 
@@ -261,8 +261,8 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-tabler-outline-android:2.2.0")
-    implementation("com.composables:icons-tabler-filled-android:2.2.0")
+    implementation("com.composables:icons-tabler-outline-android:2.2.1")
+    implementation("com.composables:icons-tabler-filled-android:2.2.1")
 }
 ```
 
@@ -270,8 +270,8 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.composables:icons-tabler-outline-cmp:2.2.0")
-    implementation("com.composables:icons-tabler-filled-cmp:2.2.0")
+    implementation("com.composables:icons-tabler-outline-cmp:2.2.1")
+    implementation("com.composables:icons-tabler-filled-cmp:2.2.1")
 }
 ```
 
